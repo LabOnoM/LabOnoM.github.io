@@ -29,20 +29,21 @@ By maintaining such a broad but well-defined scope, BSGOU ensures it covers the 
 
 ## Mission Statement
 
-BSGOU is an inclusive and collaborative community that empowers global advancement in bioinformatics by:
+The mission of BSGOU is to **advance the field of bioinformatics through an inclusive, collaborative, and innovative community**. Based at Okayama University but international in reach, BSGOU brings together students, academic researchers, clinicians, industry experts, and engineers to:
 
-- Tackling complex biological problems with integrative approaches,
-- Creating and disseminating tools and knowledge,
-- Nurturing the next generation of bioinformaticians,
-- Promoting open science, reproducibility, and cross-disciplinary partnerships.
+- **Collaboratively tackle complex biological problems** using computational approaches,
+- **Develop and share novel bioinformatics tools** and methodologies, and
+- **Disseminate knowledge** via conferences, workshops, and publications.
+
+In pursuing this mission, BSGOU is committed to **bridging the gap between data and discovery**. It seeks to transform high-throughput data into meaningful biological insights by fostering cross-disciplinary teamwork and by nurturing the emergence of new models and theories that better explain living systems. The organization also dedicates itself to **training the next generation** of bioinformaticians and promoting open, reproducible science for the benefit of the broader scientific and medical community.
 
 ## Strategic Goals
 
-1. **Foster Interdisciplinary Collaboration**: Build a diverse global network from academia, healthcare, and industry.
-2. **Advance Integrative Research**: Push beyond single-data analyses toward dynamic models of biology.
-3. **Promote Tool Development**: Support innovation in open-source tools and scalable workflows.
-4. **Empower Education and Training**: Offer tailored programs to bridge skill gaps across disciplines.
-5. **Global Community Leadership**: Actively participate in international partnerships and ethical dialogues.
+1. **Foster Interdisciplinary Collaboration**: Create a vibrant network of members from academia, healthcare, industry, and engineering to break down silos. BSGOU will facilitate partnerships and communication across disciplines, recognizing that diverse teams (e.g. a clinician’s domain knowledge paired with an engineer’s technical skills) spark innovative solutions.
+2. **Advance Integrative Research and Theory Development**: Support research that integrates multiple data types and scales, pushing beyond incremental analyses toward holistic models of biological systems. A strategic goal is to incubate projects that combine, for example, genomics, transcriptomics, and phenotypic data to generate new insights, and to encourage theoretical work (such as network biology or computational modeling) that can capture emergent properties of living systems.
+3. **Promote Innovation in Tools and Methodologies**: Encourage the development of novel bioinformatics algorithms, software, and computational workflows. BSGOU aims to be a launchpad for innovative tools – for instance, by providing grants or mentorship for software projects – and to set standards in open-source practices, reproducible research, and data sharing within the community.
+4. **Empower Education and Training**: Build capacity by offering training programs, mentorship, and resources for members at all career stages. BSGOU will strategically focus on upskilling biologists in computational methods and conversely informing computational experts about biological contexts. The goal is to help alleviate the current shortage of skilled bioinformaticians by producing well-rounded professionals, and to make advanced bioinformatics techniques more accessible to non-specialists.
+5. **Global Outreach and Community Leadership**: Establish BSGOU as a unique contributor on the international stage of bioinformatics. This includes forging links with other societies and initiatives worldwide, hosting internationally attended events, and contributing to global discussions (e.g. on data standards or ethics). By doing so, BSGOU strives to amplify its impact beyond the local region and to lead by example in addressing worldwide challenges in the bioinformatics field.
 
 ## BSGOU’s Unique Contributions
 

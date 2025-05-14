@@ -82,9 +82,9 @@
 			>About BSGOU</h3>
 
 			<p id="services-desc"
-				data-lang-en='<b>Bioinformatics Study Group in Okayama University (BSGOU)</b> is an international academic community committed to advancing the digital transformation of biological and biomedical research. We unite students, researchers, clinicians, and engineers to collaboratively explore how high-throughput data and integrative computation can drive new theories, models, and discoveries in life sciences.'
-				data-lang-ja='<b>岡山大学バイオインフォマティクス研究会（BSGOU）</b> は、生物学および生物医学研究のデジタルトランスフォーメーションを推進する国際的な学術コミュニティです。私たちは学生、研究者、臨床医、エンジニアが連携し、ハイスループットデータと統合的な計算によって生命科学における新しい理論やモデル、発見を導くことを目指しています。'
-				data-lang-cn='<b>冈山大学生物信息学研究小组（BSGOU）</b> 是一个致力于推动生物与生物医学研究数字化转型的国际学术社区。我们汇聚学生、研究人员、临床医生与工程师，共同探索如何通过高通量数据和综合计算推动生命科学中新理论、模型和发现的诞生。'
+				data-lang-en="<b>Bioinformatics Study Group in Okayama University (BSGOU)</b> is an international academic community committed to advancing the digital transformation of biological and biomedical research. We unite students, researchers, clinicians, and engineers to collaboratively explore how high-throughput data and integrative computation can drive new theories, models, and discoveries in life sciences.""
+				data-lang-ja="<b>岡山大学バイオインフォマティクス研究会（BSGOU）</b> は、生物学および生物医学研究のデジタルトランスフォーメーションを推進する国際的な学術コミュニティです。私たちは学生、研究者、臨床医、エンジニアが連携し、ハイスループットデータと統合的な計算によって生命科学における新しい理論やモデル、発見を導くことを目指しています。"
+				data-lang-cn="<b>冈山大学生物信息学研究小组（BSGOU）</b> 是一个致力于推动生物与生物医学研究数字化转型的国际学术社区。我们汇聚学生、研究人员、临床医生与工程师，共同探索如何通过高通量数据和综合计算推动生命科学中新理论、模型和发现的诞生。"
 			>
 				<b>Bioinformatics Study Group in Okayama University (BSGOU)</b> is an international academic community committed to advancing the digital transformation of biological and biomedical research. We unite students, researchers, clinicians, and engineers to collaboratively explore how high-throughput data and integrative computation can drive new theories, models, and discoveries in life sciences.
 			</p>
@@ -99,7 +99,7 @@
 
 				<li>
 					<div class="service-img"><img src="img/icons/Transdisciplinary.png" alt="icon" /></div>
-					<h3><a href="#" data-lang-en="Transdisciplinary Collaboration" data-lang-ja="学際的な協力" data-lang-cn="跨学科协作">Transdisciplinary Collaboration</a></h3>
+					<h3><a href="/sources/Transdisciplinary_Collaboration.html" data-lang-en="Transdisciplinary Collaboration" data-lang-ja="学際的な協力" data-lang-cn="跨学科协作">Transdisciplinary Collaboration</a></h3>
 					<p data-lang-en="We unite biology, medicine, engineering, and more to solve complex biological problems together."
 						data-lang-ja="私たちは生物学・医学・工学など多分野の視点を結集し、複雑な生物学的課題の解決に取り組みます。"
 						data-lang-cn="我们融合生物学、医学、工程等多学科视角，协同解决复杂的生物问题。">
@@ -351,12 +351,12 @@
 	<script>
 	function switchLanguage(lang) {
   		document.querySelectorAll('[data-lang-en]').forEach(el => {
-    		const newText = el.getAttribute(`data-lang-${lang}`);
-    		if (newText !== null) {
-      			el.innerHTML = newText;
+    		const content = el.dataset[`lang${lang.charAt(0).toUpperCase() + lang.slice(1)}`];
+    		if (content) {
+      			el.innerHTML = content;
     		}
   		});
 	}
-	</script>
+</script>
 </body>
 </html>

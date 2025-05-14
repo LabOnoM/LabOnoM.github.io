@@ -1,3 +1,8 @@
+---
+layout: default
+title: Transdisciplinary Collaboration
+---
+
 # Bioinformatics Study Group at Okayama University (BSGOU): Vision and Strategic Plan
 
 ## Vision Statement

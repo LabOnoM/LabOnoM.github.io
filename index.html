@@ -69,34 +69,107 @@
 			</div>
 			<div class="clearfix"></div>
 		</div>
+		<div style="text-align: right; padding: 10px;">
+  			<button onclick="switchLanguage('en')">English</button>
+  			<button onclick="switchLanguage('ja')">日本語</button>
+  			<button onclick="switchLanguage('cn')">中文</button>
+		</div>
 		<div class="container">
-			<h3 class="titles">About BSGOU</h3>
-			<p id="services-desc">Bioinformatics Study Group in Okayama University (BSGOU) is ...</p>
-			<h3 class="titles">Core Values</h3>
+			<h3 class="titles"
+				data-lang-en="About BSGOU"
+				data-lang-ja="BSGOUについて"
+				data-lang-cn="关于BSGOU"
+			>About BSGOU</h3>
+
+			<p id="services-desc"
+				data-lang-en='<b>Bioinformatics Study Group in Okayama University (BSGOU)</b> is an international academic community committed to advancing the digital transformation of biological and biomedical research. We unite students, researchers, clinicians, and engineers to collaboratively explore how high-throughput data and integrative computation can drive new theories, models, and discoveries in life sciences.'
+				data-lang-ja='<b>岡山大学バイオインフォマティクス研究会（BSGOU）</b> は、生物学および生物医学研究のデジタルトランスフォーメーションを推進する国際的な学術コミュニティです。私たちは学生、研究者、臨床医、エンジニアが連携し、ハイスループットデータと統合的な計算によって生命科学における新しい理論やモデル、発見を導くことを目指しています。'
+				data-lang-cn='<b>冈山大学生物信息学研究小组（BSGOU）</b> 是一个致力于推动生物与生物医学研究数字化转型的国际学术社区。我们汇聚学生、研究人员、临床医生与工程师，共同探索如何通过高通量数据和综合计算推动生命科学中新理论、模型和发现的诞生。'
+			>
+				<b>Bioinformatics Study Group in Okayama University (BSGOU)</b> is an international academic community committed to advancing the digital transformation of biological and biomedical research. We unite students, researchers, clinicians, and engineers to collaboratively explore how high-throughput data and integrative computation can drive new theories, models, and discoveries in life sciences.
+			</p>
+
+			<h3 class="titles"
+				data-lang-en="Core Values"
+				data-lang-ja="基本的価値"
+				data-lang-cn="核心价值观"
+			>Core Values</h3>
+
 			<ul class="services">
+
 				<li>
-					<div class="service-img"><img src="img/icons/60px-01.png" alt="icon" /></div>
-					<h3><a href="#">Community</a></h3>
-					<p>.</p>
+					<div class="service-img"><img src="img/icons/Transdisciplinary.png" alt="icon" /></div>
+					<h3><a href="#" data-lang-en="Transdisciplinary Collaboration" data-lang-ja="学際的な協力" data-lang-cn="跨学科协作">Transdisciplinary Collaboration</a></h3>
+					<p data-lang-en="We unite biology, medicine, engineering, and more to solve complex biological problems together."
+						data-lang-ja="私たちは生物学・医学・工学など多分野の視点を結集し、複雑な生物学的課題の解決に取り組みます。"
+						data-lang-cn="我们融合生物学、医学、工程等多学科视角，协同解决复杂的生物问题。">
+						We unite biology, medicine, engineering, and more to solve complex biological problems together.
+					</p>
 				</li>
+
 				<li class="right-side">
-					<div class="service-img"><img src="img/icons/60px-03.png" alt="icon" /></div>
-					<h3><a href="#">Excellence</a></h3>
-					<p>.</p>
+				<div class="service-img"><img src="img/icons/Theory-Driven.png" alt="icon" /></div>
+				<h3><a href="#" data-lang-en="Theory-Driven Understanding" data-lang-ja="理論に基づく理解" data-lang-cn="理论驱动的理解">Theory-Driven Understanding</a></h3>
+				<p data-lang-en="We go beyond data analysis to build new models that explain biological complexity."
+					data-lang-ja="データ解析に留まらず、生物の複雑性を説明する新たな理論モデルの構築を目指します。"
+					data-lang-cn="我们超越数据分析，致力于构建解释生命复杂性的理论模型。">
+					We go beyond data analysis to build new models that explain biological complexity.
+				</p>
 				</li>
+
 				<li>
-					<div class="service-img"><img src="img/icons/60px-18.png" alt="icon" /></div>
-					<h3><a href="#">Leadership</a></h3>
-					<p>.</p>
+				<div class="service-img"><img src="img/icons/Open Innovation.png" alt="icon" /></div>
+				<h3><a href="#" data-lang-en="Open Innovation" data-lang-ja="オープン・イノベーション" data-lang-cn="开放式创新">Open Innovation</a></h3>
+				<p data-lang-en="We support open science, open-source development, and community collaboration."
+					data-lang-ja="私たちはオープンサイエンス、オープンソース開発、コミュニティとの連携を推進します。"
+					data-lang-cn="我们支持开放科学、开源开发和社区协作。">
+					We support open science, open-source development, and community collaboration.
+				</p>
 				</li>
+
 				<li class="right-side">
-					<div class="service-img"><img src="img/icons/60px-31.png" alt="icon" /></div>
-					<h3><a href="#">Innovation</a></h3>
-					<p>.</p>
+				<div class="service-img"><img src="img/icons/Global.png" alt="icon" /></div>
+				<h3><a href="#" data-lang-en="Global Inclusivity" data-lang-ja="国際的な包摂性" data-lang-cn="全球包容性">Global Inclusivity</a></h3>
+				<p data-lang-en="We welcome diverse members from all backgrounds and career stages."
+					data-lang-ja="私たちは、あらゆる背景やキャリア段階の多様なメンバーを歓迎します。"
+					data-lang-cn="我们欢迎来自不同背景和职业阶段的多样化成员。">
+					We welcome diverse members from all backgrounds and career stages.
+				</p>
 				</li>
+
+				<li>
+				<div class="service-img"><img src="img/icons/Education.png" alt="icon" /></div>
+				<h3><a href="#" data-lang-en="Education for Empowerment" data-lang-ja="教育による力の育成" data-lang-cn="教育赋能">Education for Empowerment</a></h3>
+				<p data-lang-en="We offer training and mentorship to bridge global skill gaps in bioinformatics."
+					data-lang-ja="私たちは教育とメンタリングを通じて、バイオインフォマティクスにおける世界的なスキルギャップを埋めます。"
+					data-lang-cn="我们提供培训与指导，致力于缩小全球生物信息学技能差距。">
+					We offer training and mentorship to bridge global skill gaps in bioinformatics.
+				</p>
+				</li>
+
+				<li class="right-side">
+				<div class="service-img"><img src="img/icons/Scientific.png" alt="icon" /></div>
+				<h3><a href="#" data-lang-en="Scientific Integrity and Responsibility" data-lang-ja="科学的誠実さと責任" data-lang-cn="科研诚信与责任">Scientific Integrity and Responsibility</a></h3>
+				<p data-lang-en="We uphold ethical practices, reproducibility, and responsible data use."
+					data-lang-ja="私たちは倫理的実践、再現性、責任あるデータの利用を重視します。"
+					data-lang-cn="我们坚持伦理实践、科研可重复性与负责任地使用数据。">
+					We uphold ethical practices, reproducibility, and responsible data use.
+				</p>
+				</li>
+
+				<li>
+				<div class="service-img"><img src="img/icons/Visionary.png" alt="icon" /></div>
+				<h3><a href="#" data-lang-en="Visionary Leadership" data-lang-ja="先見的なリーダーシップ" data-lang-cn="前瞻性领导力">Visionary Leadership</a></h3>
+				<p data-lang-en="We lead the field with bold ideas and forward-looking strategies."
+					data-lang-ja="私たちは大胆な発想と前向きな戦略で分野をリードします。"
+					data-lang-cn="我们以大胆的思想和前瞻性策略引领该领域的发展。">
+					We lead the field with bold ideas and forward-looking strategies.
+				</p>
+				</li>
+
 			</ul>
 		</div>
-	</div>
+
 	<!-- /Services-section -->
 	<!-- Works-section -->
 	<div id="works" class="works-wrapper">
@@ -275,5 +348,15 @@
 	<script type="text/javascript" src="js/jquery.fancybox.js"></script>
 	<script type="text/javascript" src="js/ajax-actions.js"></script>
 	<script type="text/javascript" src="js/custom.js"></script>
+	<script>
+	function switchLanguage(lang) {
+  		document.querySelectorAll('[data-lang-en]').forEach(el => {
+    		const newText = el.getAttribute(`data-lang-${lang}`);
+    		if (newText !== null) {
+      			el.innerHTML = newText;
+    		}
+  		});
+	}
+	</script>
 </body>
 </html>

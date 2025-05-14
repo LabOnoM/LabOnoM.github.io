@@ -3,7 +3,7 @@ layout: default
 title: Vision and Strategic Plan
 ---
 
-# Bioinformatics Study Group at Okayama University (BSGOU): Vision and Strategic Plan
+# Vision and Strategic Plan
 
 ## Vision Statement
 

@@ -60,6 +60,10 @@
       #tocify[hidden] { display: none; }
       #tocify-toggle { background: none; border: none; font-size: 1.1em; cursor: pointer; padding: 0; }
       @media (max-width: 1000px) { #tocify { display: none; } }
+      #tocify-home-btn:hover {
+        background: #ff69b4;  /* Pink on hover */
+        color: #fff;
+      }
     </style>
   </head>
   <body>
@@ -73,6 +77,19 @@
         <button id="tocify-toggle" style="float:right;">−</button>
       </div>
       <ul id="tocify-list"></ul>
+      <div id="tocify-footer" style="margin-top:1.5em; text-align:center;">
+        <a href="/index.html" id="tocify-home-btn" style="
+          display: inline-block;
+          padding: 0.4em 1.2em;
+          background: #2563eb;
+          color: #fff;
+          border-radius: 5px;
+          font-size: 1em;
+          text-decoration: none;
+          font-weight: 600;
+          transition: background 0.2s;
+        ">🏠 Home</a>
+      </div>
     </nav>
     <script>
       document.addEventListener("DOMContentLoaded", function () {

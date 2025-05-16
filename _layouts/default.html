@@ -23,8 +23,67 @@
         color: #0366d6;
         text-decoration: none;
       }
-      @media (max-width: 900px) {
-        #toc {
+      #tocify {
+        position: fixed;
+        top: 80px;
+        right: 32px;
+        width: 270px;
+        max-height: 70vh;
+        overflow-y: auto;
+        background: #fff;
+        border: 1px solid #eee;
+        border-radius: 8px;
+        box-shadow: 0 4px 18px rgba(0,0,0,0.10);
+        padding: 0.7em 0.7em 0.7em 0.7em;
+        z-index: 1001;
+        font-size: 1em;
+        transition: opacity 0.2s;
+      }
+      #tocify-header {
+        font-size: 1.1em;
+        margin-bottom: 0.3em;
+        border-bottom: 1px solid #eee;
+        padding-bottom: 0.2em;
+      }
+      #tocify-list {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+      }
+      #tocify-list li {
+        margin: 0.18em 0;
+        cursor: pointer;
+        transition: background 0.1s;
+      }
+      #tocify-list li:hover {
+        background: #f7f7fa;
+      }
+      #tocify-list .toc-level-2 {
+        margin-left: 0.5em;
+        font-weight: 500;
+      }
+      #tocify-list .toc-level-3 {
+        margin-left: 1.5em;
+        font-size: 0.98em;
+        color: #888;
+      }
+      #tocify-list .toc-level-4 {
+        margin-left: 2.5em;
+        font-size: 0.95em;
+        color: #aaa;
+      }
+      #tocify[hidden] {
+        display: none;
+      }
+      #tocify-toggle {
+        background: none;
+        border: none;
+        font-size: 1.1em;
+        cursor: pointer;
+        padding: 0;
+      }
+      @media (max-width: 1000px) {
+        #tocify {
           display: none;
         }
       }
@@ -35,37 +94,51 @@
       <h1>{{ site.title }}</h1>
       <p>{{ site.description }}</p>
     </header>
-    <nav id="toc" style="position: fixed; top: 100px; right: 32px; width: 240px; max-height: 60vh; overflow: auto; background: #f8f9fa; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); padding: 1em; z-index: 1000; font-size: 0.98em;">
-      <b>Table of Contents</b>
-      <ul id="toc-list" style="list-style-type: none; margin: 1em 0 0 0; padding: 0;"></ul>
+    <nav id="tocify" class="tocify">
+      <div id="tocify-header">
+        <b>Table of Contents</b>
+        <button id="tocify-toggle" style="float:right;">−</button>
+      </div>
+      <ul id="tocify-list"></ul>
     </nav>
     <script>
-      document.addEventListener("DOMContentLoaded", function() {
-        // Find all headers in the main content
-        var content = document.querySelector("main");
-        if (!content) return;
-        var headings = content.querySelectorAll("h2, h3");
-        var tocList = document.getElementById("toc-list");
+      document.addEventListener("DOMContentLoaded", function () {
+        // Find headings in the main content area
+        var content = document.querySelector("main") || document.body;
+        var headers = content.querySelectorAll("h2, h3, h4");
+      
+        var tocList = document.getElementById("tocify-list");
         if (!tocList) return;
-
+      
         tocList.innerHTML = "";
-        headings.forEach(function(header) {
-          // Add id if not present (so we can link)
+      
+        headers.forEach(function (header) {
           if (!header.id) {
-            header.id = header.textContent.trim().replace(/\s+/g, "-").toLowerCase();
+            header.id = header.textContent.trim().replace(/\s+/g, "-").replace(/[^\w-]/g, "").toLowerCase();
           }
+          var level = parseInt(header.tagName.replace("H", ""), 10);
           var li = document.createElement("li");
-          if (header.tagName === "H3") li.style.marginLeft = "1em";
+          li.className = "toc-level-" + level;
           var a = document.createElement("a");
           a.href = "#" + header.id;
           a.textContent = header.textContent;
-          a.style.color = "#333";
+          a.style.color = "#2563eb";
           a.style.textDecoration = "none";
-          a.onmouseover = () => a.style.textDecoration = "underline";
-          a.onmouseout = () => a.style.textDecoration = "none";
           li.appendChild(a);
           tocList.appendChild(li);
         });
+      
+        // Collapsible TOC logic
+        var toc = document.getElementById("tocify");
+        var toggleBtn = document.getElementById("tocify-toggle");
+        var collapsed = false;
+        if (toggleBtn) {
+          toggleBtn.onclick = function () {
+            collapsed = !collapsed;
+            tocList.style.display = collapsed ? "none" : "block";
+            toggleBtn.textContent = collapsed ? "+" : "−";
+          };
+        }
       });
     </script>
     <main>

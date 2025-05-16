@@ -23,6 +23,11 @@
         color: #0366d6;
         text-decoration: none;
       }
+      @media (max-width: 900px) {
+        #toc {
+          display: none;
+        }
+      }
     </style>
   </head>
   <body>
@@ -30,6 +35,39 @@
       <h1>{{ site.title }}</h1>
       <p>{{ site.description }}</p>
     </header>
+    <nav id="toc" style="position: fixed; top: 100px; right: 32px; width: 240px; max-height: 60vh; overflow: auto; background: #f8f9fa; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); padding: 1em; z-index: 1000; font-size: 0.98em;">
+      <b>Table of Contents</b>
+      <ul id="toc-list" style="list-style-type: none; margin: 1em 0 0 0; padding: 0;"></ul>
+    </nav>
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+        // Find all headers in the main content
+        var content = document.querySelector("main");
+        if (!content) return;
+        var headings = content.querySelectorAll("h2, h3");
+        var tocList = document.getElementById("toc-list");
+        if (!tocList) return;
+
+        tocList.innerHTML = "";
+        headings.forEach(function(header) {
+          // Add id if not present (so we can link)
+          if (!header.id) {
+            header.id = header.textContent.trim().replace(/\s+/g, "-").toLowerCase();
+          }
+          var li = document.createElement("li");
+          if (header.tagName === "H3") li.style.marginLeft = "1em";
+          var a = document.createElement("a");
+          a.href = "#" + header.id;
+          a.textContent = header.textContent;
+          a.style.color = "#333";
+          a.style.textDecoration = "none";
+          a.onmouseover = () => a.style.textDecoration = "underline";
+          a.onmouseout = () => a.style.textDecoration = "none";
+          li.appendChild(a);
+          tocList.appendChild(li);
+        });
+      });
+    </script>
     <main>
       {{ content }}
     </main>

@@ -310,7 +310,7 @@ ul#filterOptions li.active a { background: #ed0c4c;
 }
 /**** Quote Section ****/
 .quote{
-	height: 300px;
+	height: 500px;
 	background: url('../img/quote.jpg') fixed center no-repeat;
 	background-size: cover;
 	box-shadow: inset 0 0 14px #222;
@@ -319,11 +319,39 @@ ul#filterOptions li.active a { background: #ed0c4c;
 	-o-box-shadow: inset 0 0 14px #222;
 	-ms-box-shadow: inset 0 0 14px #222;
 }
-.quote h3{
+.quote h2{
 	color: #f4f4f4;
-	margin-top: 95px;
+	margin-top: 0px;
 	text-shadow: 1px 1px 2px #222;
 	text-align: center;
+}
+.quote .container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.quote > .container {
+	position: relative;
+	z-index: 20;
+}
+.quote .container,
+.quote .slider,
+.quote .flexslider,
+.quote .slides {
+    margin-top:  65px !important;
+    padding-top: 0 !important;
+}
+
+.quote .container {
+    display: block;
+    padding-top: 0 !important;
+    margin-top: 0 !important;
+}
+
+.quote .flexslider {
+    position: relative;
+    top: 0 !important;
 }
 /**** News Section ****/
 .news{

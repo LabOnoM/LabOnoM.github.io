@@ -68,8 +68,13 @@
   </head>
   <body>
     <header>
-      <h1>{{ site.title }}</h1>
-      <p>{{ site.description }}</p>
+      <div style="display: flex; align-items: center; gap: 1em;">
+        <img src="/img/124112083.jpeg" alt="BSGOU Logo" style="height: 48px;">
+        <div>
+          <h1 style="margin:0;">{{ site.title }}</h1>
+          <p style="margin:0;">{{ site.description }}</p>
+        </div>
+      </div>
     </header>
     <nav id="tocify" class="tocify">
       <div id="tocify-header" style="cursor: move;">

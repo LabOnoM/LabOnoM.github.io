@@ -164,7 +164,15 @@
       {{ content }}
     </main>
     <footer>
-      <p>Hosted on GitHub Pages — Bioinformatics Study Group in Okayama University</p>
+      <p><span id="copyright"></span></p>
     </footer>
+		<script>
+			// Set the founding year
+			var foundingYear = 2024;
+			var currentYear = new Date().getFullYear();
+			var displayYear = foundingYear === currentYear ? foundingYear : (foundingYear + "–" + currentYear);
+			document.getElementById("copyright").innerHTML =
+				"&copy; " + displayYear + " Bioinformatics Study Group in Okayama University. All rights reserved.";
+		</script>
   </body>
 </html>

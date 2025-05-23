@@ -389,7 +389,7 @@
 		<!-- Footer-section -->
 		<div class="footer">
 			<div class="container">
-				<p id="cp-text">Bioinformatics Study Group in Okayama University</p>
+				<p id="cp-text"><span id="copyright"></span> <img src="https://visitor-badge.laobi.icu/badge?page_id=LabOnoM.LabOnoM.github.io" alt="visitor badge"/></p>
 			</div>
 		</div>
 		<!-- /Footer-section -->
@@ -415,6 +415,14 @@
 					}
 				});
 			}
+		</script>
+		<script>
+			// Set the founding year
+			var foundingYear = 2024;
+			var currentYear = new Date().getFullYear();
+			var displayYear = foundingYear === currentYear ? foundingYear : (foundingYear + "–" + currentYear);
+			document.getElementById("copyright").innerHTML =
+				"&copy; " + displayYear + " Bioinformatics Study Group in Okayama University. All rights reserved.";
 		</script>
 	</body>
 </html>

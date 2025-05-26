@@ -25,6 +25,8 @@ Scientific integrity is the foundation of credible and impactful research. By ad
 
 ### 2025
 
+---
+
 #### Gingipain Regulates Isoform Switches of PD-L1 in Macrophages Infected with *Porphyromonas gingivalis*  
 *Scientific Reports. 2025. [doi:10.1038/s41598-025-94954-7](https://doi.org/10.1038/s41598-025-94954-7)*  
 **Authors:** Yilin Zheng, Ziyi Wang, Yao Weng, Heriati Sitosari, Yuhan He, Xiu Zhang, Noriko Shiotsu, Yoko Fukuhara, Mika Ikegame, Hirohiko Okamura
@@ -59,7 +61,11 @@ This study uncovered how gingipain, a toxic protease from the periodontal pathog
 
 [Read the full article](https://doi.org/10.1038/s41598-025-94954-7)
 
+---
+
 ### 2024
+
+---
 
 #### O‐GlcNAcylation Regulates Osteoblast Differentiation Through Morphological Changes in Mitochondria, Cytoskeleton, and Endoplasmic Reticulum  
 *BioFactors. 2024. [doi:10.1002/biof.2131](https://doi.org/10.1002/biof.2131)*  
@@ -92,5 +98,42 @@ This research uncovered the crucial role of O-GlcNAcylation—a post-translation
   All resources and interactive tools are shared online; you'll be more than welcome any questions.
 
 [Read the full article](https://doi.org/10.1002/biof.2131)
+
+---
+
+#### Inverse Genetics Tracing the Differentiation Pathway of Human Chondrocytes  
+*Osteoarthritis and Cartilage. 2024. [doi:10.1016/j.joca.2024.06.009](https://doi.org/10.1016/j.joca.2024.06.009)*  
+**Authors:** H.T. Do, M. Ono, Z. Wang, W. Kitagawa, A.T. Dang, T. Yonezawa, T. Kuboki, T. Oohashi, S. Kubota
+
+##### Summary of the Study
+
+This study established an "inverse genetics" approach to map how human chondrocytes are reprogrammed toward induced pluripotent stem cells (iPSCs). Using time-course single-cell RNA sequencing, the research tracked the transcriptomic transitions of chondrocytes, demonstrating that only a specific subpopulation silencing SOX9 along a proper pathway can achieve pluripotency, while others take alternative fates. The work highlights the role of cellular communication network factors (CCNs) and provides a model for tracing differentiation pathways backward to discover master regulatory genes.
+
+##### **How We Achieve Scientific Integrity in this study**
+
+- **Open Data & Software:**  
+  - **All scRNA-seq data** are deposited in [NCBI GEO: GSE261806](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE261806), enabling independent verification and re-use.
+  - An **interactive R Shiny web tool** to explore gene expression, clustering, DEGs, and trajectory analyses is available online ([demo app](https://dwll26k42dcbb.cloudfront.net/GEO_Hang2024/)).
+  - **Full source code** for the analysis (R Shiny/Seurat workflow) is deposited at [Mendeley Data (DOI: 10.17632/t38rw5fg82.1)](https://data.mendeley.com/datasets/t38rw5fg82/1).
+  - All experimental protocols (vector construction, cell culture, reprogramming, scRNA-seq, and data processing) are described in detail in supplementary materials.
+
+- **Transparent Authorship & Funding:**  
+  - Author contributions are fully specified (CRediT taxonomy), covering conceptualization, methodology, data curation, analysis, writing, supervision, and funding acquisition.
+  - Supported by JSPS KAKENHI (JP21K19603, JP23K17439); all funding and potential conflicts are disclosed (none declared).
+
+- **Reproducibility & Rigor:**  
+  - Experiments included multiple human donors and independent biological replicates.
+  - Bioinformatics: Standardized pipelines for scRNA-seq analysis (CellRanger, Seurat, SCTransform, RNA velocity with scVelo, STREAM for trajectory).
+  - Statistical methods: DEGs identified via Wilcoxon rank-sum test with Bonferroni correction; protocols for RT-qPCR validation are described and primer sequences provided.
+
+- **Ethics & Acknowledgments:**  
+  - All human cell work performed in compliance with institutional and ethical guidelines.
+  - Technical and institutional support are acknowledged in the manuscript and supplementary materials.
+
+- **Community Sharing:**  
+  - Data, code, and online exploration tools are open to the community.
+  - Additional resources, protocols, and reagents available upon reasonable request to the corresponding author.
+
+[Read the full article](https://doi.org/10.1016/j.joca.2024.06.009)
 
 ---

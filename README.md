@@ -70,7 +70,7 @@ The field of bioinformatics today faces several grand challenges on a global sca
 
 In summary, BSGOU’s organizational structure and initiatives are intentionally aligned with these global challenges. By focusing on integration and theory, reproducibility, training, ethics, and scalability, BSGOU not only advances its own mission but also contributes meaningfully to solving the broader challenges in the bioinformatics field. This integrated approach positions BSGOU as a leader and innovator, capable of driving the field toward a future where big data translates into big discoveries, and where the **complexity of living systems is understood in a comprehensive, actionable way**.
 
-**Sources**: The outlined vision and strategy build upon current perspectives in the field, acknowledging challenges such as the gap between data generation and analysis, the shortage of skilled bioinformaticians, and the need for better data integration and reproducibility. BSGOU’s approach resonates with best practices for scientific communities, emphasizing clear scope, unique value, and member benefits while addressing key issues highlighted in contemporary bioinformatics discourse.
+The outlined vision and strategy build upon current perspectives in the field, acknowledging challenges such as the gap between data generation and analysis, the shortage of skilled bioinformaticians, and the need for better data integration and reproducibility. BSGOU’s approach resonates with best practices for scientific communities, emphasizing clear scope, unique value, and member benefits while addressing key issues highlighted in contemporary bioinformatics discourse.
 
 ---
 

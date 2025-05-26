@@ -25,10 +25,41 @@ Scientific integrity is the foundation of credible and impactful research. By ad
 
 ### 2025
 
+#### Gingipain Regulates Isoform Switches of PD-L1 in Macrophages Infected with *Porphyromonas gingivalis*  
+*Scientific Reports. 2025. [doi:10.1038/s41598-025-94954-7](https://doi.org/10.1038/s41598-025-94954-7)*  
+**Authors:** Yilin Zheng, Ziyi Wang, Yao Weng, Heriati Sitosari, Yuhan He, Xiu Zhang, Noriko Shiotsu, Yoko Fukuhara, Mika Ikegame, Hirohiko Okamura
 
+##### Summary of the Study
+
+This study uncovered how gingipain, a toxic protease from the periodontal pathogen *P. gingivalis*, modulates the alternative splicing (AS) of the immune checkpoint protein PD-L1 in human macrophages, leading to the upregulation of a specific PD-L1 isoform that more effectively binds to PD-1 and inhibits immune function. Using RNA-sequencing, advanced bioinformatics, and AlphaFold 3 protein modeling, the team demonstrated that gingipain selectively increases the functional PD-L1IgV+ isoform, thus promoting immune evasion by the pathogen.
+
+##### **How We Achieve Scientific Integrity in this study**
+
+- **Open Data & Code:**  
+  - All raw RNA-seq data is publicly available in [NCBI BioProject PRJNA1163056](https://dataview.ncbi.nlm.nih.gov/object/PRJNA1163056?reviewer=clcri79f3dn6h4oicc0glhlsi).
+  - All data analysis results are accessible at [public repository](https://d3dcaz4rv8jgb4.cloudfront.net/).
+  - Methods, custom bioinformatics scripts, and statistical protocols are fully described in the publication.
+
+- **Transparent Authorship & Funding:**  
+  - Each author’s contributions are clearly documented.
+  - All funding sources (Japan JSPS grants) are disclosed.
+  - The authors declare no competing interests.
+
+- **Reproducibility:**  
+  - Full details of experimental design, infection models, RNA-seq, protein validation, and computational analysis (including AlphaFold 3) are provided for independent replication.
+  - Statistical rigor: FDR correction, reporting of all raw and normalized values, and use of established software (DESeq2, DEXSeq, IsoformSwitchAnalyzeR, etc.).
+
+- **Ethical & Collaborative:**  
+  - All cell line work was conducted following institutional guidelines.
+  - Collaboration with external experts (e.g., for bacterial strains and advanced analytics) is fully acknowledged.
+
+- **Community Sharing:**  
+  - Raw data, analysis results, and all supplementary materials are shared online.
+  - The group welcomes questions and requests for materials via the corresponding author.
+
+[Read the full article](https://doi.org/10.1038/s41598-025-94954-7)
 
 ### 2024
----
 
 #### O‐GlcNAcylation Regulates Osteoblast Differentiation Through Morphological Changes in Mitochondria, Cytoskeleton, and Endoplasmic Reticulum  
 *BioFactors. 2024. [doi:10.1002/biof.2131](https://doi.org/10.1002/biof.2131)*  

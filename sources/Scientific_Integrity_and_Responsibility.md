@@ -36,7 +36,7 @@ This study uncovered how gingipain, a toxic protease from the periodontal pathog
 ##### **How We Achieve Scientific Integrity in this study**
 
 - **Open Data & Code:**  
-  - All raw RNA-seq data is publicly available in [NCBI BioProject PRJNA1163056](https://dataview.ncbi.nlm.nih.gov/object/PRJNA1163056?reviewer=clcri79f3dn6h4oicc0glhlsi).
+  - All raw RNA-seq data is publicly available in [NCBI BioProject PRJNA1163056](https://www.ncbi.nlm.nih.gov/sra/?term=PRJNA1163056).
   - All data analysis results are accessible at [public repository](https://d3dcaz4rv8jgb4.cloudfront.net/).
   - Methods, custom bioinformatics scripts, and statistical protocols are fully described in the publication.
 

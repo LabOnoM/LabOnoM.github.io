@@ -63,5 +63,3 @@ This research uncovered the crucial role of O-GlcNAcylation—a post-translation
 [Read the full article](https://doi.org/10.1002/biof.2131)
 
 ---
-
-**Contact us:** [your.email@okayama-u.ac.jp](mailto:your.email@okayama-u.ac.jp)

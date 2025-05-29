@@ -5,8 +5,21 @@ article_header:
   type: cover
   image:
     src: /img/TeXt-home.jpg
+license: true
+aside:
+  toc: true
+show_edit_on_github: true
+pageview: true
 ---
 
+# 1
+
+## 1.1
+
+### 1.1.1
+
 A Post with Header Image, See [Page layout](https://kitian616.github.io/jekyll-TeXt-theme/samples.html#page-layout) for more examples.
+
+# 2
 
 <!--more-->

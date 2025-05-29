@@ -2,7 +2,7 @@ header:
   - titles:
       zh-Hans : &ZH_HANS  博客
       en      : &EN       Blog
-    url:        /_posts/
+    url:        /blog/
   - titles:
       # @start locale config
       en      : &EN       Archive
@@ -27,7 +27,7 @@ header:
       fr-LU   : *FR
       tr      : &TR       Arşivdekiler
       # @end locale config
-    url: /archive.html
+    url: /blog/archive.html
 
   - titles:
       # @start locale config
@@ -53,4 +53,4 @@ header:
       fr-LU   : *FR
       tr      : &TR       Hakkında
       # @end locale config
-    url: /about.html
+    url: /README.html

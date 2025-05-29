@@ -6,3 +6,7 @@ article_header:
   image:
     src: /img/Post/2025/LogoDesign.jpg
 ---
+
+The first post of BSGOU!
+
+<!--more-->

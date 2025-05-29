@@ -7,9 +7,10 @@ article_header:
     src: /img/TeXt-home.jpg
 license: true
 aside:
-  toc: true
+  toc: false
 show_edit_on_github: true
 pageview: true
+sharing: true
 ---
 
 # 1

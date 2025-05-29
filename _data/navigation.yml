@@ -1,5 +1,9 @@
 header:
   - titles:
+      zh-Hans : &ZH_HANS  博客
+      en      : &EN       Blog
+    url:        /_posts/
+  - titles:
       # @start locale config
       en      : &EN       Archive
       en-GB   : *EN

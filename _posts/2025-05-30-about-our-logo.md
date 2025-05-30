@@ -91,3 +91,7 @@ Ultimately, our logo is more than a visual mark—it is a distillation of our sc
 最終的に、このロゴは単なるビジュアルシンボルではなく、私たちの科学への信念とイノベーション精神の結晶です。チームワーク、学際的融合、そして新たな挑戦を象徴するBSGOU文化を体現しています。皆さまもぜひBSGOUに参加し、生命科学の最前線を共に探求しましょう！
 
 最终，这一标志不仅是视觉符号，更是我们科学信念与创新精神的浓缩表达。它凝聚了团队协作、跨学科融合和勇于突破的BSGOU文化。欢迎您加入BSGOU，共同探索生命科学的前沿奥秘！
+
+<div style="text-align: right; font-style: italic; margin-top: 2em;">
+  — Wang Ziyi <a href="https://github.com/wong-ziyi" target="_blank" style="color: #4078c0; text-decoration: none; font-weight: bold;">@wong-ziyi</a>
+</div>

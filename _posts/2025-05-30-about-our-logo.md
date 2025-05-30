@@ -12,9 +12,11 @@ article_header:
     src: /img/Post/2025/LogoDesign.svg
 ---
 
-![Screenshot 2025-05-30 at 01 45 38](https://github.com/user-attachments/assets/3b5dfcf0-4b93-4098-9ff6-634765a142ad)
+<img src="https://visitor-badge.laobi.icu/badge?page_id=labonom.github.io/sources/Scientific_Integrity_and_Responsibility.html" alt="visitor badge"/> [![GitHub](https://img.shields.io/badge/GitHub-Profile-black?logo=github)](https://github.com/LabOnoM)
 
-# More Than a Logo: The Story, Spirit, and Science Behind BSGOU’s New Emblem ｜ ロゴを超えて：BSGOU新エンブレムに込めた物語と精神、そしてサイエンス ｜ 不止于标志：BSGOU新徽标背后的故事、精神与科学
+# ロゴを超えて：BSGOU新エンブレムに込めた物語と精神、そしてサイエンス ｜ 不止于标志：BSGOU新徽标背后的故事、精神与科学
+
+![Screenshot 2025-05-30 at 01 45 38](https://github.com/user-attachments/assets/3b5dfcf0-4b93-4098-9ff6-634765a142ad)
 
 <!--more-->
 

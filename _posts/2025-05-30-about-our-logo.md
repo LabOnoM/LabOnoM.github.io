@@ -1,5 +1,5 @@
 ---
-title: More Than a Logo - The Story, Spirit, and Science Behind BSGOU's New Emblem
+title: “More Than a Logo: The Story, Spirit, and Science Behind BSGOU's New Emblem”
 tags: BSGOU
 license: true
 aside:
@@ -38,11 +38,11 @@ BSGOU 致力于推动生物学与信息科学的交叉研究。我们希望通�
 
 ## Core Symbol: Zebrafish Embryo | 中心モチーフ：ゼブラフィッシュ胚 | 核心图像：斑马鱼胚胎
 
-At the center of our logo is a zebrafish embryo at 18 hours post fertilization (18 hpf), viewed dorsally. Zebrafish are a classic model organism in developmental biology and genomics, valued for their transparent embryos, rapid development, and genetic manipulability. The DNA double helix inside the embryo highlights our focus on genomics and molecular biology.
+At the heart of our logo is a zebrafish embryo at 18 hours post fertilization (18 hpf), depicted from a dorsal view. As a classic model organism, the zebrafish is widely used in developmental biology and genomics research. Its transparent embryos, high fecundity, rapid development, and ease of cultivation and genetic manipulation make it a powerful symbol of modern life sciences. The DNA double helix embedded within the embryo highlights our commitment to genomics and molecular biology.
 
-ロゴの中心には、受精後18時間（18 hpf）のゼブラフィッシュ胚（背側視点）が描かれています。ゼブラフィッシュは、透明な胚、急速な発生、遺伝子操作の容易さから、発生生物学やゲノム科学のモデル生物として広く利用されています。胚内のDNA二重らせんは、ゲノム科学および分子生物学への注力を象徴しています。
+ロゴの中心には、受精後18時間（18 hpf）、背側（上面）から見たゼブラフィッシュ胚が描かれています。ゼブラフィッシュは、発生生物学やゲノム研究で広く使われる代表的なモデル生物です。透明な胚、高い産卵数、急速な発生、飼育と遺伝子操作の容易さなどから、現代生命科学の象徴とされています。胚の中に描かれたDNA二重らせんは、ゲノム科学と分子生物学への私たちの情熱を表しています。
 
-标志的核心是一只处于18小时受精后（18 hpf）、背侧视图的斑马鱼胚胎。斑马鱼作为模式生物，被广泛用于发育生物学和基因组学研究，其胚胎透明、发育快速、易于遗传操作，是现代生命科学的重要象征。胚胎内部的DNA双螺旋，代表我们专注于基因组学和分子生物学。
+标志的核心是一只处于18小时受精后（18 hpf）、背侧视图的斑马鱼胚胎。斑马鱼作为模式生物，被广泛用于发育生物学和基因组学研究，其胚胎透明、产卵量高、发育快速、易于养殖和遗传操作，是现代生命科学的重要象征。胚胎内部的DNA双螺旋，代表我们专注于基因组学和分子生物学。
 
 ## Human Symbolism and Evolution | 人類の象徴と進化の暗示 | 人类象征与进化启示
 
@@ -62,19 +62,19 @@ The head of the zebrafish embryo is illustrated with geometric lines, while the 
 
 ## Color and Light Symbolism | 色彩と光の象徴 | 颜色与光明象征
 
-The overall palette of the logo is vibrant and colorful, reflecting the diversity and vitality of life sciences. The brightness fades from the top left (direction of human gaze) to the bottom right, symbolizing the progression from illumination to deeper exploration, and highlighting the bright prospects of scientific frontiers.
+The overall color palette of the logo is vibrant and rich, reflecting both the diversity and vitality of life sciences, as well as the colorful splendor of the natural world. The brightness of the colors gradually decreases from the top left—aligned with the direction of human exploration—to the bottom right, symbolizing the journey from the initial spark of knowledge to ever deeper scientific inquiry. This gradient also represents the promising future at the forefront of science.
 
-ロゴ全体のカラーパレットは鮮やかで多様性に富み、生命科学の活力と多様性を表現しています。明度は左上（人間の視線方向）から右下へと徐々に下がり、知識の啓発と科学探究の深まり、そして科学フロンティアの明るい未来を象徴しています。
+ロゴ全体のカラーパレットは鮮やかで豊かであり、生命科学の多様性と活力、そして自然界の生命の色とりどりな美しさを表現しています。色の明度は左上（人間の探求の視線方向）から右下にかけて徐々に下がり、知識の啓発からより深い科学的探究への道のりを象徴しています。このグラデーションは、科学フロンティアにおける明るい未来も示しています。
 
-logo 整体配色明艳丰富，体现生命科学的多样性与活力。颜色明度自左上（人类探索视线）向右下递减，寓意知识的启迪和科学探索从明亮到深入的过程，展现科学前沿的光明前景。
+logo 整体配色明艳丰富，体现了生命科学的多样性与活力，也象征着大自然生命的多姿多彩。颜色明度自左上（人类探索视线）向右下递减，寓意知识的启迪和科学探索从明亮到深入的过程，展现科学前沿的光明前景。
 
 ## Bees GO!: Our Nickname & Team Spirit | Bees GO!：愛称とチームスピリット | Bees GO!：我们的昵称与团队精神
 
-As "BSGOU" is pronounced similarly to "Bees GO!", we affectionately call ourselves "the Bees". A stylized bee motif is embedded beneath the bulb in our logo, symbolizing teamwork, diligence, and the collective drive for scientific breakthroughs. The bee's abstract lines represent the idea that every member's input fuels innovation.
+As “BSGOU” is pronounced similarly to “Bees GO!”, we affectionately call ourselves “the Bees.” An abstract bee motif is integrated beneath the lightbulb in our logo, symbolizing teamwork, diligence, and our collective pursuit of scientific breakthroughs. In our design drafts, you can see how the bee motif evolved—step by step—from a complex, realistic image to a flowing, thought-like line. This abstraction represents the idea that our thinking, like the flight of wild bees, should be lively and free.
 
-BSGOUは英語発音が「Bees GO!」に近いため、私たちは「ミツバチ」と親しみを込めて呼んでいます。ロゴの電球下には抽象的なミツバチが描かれ、チームワーク、勤勉、そして科学的ブレイクスルーへの共同の情熱を象徴しています。複雑な思考を抽象化したミツバチの線は、チーム全員の貢献がイノベーションの源であることを示しています。
+BSGOUは英語発音が「Bees GO!」に近いため、私たちは親しみを込めて「ミツバチ」と自称しています。ロゴの電球下には、抽象化されたミツバチのモチーフが組み込まれており、チームワーク、勤勉さ、そして科学的ブレイクスルーへの共同の情熱を象徴しています。デザインの過程では、このミツバチが複雑で具体的な形から、思考の流れのような線で抽象的に表現されるまで、段階的に進化しています。これは私たちの思考も野生の蜂のように自由で活発であるべきだというメッセージです。
 
-BSGOU 的英文发音近似“Bees GO!”，我们也以“小蜜蜂”为自称。logo中在灯泡下方融入了抽象小蜜蜂，象征团队协作、勤奋和共同追求科学突破的精神。蜜蜂的图形由复杂思绪的线条逐步抽象而来，体现了团队中每个人的贡献都是创新的源泉。
+BSGOU的英文发音近似“Bees GO!”，我们也以“小蜜蜂”为自称。logo中在灯泡下方融入了一个抽象化的小蜜蜂，象征团队协作、勤奋和共同追求科学突破的精神。从我们的设计稿中可以看到，这只蜜蜂形象是如何一步步地从复杂具体的形态被抽象成一团类似思绪的线条，寓意我们的思考应像野蜂飞舞般自由活跃。
 
 ## Human-AI Collaboration | AIと人間の協働 | AI与人类创意的协同
 

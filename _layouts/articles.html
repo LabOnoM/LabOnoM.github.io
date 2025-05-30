@@ -108,5 +108,17 @@ layout: page
     </div>
   </div>
 </div>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  var openBtn = document.getElementById('open-subscribe-popup');
+  var popup = document.getElementById('subscribe-popup');
+  var closeBtn = document.getElementById('close-subscribe-popup');
+  if (openBtn && popup && closeBtn) {
+    openBtn.onclick = function() { popup.style.display = 'block'; }
+    closeBtn.onclick = function() { popup.style.display = 'none'; }
+    popup.onclick = function(e) { if (e.target === popup) popup.style.display = 'none'; }
+  }
+});
+</script>
 
 {{ content }}

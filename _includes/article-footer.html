@@ -41,11 +41,10 @@
   {%- if _show_subscribe -%}
     <!-- <div class="article__subscribe">{%- include article/footer/subscribe.html -%}</div> -->
     <!-- Subscribe by Email Button -->
-    <div style="text-align: right; margin: 20px 0;">
-      <button id="open-subscribe-popup"
-        style="background:#6c78d5; color:#fff; padding:7px 18px; border-radius:6px; font-weight:bold; border:none; cursor:pointer;">
-        Subscribe by Email
-      </button>
+    <div class="subscribe" style="text-align: left; margin: 0px 0;">
+      <button id="open-subscribe-popup">
+        <a class="button button--primary button--rounded button--xs" type="application/rss+xml">Subscribe by Email</a>
+      </button><i class="fas fa-rss"></i>
     </div>
     <!-- Subscribe Popup Modal -->
     <div id="subscribe-popup" style="display:none; position:fixed; z-index:9999; top:0; left:0; width:100vw; height:100vh; background:rgba(0,0,0,0.4);">

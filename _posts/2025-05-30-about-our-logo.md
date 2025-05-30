@@ -1,5 +1,5 @@
 ---
-title: More Than a Logo: The Story, Spirit, and Science Behind BSGOU’s New Emblem
+title: More Than a Logo - The Story, Spirit, and Science Behind BSGOU's New Emblem
 tags: BSGOU
 license: true
 aside:

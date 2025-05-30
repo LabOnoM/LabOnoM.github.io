@@ -108,6 +108,44 @@
 					box-shadow:4px 4px 10px rgba(0,0,0,0.8);
 				}
 			}
+			.contact-flex {
+				display: flex;
+				flex-direction: row;
+				justify-content: center;
+				align-items: flex-start;
+				gap: 48px; /* space between map and contact info */
+				margin-top: 32px;
+				margin-bottom: 32px;
+				flex-wrap: wrap; /* Responsive: will stack on mobile */
+			}
+			.contact-map {
+				min-width: 320px;
+				max-width: 480px;
+				flex: 1 1 350px;
+				text-align: center;
+			}
+			.contact-desc {
+				min-width: 260px;
+				max-width: 380px;
+				flex: 1 1 320px;
+				background: rgba(255,255,255,0.08);
+				padding: 24px 18px 12px 18px;
+				border-radius: 12px;
+				margin-bottom: 0;
+				color: #fff;
+				box-sizing: border-box;
+			}
+			@media (max-width: 900px) {
+				.contact-flex {
+					flex-direction: column;
+					align-items: center;
+					gap: 24px;
+				}
+				.contact-map, .contact-desc {
+					max-width: 95vw;
+					width: 100%;
+				}
+			}
 		</style>
 	</head>
 	<body id="home">

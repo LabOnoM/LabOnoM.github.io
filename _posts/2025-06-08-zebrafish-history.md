@@ -32,7 +32,7 @@ But here’s the kicker—even the most devout Brahmins probably never realized 
 
 In fact, one theory suggests that the zebrafish’s signature stripes act like a biological barcode—helping them tell each other apart during mating season. But honestly? Even if they got it wrong, I doubt they’d care. Monogamy? Parenting instincts? Never heard of ‘em. They can snack on their own eggs even when they’re not hungry. You gotta feel bad for zebrafish—seriously. From the very first day they’re born, everything that moves (including mom and dad) is basically like: “Yup, dinner’s served.” Their only chance at survival? Turn the opacity slider all the way down and hope everyone nearby suddenly develops selective blindness. But let’s face it, invisibility only gets you so far in this brutal ecosystem.So, they’ve also mastered the ancient art of strategic hiding—wiggling into shallow puddles where the big fish don’t bother going. Oh, and as carp family members, they’ve unlocked full-on apocalypse mode: dirty water? No problem. Low oxygen? Bring it on. These fish weren’t made to thrive—they were built to survive.
 
-## 2. A Fish Tank Changed Everything
+## 2. When the World First Noticed
 
 Back in 1822, a Scottish physician stumbled across a small, inconspicuous fish swimming in the rice paddies of northern India. That fish? The now-famous zebrafish. But back then? Just another tiny nobody in a sea of forgettable minnows. Discovered—and promptly forgotten. After all, the world was (and still is) full of small, unremarkable fish. What made this one any different? And then, as if by fate, something game-changing appeared on the scene. Any guesses?
 

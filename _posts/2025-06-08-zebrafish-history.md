@@ -13,9 +13,9 @@ tags:
 
 # How a Fish No One Noticed Became a Star
 
-## 1. A Tiny Life, Barely Noticed
-
 Some things in this world just don’t make sense—no matter how you slice it. Take the zebrafish, for example. A tiny, transparent freeloader that wouldn’t even pick it as bait, much less any fishing dude’s Instagram story. And yet—somehow—it ended up becoming a pillar of modern life sciences. Yeah, I know. It sounds ridiculous. So, how did this happen? Let’s rewind.
+
+## 1. A Tiny Life, Barely Noticed
 
 Do you know where zebrafish originally come from?
 

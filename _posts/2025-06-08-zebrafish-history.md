@@ -15,17 +15,18 @@ tags:
 
 ## 1. A Tiny Life, Barely Noticed
 
-Some things in this world just don’t make sense—no matter how you slice it. Take the zebrafish, for example. A tiny, transparent freeloader that wouldn’t even pick it as bait, much less any fishing dude’s Instagram story. And yet—somehow—it ended up becoming a pillar of modern life sciences. Yeah, I know. It sounds ridiculous. So how did this happen? Let’s rewind.
-Do you know where zebrafish come from originally?
+Some things in this world just don’t make sense—no matter how you slice it. Take the zebrafish, for example. A tiny, transparent freeloader that wouldn’t even pick it as bait, much less any fishing dude’s Instagram story. And yet—somehow—it ended up becoming a pillar of modern life sciences. Yeah, I know. It sounds ridiculous. So, how did this happen? Let’s rewind.
 
-> The Ganges.
-> Yep, that Ganges.
+Do you know where zebrafish originally come from?
 
 <!--more-->
 
-But here’s the kicker—even the most devout Brahmins probably never realized that among all those sacred waters swam a future scientific superstar. Because let’s be honest, there are probably hundreds, if not thousands, of tiny fish in the Ganges with similar vibes—same look, same lifestyle, same “eat or be eaten” game. Nothing to set the zebrafish apart… at first glance.
+> The Indo-Gangetic plains.
+> Yep, that Ganges.
 
-In fact, one theory suggests that the zebrafish’s signature stripes act like a biological barcode—helping them tell each other apart during mating season. But honestly? Even if they got it wrong, I doubt they’d care. Monogamy? Parenting instincts? Never heard of ‘em. They can snack on their own eggs even when they’re not hungry. You gotta feel bad for zebrafish—seriously. From the very first day they’re born, everything that moves (including mom and dad) is basically like: “Yup, dinner’s served.” Their only chance at survival? Turn the opacity slider all the way down and hope everyone nearby suddenly develops selective blindness. But let’s face it, invisibility only gets you so far in this brutal ecosystem.So, they’ve also mastered the ancient art of strategic hiding—wiggling into shallow puddles where the big fish don’t bother going. Oh, and as carp family members, they’ve unlocked full-on apocalypse mode: dirty water? No problem. Low oxygen? Bring it on. These fish weren’t made to thrive—they were built to survive.
+They swim through rice paddies, floodplains, and puddles across India, Nepal, and Bangladesh. But here’s the kicker—even the most devout Brahmins probably never realized that among all those sacred waters swam a future scientific superstar. Because let’s be honest, there are probably hundreds of tiny fish in the Ganges with similar vibes—same look, same lifestyle, same “eat or be eaten” game—nothing to set the zebrafish apart… at first glance.
+
+In fact, one theory suggests that the zebrafish’s signature stripes might act like a barcode to distinguish each other from other kinds of fish, especially during mating season, when things can get... confusing. But honestly? Even if they mix things up, who cares? Zebrafish aren’t exactly known for their family members. They can snack on their own eggs even when they’re not hungry. Monogamy? Parenting instincts? Never heard of ‘em. You gotta feel bad for zebrafish—seriously. From the very first day they’re born, everything that moves (including mom and dad) is basically like: “Yup, dinner’s served.” Their only chance at survival? Turn the opacity slider all the way down and hope everyone nearby suddenly develops selective blindness. But let’s face it, invisibility only gets you so far in this brutal ecosystem. So, they’ve also mastered the ancient art of strategic hiding—wiggling into shallow puddles where the big fish don’t bother going. Oh, and as carp family members, they’ve unlocked full-on apocalypse mode: dirty water? No problem. Low oxygen? Bring it on. These fish weren’t made to thrive—they were built to survive.
 
 ## 2. When the World First Noticed
 

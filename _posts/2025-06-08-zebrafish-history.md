@@ -6,14 +6,9 @@ aside:
 show_edit_on_github: true
 pageview: true
 tags:
-  - zebrafish
-  - developmental biology
-  - neuroscience
-  - model organisms
-  - CRISPR
-  - science communication
-  - space biology
-  - science storytelling
+  - Zebrafish
+  - Model Organisms
+  - Science Storytelling
 ---
 
 # How a Fish No One Noticed Became a Star
@@ -42,15 +37,15 @@ When this new invention—the square glass aquarium—was unveiled at the 1851 G
 
 And just like that, the zebrafish got its lucky break. India—being the freshwater fish paradise that it is—quickly became a hotspot for this ornamental fish gold rush. And the zebrafish? Cheap, easy to care for, low maintenance—basically the ideal roommate. Before long, it was showing up in aquariums across the globe. By the early 20th century, the zebrafish had become a regular in the Western ornamental fish scene—an NPC in every pet store’s background tank. But here’s where things got interesting.
 
-## 3. The Transparent Star of Developmental Biology
-
 You see, the phrase “Century of Life Sciences” wasn’t coined today (21st century)—it was originally meant to describe the 20th century itself. Microscopes were getting sharper. Staining techniques were improving. Fields like cytology, embryology, genetics, and physiology were booming. Papers were pouring out like viral TikToks. And biomedical grad students? Let’s just say getting a PhD back then was way easier than it is today. As science marched into the 20th century, researchers began circling back to one of life’s biggest unsolved mysteries: How does a single fertilized egg—a lone cell—somehow transform into a living, breathing organism, complete with muscles, nerves, eyeballs, and the occasional existential crisis?
 
 Of course, cracking that code isn’t easy. Why? Because embryos love to stay hidden—either deep inside a body, or wrapped in layers of opaque egg jelly. You just... can’t see what’s going on. Enter 1934. At Wayne State University, a researcher named Charles W. Creaser was—well, possibly procrastinating on something—when he stumbled upon a curious little fish. He took a closer look and had a bit of a eureka moment: “Hey, this fish? It's transparent. The embryos? Develop externally. The eggs? Not picky about water. Stick it under a microscope and boom—you’ve got yourself a live broadcast of embryonic development.” Nature’s own reality show. No subscription required.
 
+## 3. The Transparent Star of Developmental Biology
+
 Creaser’s endorsement lit a spark in the developmental biology world. Just four years later, in 1938, L.L. Longley at Brown University published a detailed account of early zebrafish embryonic development. Suddenly, zebrafish were catching more and more scientific eyeballs.
 
-“Wait, aren’t these the little guys that thrive in gross water and don’t mind a chemical bath?” Exactly. And so began a new wave of experiments. Toxicologists jumped on board. Researchers like Hisao Yugao and K.D. Kidmore (a.k.a. the East-and-West duo of developmental toxicology—think Wong Kar-Wai meets Breaking Bad) started using zebrafish to test chemical exposure and pollution resistance. But all of that? It was just the prelude. Because then... the zebrafish met that man. George Streisinger. University of Oregon. If Thomas Hunt Morgan made fruit flies famous, then Streisinger gave zebrafish their Hollywood moment. And to be fair, the fish still owe him big time. 
+“Wait, aren’t these the little guys that thrive in gross water and don’t mind a chemical bath?” Exactly. And so began a new wave of experiments. Toxicologists jumped on board. Researchers like Hisao Yugao and K.D. Kidmore (a.k.a. the East-and-West duo of developmental toxicology—think Wong Kar-Wai meets Breaking Bad) started using zebrafish to test chemical exposure and pollution resistance. But all of that? It was just the prelude. Because then... the zebrafish met that man. George Streisinger. University of Oregon. If Thomas Hunt Morgan made fruit flies famous, then Streisinger gave zebrafish their Hollywood moment. 
 
 Let’s get one thing straight—George Streisinger wasn’t just some curious academic with a fish tank. He was a top-tier geneticist. James Watson—you know, the double-helix guy—once called him one of the most accomplished genetic minds in the United States. Later, he became a member of the U.S. National Academy of Sciences. We’re talking about the kind of legend where, if he casually drops a theory over dinner, you will stand up and take notes.
 
@@ -67,7 +62,7 @@ Of course, zebrafish weren’t perfect. Unlike mice, they couldn’t be inbred f
 
 No pigment in the way? He made a golden mutant strain with a spotless hindbrain. Want genetically uniform fish for experiments? He straight-up invented a workaround. He developed a technique where he could double the DNA in a zebrafish egg—without fertilization—creating what’s called a “homozygous diploid.” Then he used that trick, generation after generation, to build what was effectively a lab-grade, asexually derived zebrafish line. Add a little strategic crossbreeding here, a touch of cellular wizardry there, and voilà: You’ve got yourself a lineup of zebrafish with genetic consistency rivaling your favorite mouse strain. This was the turning point. Those golden mutants and Streisinger’s AB strain? Still used in labs across the globe to this day.
 
-But the Streisinger Effect didn’t stop there. His work sent ripples through the world of genetics. Disillusioned fruit fly researchers began defecting en masse, drawn by the siren song of translucent embryos and scalable mutagenesis. One of them was a young scientist named Wolfgang Driever. He’d trained under none other than Christiane Nüsslein-Volhard—a Nobel Prize winner for her work on Drosophila. But after spending a year at Oregon, seeing the sheer potential of zebrafish firsthand, Driever switched teams. He went full fish. Together, his group and Nüsslein-Volhard’s team created over 6,000 zebrafish mutants. They even developed the TU strain, now one of the most widely used genetic lines in zebrafish research. These two teams basically speedran the entire “fruit fly-to-model organism” arc—except with more fins and fewer wings.
+But the Streisinger Effect didn’t stop there. His work sent ripples through the world of genetics. Disillusioned fruit fly researchers began defecting en masse, drawn by the siren song of translucent embryos and scalable mutagenesis. One of them was a young scientist named Wolfgang Driever. He’d trained under none other than Christiane Nüsslein-Volhard—a Nobel Prize winner for her work on Drosophila. But after spending a year at Oregon, seeing the sheer potential of zebrafish firsthand, Driever switched teams. He went full fish. Together, his group and Nüsslein-Volhard’s team created over 6,000 zebrafish mutants. They developed the TU strain, now one of the most widely used genetic lines in zebrafish research. Between the mutant collection and foundational strain development, these two teams almost essentially speedran the entire “zebrafish-to-model organism” arc—leaving little terrain for others to claim.
 
 ## 4. Seeing Thought: The Neuroscience Revolution
 

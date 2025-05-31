@@ -94,3 +94,16 @@ In 1976, zebrafish embarked on their inaugural space voyage aboard the Soviet Un
 
 From their humble beginnings in the sacred currents of the Ganges to their silent drift beneath the starlit expanse of the Milky Way, the journey of the zebrafish is more than a tale of science—it is a quiet meditation on life itself. Suspended in a sealed vessel 400 kilometers above Earth, they glide through orbit as if retracing a cosmic river, where the waters of origin meet the stillness of infinity. In that solitude—between the Ganges, echoing the ancient river they once called home, and the galaxy, reaching toward the stars that now lie ahead—they remind us that life, however small, can rise from obscurity and shine among the stars.
 
+## **References:**
+1. [Episode 39: Biolore: How a tiny fish from India became biology’s most loved animal](https://www.nature.com/articles/d44151-024-00089-5?utm_source=chatgpt.com)
+2. [Zebrafish-Wikipedia](https://en.wikipedia.org/wiki/Zebrafish?utm_source=chatgpt.com)
+3. [The History of Zebrafish as a Research Model Organism](https://www.zeclinics.com/blog/history-of-zebrafish-research/?utm_source=chatgpt.com)
+4. [Aquarium History Glow in the Dark](https://www.hygger-online.com/aquarium-history-glow-in-the-dark/?srsltid=AfmBOopi3GFLiptiwAx4d6DNUnnHq4ALsTw2fH1xigqvkPBPH9R7xdBa&utm_source=chatgpt.com)
+5. [Vintage Aquariums](https://www.aquariumarchitecture.com/archive/vintage-aquariums/?utm_source=chatgpt.com)
+6. [Third Paris International Exposition of 1878](https://www.ndl.go.jp/exposition/e/s1/1878-2.html?utm_source=chatgpt.com)
+
+
+
+
+
+

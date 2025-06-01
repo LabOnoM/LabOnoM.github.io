@@ -15,7 +15,7 @@ tags:
   - Imaging
 ---
 
-<img src="https://visitor-badge.laobi.icu/badge?page_id=labonom.github.io/sources/Scientific_Integrity_and_Responsibility.html" alt="visitor badge"/> [![GitHub](https://img.shields.io/badge/GitHub-Profile-black?logo=github)](https://github.com/LabOnoM)
+<img src="https://visitor-badge.laobi.icu/badge?page_id=https://labonom.github.io/journalclub/2025/06/01/journal-club-glycorna-imaging.en.html" alt="visitor badge"/> [![GitHub](https://img.shields.io/badge/GitHub-Profile-black?logo=github)](https://github.com/LabOnoM)
 
 ## Background
 

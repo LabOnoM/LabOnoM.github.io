@@ -12,7 +12,7 @@ article_header:
     src: /img/Post/2025/LogoDesign.svg
 ---
 
-<img src="https://visitor-badge.laobi.icu/badge?page_id=labonom.github.io/sources/Scientific_Integrity_and_Responsibility.html" alt="visitor badge"/> [![GitHub](https://img.shields.io/badge/GitHub-Profile-black?logo=github)](https://github.com/LabOnoM)
+<img src="https://visitor-badge.laobi.icu/badge?page_id=https://labonom.github.io/2025/05/30/about-our-logo.html" alt="visitor badge"/> [![GitHub](https://img.shields.io/badge/GitHub-Profile-black?logo=github)](https://github.com/LabOnoM)
 
 # ロゴを超えて：BSGOU新エンブレムに込めた物語と精神、そしてサイエンス ｜ 不止于标志：BSGOU新徽标背后的故事、精神与科学
 

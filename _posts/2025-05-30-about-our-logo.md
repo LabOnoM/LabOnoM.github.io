@@ -1,5 +1,5 @@
 ---
-title: More Than a Logo - The Story, Spirit, and Science Behind BSGOU's New Emblem
+title: 'More Than a Logo - The Story, Spirit, and Science Behind BSGOU\'s New Emblem'
 tags: BSGOU
 license: true
 aside:
@@ -95,3 +95,11 @@ Ultimately, our logo is more than a visual mark—it is a distillation of our sc
 <div style="text-align: right; font-style: italic; margin-top: 2em;">
   — Wang Ziyi <a href="https://github.com/wong-ziyi" target="_blank" style="color: #4078c0; text-decoration: none; font-weight: bold;">@wong-ziyi</a>
 </div>
+
+---
+
+Enjoyed this? Say hi in the comments, share it with a friend, and follow us for more quality content. Your support keeps the good stuff coming!
+
+楽しんでいただけましたか？コメントでひとこと、友達とシェア、そしてフォローもぜひお願いします！皆さんの応援が原動力です！
+
+喜欢这篇博文吗？欢迎评论区留言，转发给朋友，并关注我们获取更多精彩内容。你的支持是我们前进的动力！

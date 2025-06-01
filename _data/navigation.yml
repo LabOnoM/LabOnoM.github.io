@@ -8,7 +8,7 @@ header:
       zh-Hans : &ZH_HANS  文献研讨会
       en      : &EN       Journal Club
       ja      : &JA       抄読会
-    url:        /journalclub/
+    url:        /categories/journalclub/
   - titles:
       # @start locale config
       en      : &EN       Archive

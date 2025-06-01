@@ -19,9 +19,9 @@ tags:
 
 ## Background
 
-RNA modifications are well-documented contributors to post-transcriptional regulation. Among them, **glycoRNAs—RNAs** conjugated with glycans—are a recently described and poorly understood class of biomolecules. Initial evidence for their existence was reported in 2021 by Flynn et al., who detected glycosylated small RNAs ([Cell, 2021](https://pubmed.ncbi.nlm.nih.gov/34004145/)). However, due to a lack of suitable imaging methods, their precise cellular distribution and potential functional roles remained unclear.
+RNA modifications are well-documented contributors to post-transcriptional regulation. Among them, **glycoRNAs—RNAs** conjugated with glycans—are a recently described and poorly understood class of biomolecules. Initial evidence for their existence was reported in 2021 by Flynn et al., who detected glycosylated small RNAs ([Ryan, et al., Cell, 2021](https://pubmed.ncbi.nlm.nih.gov/34004145/)). However, due to a lack of suitable imaging methods, their precise cellular distribution and potential functional roles remained unclear.
 
-To address this, Ma et al. ([Nat Biotechnol, 2024](https://pubmed.ncbi.nlm.nih.gov/37217750/)) developed an in situ imaging method termed **ARPLA (Aptamer and RNA in situ hybridization-mediated Proximity Ligation Assay)**. This method aims to detect glycoRNAs with high spatial resolution, selectivity, and sequence specificity.
+To address this, Ma et al. ([Yuan Ma, et al., Nat Biotechnol, 2024](https://pubmed.ncbi.nlm.nih.gov/37217750/)) developed an in situ imaging method termed **ARPLA (Aptamer and RNA in situ hybridization-mediated Proximity Ligation Assay)**. This method aims to detect glycoRNAs with high spatial resolution, selectivity, and sequence specificity.
 
 ![Presentation1](https://github.com/user-attachments/assets/7935a319-751e-4d3d-b58d-95019ac5c971)
 
@@ -38,6 +38,43 @@ ARPLA combines two molecular recognition strategies:
 When both binding events occur in proximity, they enable ligation of two DNA arms via T4 DNA ligase. The resulting circular DNA serves as a template for **rolling circle amplification (RCA)**, producing repeated DNA sequences that can be visualized by hybridization with fluorophore-labeled oligonucleotides.
 
 This dual-recognition approach helps ensure that only RNAs bearing the specific glycan and matching sequence are amplified and visualized, enhancing both **specificity** and **signal-to-noise ratio**.
+
+### Background: Aptamers
+
+**Aptamers** are short, single-stranded DNA or RNA molecules that can fold into unique three-dimensional structures, enabling them to bind specific targets—such as proteins, small molecules, or even cells—with high affinity and specificity, functioning similarly to antibodies.
+
+#### Technical Origin
+
+The concept of aptamers emerged in 1990 through two independent studies:
+ - **Craig Tuerk** and **Larry Gold** introduced the SELEX (Systematic Evolution of Ligands by EXponential enrichment) method, demonstrating the selection of RNA sequences that bind to bacteriophage T4 DNA polymerase. ([C Tuerk, et al., Science, 1990](https://pubmed.ncbi.nlm.nih.gov/2200121/))
+ - **Andrew D. Ellington** and **Jack W. Szostak** described the in vitro selection of RNA molecules that bind specific ligands, coining the term "aptamer" (from Latin aptus, meaning "to fit"). ([A D Ellington, et al., Nature, 1990](https://pubmed.ncbi.nlm.nih.gov/1697402/))
+
+These pioneering studies established SELEX as a foundational technique for aptamer development.
+
+#### Natural Origin
+
+Aptamer-like structures also exist in nature. Riboswitches are structured RNA elements typically found in the untranslated regions of bacterial mRNAs. They bind small metabolites and regulate gene expression in response to cellular concentrations of these ligands. The aptamer domain of a riboswitch specifically recognizes the ligand, while the expression platform modulates gene expression. ([Leurin Flemmich, et al., Nat Commun, 2021](https://pubmed.ncbi.nlm.nih.gov/34162884/))
+
+The existence of riboswitches supports the RNA World Hypothesis, which posits that early life forms may have relied solely on RNA for both genetic information storage and catalytic functions. ([Kumari Kavita, et al., Trends Biochem Sci, 2022](https://pubmed.ncbi.nlm.nih.gov/36150954/))
+
+### Background: Rolling Circle Amplification (RCA)
+
+**Rolling Circle Amplification (RCA)** is an isothermal nucleic acid amplification technique that generates long single-stranded DNA or RNA molecules using a circular template and a strand-displacing DNA polymerase.
+
+#### Technical Origin
+
+RCA was developed in the mid-1990s as a method for amplifying circular DNA templates. A key enzyme in this process is phi29 DNA polymerase, derived from Bacillus subtilis phage phi29. This enzyme exhibits high processivity and strong strand displacement activity, making it ideal for RCA. ([Wikipeida](https://en.wikipedia.org/wiki/Rolling_circle_replication); [M Monsur Ali, et al., Chem Soc Rev, 2014](https://pubmed.ncbi.nlm.nih.gov/24643375/))
+
+RCA has been applied in various fields, including: ([phi29 DNA Polymerase, product webpage, Thermo Fisher](https://www.thermofisher.com/order/catalog/product/jp/en/EP0091))
+ - DNA biosensors
+ - Proximity ligation assays
+ - In situ hybridization
+
+Its isothermal nature allows for amplification without the need for thermal cycling, simplifying the required equipment.
+
+#### Natural Origin
+
+RCA is inspired by rolling circle replication (RCR), a natural mechanism used by various organisms to replicate circular DNA or RNA molecules. Examples include: Bacteriophages (e.g., φX174, M13), Plasmids, Viroids, and Some eukaryotic viruses. In RCA, a nick in the circular DNA initiates unidirectional replication, producing multiple copies of the genome in a continuous manner. ([Shuzhen Yue, et al., Trends Biotechnol, 2021](https://pubmed.ncbi.nlm.nih.gov/33715868/))
 
 ## Experimental Validation
 

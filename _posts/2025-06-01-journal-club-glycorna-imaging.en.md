@@ -1,5 +1,6 @@
 ---
 title: Spatial Visualization of GlycoRNAs via ARPLA - An Aptamer-Guided RCA Approach
+lang: en
 license: true
 aside:
   toc: true

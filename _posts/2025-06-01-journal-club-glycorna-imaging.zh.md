@@ -1,5 +1,5 @@
 ---
-title: '通过ARPLA实现GlycoRNA的空间可视化：一种由适配体引导的RCA方法'
+title: '通过ARPLA实现GlycoRNA的空间可视化：一种由核酸适配体引导的RCA方法'
 lang: zh
 hidden: true
 license: true
@@ -20,7 +20,7 @@ tags: 中文
 
 RNA修饰在转录后调控中发挥着重要作用。其中，**glycoRNA（糖化RNA）**，即与糖链共轭的RNA，是近年来被发现但仍未被充分理解的一类新型生物分子。Flynn 等人于2021年首次报道了其存在，并检测到糖基化的小RNA([Ryan, et al., Cell, 2021](https://pubmed.ncbi.nlm.nih.gov/34004145/))。然而，由于缺乏合适的成像方法，其在细胞中的具体分布和潜在功能仍不清楚。
 
-为了解决这一问题，Ma 等人开发了一种原位成像新技术，命名为 ARPLA（Aptamer and RNA in situ hybridization-mediated Proximity Ligation Assay，适配体与RNA原位杂交介导的近邻连接反应）。该方法旨在实现对glycoRNA的高空间分辨率、高选择性及序列特异性检测 ([Yuan Ma, et al., Nat Biotechnol, 2024](https://pubmed.ncbi.nlm.nih.gov/37217750/))。
+为了解决这一问题，Ma 等人开发了一种原位成像新技术，命名为 ARPLA（Aptamer and RNA in situ hybridization-mediated Proximity Ligation Assay，核酸适配体与RNA原位杂交介导的近邻连接反应）。该方法旨在实现对glycoRNA的高空间分辨率、高选择性及序列特异性检测 ([Yuan Ma, et al., Nat Biotechnol, 2024](https://pubmed.ncbi.nlm.nih.gov/37217750/))。
 
 ![Presentation1](https://github.com/user-attachments/assets/7935a319-751e-4d3d-b58d-95019ac5c971)
 
@@ -29,7 +29,7 @@ RNA修饰在转录后调控中发挥着重要作用。其中，**glycoRNA（糖�
 ## ARPLA 原理
 
 ARPLA整合了两种分子识别策略：
- - **基于核算适配体的糖链识别**：一种单链DNA适配体可选择性结合glycoRNA上常见的唾液酸残基；
+ - **基于核酸适配体的糖链识别**：一种单链DNA适配体可选择性结合glycoRNA上常见的唾液酸残基；
  - **RNA原位杂交（RISH）**：DNA探针与目标RNA序列发生杂交。
 
  ![Screenshot 2025-06-01 at 23 34 49](https://github.com/user-attachments/assets/83ad3ab8-35e0-458e-aaef-8b1a750c0cc8)
@@ -39,21 +39,21 @@ ARPLA整合了两种分子识别策略：
 
 这一双重识别策略可确保仅有同时具有特定糖链和序列的RNA才被扩增和成像，从而提高检测的**特异性**与**信噪比**。
 
-### 背景介绍：核算适配体
+### 背景介绍：核酸适配体
 
-**核算适配体（Aptamer）**是短的单链DNA或RNA分子，能够折叠形成特定的三维结构，从而以高亲和力和高特异性结合目标分子，如蛋白质、小分子，甚至是细胞。功能上类似于抗体。
+**核酸适配体（Aptamer）**是短的单链DNA或RNA分子，能够折叠形成特定的三维结构，从而以高亲和力和高特异性结合目标分子，如蛋白质、小分子，甚至是细胞。功能上类似于抗体。
 
 #### 技术来源
 
-核算适配体的概念始于1990年，两项独立研究奠定了其基础：
+核酸适配体的概念始于1990年，两项独立研究奠定了其基础：
 - **Craig Tuerk** 和 **Larry Gold** 首次提出了SELEX（系统进化筛选）技术，展示了可选择与噬菌体T4 DNA聚合酶结合的RNA序列 ([C Tuerk, et al., Science, 1990](https://pubmed.ncbi.nlm.nih.gov/2200121/))；
- - **Andrew D. Ellington** 和 **Jack W. Szostak** 采用类似的方法筛选能够与有机染料结合的RNA分子。他们创造了“aptamer（适配体）”这一术语，来源于拉丁语“aptus”（适合）和希腊语“meros”（部分），用以描述这类核酸适配体 ([A D Ellington, et al., Nature, 1990](https://pubmed.ncbi.nlm.nih.gov/1697402/))。
+ - **Andrew D. Ellington** 和 **Jack W. Szostak** 采用类似的方法筛选能够与有机染料结合的RNA分子。他们创造了“Aptamer（核酸适配体）”这一术语，来源于拉丁语“aptus”（适合）和希腊语“meros”（部分），用以描述这类核酸适配体 ([A D Ellington, et al., Nature, 1990](https://pubmed.ncbi.nlm.nih.gov/1697402/))。
 
-这两项开创性研究奠定了适配体筛选的基础技术——SELEX。
+这两项开创性研究奠定了核酸适配体筛选的基础技术——SELEX。
 
 #### 自然来源
 
-自然界中也存在类似核算适配体结构的RNA，称为核糖开关（Riboswitch）。它们通常存在于细菌mRNA的非翻译区，可结合小分子代谢物，并根据其浓度调控基因表达。其中，核算适配体结构域负责识别配体，而表达平台则调控下游基因表达 ([Leurin Flemmich, et al., Nat Commun, 2021](https://pubmed.ncbi.nlm.nih.gov/34162884/))。
+自然界中也存在类似核酸适配体结构的RNA，称为核糖开关（Riboswitch）。它们通常存在于细菌mRNA的非翻译区，可结合小分子代谢物，并根据其浓度调控基因表达。其中，核酸适配体结构域负责识别配体，而表达平台则调控下游基因表达 ([Leurin Flemmich, et al., Nat Commun, 2021](https://pubmed.ncbi.nlm.nih.gov/34162884/))。
 
 核糖开关的存在也支持“RNA世界假说”（RNA World Hypothesis），即生命早期可能完全依赖RNA进行遗传信息的储存和催化功能 ([Kumari Kavita, et al., Trends Biochem Sci, 2022](https://pubmed.ncbi.nlm.nih.gov/36150954/))。
 
@@ -78,9 +78,9 @@ RCA技术的灵感来自于自然界中的滚环复制（RCR），被用于复�
 
 ## 实验验证
 
-作者使用HeLa细胞模型验证了ARPLA方法。若缺失任一关键组分（核算适配体、RISH探针、连接臂），信号强度显著下降。此外，酶解或药物处理去除糖链（如PNGase-F、神经氨酸酶、kifunensine）或RNA片段（RNase A/T1）均可导致信号丧失，证明该方法对完整glycoRNA的依赖性。
+作者使用HeLa细胞模型验证了ARPLA方法。若缺失任一关键组分（核酸适配体、RISH探针、连接臂），信号强度显著下降。此外，酶解或药物处理去除糖链（如PNGase-F、神经氨酸酶、kifunensine）或RNA片段（RNase A/T1）均可导致信号丧失，证明该方法对完整glycoRNA的依赖性。
 
-所用核算适配体为Neu5Ac结合型DNA适配体，通过等温滴定量热法（ITC）测得其解离常数Kd约为91 nM，表明其具有良好的结合亲和力。使用无序适配体或识别不同糖链（如Tn抗原、GalNAc）的适配体均未产生明显信号。
+所用核酸适配体为Neu5Ac结合型DNA适配体，通过等温滴定量热法（ITC）测得其解离常数Kd约为91 nM，表明其具有良好的结合亲和力。使用无序适配体或识别不同糖链（如Tn抗原、GalNAc）的核酸适配体均未产生明显信号。
 
 ### 不同GlycoRNA与细胞类型中的应用
 
@@ -122,7 +122,7 @@ ARPLA成功检测了几种glycoRNA，包括：
 
 ## 总结
 
-ARPLA结合了适配体识别糖链与RNA序列杂交，技术路线严谨，为glycoRNA的成像分析提供了新工具，尤其在肿瘤与免疫研究中具有广泛前景。未来可通过优化探针设计与成像灵敏度进一步提升其应用价值。
+ARPLA结合了核酸适配体识别糖链与RNA序列杂交，技术路线严谨，为glycoRNA的成像分析提供了新工具，尤其在肿瘤与免疫研究中具有广泛前景。未来可通过优化探针设计与成像灵敏度进一步提升其应用价值。
 
 <div style="text-align: right; font-style: italic; margin-top: 2em;">
      —— 由翁瑶于文献研讨会中介绍 <a href="https://github.com/weng-yao" target="_blank" style="color: #4078c0; text-decoration: none; font-weight: bold;">@weng-yao</a>

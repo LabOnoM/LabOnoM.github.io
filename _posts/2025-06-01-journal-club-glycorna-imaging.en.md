@@ -48,16 +48,16 @@ This dual-recognition approach helps ensure that only RNAs bearing the specific 
 #### Technical Origin
 
 The concept of aptamers emerged in 1990 through two independent studies:
- - **Craig Tuerk** and **Larry Gold** introduced the SELEX (Systematic Evolution of Ligands by EXponential enrichment) method, demonstrating the selection of RNA sequences that bind to bacteriophage T4 DNA polymerase. ([C Tuerk, et al., Science, 1990](https://pubmed.ncbi.nlm.nih.gov/2200121/))
- - **Andrew D. Ellington** and **Jack W. Szostak** described the in vitro selection of RNA molecules that bind specific ligands, coining the term "aptamer" (from Latin aptus, meaning "to fit"). ([A D Ellington, et al., Nature, 1990](https://pubmed.ncbi.nlm.nih.gov/1697402/))
+ - **Craig Tuerk** and **Larry Gold** introduced the SELEX (Systematic Evolution of Ligands by EXponential enrichment) method, demonstrating the selection of RNA sequences that bind to bacteriophage T4 DNA polymerase ([C Tuerk, et al., Science, 1990](https://pubmed.ncbi.nlm.nih.gov/2200121/)).
+ - **Andrew D. Ellington** and **Jack W. Szostak** used a similar approach to select RNA molecules binding to organic dyes. They coined the term "aptamer", derived from the Latin "aptus" (to fit) and Greek "meros" (part), to describe these nucleic acid ligands ([A D Ellington, et al., Nature, 1990](https://pubmed.ncbi.nlm.nih.gov/1697402/)).
 
 These pioneering studies established SELEX as a foundational technique for aptamer development.
 
 #### Natural Origin
 
-Aptamer-like structures also exist in nature. Riboswitches are structured RNA elements typically found in the untranslated regions of bacterial mRNAs. They bind small metabolites and regulate gene expression in response to cellular concentrations of these ligands. The aptamer domain of a riboswitch specifically recognizes the ligand, while the expression platform modulates gene expression. ([Leurin Flemmich, et al., Nat Commun, 2021](https://pubmed.ncbi.nlm.nih.gov/34162884/))
+Aptamer-like structures also exist in nature. Riboswitches are structured RNA elements typically found in the untranslated regions of bacterial mRNAs. They bind small metabolites and regulate gene expression in response to cellular concentrations of these ligands. The aptamer domain of a riboswitch specifically recognizes the ligand, while the expression platform modulates gene expression ([Leurin Flemmich, et al., Nat Commun, 2021](https://pubmed.ncbi.nlm.nih.gov/34162884/)).
 
-The existence of riboswitches supports the RNA World Hypothesis, which posits that early life forms may have relied solely on RNA for both genetic information storage and catalytic functions. ([Kumari Kavita, et al., Trends Biochem Sci, 2022](https://pubmed.ncbi.nlm.nih.gov/36150954/))
+The existence of riboswitches supports the RNA World Hypothesis, which posits that early life forms may have relied solely on RNA for both genetic information storage and catalytic functions ([Kumari Kavita, et al., Trends Biochem Sci, 2022](https://pubmed.ncbi.nlm.nih.gov/36150954/)).
 
 ### Background: Rolling Circle Amplification (RCA)
 
@@ -65,7 +65,7 @@ The existence of riboswitches supports the RNA World Hypothesis, which posits th
 
 #### Technical Origin
 
-RCA was developed in the mid-1990s as a method for amplifying circular DNA templates. A key enzyme in this process is phi29 DNA polymerase, derived from Bacillus subtilis phage phi29. This enzyme exhibits high processivity and strong strand displacement activity, making it ideal for RCA. ([Wikipeida](https://en.wikipedia.org/wiki/Rolling_circle_replication); [M Monsur Ali, et al., Chem Soc Rev, 2014](https://pubmed.ncbi.nlm.nih.gov/24643375/))
+RCA was developed in the mid-1990s as a method for amplifying circular DNA templates. A key enzyme in this process is phi29 DNA polymerase, derived from Bacillus subtilis phage phi29. This enzyme exhibits high processivity and strong strand displacement activity, making it ideal for RCA ([Wikipeida](https://en.wikipedia.org/wiki/Rolling_circle_replication); [M Monsur Ali, et al., Chem Soc Rev, 2014](https://pubmed.ncbi.nlm.nih.gov/24643375/)).
 
 RCA has been applied in various fields, including: ([phi29 DNA Polymerase, product webpage, Thermo Fisher](https://www.thermofisher.com/order/catalog/product/jp/en/EP0091))
  - DNA biosensors
@@ -76,7 +76,7 @@ Its isothermal nature allows for amplification without the need for thermal cycl
 
 #### Natural Origin
 
-RCA is inspired by rolling circle replication (RCR), a natural mechanism used by various organisms to replicate circular DNA or RNA molecules. Examples include: Bacteriophages (e.g., φX174, M13), Plasmids, Viroids, and Some eukaryotic viruses. In RCA, a nick in the circular DNA initiates unidirectional replication, producing multiple copies of the genome in a continuous manner. ([Shuzhen Yue, et al., Trends Biotechnol, 2021](https://pubmed.ncbi.nlm.nih.gov/33715868/))
+RCA is inspired by rolling circle replication (RCR), a natural mechanism used by various organisms to replicate circular DNA or RNA molecules. Examples include: Bacteriophages (e.g., φX174, M13), Plasmids, Viroids, and Some eukaryotic viruses. In RCA, a nick in the circular DNA initiates unidirectional replication, producing multiple copies of the genome in a continuous manner ([Shuzhen Yue, et al., Trends Biotechnol, 2021](https://pubmed.ncbi.nlm.nih.gov/33715868/)).
 
 ## Experimental Validation
 
@@ -84,7 +84,7 @@ The authors validated ARPLA using HeLa cells as a model. Removal of any key comp
 
 The aptamer used (Neu5Ac-binding DNA aptamer) showed a dissociation constant (Kd) of ~91 nM by ITC, supporting its affinity for sialic acid. Control experiments using scrambled aptamers or unrelated glycan aptamers (e.g., Tn antigen, GalNAc) produced negligible signals.
 
-## Application to Different GlycoRNAs and Cell Types
+### Application to Different GlycoRNAs and Cell Types
 
 ARPLA was applied to detect several glycoRNAs, including:
  - **U1 snRNA:** involved in splicing, primarily nuclear
@@ -93,15 +93,15 @@ ARPLA was applied to detect several glycoRNAs, including:
 
 These targets were selected to represent different RNA classes and subcellular localizations. ARPLA successfully detected their membrane-associated glycoRNA forms in multiple cell lines (HeLa, SH-SY5Y, PANC-1, HEK293T), suggesting method generalizability.
 
-## Subcellular Localization and Intracellular Trafficking
+### Subcellular Localization and Intracellular Trafficking
 
 Confocal microscopy revealed that glycoRNAs are enriched in **lipid raft microdomains**, as shown by colocalization with CT-B (cholera toxin B subunit) and ganglioside GM1. Additionally, glycoRNAs colocalized with SNARE proteins (TSNARE1 and VTI1B), suggesting possible involvement in **vesicle-mediated exocytosis**.
 
 These observations support a model in which certain glycoRNAs are trafficked to the plasma membrane via secretory vesicles.
 
-## ARPLA in Cancer and Immune Cell Models
+### ARPLA in Cancer and Immune Cell Models
 
-### Cancer Progression
+#### Cancer Progression
 
 The authors applied ARPLA to breast cancer cell lines representing different stages of malignancy:
  - MCF-10A (non-tumorigenic)
@@ -110,7 +110,7 @@ The authors applied ARPLA to breast cancer cell lines representing different sta
 
 ARPLA signal intensity for U1, U35a, and Y5 glycoRNAs decreased with increasing malignancy. Notably, this trend contrasts with the observed **hypersialylation** in cancer cells, suggesting that glycoRNAs and protein glycosylation may be regulated independently.
 
-### Immune Activation
+#### Immune Activation
 
 In THP-1 monocytes undergoing PMA-induced differentiation to macrophages, glycoRNA levels decreased. However, LPS activation of macrophages led to re-elevation of glycoRNA signal, indicating dynamic regulation during immune response. RNase treatment reduced cell adhesion to endothelial layers, suggesting a possible role for glycoRNAs in **immune cell–endothelium interactions**.
 

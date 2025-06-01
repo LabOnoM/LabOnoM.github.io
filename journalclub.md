@@ -11,5 +11,3 @@ articles:
   show_info: true
   excerpt_type: html
 ---
-
-<p>Welcome to our Journal Club posts! Here we present selected papers discussed in our reading group.</p>

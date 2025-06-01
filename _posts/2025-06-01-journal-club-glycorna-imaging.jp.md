@@ -11,7 +11,7 @@ pageview: true
 
 <img src="https://visitor-badge.laobi.icu/badge?page_id=https://labonom.github.io/journalclub/2025/06/01/journal-club-glycorna-imaging.zh.html" alt="visitor badge"/> [![GitHub](https://img.shields.io/badge/GitHub-Profile-black?logo=github)](https://github.com/LabOnoM)
 
-🌐 Other languages: [English](https://labonom.github.io/journalclub/2025/06/01/journal-club-glycorna-imaging.en.html) | [日本語](https://labonom.github.io/journalclub/2025/06/01/journal-club-glycorna-imaging.jp.html) | [中文](https://labonom.github.io/journalclub/2025/06/01/journal-club-glycorna-imaging.zh.html) |
+🌐 Other languages: [English](https://labonom.github.io/journalclub/2025/06/01/journal-club-glycorna-imaging.en.html){:.button.button--primary.button--rounded.button--xs} [日本語](https://labonom.github.io/2025/06/01/journal-club-glycorna-imaging.jp.html){:.button.button--primary.button--rounded.button--xs} [中文](https://labonom.github.io/2025/06/01/journal-club-glycorna-imaging.zh.html){:.button.button--primary.button--rounded.button--xs}
 
 > 以下の内容は、英語の原文をもとに ChatGPT により自動翻訳されたものです。専門用語の正確さと表現の明瞭さに配慮しておりますが、参考用としてご利用ください。
 

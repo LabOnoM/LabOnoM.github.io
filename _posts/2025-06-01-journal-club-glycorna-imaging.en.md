@@ -17,6 +17,8 @@ tags:
 
 <img src="https://visitor-badge.laobi.icu/badge?page_id=https://labonom.github.io/journalclub/2025/06/01/journal-club-glycorna-imaging.en.html" alt="visitor badge"/> [![GitHub](https://img.shields.io/badge/GitHub-Profile-black?logo=github)](https://github.com/LabOnoM)
 
+🌐 Other languages: [中文]({{ "/2025/06/01/journal-club-glycorna-imaging.zh.html" | relative_url }}) |
+
 ## Background
 
 RNA modifications are well-documented contributors to post-transcriptional regulation. Among them, **glycoRNAs—RNAs** conjugated with glycans—are a recently described and poorly understood class of biomolecules. Initial evidence for their existence was reported in 2021 by Flynn et al., who detected glycosylated small RNAs ([Ryan, et al., Cell, 2021](https://pubmed.ncbi.nlm.nih.gov/34004145/)). However, due to a lack of suitable imaging methods, their precise cellular distribution and potential functional roles remained unclear.

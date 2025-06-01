@@ -1,6 +1,6 @@
 ---
-title: '通过ARPLA实现GlycoRNA的空间可视化：一种由适配体引导的RCA方法'
-lang: zh
+title: 'ARPLAによるGlycoRNAの空間可視化：アプタマー誘導型RCAアプローチ'
+lang: jp
 hidden: true
 license: true
 aside:

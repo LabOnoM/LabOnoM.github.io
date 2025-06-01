@@ -1,7 +1,6 @@
 ---
 title: '通过ARPLA实现GlycoRNA的空间可视化：一种由适配体引导的RCA方法'
-lang: en
-categories: journalclub
+lang: zh
 hidden: true
 license: true
 aside:
@@ -12,7 +11,9 @@ pageview: true
 
 <img src="https://visitor-badge.laobi.icu/badge?page_id=https://labonom.github.io/journalclub/2025/06/01/journal-club-glycorna-imaging.zh.html" alt="visitor badge"/> [![GitHub](https://img.shields.io/badge/GitHub-Profile-black?logo=github)](https://github.com/LabOnoM)
 
-🌐 Other languages: [English]({{ "/2025/06/01/journal-club-glycorna-imaging.en.html" | relative_url }}) |
+🌐 Other languages: [English](https://labonom.github.io/journalclub/2025/06/01/journal-club-glycorna-imaging.en.html) | [日本語](https://labonom.github.io/journalclub/2025/06/01/journal-club-glycorna-imaging.jp.html) | [中文](https://labonom.github.io/journalclub/2025/06/01/journal-club-glycorna-imaging.zh.html) |
+
+> 以下内容由 ChatGPT 根据英文原文自动翻译，已尽量保持术语准确性和表达清晰度，供参考。
 
 # 背景
 

@@ -1,5 +1,5 @@
 ---
-title: Spatial Visualization of GlycoRNAs via ARPLA - An Aptamer-Guided RCA Approach
+title: 'Spatial Visualization of GlycoRNAs via ARPLA: An Aptamer-Guided RCA Approach'
 lang: en
 categories: journalclub
 license: true
@@ -14,7 +14,6 @@ tags:
   - Rolling Circle Amplification
   - Imaging
 ---
-# Spatial Visualization of GlycoRNAs via ARPLA: An Aptamer-Guided RCA Approach
 
 ## Background
 

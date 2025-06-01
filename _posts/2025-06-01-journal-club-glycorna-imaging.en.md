@@ -70,7 +70,7 @@ The authors applied ARPLA to breast cancer cell lines representing different sta
 
 ARPLA signal intensity for U1, U35a, and Y5 glycoRNAs decreased with increasing malignancy. Notably, this trend contrasts with the observed **hypersialylation** in cancer cells, suggesting that glycoRNAs and protein glycosylation may be regulated independently.
 
-## Immune Differentiation and Activation
+### Immune Activation
 
 In THP-1 monocytes undergoing PMA-induced differentiation to macrophages, glycoRNA levels decreased. However, LPS activation of macrophages led to re-elevation of glycoRNA signal, indicating dynamic regulation during immune response. RNase treatment reduced cell adhesion to endothelial layers, suggesting a possible role for glycoRNAs in **immune cell–endothelium interactions**.
 
@@ -89,3 +89,7 @@ ARPLA represents a technically sound advancement in glycoRNA imaging by integrat
 <div style="text-align: right; font-style: italic; margin-top: 2em;">
   — Presented in Journal Club by WENG Yao <a href="https://github.com/weng-yao" target="_blank" style="color: #4078c0; text-decoration: none; font-weight: bold;">@weng-yao</a>
 </div>
+
+---
+
+If you found this helpful, feel free to comment, share, and follow for more. Your support encourages us to keep creating quality content.

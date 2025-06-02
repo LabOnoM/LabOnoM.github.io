@@ -1,4 +1,6 @@
 theme: jekyll-theme-minimal
+include:
+  - sitemap.xml
 
 # Welcome to Jekyll!
 #

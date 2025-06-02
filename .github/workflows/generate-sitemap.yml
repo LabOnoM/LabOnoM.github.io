@@ -20,6 +20,9 @@ jobs:
       uses: cicirello/generate-sitemap@v1
       with:
         base-url-path: https://labonom.github.io/
+        exclude-paths: >
+          /css 
+          /img
 
     - name: Output stats
       run: |

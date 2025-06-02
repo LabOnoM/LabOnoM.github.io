@@ -28,6 +28,7 @@ jobs:
           /css/fancybox/fancy_loading.html
           /css/fancybox/
           /img/
+          /_includes/
 
     - name: Output stats
       run: |

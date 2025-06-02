@@ -22,6 +22,11 @@ jobs:
         base-url-path: https://labonom.github.io/
         exclude-paths: >
           /css/
+          /css/fancybox/fancy_title_over.html
+          /css/fancy_title_over.html
+          /css/fancybox/fancy_close.html
+          /css/fancybox/fancy_loading.html
+          /css/fancybox/
           /img/
 
     - name: Output stats

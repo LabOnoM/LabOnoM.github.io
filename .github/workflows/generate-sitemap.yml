@@ -20,7 +20,6 @@ jobs:
       uses: cicirello/generate-sitemap@v1
       with:
         base-url-path: https://labonom.github.io/
-        sitemap-path: assets/sitemap.xml
         exclude-paths: >
           /css/
           /css/fancybox/fancy_title_over.html

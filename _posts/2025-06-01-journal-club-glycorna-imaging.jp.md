@@ -10,7 +10,7 @@ pageview: true
 tags: 日本語
 ---
 
-<img src="https://visitor-badge.laobi.icu/badge?page_id=https://labonom.github.io/journalclub/2025/06/01/journal-club-glycorna-imaging.zh.html" alt="visitor badge"/> [![GitHub](https://img.shields.io/badge/GitHub-Profile-black?logo=github)](https://github.com/LabOnoM)
+<img src="https://visitor-badge.laobi.icu/badge?page_id=https://labonom.github.io/journalclub/2025/06/01/journal-club-glycorna-imaging.jp.html" alt="visitor badge"/> [![GitHub](https://img.shields.io/badge/GitHub-Profile-black?logo=github)](https://github.com/LabOnoM)
 
 🌐 Other languages: [English](https://labonom.github.io/journalclub/2025/06/01/journal-club-glycorna-imaging.en.html){:.button.button--primary.button--rounded.button--xs} [日本語](https://labonom.github.io/2025/06/01/journal-club-glycorna-imaging.jp.html){:.button.button--primary.button--rounded.button--xs} [中文](https://labonom.github.io/2025/06/01/journal-club-glycorna-imaging.zh.html){:.button.button--primary.button--rounded.button--xs}
 

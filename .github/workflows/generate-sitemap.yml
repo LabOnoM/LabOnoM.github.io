@@ -21,8 +21,8 @@ jobs:
       with:
         base-url-path: https://labonom.github.io/
         exclude-paths: >
-          /css 
-          /img
+          /css/
+          /img/
 
     - name: Output stats
       run: |

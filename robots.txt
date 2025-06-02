@@ -1,4 +1,8 @@
 User-agent: *
+Disallow: /_includes/
+Disallow: /_layouts/
+Disallow: /_data/
+Disallow: /_sass/
 Disallow: /css/
 Disallow: /img/
 Sitemap: https://labonom.github.io/sitemap.xml

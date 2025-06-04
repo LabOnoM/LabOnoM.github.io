@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2025-05-30-about-our-logo.md",
+                "file": "2025-06-08-zebrafish-history.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-05-30-about-our-logo"
+              "title": "2025-06-08-zebrafish-history"
             }
           }
         ]
@@ -165,14 +165,16 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "obsidian-git:Open Git source control": false
     }
   },
   "active": "410b3debed347dce",
   "lastOpenFiles": [
-    "2025-06-08-zebrafish-history.md",
-    "2025-05-30-about-our-logo.md",
     "2025-06-01-journal-club-glycorna-imaging.jp.md",
-    "2025-06-01-journal-club-glycorna-imaging.zh.md"
+    "2025-06-01-journal-club-glycorna-imaging.zh.md",
+    "2025-06-08-zebrafish-history.md",
+    "2025-06-01-journal-club-glycorna-imaging.en.md",
+    "2025-05-30-about-our-logo.md"
   ]
 }

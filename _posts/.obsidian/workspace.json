@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "aa350fc48156729b",
+        "id": "331a0604f63cda11",
         "type": "tabs",
         "children": [
           {
-            "id": "079aad0507c2bfda",
+            "id": "ef7c23d562e64657",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -169,13 +169,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "079aad0507c2bfda",
+  "active": "ef7c23d562e64657",
   "lastOpenFiles": [
     "2025-06-08-how-to-encode-barcode-in-stereo-seq.md",
+    "2025-06-01-journal-club-glycorna-imaging.zh.md",
     "2025-06-09-zebrafish-history.md",
     "2025-06-01-journal-club-glycorna-imaging.en.md",
     "2025-05-30-about-our-logo.md",
-    "2025-06-01-journal-club-glycorna-imaging.jp.md",
-    "2025-06-01-journal-club-glycorna-imaging.zh.md"
+    "2025-06-01-journal-club-glycorna-imaging.jp.md"
   ]
 }

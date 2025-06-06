@@ -97,3 +97,5 @@ $$\frac{\cancel{Geometric\_Mean}[Sample]}{Arithmetic\_Mean[\cancel{Geometric\_Me
 
   - Because of eq.(1):
 $$2^{-(\Delta C_{T,X_i} - \overline{\Delta C_{T,C}})} = 2^{-(\Delta C_{T,X_i} - \frac{1}{n} \sum_{i=1}^n \Delta C_{T,C_i})} = 2^{-\Delta C_{T,X_i}} \div 2^{\frac{1}{n} \sum_{i=1}^n \Delta C_{T,C_i}}$$
+
+## References

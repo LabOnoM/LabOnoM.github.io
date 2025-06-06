@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "331a0604f63cda11",
+        "id": "aa350fc48156729b",
         "type": "tabs",
         "children": [
           {
-            "id": "ec83f337b16e7886",
+            "id": "079aad0507c2bfda",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -169,12 +169,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ec83f337b16e7886",
+  "active": "079aad0507c2bfda",
   "lastOpenFiles": [
-    "2025-06-09-zebrafish-history.md",
-    "2025-06-10-shall-we-use-geometric-mean.md",
     "2025-06-08-how-to-encode-barcode-in-stereo-seq.md",
+    "2025-06-10-shall-we-use-geometric-mean.md",
     "2025-06-01-journal-club-glycorna-imaging.zh.md",
+    "2025-06-09-zebrafish-history.md",
     "2025-06-01-journal-club-glycorna-imaging.en.md",
     "2025-05-30-about-our-logo.md",
     "2025-06-01-journal-club-glycorna-imaging.jp.md"

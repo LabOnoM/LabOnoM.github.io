@@ -106,3 +106,10 @@ $$\frac{\cancel{Geometric\_Mean}[Sample]}{Arithmetic\_Mean[\cancel{Geometric\_Me
 $$2^{-(\Delta C_{T,X_i} - \overline{\Delta C_{T,C}})} = 2^{-(\Delta C_{T,X_i} - \frac{1}{n} \sum_{i=1}^n \Delta C_{T,C_i})} = 2^{-\Delta C_{T,X_i}} \div 2^{\frac{1}{n} \sum_{i=1}^n \Delta C_{T,C_i}}$$
 
 ## References
+ - [https://www.gene-quantification.de/](https://www.gene-quantification.de/)
+ - [Karlen Y, McNair A, Perseguers S, Mazza C, Mermod N. Statistical significance of quantitative PCR. BMC bioinformatics. 2007 Dec;8:1-6.](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-8-131#Sec14)
+ - [Vandesompele J, De Preter K, Pattyn F, Poppe B, Van Roy N, De Paepe A, Speleman F. Accurate normalization of real-time quantitative RT-PCR data by geometric averaging of multiple internal control genes. Genome biology. 2002 Jun;3:1-2.](https://genomebiology.biomedcentral.com/articles/10.1186/gb-2002-3-7-research0034#Abs1)
+ - [Nolan T, Hands RE, Bustin SA. Quantification of mRNA using real-time RT-PCR. Nature protocols. 2006 Aug;1(3):1559-82.](http://gene-quantification.org/nolan-hands-bustin-2006.pdf)
+ - [Pfaffl MW. A new mathematical model for relative quantification in real-time RT–PCR. Nucleic acids research. 2001 May 1;29(9):e45-.](https://academic.oup.com/nar/article/29/9/e45/2384081)
+ - [Yuan JS, Reed A, Chen F, Stewart CN. Statistical analysis of real-time PCR data. BMC bioinformatics. 2006 Dec;7:1-2.](https://link.springer.com/article/10.1186/1471-2105-7-85)
+ - [Rao X, Huang X, Zhou Z, Lin X. An improvement of the 2ˆ (–delta delta CT) method for quantitative real-time polymerase chain reaction data analysis. Biostatistics, bioinformatics and biomathematics. 2013 Aug;3(3):71.](https://pmc.ncbi.nlm.nih.gov/articles/PMC4280562/?utm_source=chatgpt.com)

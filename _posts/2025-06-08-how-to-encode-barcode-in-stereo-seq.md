@@ -71,3 +71,8 @@ install:
 export LD_LIBRARY_PATH=$CONDA_PREFIX/lib:$LD_LIBRARY_PATH
 ./ST_BarcodeMap-0.0.1 --in A02598A4.barcodeToPos.h5 --out barcodes.txt --action 3
 ```
+
+
+## References
+- [https://github.com/STOmics/ST_BarcodeMap/issues/2](https://github.com/STOmics/ST_BarcodeMap/issues/2)
+- [https://github.com/STOmics/ST_BarcodeMap](https://github.com/STOmics/ST_BarcodeMap)

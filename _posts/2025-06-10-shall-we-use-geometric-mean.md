@@ -11,8 +11,8 @@ tags:
   - Math
   - Statistics
 ---
-
-Let's denote the below notations:
+### Define notations
+Let's denote the following terms:
  - The PCR Cycles: $C$
  - The PCR Efficiency: $E$
  - The PCR Cycles at the threshold: subscript $T$
@@ -22,47 +22,54 @@ Let's denote the below notations:
  - The target interested **unknown** gene ($X$) in control group: subscript $c$
  - The sample index: $i$
  
- > **note:**  $X$ and $R$ are paired for each sample, as every sample includes both the target gene $X$ and the reference gene $R$.
+ > **note:**  Each sample contains both the target gene $X$ and the reference gene $R$, hence they are considered paired within each sample.
 
 Then, we make the following assumptions and definitions:
- - $(1 + E)$ is the PCR amplification base (often $\approx2$). For simplification, let's just use base of 2 for the PCR amplification based on the assumption that $E_X = E_R = E = 1$.
+ - $(1 + E)$ is the PCR amplification base (often $\approx2$). For simplicity, we assume ideal efficiency, i.e., $E_X = E_R = E = 1$.
  - $C_{T,R}$ is the **Threshold Cycle** ($C_{T}$) for the **reference ($R$)** gene in all samples (e.g., GAPDH, 18s, Beta-actin, etc.).
  - $C_{T,X}$ is the **Threshold Cycle** ($C_{T}$) for our interested **unknown** gene $X$ in all samples.
- - $\Delta C_{T,Q_{i}} = C_{T,X_{Q,i}} - C_{T,R_{Q,i}}$ in each **query ($Q$)** sample.
- - $\Delta C_{T,C_{i}} = C_{T,X_{C,i}} - C_{T,R_{C,i}}$ in each **control ($C$)** sample.
+ - The $\Delta C_T$ for the query sample $i$ is defined as: $\Delta C_{T,Q_{i}} = C_{T,X_{Q,i}} - C_{T,R_{Q,i}}$
+ - The $\Delta C_T$ for the control sample $i$ is defined as: $\Delta C_{T,C_{i}} = C_{T,X_{C,i}} - C_{T,R_{C,i}}$ 
  
- In the paper of [Livak & Schmittgen, 2001](https://pubmed.ncbi.nlm.nih.gov/11846609/), the calibrator was estimated by the mean $\Delta C_{T,X_c}$ of the **control ($c$)** group: 
+According to [Livak & Schmittgen, 2001](https://pubmed.ncbi.nlm.nih.gov/11846609/), the calibrator was estimated by the mean $\Delta C_{T,X_c}$ of the **control ($c$)** group: 
  $$\overline{\Delta C_{T,C}} = \frac{1}{n} \sum_{i=1}^n \Delta C_{T,C_i} \tag{1}$$
 Then, we can define:
  - $\Delta\Delta C_{T,X_i} = \Delta C_{T,X_i} - \overline{\Delta C_{T,C}} \tag{2}$
  - $\Delta\Delta C_{T,Q_i} = \Delta C_{T,Q_i} - \overline{\Delta C_{T,C}}$
  - $\Delta\Delta C_{T,C_i} = \Delta C_{T,C_i} - \overline{\Delta C_{T,C}}$
 
-Then, we can have the below equation:
+Then, we can express the observation from the previous electric spreadsheet using the following equation:
 $$2^{-\Delta C_{T,X_i}}\div\overline{2^{-\Delta C_{T,C}}} = 2^{-\Delta\Delta C_{T,X_i}}\div \overline{2^{-\Delta\Delta C_{T,C}}}\tag{2}$$
 Where:
  - $\overline{2^{-\Delta C_{T,C}}} = \frac{1}{n}\sum_{i=1}^{n} 2^{-\Delta C_{T,C_i}}$
  - $\overline{2^{-\Delta\Delta C_{T,C}}} = \frac{1}{n}\sum_{i=1}^{n} 2^{-\Delta\Delta C_{T,C_i}}$
 
-Let's first expand the upper part of the right side of eq.(2):
-  - Because of $\Delta\Delta C_{T,X_i} = \Delta C_{T,X_i} - \overline{\Delta C_{T,C}} \tag{2}$ :
+The **left-hand side** of Equation (2) describes a normalization process: first, the target gene expression ($X$) is normalized to the reference gene ($R$) within each sample; second, these normalized values are further normalized by the arithmetic mean of the control group’s $X/R$ values.
+
+The **right-hand side** of Equation (2) describes an additional normalization on the original $2^{-\Delta\Delta C_T}$ method: each $2^{-\Delta\Delta C_T}$​ value is additionally normalized by the mean of the control group’s $2^{-\Delta\Delta C_T}$​​ values.
+
+What we found in our calculation inside the electric spreadsheet is that these two normalization methods yield exactly the same results. In the following section, we will demonstrate that these two approaches are mathematically equivalent.
+### Derivation of Eq.(2)
+
+Let's first expand the upper part (numerator) of the right side of eq.(2):
+  - From the definition of $\Delta\Delta C_{T,X_i} = \Delta C_{T,X_i} - \overline{\Delta C_{T,C}} \tag{2}$ , we get:
 $$2^{-\Delta\Delta C_{T,X_i}} = 2^{-(\Delta C_{T,X_i} - \overline{\Delta C_{T,C}})} = \frac{2^{-\Delta C_{T,X_i}}}{2^{-\overline{\Delta C_{T,C}}}}$$
  
- Then, let's expand the lower part the right side of eq.(1):
+ Then, let's expand the lower part (denominator) of the right side of eq.(1):
   - Because of $\overline{2^{-\Delta\Delta C_{T,C}}} = \frac{1}{n}\sum_{i=1}^{n} 2^{-\Delta\Delta C_{T,Ci}}$ and $\Delta\Delta C_{T,C_i} = \Delta C_{T,C_i} - \overline{\Delta C_{T,C}}$:
 $$\overline{2^{-\Delta\Delta C_{T,C}}} = \frac{1}{n}\sum_{i=1}^{n} 2^{-\Delta\Delta C_{T,Ci}} = \frac{1}{n}\sum_{i=1}^{n} 2^{-(\Delta C_{T,C_i} - \overline{\Delta C_{T,C}})} = \frac{1}{n}\sum_{i=1}^{n} \frac{2^{-\Delta C_{T,C_i}}}{2^{-\overline{\Delta C_{T,C}}}} $$
  - Therefore:
 $$\frac{1}{n}\sum_{i=1}^{n} \frac{2^{-\Delta C_{T,C_i}}}{2^{-\overline{\Delta C_{T,C}}}} = \frac{\sum_{i=1}^{n} 2^{-\Delta C_{T,C_i}}}{n\cdot 2^{-\overline{\Delta C_{T,C}}}}$$
 
-Finally, 
+So the full expression becomes: 
 
 $$\frac{2^{-\Delta C_{T,X_i}}}{2^{-\overline{\Delta C_{T,C}}}} \div \frac{\sum_{i=1}^{n} 2^{-\Delta C_{T,C_i}}}{n\cdot 2^{-\overline{\Delta C_{T,C}}}} = \frac{2^{-\Delta C_{T,X_i}}}{\cancel{2^{-\overline{\Delta C_{T,C}}}}} \div \frac{\sum_{i=1}^{n} 2^{-\Delta C_{T,C_i}}}{n\cdot \cancel{2^{-\overline{\Delta C_{T,C}}}}} = \frac{2^{-\Delta C_{T,X_i}}}{\frac{1}{n} \sum_{i=1}^{n} 2^{-\Delta C_{T,C_i}}}$$
 
-Because of $\overline{2^{-\Delta C_{T,C}}} = \frac{1}{n}\sum_{i=1}^{n} 2^{-\Delta C_{T,C_i}}$ :
+Because of $\overline{2^{-\Delta C_{T,C}}} = \frac{1}{n}\sum_{i=1}^{n} 2^{-\Delta C_{T,C_i}}$ , we get:
 $$\frac{2^{-\Delta C_{T,X_i}}}{\frac{1}{n} \sum_{i=1}^{n} 2^{-\Delta C_{T,C_i}}} = \frac{2^{-\Delta C_{T,X_i}}}{\overline{2^{-\Delta C_{T,C}}}} = 2^{-\Delta C_{T,X_i}}\div\overline{2^{-\Delta C_{T,C}}} = left\ side\ of\ eq.(2)$$
 
 
-Looks wired, right? Then what happened in here? Why do we divide the $2^{-\Delta\Delta C_{T,X_i}}$ by the averaged $2^{-\Delta\Delta C_{T,C}}$ of control group results in the exact value as the same as when we divide the $2^{-\Delta C_{T,X_i}}$ by the average $2^{-\Delta C_{T,C}}$ ?
+Hence, the **left-hand side of equation (2)** is algebraically equal to its **right-hand side**, even though they originate from different forms. ooks wired, right? Then what happened in here? Why do we divide the $2^{-\Delta\Delta C_{T,X_i}}$ by the averaged $2^{-\Delta\Delta C_{T,C}}$ of control group results in the exact value as the same as when we divide the $2^{-\Delta C_{T,X_i}}$ by the average $2^{-\Delta C_{T,C}}$ ?
 
  OK, let's go back to the paper of [Livak & Schmittgen, 2001](https://pubmed.ncbi.nlm.nih.gov/11846609/) and check the its ref\[[Livak & Schmittgen, 2001](https://pubmed.ncbi.nlm.nih.gov/11846609/)\].eq.(8):
  $$\frac{X_{N,q}}{X_{N,cb}}=\frac{K\times(1+E)^{-\Delta C_{T,q}}}{K\times(1+E)^{-\Delta C_{T,cb}}}=(1+E)^{-\Delta\Delta C_T}$$

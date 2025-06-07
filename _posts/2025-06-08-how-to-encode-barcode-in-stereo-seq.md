@@ -32,7 +32,8 @@ The `A02598A4.barcodeToPos.h5` file does not contain actual ATGC sequences, and 
   
 It's pretty great, right? The AI also kindly provides me a python script for converting the CID numbers into the actual sequence:
 
-```Python
+{% highlight Python %}
+~~~ Python
 def cid_to_seq(cid_int):
     base4 = []
     for _ in range(25):
@@ -42,11 +43,12 @@ def cid_to_seq(cid_int):
     return ''.join(reversed(base4))
 
 print("25-mer:", cid_to_seq(cid_value))
-```
+~~~
+{% endhighlight %}
 
 In addition, AI backed its explanation with what seemed like credible references, as shown below:
 
-<img src="https://github.com/LabOnoM/LabOnoM.github.io/blob/458492bcb707287bc9a10767ca27b4b84daca13c/_posts/PostAttachedFiles/AI_Response_20250604.png" />
+![AI_Response_20250604](https://github.com/LabOnoM/LabOnoM.github.io/blob/458492bcb707287bc9a10767ca27b4b84daca13c/_posts/PostAttachedFiles/AI_Response_20250604.png)
 
 I was convinced by the AI’s explanation after briefly skimming the online resources it cited, including:
  - [https://db.cngb.org/stomics/assets/html/stereo.seq.html](https://db.cngb.org/stomics/assets/html/stereo.seq.html)

@@ -32,8 +32,8 @@ The `A02598A4.barcodeToPos.h5` file does not contain actual ATGC sequences, and 
   
 It's pretty great, right? The AI also kindly provides me a python script for converting the CID numbers into the actual sequence:
 
-{% highlight javascript linenos %}
-~~~ Python
+{% highlight Python linenos %}
+~~~Python
 def cid_to_seq(cid_int):
     base4 = []
     for _ in range(25):

@@ -119,10 +119,22 @@ There is **no match** between the AI's algorithm-derived 25-mer (`ACCGTTACCGGATG
 ## The More Artificial, the More Intelligent
 Feeling disheartened, I decided to give Google one more careful search—and that’s when I saw it:
 
+<img src="https://github.com/LabOnoM/LabOnoM.github.io/blob/f2121bbd2d5fe7d60386f5200c06899367894712/_posts/PostAttachedFiles/Github_Issue_20250604.png" />
 
+Well... that's life, isn't it?
 
-🟢 **`mamba` is a drop-in replacement for `conda`**, but drastically faster for solving.
+## Not end yet...
+Do you think it is over? No! My Linux environment do not meet the compile prerequisites of [ST_BarcodeMap](https://github.com/wong-ziyi/ST_BarcodeMap) below:
+- linux
+- gcc-8.2.0
+- boost >=1.73.0
+- zlib >=1.2.11
+- hdf5 >=1.10.7
 
+And after testing, we need boost\==1.73.0 not >1.73.0
+
+Then, I used conda with mamba to build an environment to meet there prerequisites:
+ > 🟢 **`mamba` is a drop-in replacement for `conda`**, but drastically faster for solving.
 ```bash 
 conda install mamba -n base -c conda-forge
 mamba create -n barcodeenv boost=1.73 hdf5=1.10.7 zlib=1.2.11 -c conda-forge
@@ -131,7 +143,7 @@ mamba install -c conda-forge gcc_linux-64 gxx_linux-64
 mamba install -c conda-forge boost=1.73
 ```
 
-
+However, the `makefile` of [ST_BarcodeMap](https://github.com/wong-ziyi/ST_BarcodeMap) does not support to use conda environment. So I have to modify its `makefile` as below:
 ```bash
 DIR_INC := ./inc
 DIR_SRC := ./src
@@ -173,12 +185,31 @@ install:
 	@echo "Installed."
 ```
 
+Now, I can happily compile the [ST_BarcodeMap](https://github.com/wong-ziyi/ST_BarcodeMap) finally:
 ```bash
 export LD_LIBRARY_PATH=$CONDA_PREFIX/lib:$LD_LIBRARY_PATH
+cd ST_BarcodeMap
+make
+```
+
+Finally, I got the actual ATGC sequence barcode for CID numbers.
+```bash
 ./ST_BarcodeMap-0.0.1 --in A02598A4.barcodeToPos.h5 --out barcodes.txt --action 3
 ```
 
+In the end, bioinformatics is still part biology, part informatics… and part "don’t blindly trust the robot."
 
+For the complete code and workflow related to my original goal, check out the entry  
+👉 **[Extract Tissue CIDs from Stereo-seq](https://www.bs-gou.com/DK.BeesGO/Dry/Software-Engineering/Extract-Tissue-CIDs-from-Stereo-seq)**  
+in our **BSGOU public wet/dry-lab notebooks** online.
+
+Happy debugging—and may your stereo-seq barcodes always decode correctly!
 ## References
+ - [https://db.cngb.org/stomics/assets/html/stereo.seq.html](https://db.cngb.org/stomics/assets/html/stereo.seq.html)
+ - [Chen A, Liao S, Cheng M, Ma K, Wu L, Lai Y, Qiu X, Yang J, Xu J, Hao S, Wang X. Spatiotemporal transcriptomic atlas of mouse organogenesis using DNA nanoball-patterned arrays. Cell. 2022 May 12;185(10):1777-92.](https://www.cell.com/cell/fulltext/S0092-8674(22)00399-3?dgcid=raven_jbs_etoc_email)
 - [https://github.com/STOmics/ST_BarcodeMap/issues/2](https://github.com/STOmics/ST_BarcodeMap/issues/2)
 - [https://github.com/STOmics/ST_BarcodeMap](https://github.com/STOmics/ST_BarcodeMap)
+
+---
+
+If you found this helpful, feel free to comment, share, and follow for more. Your support encourages us to keep creating quality content.

@@ -10,6 +10,11 @@ header:
       ja      : &JA       抄読会
     url:        /journalclub/
   - titles:
+      zh-Hans : &ZH_HANS  知识库
+      en      : &EN       Notebook
+      ja      : &JA       ノートブック
+    url:        https://www.bs-gou.com/DK.BeesGO/
+  - titles:
       # @start locale config
       en      : &EN       Archive
       zh-Hans : &ZH_HANS  归档

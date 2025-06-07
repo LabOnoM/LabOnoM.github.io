@@ -33,7 +33,7 @@ The `A02598A4.barcodeToPos.h5` file does not contain actual ATGC sequences, and 
 It's pretty great, right? The AI also kindly provides me a python script for converting the CID numbers into the actual sequence:
 
 {% highlight Python linenos %}
-~~~Python
+```Python
 def cid_to_seq(cid_int):
     base4 = []
     for _ in range(25):
@@ -43,7 +43,7 @@ def cid_to_seq(cid_int):
     return ''.join(reversed(base4))
 
 print("25-mer:", cid_to_seq(cid_value))
-~~~
+```
 {% endhighlight %}
 
 In addition, AI backed its explanation with what seemed like credible references, as shown below:

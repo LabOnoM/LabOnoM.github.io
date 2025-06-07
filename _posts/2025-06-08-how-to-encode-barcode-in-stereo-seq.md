@@ -12,7 +12,66 @@ tags:
 ---
 <img src="https://visitor-badge.laobi.icu/badge?page_id=https://labonom.github.io/2025/06/08/how-to-encode-barcode-in-stereo-seq.html" alt="visitor badge"/> [![GitHub](https://img.shields.io/badge/GitHub-Profile-black?logo=github)](https://github.com/LabOnoM)
 
-I had made a silly story in this week.
+I made a silly story this week...
+
+<!--more-->
+
+## Background
+I wanted to extract only the reads located *within* the tissue to reduce the FASTQ file size for running [CARLIN](https://gitlab.com/hormozlab/carlin) analysis. These days, I rely heavily on AI. And this time, AI seriously misled me and wasted a lot of my time. Here's what happened.
+
+## AI-explanations 
+The `A02598A4.barcodeToPos.h5` file does not contain actual ATGC sequences, and I couldn’t find any documentation online about how to convert CID numbers into actual DNA barcodes. So, I turned to AI for help. AI responded:
+  > **Your integer CIDs** are a compact representation of the CID DNA barcode. To use them for read filtering, you must **convert the integer to the DNA sequence** (typically 25 bases for Stereo-seq Bin50/100).
+  > ## **How the Encoding Works**
+  > - The integer is a **base-4 encoding** of the 25bp DNA CID barcode.  
+  > - A=0, C=1, G=2, T=3 (least significant base is at the end).  
+  > - You can convert any integer CID to its corresponding DNA sequence using a small script.
+  
+It's pretty great, right? The AI also kindly provides me a python script for converting the CID numbers into the actual sequence:
+```Python
+def cid_to_seq(cid_int):
+    base4 = []
+    for _ in range(25):
+        base = cid_int % 4
+        base4.append("ACGT"[base])
+        cid_int //= 4
+    return ''.join(reversed(base4))
+
+print("25-mer:", cid_to_seq(cid_value))
+```
+
+In addition, AI backed its explanation with what seemed like credible references, as shown below:
+
+![[AI_Response_20250604.png]]
+
+## Verification of the CID2ATGC convert algorithm.
+
+Let's use the example below
+
+```
+Read name = E150018299L1C036R00400117279  
+Read length = 100bp  
+Flags = 0  
+----------------------  
+Mapping = Primary @ MAPQ 255  
+Reference span = chr3:129,504,132-129,504,231 (+) = 100bp  
+Cigar = 100M  
+Clipping = None  
+----------------------  
+XF = 4  
+NH = 1  
+HI = 1  
+nM = 0  
+UR = 6B507  
+AS = 98  
+Cx = 6518  
+Cy = 12274
+
+---
+
+Location = chr3:129,504,138  
+Base = A @ QV 34
+```
 
 
 🟢 **`mamba` is a drop-in replacement for `conda`**, but drastically faster for solving.

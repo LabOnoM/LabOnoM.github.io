@@ -84,11 +84,14 @@ Base = A @ QV 34
 
  - A bash script below, `./search.sh`, was used to search the read name of "" across all 16 R1.fq.gz files of my stereo-seq:
 
-```bash
+{% highlight Python %}
+~~~
 for f in *_1.fq.gz; do
   zgrep -A1 'E150018299L1C036R00400117279' "$f" && echo "✅ Found in $f" && break
 done
-```
+~~~
+{: .language-ruby}
+{% endhighlight %}
 
  - The above bash script returns:
 

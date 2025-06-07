@@ -1,3 +1,9 @@
 /* start custom scss snippet */
-
+ul.toc--ellipsis > li {
+  overflow: visible !important;
+  text-overflow: unset !important;
+  white-space: normal !important;
+  word-break: break-word;
+  overflow-wrap: break-word;
+}
 /* end custom scss snippet */

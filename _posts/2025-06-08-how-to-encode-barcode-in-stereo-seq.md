@@ -10,7 +10,7 @@ tags:
   - Stereo-seq
   - barcode
 ---
-<img src="https://visitor-badge.laobi.icu/badge?page_id=https://labonom.github.io/2025/06/08/how-to-encode-barcode-in-stereo-seq.html" alt="visitor badge"/> [![GitHub](https://img.shields.io/badge/GitHub-Profile-black?logo=github)](https://github.com/LabOnoM)
+<img src="https://visitor-badge.laobi.icu/badge?page_id=https://www.bs-gou.com/2025/06/08/how-to-encode-barcode-in-stereo-seq.html" alt="visitor badge"/> [![GitHub](https://img.shields.io/badge/GitHub-Profile-black?logo=github)](https://github.com/LabOnoM)
 
 I made a silly story this week...
 
@@ -32,7 +32,7 @@ The `A02598A4.barcodeToPos.h5` file does not contain actual ATGC sequences, and 
   
 It's pretty great, right? The AI also kindly provides me a python script for converting the CID numbers into the actual sequence:
 
-{% highlight Python %}
+{% highlight javascript linenos %}
 ~~~ Python
 def cid_to_seq(cid_int):
     base4 = []
@@ -104,7 +104,7 @@ done
 
  - The AI's algorithm returns:
 
-{% highlight Python %}
+{% highlight javascript linenos %}
 ~~~ Python
 import h5py
 import numpy as np

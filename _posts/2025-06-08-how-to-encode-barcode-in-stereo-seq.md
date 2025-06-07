@@ -1,5 +1,5 @@
 ---
-title: 'How to decode CID into barcode in stereo-seq?'
+title: 'From CID to ATGC: Decoding Stereo-seq Barcodes'
 lang: en
 license: true
 aside:

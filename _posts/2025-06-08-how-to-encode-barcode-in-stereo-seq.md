@@ -1,5 +1,5 @@
 ---
-title: 'How to encode barcode in stereo-seq'
+title: 'How to decode CID into barcode in stereo-seq?'
 lang: en
 license: true
 aside:

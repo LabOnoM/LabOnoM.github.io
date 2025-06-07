@@ -20,7 +20,7 @@ article_header:
 
 <!--more-->
 
-## Introduction | はじめに | 引言
+## 1. Introduction | はじめに | 引言
 
 Welcome to the first blog post of the Bioinformatics Study Group in Okayama University (BSGOU)! Here we present the inspiration, symbolism, and creation process of our new logo. Through this design, we aim to convey BSGOU's passion for scientific exploration, interdisciplinary innovation, and collaborative spirit.
 
@@ -36,7 +36,7 @@ BSGOUは、生物学と情報科学の学際的な研究を推進しています
 
 BSGOU 致力于推动生物学与信息科学的交叉研究。我们希望通过视觉语言，将“科学创新、学科交融、勇于探索”的理念具象化，激励每一位成员不断突破自我、追求卓越。
 
-## Core Symbol: Zebrafish Embryo | 中心モチーフ：ゼブラフィッシュ胚 | 核心图像：斑马鱼胚胎
+## 2. Core Symbol: Zebrafish Embryo | 中心モチーフ：ゼブラフィッシュ胚 | 核心图像：斑马鱼胚胎
 
 At the heart of our logo is a zebrafish embryo at 18 hours post fertilization (18 hpf), depicted from a dorsal view. As a classic model organism, the zebrafish is widely used in developmental biology and genomics research. Its transparent embryos, high fecundity, rapid development, and ease of cultivation and genetic manipulation make it a powerful symbol of modern life sciences. The DNA double helix embedded within the embryo highlights our commitment to genomics and molecular biology.
 
@@ -44,7 +44,7 @@ At the heart of our logo is a zebrafish embryo at 18 hours post fertilization (1
 
 标志的核心是一只处于18小时受精后（18 hpf）、背侧视图的斑马鱼胚胎。斑马鱼作为模式生物，被广泛用于发育生物学和基因组学研究，其胚胎透明、产卵量高、发育快速、易于养殖和遗传操作，是现代生命科学的重要象征。胚胎内部的DNA双螺旋，代表我们专注于基因组学和分子生物学。
 
-## Human Symbolism and Evolution | 人類の象徴と進化の暗示 | 人类象征与进化启示
+## 3. Human Symbolism and Evolution | 人類の象徴と進化の暗示 | 人类象征与进化启示
 
 An abstract human profile, wearing goggles and a respirator inspired by Immortan Joe from "Mad Max", is embedded in the center of the embryo. This figure symbolizes the curiosity and courage of scientists exploring the unknown, while also alluding to the evolutionary connection between humans and fish. The neck blends seamlessly into a tail shape, highlighting humanity's origins in aquatic ancestors and our ongoing quest to understand ourselves. The lightbulb inside the head represents flashes of inspiration in scientific discovery.
 
@@ -52,7 +52,7 @@ An abstract human profile, wearing goggles and a respirator inspired by Immortan
 
 胚胎中央嵌入了一个带有护目镜和呼吸器的抽象人类侧影，灵感源自《疯狂的麦克斯》中“不死老乔”的呼吸装置。这一形象不仅展现了科学家在探索未知时的勇气与好奇，也呼应了人类与鱼类在进化树上的深层联系。脖颈被斑马鱼胚包裹成鱼尾状，寓意人类进化的起源与不断追寻自我奥秘的科学精神。头部内嵌的灯泡象征科学研究中灵感的闪现。
 
-## From Nature to Technology: Scientific Modeling | 自然から工学へ：科学的モデリング | 从自然到科技：科学建模
+## 4. From Nature to Technology: Scientific Modeling | 自然から工学へ：科学的モデリング | 从自然到科技：科学建模
 
 The head of the zebrafish embryo is illustrated with geometric lines, while the tail retains organic curves, creating a striking contrast. This design represents the scientific journey from natural complexity to theoretical modeling: simplifying nature into manageable models, then using those models to re-explore and predict the complex world. The embryo’s head and tail connecting in a loop allude to the iterative cycle of scientific understanding.
 
@@ -60,7 +60,7 @@ The head of the zebrafish embryo is illustrated with geometric lines, while the 
 
 斑马鱼胚胎头部采用几何结构的线条，而尾部则保留了自然曲线，形成鲜明对比。这种设计象征着科学研究中从自然复杂性到理论建模的过程：我们通过科学建模，将自然现象抽象成可控模型，再借助模型重新理解和预测复杂现实。胚胎的头尾相接，暗含科学认知“化繁为简、由简入繁”的循环过程。
 
-## Color and Light Symbolism | 色彩と光の象徴 | 颜色与光明象征
+## 5. Color and Light Symbolism | 色彩と光の象徴 | 颜色与光明象征
 
 The overall color palette of the logo is vibrant and rich, reflecting both the diversity and vitality of life sciences, as well as the colorful splendor of the natural world. The brightness of the colors gradually decreases from the top left—aligned with the direction of human exploration—to the bottom right, symbolizing the journey from the initial spark of knowledge to ever deeper scientific inquiry. This gradient also represents the promising future at the forefront of science.
 
@@ -68,7 +68,7 @@ The overall color palette of the logo is vibrant and rich, reflecting both the d
 
 logo 整体配色明艳丰富，体现了生命科学的多样性与活力，也象征着大自然生命的多姿多彩。颜色明度自左上（人类探索视线）向右下递减，寓意知识的启迪和科学探索从明亮到深入的过程，展现科学前沿的光明前景。
 
-## Bees GO!: Our Nickname & Team Spirit | Bees GO!：愛称とチームスピリット | Bees GO!：我们的昵称与团队精神
+## 6. Bees GO!: Our Nickname & Team Spirit | Bees GO!：愛称とチームスピリット | Bees GO!：我们的昵称与团队精神
 
 As “BSGOU” is pronounced similarly to “Bees GO!”, we affectionately call ourselves “the Bees.” An abstract bee motif is integrated beneath the lightbulb in our logo, symbolizing teamwork, diligence, and our collective pursuit of scientific breakthroughs. In our design drafts, you can see how the bee motif evolved—step by step—from a complex, realistic image to a flowing, thought-like line. This abstraction represents the idea that our thinking, like the flight of wild bees, should be lively and free.
 
@@ -76,7 +76,7 @@ BSGOUは英語発音が「Bees GO!」に近いため、私たちは親しみを�
 
 BSGOU的英文发音近似“Bees GO!”，我们也以“小蜜蜂”为自称。logo中在灯泡下方融入了一个抽象化的小蜜蜂，象征团队协作、勤奋和共同追求科学突破的精神。从我们的设计稿中可以看到，这只蜜蜂形象是如何一步步地从复杂具体的形态被抽象成一团类似思绪的线条，寓意我们的思考应像野蜂飞舞般自由活跃。
 
-## Human-AI Collaboration | AIと人間の協働 | AI与人类创意的协同
+## 7. Human-AI Collaboration | AIと人間の協働 | AI与人类创意的协同
 
 The logo was created through an AI-assisted, human-in-the-loop process. By iteratively providing feedback and guidance to the AI, we blended human creativity with AI’s generative efficiency, producing a design that is both innovative and embodies our collaborative spirit. This approach reflects BSGOU’s expertise in integrating cutting-edge technology with a human touch to foster interdisciplinary innovation.
 

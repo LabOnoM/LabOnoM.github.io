@@ -19,7 +19,7 @@ tags:
 
 🌐 Other languages: [English](https://labonom.github.io/journalclub/2025/06/01/journal-club-glycorna-imaging.en.html){:.button.button--primary.button--rounded.button--xs} [日本語](https://labonom.github.io/2025/06/01/journal-club-glycorna-imaging.jp.html){:.button.button--primary.button--rounded.button--xs} [中文](https://labonom.github.io/2025/06/01/journal-club-glycorna-imaging.zh.html){:.button.button--primary.button--rounded.button--xs}
 
-## Background
+## 1. Background
 
 RNA modifications are well-documented contributors to post-transcriptional regulation. Among them, **glycoRNAs—RNAs** conjugated with glycans—are a recently described and poorly understood class of biomolecules. Initial evidence for their existence was reported in 2021 by Flynn et al., who detected glycosylated small RNAs ([Ryan, et al., Cell, 2021](https://pubmed.ncbi.nlm.nih.gov/34004145/)). However, due to a lack of suitable imaging methods, their precise cellular distribution and potential functional roles remained unclear.
 
@@ -29,7 +29,7 @@ To address this, Ma et al. ([Yuan Ma, et al., Nat Biotechnol, 2024](https://pubm
 
 <!--more-->
 
-## Principle of ARPLA
+## 2. Principle of ARPLA
 
 ARPLA combines two molecular recognition strategies:
  - **Aptamer-based glycan recognition**: A single-stranded DNA aptamer selectively binds to sialic acid residues commonly found on glycoRNAs.
@@ -41,11 +41,11 @@ When both binding events occur in proximity, they enable ligation of two DNA arm
 
 This dual-recognition approach helps ensure that only RNAs bearing the specific glycan and matching sequence are amplified and visualized, enhancing both **specificity** and **signal-to-noise ratio**.
 
-### Background: Aptamers
+### 2.1. Background: Aptamers
 
 **Aptamers** are short, single-stranded DNA or RNA molecules that can fold into unique three-dimensional structures, enabling them to bind specific targets—such as proteins, small molecules, or even cells—with high affinity and specificity, functioning similarly to antibodies.
 
-#### Technical Origin
+#### 2.1.1 Technical Origin
 
 The concept of aptamers emerged in 1990 through two independent studies:
  - **Craig Tuerk** and **Larry Gold** introduced the SELEX (Systematic Evolution of Ligands by EXponential enrichment) method, demonstrating the selection of RNA sequences that bind to bacteriophage T4 DNA polymerase ([C Tuerk, et al., Science, 1990](https://pubmed.ncbi.nlm.nih.gov/2200121/)).
@@ -53,17 +53,17 @@ The concept of aptamers emerged in 1990 through two independent studies:
 
 These pioneering studies established SELEX as a foundational technique for aptamer development.
 
-#### Natural Origin
+#### 2.1.2 Natural Origin
 
 Aptamer-like structures also exist in nature. Riboswitches are structured RNA elements typically found in the untranslated regions of bacterial mRNAs. They bind small metabolites and regulate gene expression in response to cellular concentrations of these ligands. The aptamer domain of a riboswitch specifically recognizes the ligand, while the expression platform modulates gene expression ([Leurin Flemmich, et al., Nat Commun, 2021](https://pubmed.ncbi.nlm.nih.gov/34162884/)).
 
 The existence of riboswitches supports the RNA World Hypothesis, which posits that early life forms may have relied solely on RNA for both genetic information storage and catalytic functions ([Kumari Kavita, et al., Trends Biochem Sci, 2022](https://pubmed.ncbi.nlm.nih.gov/36150954/)).
 
-### Background: Rolling Circle Amplification (RCA)
+### 2.2. Background: Rolling Circle Amplification (RCA)
 
 **Rolling Circle Amplification (RCA)** is an isothermal nucleic acid amplification technique that generates long single-stranded DNA or RNA molecules using a circular template and a strand-displacing DNA polymerase.
 
-#### Technical Origin
+#### 2.2.1 Technical Origin
 
 RCA was developed in the mid-1990s as a method for amplifying circular DNA templates. A key enzyme in this process is phi29 DNA polymerase, derived from Bacillus subtilis phage phi29. This enzyme exhibits high processivity and strong strand displacement activity, making it ideal for RCA ([Wikipeida](https://en.wikipedia.org/wiki/Rolling_circle_replication); [M Monsur Ali, et al., Chem Soc Rev, 2014](https://pubmed.ncbi.nlm.nih.gov/24643375/)).
 
@@ -74,17 +74,17 @@ RCA has been applied in various fields, including: ([phi29 DNA Polymerase, produ
 
 Its isothermal nature allows for amplification without the need for thermal cycling, simplifying the required equipment.
 
-#### Natural Origin
+#### 2.2.2 Natural Origin
 
 RCA is inspired by rolling circle replication (RCR), a natural mechanism used by various organisms to replicate circular DNA or RNA molecules. Examples include: Bacteriophages (e.g., φX174, M13), Plasmids, Viroids, and Some eukaryotic viruses. In RCA, a nick in the circular DNA initiates unidirectional replication, producing multiple copies of the genome in a continuous manner ([Shuzhen Yue, et al., Trends Biotechnol, 2021](https://pubmed.ncbi.nlm.nih.gov/33715868/)).
 
-## Experimental Validation
+## 3. Experimental Validation
 
 The authors validated ARPLA using HeLa cells as a model. Removal of any key component (aptamer, RISH probe, or ligation connectors) significantly reduced signal intensity. Additionally, enzymatic or pharmacologic degradation of either the glycan (e.g., PNGase-F, neuraminidase, kifunensine) or RNA moiety (RNase A/T1) also abolished signal, supporting the method’s dependence on intact glycoRNA.
 
 The aptamer used (Neu5Ac-binding DNA aptamer) showed a dissociation constant (Kd) of ~91 nM by ITC, supporting its affinity for sialic acid. Control experiments using scrambled aptamers or unrelated glycan aptamers (e.g., Tn antigen, GalNAc) produced negligible signals.
 
-### Application to Different GlycoRNAs and Cell Types
+### 3.1. Application to Different GlycoRNAs and Cell Types
 
 ARPLA was applied to detect several glycoRNAs, including:
  - **U1 snRNA:** involved in splicing, primarily nuclear
@@ -93,15 +93,15 @@ ARPLA was applied to detect several glycoRNAs, including:
 
 These targets were selected to represent different RNA classes and subcellular localizations. ARPLA successfully detected their membrane-associated glycoRNA forms in multiple cell lines (HeLa, SH-SY5Y, PANC-1, HEK293T), suggesting method generalizability.
 
-### Subcellular Localization and Intracellular Trafficking
+### 3.2. Subcellular Localization and Intracellular Trafficking
 
 Confocal microscopy revealed that glycoRNAs are enriched in **lipid raft microdomains**, as shown by colocalization with CT-B (cholera toxin B subunit) and ganglioside GM1. Additionally, glycoRNAs colocalized with SNARE proteins (TSNARE1 and VTI1B), suggesting possible involvement in **vesicle-mediated exocytosis**.
 
 These observations support a model in which certain glycoRNAs are trafficked to the plasma membrane via secretory vesicles.
 
-### ARPLA in Cancer and Immune Cell Models
+### 3.3. ARPLA in Cancer and Immune Cell Models
 
-#### Cancer Progression
+#### 3.3.1 Cancer Progression
 
 The authors applied ARPLA to breast cancer cell lines representing different stages of malignancy:
  - MCF-10A (non-tumorigenic)
@@ -110,11 +110,11 @@ The authors applied ARPLA to breast cancer cell lines representing different sta
 
 ARPLA signal intensity for U1, U35a, and Y5 glycoRNAs decreased with increasing malignancy. Notably, this trend contrasts with the observed **hypersialylation** in cancer cells, suggesting that glycoRNAs and protein glycosylation may be regulated independently.
 
-#### Immune Activation
+#### 3.3.2 Immune Activation
 
 In THP-1 monocytes undergoing PMA-induced differentiation to macrophages, glycoRNA levels decreased. However, LPS activation of macrophages led to re-elevation of glycoRNA signal, indicating dynamic regulation during immune response. RNase treatment reduced cell adhesion to endothelial layers, suggesting a possible role for glycoRNAs in **immune cell–endothelium interactions**.
 
-## Limitations
+## 4. Limitations
 
 While ARPLA provides valuable spatial and sequence-specific imaging, the method has certain limitations:
  - Requires prior sequence knowledge: Cannot detect glycoRNAs with unknown RNA sequences.

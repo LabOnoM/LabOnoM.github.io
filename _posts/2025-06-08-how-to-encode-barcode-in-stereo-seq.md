@@ -117,6 +117,7 @@ with h5py.File("./A02598A4/00.Rawdata/mask/A02598A4.barcodeToPos.h5", "r") as f:
 	print("CID (decimal):", cid)
 {% endhighlight %}
 ```
+{% endhighlight %}
 
 > CID (decimal): 100904410303266
 

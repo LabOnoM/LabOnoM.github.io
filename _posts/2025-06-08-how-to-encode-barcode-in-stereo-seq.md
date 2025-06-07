@@ -237,7 +237,10 @@ For the complete code and workflow related to my original goal, check out the en
 👉 **[Extract Tissue CIDs from Stereo-seq](https://www.bs-gou.com/DK.BeesGO/Dry/Software-Engineering/Extract-Tissue-CIDs-from-Stereo-seq)**  
 in our **BSGOU public wet/dry-lab notebooks** online.
 
-Happy debugging—and may your stereo-seq barcodes always decode correctly!
+However, using the GitHub Actions workflow to compile the project is actually much easier and faster than setting it up and compiling it locally. Therefore, I forked the original [ST_BarcodeMap](https://github.com/wong-ziyi/ST_BarcodeMap) repository and compiled it directly through GitHub.
+
+You can check out my forked repository here: [wong-ziyi/ST_BarcodeMap](https://github.com/wong-ziyi/ST_BarcodeMap).
+
 ## References
  - [https://db.cngb.org/stomics/assets/html/stereo.seq.html](https://db.cngb.org/stomics/assets/html/stereo.seq.html)
  - [Chen A, Liao S, Cheng M, Ma K, Wu L, Lai Y, Qiu X, Yang J, Xu J, Hao S, Wang X. Spatiotemporal transcriptomic atlas of mouse organogenesis using DNA nanoball-patterned arrays. Cell. 2022 May 12;185(10):1777-92.](https://www.cell.com/cell/fulltext/S0092-8674(22)00399-3?dgcid=raven_jbs_etoc_email)

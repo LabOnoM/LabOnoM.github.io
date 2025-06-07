@@ -25,7 +25,7 @@ I wanted to extract only the reads located *within* the tissue to reduce the FAS
 The `A02598A4.barcodeToPos.h5` file does not contain actual ATGC sequences, and I couldn’t find any documentation online about how to convert CID numbers into actual DNA barcodes. So, I turned to AI for help. AI responded:
 
   > **Your integer CIDs** are a compact representation of the CID DNA barcode. To use them for read filtering, you must **convert the integer to the DNA sequence** (typically 25 bases for Stereo-seq Bin50/100).
-  > ## **How the Encoding Works**
+  > ### **How the Encoding Works**
   > - The integer is a **base-4 encoding** of the 25bp DNA CID barcode.  
   > - A=0, C=1, G=2, T=3 (least significant base is at the end).  
   > - You can convert any integer CID to its corresponding DNA sequence using a small script.

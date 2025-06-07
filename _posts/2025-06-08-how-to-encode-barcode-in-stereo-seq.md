@@ -42,10 +42,12 @@ print("25-mer:", cid_to_seq(cid_value))
 
 In addition, AI backed its explanation with what seemed like credible references, as shown below:
 
-![[AI_Response_20250604.png]]
+<img src="https://github.com/LabOnoM/LabOnoM.github.io/blob/458492bcb707287bc9a10767ca27b4b84daca13c/_posts/PostAttachedFiles/AI_Response_20250604.png" />
 
-## Verification of the CID2ATGC convert algorithm.
-
+I was convinced by the AI’s explanation after briefly skimming the online resources it cited, including:
+ - [https://db.cngb.org/stomics/assets/html/stereo.seq.html](https://db.cngb.org/stomics/assets/html/stereo.seq.html)
+ - [Chen A, Liao S, Cheng M, Ma K, Wu L, Lai Y, Qiu X, Yang J, Xu J, Hao S, Wang X. Spatiotemporal transcriptomic atlas of mouse organogenesis using DNA nanoball-patterned arrays. Cell. 2022 May 12;185(10):1777-92.](https://www.cell.com/cell/fulltext/S0092-8674(22)00399-3?dgcid=raven_jbs_etoc_email)
+## Verify AI's CID2ATGC convert algorithm.
 Let's use the example below
 
 ```

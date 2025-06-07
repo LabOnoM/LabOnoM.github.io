@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "331a0604f63cda11",
+        "id": "d4ad98b45aa6dc88",
         "type": "tabs",
         "children": [
           {
-            "id": "ec83f337b16e7886",
+            "id": "a4907a76f08cf62a",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -169,14 +169,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ec83f337b16e7886",
+  "active": "a4907a76f08cf62a",
   "lastOpenFiles": [
+    "2025-06-10-shall-we-use-geometric-mean.md",
+    "link.md",
+    "2025-06-08-how-to-encode-barcode-in-stereo-seq.md",
     "2025-06-09-zebrafish-history.md",
     "PostAttachedFiles/AI_Response_20250604.png",
-    "2025-06-08-how-to-encode-barcode-in-stereo-seq.md",
     "PostAttachedFiles",
     "2025-06-01-journal-club-glycorna-imaging.zh.md",
-    "2025-06-10-shall-we-use-geometric-mean.md",
     "2025-06-01-journal-club-glycorna-imaging.en.md",
     "2025-05-30-about-our-logo.md",
     "2025-06-01-journal-club-glycorna-imaging.jp.md"

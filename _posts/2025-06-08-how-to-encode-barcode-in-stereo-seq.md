@@ -48,7 +48,7 @@ print("25-mer:", cid_to_seq(cid_value))
 
 In addition, AI backed its explanation with what seemed like credible references, as shown below:
 
-![AI_Response_20250604](https://github.com/LabOnoM/LabOnoM.github.io/blob/458492bcb707287bc9a10767ca27b4b84daca13c/_posts/PostAttachedFiles/AI_Response_20250604.png)
+![AI_Response_20250604](https://github.com/LabOnoM/LabOnoM.github.io/blob/bc5750872af332697fec5227a5a2587d8f944c83/assets/PostAttachedFiles/AI_Response_20250604.png)
 
 I was convinced by the AI’s explanation after briefly skimming the online resources it cited, including:
  - [https://db.cngb.org/stomics/assets/html/stereo.seq.html](https://db.cngb.org/stomics/assets/html/stereo.seq.html)

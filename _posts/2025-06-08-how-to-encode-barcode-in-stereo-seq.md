@@ -115,7 +115,6 @@ with h5py.File("./A02598A4/00.Rawdata/mask/A02598A4.barcodeToPos.h5", "r") as f:
 	x, y = 6518, 12274
 	cid = int(bp_matrix[y, x, 0])
 	print("CID (decimal):", cid)
-{% endhighlight %}
 ```
 {% endhighlight %}
 

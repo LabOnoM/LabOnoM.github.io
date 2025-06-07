@@ -33,7 +33,7 @@ The `A02598A4.barcodeToPos.h5` file does not contain actual ATGC sequences, and 
 It's pretty great, right? The AI also kindly provides me a python script for converting the CID numbers into the actual sequence:
 
 {% highlight Python linenos %}
-```Python
+```python
 def cid_to_seq(cid_int):
     base4 = []
     for _ in range(25):
@@ -86,11 +86,13 @@ Base = A @ QV 34
 
  - A bash script below, `./search.sh`, was used to search the read name of "" across all 16 R1.fq.gz files of my stereo-seq:
 
+{% highlight bash linenos %}
 ```bash
 for f in *_1.fq.gz; do
   zgrep -A1 'E150018299L1C036R00400117279' "$f" && echo "✅ Found in $f" && break
 done
 ```
+{% endhighlight %}
 
  - The above bash script returns:
 
@@ -104,8 +106,8 @@ done
 
  - The AI's algorithm returns:
 
-{% highlight javascript linenos %}
-~~~ Python
+{% highlight Python linenos %}
+```python
 import h5py
 import numpy as np
 with h5py.File("./A02598A4/00.Rawdata/mask/A02598A4.barcodeToPos.h5", "r") as f:
@@ -113,13 +115,13 @@ with h5py.File("./A02598A4/00.Rawdata/mask/A02598A4.barcodeToPos.h5", "r") as f:
 	x, y = 6518, 12274
 	cid = int(bp_matrix[y, x, 0])
 	print("CID (decimal):", cid)
-~~~
 {% endhighlight %}
+```
 
 > CID (decimal): 100904410303266
 
-{% highlight Python %}
-~~~ Python
+{% highlight Python linenos %}
+```python
 def cid_to_seq(cid_int):
 	base4 = []
 	for _ in range(25):
@@ -129,7 +131,7 @@ def cid_to_seq(cid_int):
 	return ''.join(reversed(base4))
 	
 print("25-mer ACGT:", cid_to_seq(cid))
-~~~
+```
 {% endhighlight %}
 
 > 25-mer ACGT: ACCGTTACCGGATGAGACAGTAGAG
@@ -172,6 +174,7 @@ mamba install -c conda-forge boost=1.73
 
 However, the `makefile` of [ST_BarcodeMap](https://github.com/wong-ziyi/ST_BarcodeMap) does not support to use conda environment. So I have to modify its `makefile` as below:
 
+{% highlight bash linenos %}
 ```bash
 DIR_INC := ./inc
 DIR_SRC := ./src
@@ -212,6 +215,7 @@ install:
 	install ${TARGET} ${BINDIR}/${TARGET}
 	@echo "Installed."
 ```
+{% endhighlight %}
 
 Now, I can happily compile the [ST_BarcodeMap](https://github.com/wong-ziyi/ST_BarcodeMap) finally:
 

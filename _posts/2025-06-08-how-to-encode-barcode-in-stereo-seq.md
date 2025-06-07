@@ -48,7 +48,7 @@ print("25-mer:", cid_to_seq(cid_value))
 
 In addition, AI backed its explanation with what seemed like credible references, as shown below:
 
-![AI_Response_20250604](https://github.com/LabOnoM/LabOnoM.github.io/blob/bc5750872af332697fec5227a5a2587d8f944c83/assets/PostAttachedFiles/AI_Response_20250604.png)
+![AI_Response_20250604](https://raw.githubusercontent.com/LabOnoM/LabOnoM.github.io/master/_posts/PostAttachedFiles/AI_Response_20250604.png)
 
 I was convinced by the AI’s explanation after briefly skimming the online resources it cited, including:
  - [https://db.cngb.org/stomics/assets/html/stereo.seq.html](https://db.cngb.org/stomics/assets/html/stereo.seq.html)
@@ -86,14 +86,11 @@ Base = A @ QV 34
 
  - A bash script below, `./search.sh`, was used to search the read name of "" across all 16 R1.fq.gz files of my stereo-seq:
 
-{% highlight Python %}
-~~~
+```bash
 for f in *_1.fq.gz; do
   zgrep -A1 'E150018299L1C036R00400117279' "$f" && echo "✅ Found in $f" && break
 done
-~~~
-{: .language-ruby}
-{% endhighlight %}
+```
 
  - The above bash script returns:
 
@@ -107,7 +104,8 @@ done
 
  - The AI's algorithm returns:
 
-```Python
+{% highlight Python %}
+~~~ Python
 import h5py
 import numpy as np
 with h5py.File("./A02598A4/00.Rawdata/mask/A02598A4.barcodeToPos.h5", "r") as f:
@@ -115,11 +113,13 @@ with h5py.File("./A02598A4/00.Rawdata/mask/A02598A4.barcodeToPos.h5", "r") as f:
 	x, y = 6518, 12274
 	cid = int(bp_matrix[y, x, 0])
 	print("CID (decimal):", cid)
-```
+~~~
+{% endhighlight %}
 
 > CID (decimal): 100904410303266
 
-```Python
+{% highlight Python %}
+~~~ Python
 def cid_to_seq(cid_int):
 	base4 = []
 	for _ in range(25):
@@ -129,7 +129,8 @@ def cid_to_seq(cid_int):
 	return ''.join(reversed(base4))
 	
 print("25-mer ACGT:", cid_to_seq(cid))
-```
+~~~
+{% endhighlight %}
 
 > 25-mer ACGT: ACCGTTACCGGATGAGACAGTAGAG
 
@@ -141,7 +142,7 @@ There is **no match** between the AI's algorithm-derived 25-mer (`ACCGTTACCGGATG
 
 Feeling disheartened, I decided to give Google one more careful search—and that’s when I saw it:
 
-<img src="https://github.com/LabOnoM/LabOnoM.github.io/blob/f2121bbd2d5fe7d60386f5200c06899367894712/_posts/PostAttachedFiles/Github_Issue_20250604.png" />
+![Github_Issue_20250604](https://raw.githubusercontent.com/LabOnoM/LabOnoM.github.io/master/_posts/PostAttachedFiles/Github_Issue_20250604.png)
 
 Well... that's life, isn't it?
 

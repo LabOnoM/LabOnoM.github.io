@@ -231,7 +231,6 @@ Finally, I got the actual ATGC sequence barcode for CID numbers.
 ./ST_BarcodeMap-0.0.1 --in A02598A4.barcodeToPos.h5 --out barcodes.txt --action 3
 ```
 
-In the end, bioinformatics is still part biology, part informatics… and part "don’t blindly trust the robot."
 
 For the complete code and workflow related to my original goal, check out the entry  
 👉 **[Extract Tissue CIDs from Stereo-seq](https://www.bs-gou.com/DK.BeesGO/Dry/Software-Engineering/Extract-Tissue-CIDs-from-Stereo-seq)**  
@@ -240,6 +239,8 @@ in our **BSGOU public wet/dry-lab notebooks** online.
 However, using the GitHub Actions workflow to compile the project is actually much easier and faster than setting it up and compiling it locally. Therefore, I forked the original [ST_BarcodeMap](https://github.com/wong-ziyi/ST_BarcodeMap) repository and compiled it directly through GitHub.
 
 You can check out my forked repository here: [wong-ziyi/ST_BarcodeMap](https://github.com/wong-ziyi/ST_BarcodeMap).
+
+In the end, bioinformatics is still part biology, part informatics… and part "don’t blindly trust the robot."
 
 ## References
  - [https://db.cngb.org/stomics/assets/html/stereo.seq.html](https://db.cngb.org/stomics/assets/html/stereo.seq.html)

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2025-06-01-journal-club-glycorna-imaging.zh.md",
+                "file": "2025-06-08-how-to-encode-barcode-in-stereo-seq.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-06-01-journal-club-glycorna-imaging.zh"
+              "title": "2025-06-08-how-to-encode-barcode-in-stereo-seq"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2025-06-01-journal-club-glycorna-imaging.zh.md",
+                "file": "2025-06-08-how-to-encode-barcode-in-stereo-seq.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 2025-06-01-journal-club-glycorna-imaging.zh"
+              "title": "Backlinks for 2025-06-08-how-to-encode-barcode-in-stereo-seq"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2025-06-01-journal-club-glycorna-imaging.zh.md",
+                "file": "2025-06-08-how-to-encode-barcode-in-stereo-seq.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 2025-06-01-journal-club-glycorna-imaging.zh"
+              "title": "Outline of 2025-06-08-how-to-encode-barcode-in-stereo-seq"
             }
           }
         ],
@@ -156,7 +156,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -171,16 +172,16 @@
   },
   "active": "a4907a76f08cf62a",
   "lastOpenFiles": [
+    "2025-05-30-about-our-logo.md",
+    "2025-06-01-journal-club-glycorna-imaging.zh.md",
     "2025-06-01-journal-club-glycorna-imaging.jp.md",
     "2025-06-01-journal-club-glycorna-imaging.en.md",
-    "2025-05-30-about-our-logo.md",
     "2025-06-10-shall-we-use-geometric-mean.md",
     "2025-06-09-zebrafish-history.md",
     "2025-06-08-how-to-encode-barcode-in-stereo-seq.md",
     "PostAttachedFiles/Github_Issue_20250604.png",
     "PostAttachedFiles/AI_Response_20250604.png",
     "PostAttachedFiles",
-    "2025-06-01-journal-club-glycorna-imaging.zh.md",
     "link.md"
   ]
 }

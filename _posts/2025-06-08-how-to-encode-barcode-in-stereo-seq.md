@@ -240,13 +240,14 @@ However, using the GitHub Actions workflow to compile the project is actually mu
 
 You can check out my forked repository here: [wong-ziyi/ST_BarcodeMap](https://github.com/wong-ziyi/ST_BarcodeMap).
 
-In the end, bioinformatics is still part biology, part informatics… and part "don’t blindly trust the robot."
+In the end, bioinformatics is still part biology, part informatics… and part "don’t blindly trust the robot" as [Apple just found no evidence of formal reasoning in language models]([https://x.com/omarsar0/status/1931333830985883888](https://x.com/Dentist_Wong/status/1931534804694208986)).
 
 ## References
  - [https://db.cngb.org/stomics/assets/html/stereo.seq.html](https://db.cngb.org/stomics/assets/html/stereo.seq.html)
  - [Chen A, Liao S, Cheng M, Ma K, Wu L, Lai Y, Qiu X, Yang J, Xu J, Hao S, Wang X. Spatiotemporal transcriptomic atlas of mouse organogenesis using DNA nanoball-patterned arrays. Cell. 2022 May 12;185(10):1777-92.](https://www.cell.com/cell/fulltext/S0092-8674(22)00399-3?dgcid=raven_jbs_etoc_email)
 - [https://github.com/STOmics/ST_BarcodeMap/issues/2](https://github.com/STOmics/ST_BarcodeMap/issues/2)
 - [https://github.com/STOmics/ST_BarcodeMap](https://github.com/STOmics/ST_BarcodeMap)
+- [The Illusion of Thinking: Understanding the Strengths and Limitations of Reasoning Models via the Lens of Problem Complexity](https://machinelearning.apple.com/research/illusion-of-thinking)
 
 ---
 

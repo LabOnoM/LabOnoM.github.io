@@ -45,9 +45,8 @@ You see, the phrase “Century of Life Sciences” wasn’t coined today (21st c
 
 Of course, cracking that code isn’t easy. Why? Because embryos love to stay hidden—either deep inside a body, or wrapped in layers of opaque egg jelly. You just... can’t see what’s going on. Enter 1934. At Wayne State University, a researcher named Charles W. Creaser was—well, possibly procrastinating on something—when he stumbled upon a curious little fish. He took a closer look and had a bit of a eureka moment: “Hey, this fish? It's transparent. The embryos? Develop externally. The eggs? Not picky about water. Stick it under a microscope and boom—you’ve got yourself a live broadcast of embryonic development.” Nature’s own reality show. No subscription required.
 
-
-
-Videos are from [@TushnaKapoor](https://x.com/TushnaKapoor) in [EMBOcellPolarity25](https://x.com/hashtag/EMBOcellPolarity25) ([https://x.com/HeisenbergCPLab/status/1930179868437721213](https://x.com/HeisenbergCPLab/status/1930179868437721213)).
+![Transparent Fish Tank](https://raw.githubusercontent.com/LabOnoM/LabOnoM.github.io/master/_posts/PostAttachedFiles/ZebraFishLiveShow.gif)
+Reality show of Zebrafish embryo. Figures are from Kimmel CB 1995. Videos are from [@TushnaKapoor](https://x.com/TushnaKapoor) in [EMBOcellPolarity25](https://x.com/hashtag/EMBOcellPolarity25) ([https://x.com/HeisenbergCPLab/status/1930179868437721213](https://x.com/HeisenbergCPLab/status/1930179868437721213)).
 
 ## 3. The Transparent Star of Developmental Biology
 
@@ -84,6 +83,8 @@ If everything so far still sounds relatively normal—fish, tanks, DNA magic—w
 
 In the 1990s, scientists had just cracked something magical—fluorescent proteins. The most famous of them all? GFP: Green Fluorescent Protein. Stick it into a gene, and boom—your cells light up like a glow stick at a rave. This changed everything. Now researchers could label specific cells—say, a handful in a developing embryo—and track their every move as the organism formed, cell by cell. No more guessing where stuff went or how organs formed. Just tag it and watch. There was just one problem. Most animals are opaque. Tag all you want—you still can’t see through fur, skin, or skull. So scientists asked: “Is there a vertebrate animal that’s used in developmental studies... whose embryos are actually transparent?” And the universe answered: Zebrafish. With their see-through embryos and rapid development, zebrafish became the ultimate sci-fi window into embryogenesis. For the first time in history, humanity could record high-definition, full-color videos of life assembling itself from scratch.
 
+
+
 But wait—there’s more. That glowing-protein tech soon leveled up into calcium imaging. Here’s how it works: When a neuron fires a signal, calcium ions flood in. So scientists engineered cells to flash fluorescent light in response to those calcium spikes. The stronger the neural signal, the brighter the glow. Translation: We could now see thoughts as they happened. The brain’s electrical symphony was no longer invisible. Unless, of course, your animal head is not transparent. But not zebrafish. Their brains were fully transparent during early development—almost like evolution saw this tech coming and said, “You’re welcome.” Cue entire zebrafish brains lighting up like a city grid under a time-lapse.
 
 And then came the final boss: optogenetics. In 2005, Karl Deisseroth and his team at Stanford developed a way to control neurons with light. Not just observe—control. Want to turn a neuron on? Shine a specific wavelength. Turn it off? Switch the light. It was neuroscience meets sci-fi mind control. There was only one catch: To get the light into the brain, you needed to implant a fiber optic cable—sci-fi vibes suddenly turned into minor brain surgery. But zebrafish? Didn’t need that. Their see-through brains meant you could beam light in from the outside and still reach deep structures. No drilling. No trauma. No hardware failure because the fish swam into the tank wall. In fact, their watery environment acts like a natural cooling system—perfect for repeated high-energy light pulses. Zebrafish weren’t just compatible with optogenetics. They were born for it.
@@ -109,6 +110,7 @@ From their humble beginnings in the sacred currents of the Ganges to their silen
 4. [Aquarium History Glow in the Dark](https://www.hygger-online.com/aquarium-history-glow-in-the-dark/?srsltid=AfmBOopi3GFLiptiwAx4d6DNUnnHq4ALsTw2fH1xigqvkPBPH9R7xdBa)
 5. [Vintage Aquariums](https://www.aquariumarchitecture.com/archive/vintage-aquariums/)
 6. [Third Paris International Exposition of 1878](https://www.ndl.go.jp/exposition/e/s1/1878-2.html)
+7. [Kimmel CB, Ballard WW, Kimmel SR, Ullmann B, Schilling TF. Stages of embryonic development of the zebrafish. Developmental dynamics. 1995 Jul;203(3):253-310.](https://anatomypubs.onlinelibrary.wiley.com/doi/abs/10.1002/aja.1002030302)
 
 ---
 

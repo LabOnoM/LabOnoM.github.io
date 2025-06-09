@@ -156,8 +156,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -172,6 +171,7 @@
   },
   "active": "a4907a76f08cf62a",
   "lastOpenFiles": [
+    "PostAttachedFiles/new-zebrafish-banner.png",
     "PostAttachedFiles/ZebraFishLiveShow.gif",
     "2025-06-15-shall-we-use-geometric-mean.md",
     "2025-06-15-zebrafish-history.md",

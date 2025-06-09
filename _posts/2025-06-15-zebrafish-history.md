@@ -35,7 +35,7 @@ Back in 1822, a Scottish physician stumbled across a small, inconspicuous fish s
 
 > It wasn’t a microscope. Not a supercomputer. It was... a glass box. Yup—a square, transparent fish tank.
 
-![AI_Response_20250604](https://raw.githubusercontent.com/LabOnoM/LabOnoM.github.io/master/_posts/PostAttachedFiles/Fantiqueaquarium-6.jpg)
+![Transparent Fish Tank](https://raw.githubusercontent.com/LabOnoM/LabOnoM.github.io/master/_posts/PostAttachedFiles/antiqueaquarium-6.jpg)
 
 When this new invention—the square glass aquarium—was unveiled at the 1851 Great Exhibition in London, it didn’t just make a splash. It sparked an ornamental fish revolution. Before that, people kept fish in ceramic basins or weirdly shaped glass jars where small creatures were either blocked from view or visually distorted. So, naturally, hobbyists gravitated toward the big, flashy ones—goldfish, koi, and the like. But now? With the crystal-clear side view of a modern glass tank, even the tiniest fish could finally shine. Visibility meant viability in marketing. Suddenly, little fish all over the world had a shot at stardom.
 
@@ -44,6 +44,10 @@ And just like that, the zebrafish got its lucky break. India—being the freshwa
 You see, the phrase “Century of Life Sciences” wasn’t coined today (21st century)—it was originally meant to describe the 20th century itself. Microscopes were getting sharper. Staining techniques were improving. Fields like cytology, embryology, genetics, and physiology were booming. Papers were pouring out like viral TikToks. And biomedical grad students? Let’s just say getting a PhD back then was way easier than it is today. As science marched into the 20th century, researchers began circling back to one of life’s biggest unsolved mysteries: How does a single fertilized egg—a lone cell—somehow transform into a living, breathing organism, complete with muscles, nerves, eyeballs, and the occasional existential crisis?
 
 Of course, cracking that code isn’t easy. Why? Because embryos love to stay hidden—either deep inside a body, or wrapped in layers of opaque egg jelly. You just... can’t see what’s going on. Enter 1934. At Wayne State University, a researcher named Charles W. Creaser was—well, possibly procrastinating on something—when he stumbled upon a curious little fish. He took a closer look and had a bit of a eureka moment: “Hey, this fish? It's transparent. The embryos? Develop externally. The eggs? Not picky about water. Stick it under a microscope and boom—you’ve got yourself a live broadcast of embryonic development.” Nature’s own reality show. No subscription required.
+
+
+
+Videos are from [@TushnaKapoor](https://x.com/TushnaKapoor) in [EMBOcellPolarity25](https://x.com/hashtag/EMBOcellPolarity25) ([https://x.com/HeisenbergCPLab/status/1930179868437721213](https://x.com/HeisenbergCPLab/status/1930179868437721213)).
 
 ## 3. The Transparent Star of Developmental Biology
 

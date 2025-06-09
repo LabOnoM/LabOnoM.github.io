@@ -35,6 +35,8 @@ Back in 1822, a Scottish physician stumbled across a small, inconspicuous fish s
 
 > It wasn’t a microscope. Not a supercomputer. It was... a glass box. Yup—a square, transparent fish tank.
 
+![AI_Response_20250604](https://raw.githubusercontent.com/LabOnoM/LabOnoM.github.io/master/_posts/PostAttachedFiles/Fantiqueaquarium-6.jpg)
+
 When this new invention—the square glass aquarium—was unveiled at the 1851 Great Exhibition in London, it didn’t just make a splash. It sparked an ornamental fish revolution. Before that, people kept fish in ceramic basins or weirdly shaped glass jars where small creatures were either blocked from view or visually distorted. So, naturally, hobbyists gravitated toward the big, flashy ones—goldfish, koi, and the like. But now? With the crystal-clear side view of a modern glass tank, even the tiniest fish could finally shine. Visibility meant viability in marketing. Suddenly, little fish all over the world had a shot at stardom.
 
 And just like that, the zebrafish got its lucky break. India—being the freshwater fish paradise that it is—quickly became a hotspot for this ornamental fish gold rush. And the zebrafish? Cheap, easy to care for, low maintenance—basically the ideal roommate. Before long, it was showing up in aquariums across the globe. By the early 20th century, the zebrafish had become a regular in the Western ornamental fish scene—an NPC in every pet store’s background tank. But here’s where things got interesting.
@@ -97,12 +99,12 @@ In 1976, zebrafish embarked on their inaugural space voyage aboard the Soviet Un
 From their humble beginnings in the sacred currents of the Ganges to their silent drift beneath the starlit expanse of the Milky Way, the journey of the zebrafish is more than a tale of science—it is a quiet meditation on life itself. Suspended in a sealed vessel 400 kilometers above Earth, they glide through orbit as if retracing a cosmic river, where the waters of origin meet the stillness of infinity. In that solitude—between the Ganges, echoing the ancient river they once called home, and the galaxy, reaching toward the stars that now lie ahead—they remind us that life, however small, can rise from obscurity and shine among the stars.
 
 ## **References:**
-1. [Episode 39: Biolore: How a tiny fish from India became biology’s most loved animal](https://www.nature.com/articles/d44151-024-00089-5?utm_source=chatgpt.com)
-2. [Zebrafish-Wikipedia](https://en.wikipedia.org/wiki/Zebrafish?utm_source=chatgpt.com)
-3. [The History of Zebrafish as a Research Model Organism](https://www.zeclinics.com/blog/history-of-zebrafish-research/?utm_source=chatgpt.com)
-4. [Aquarium History Glow in the Dark](https://www.hygger-online.com/aquarium-history-glow-in-the-dark/?srsltid=AfmBOopi3GFLiptiwAx4d6DNUnnHq4ALsTw2fH1xigqvkPBPH9R7xdBa&utm_source=chatgpt.com)
-5. [Vintage Aquariums](https://www.aquariumarchitecture.com/archive/vintage-aquariums/?utm_source=chatgpt.com)
-6. [Third Paris International Exposition of 1878](https://www.ndl.go.jp/exposition/e/s1/1878-2.html?utm_source=chatgpt.com)
+1. [Episode 39: Biolore: How a tiny fish from India became biology’s most loved animal](https://www.nature.com/articles/d44151-024-00089-5)
+2. [Zebrafish-Wikipedia](https://en.wikipedia.org/wiki/Zebrafish)
+3. [The History of Zebrafish as a Research Model Organism](https://www.zeclinics.com/blog/history-of-zebrafish-research)
+4. [Aquarium History Glow in the Dark](https://www.hygger-online.com/aquarium-history-glow-in-the-dark/?srsltid=AfmBOopi3GFLiptiwAx4d6DNUnnHq4ALsTw2fH1xigqvkPBPH9R7xdBa)
+5. [Vintage Aquariums](https://www.aquariumarchitecture.com/archive/vintage-aquariums/)
+6. [Third Paris International Exposition of 1878](https://www.ndl.go.jp/exposition/e/s1/1878-2.html)
 
 ---
 

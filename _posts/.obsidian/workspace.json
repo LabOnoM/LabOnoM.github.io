@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2025-06-08-how-to-encode-barcode-in-stereo-seq.md",
-                "mode": "source",
+                "file": "2025-06-01-journal-club-glycorna-imaging.en.md",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "2025-06-08-how-to-encode-barcode-in-stereo-seq"
+              "title": "2025-06-01-journal-club-glycorna-imaging.en"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2025-06-08-how-to-encode-barcode-in-stereo-seq.md",
+                "file": "2025-06-01-journal-club-glycorna-imaging.en.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 2025-06-08-how-to-encode-barcode-in-stereo-seq"
+              "title": "Outline of 2025-06-01-journal-club-glycorna-imaging.en"
             }
           }
         ],
@@ -171,9 +171,12 @@
   },
   "active": "a4907a76f08cf62a",
   "lastOpenFiles": [
+    "2025-06-01-journal-club-glycorna-imaging.zh.md",
+    "2025-06-01-journal-club-glycorna-imaging.jp.md",
+    "2025-06-01-journal-club-glycorna-imaging.en.md",
+    "2025-06-08-how-to-encode-barcode-in-stereo-seq.md",
     "2025-06-10-zebrafish-history.md",
     "2025-06-15-shall-we-use-geometric-mean.md",
-    "2025-06-08-how-to-encode-barcode-in-stereo-seq.md",
     "PostAttachedFiles/Zebrafish-evolution-and-range.png",
     "PostAttachedFiles/ZebrafishInSpace.gif",
     "PostAttachedFiles/ZebraFishLiveShow.gif",
@@ -183,9 +186,6 @@
     "PostAttachedFiles/antiqueaquarium-6.jpg",
     "PostAttachedFiles/IGV_BAM_Screenshot.png",
     "2025-05-30-about-our-logo.md",
-    "2025-06-01-journal-club-glycorna-imaging.zh.md",
-    "2025-06-01-journal-club-glycorna-imaging.jp.md",
-    "2025-06-01-journal-club-glycorna-imaging.en.md",
     "PostAttachedFiles/Github_Issue_20250604.png",
     "PostAttachedFiles/AI_Response_20250604.png",
     "PostAttachedFiles",

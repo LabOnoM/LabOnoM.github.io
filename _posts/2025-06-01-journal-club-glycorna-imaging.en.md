@@ -11,7 +11,7 @@ tags:
   - JournalClub
   - glycoRNA
   - Aptamer
-  - Rolling Circle Amplification
+  - Rolling-Circle-Amplification
   - Imaging
 ---
 

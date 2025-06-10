@@ -1,0 +1,15 @@
+# Codex environment configuration for LabOnoM.github.io
+
+description: |
+  Environment for building and previewing the BSGOU website built with Jekyll.
+  Includes Ruby and Jekyll for static site generation.
+
+environment_variables:
+  JEKYLL_ENV: development
+
+secrets: []
+
+setup_script: |
+  apt-get update
+  apt-get install -y ruby-full build-essential zlib1g-dev
+  gem install bundler jekyll

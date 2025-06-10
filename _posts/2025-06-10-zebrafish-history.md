@@ -12,7 +12,7 @@ tags:
   - Science Storytelling
 ---
 
-<img src="https://visitor-badge.laobi.icu/badge?page_id=https://labonom.github.io/2025/06/09/zebrafish-history.html" alt="visitor badge"/> [![GitHub](https://img.shields.io/badge/GitHub-Profile-black?logo=github)](https://github.com/LabOnoM)
+<img src="https://visitor-badge.laobi.icu/badge?page_id=https://labonom.github.io/2025/06/10/zebrafish-history.html" alt="visitor badge"/> [![GitHub](https://img.shields.io/badge/GitHub-Profile-black?logo=github)](https://github.com/LabOnoM)
 
 Some things in this world just don’t make sense—no matter how you slice it. Take the zebrafish, for example. A tiny, transparent freeloader that wouldn’t even pick it as bait, much less any fishing dude’s Instagram story. And yet—somehow—it ended up becoming a pillar of modern life sciences. Yeah, I know. It sounds ridiculous. So, how did this happen? Let’s rewind.
 

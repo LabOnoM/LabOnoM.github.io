@@ -8,8 +8,9 @@ show_edit_on_github: true
 pageview: true
 tags:
   - Zebrafish
-  - Model Organisms
-  - Science Storytelling
+  - Model-Organisms
+  - Popular-Science
+  - Storytelling
 ---
 
 <img src="https://visitor-badge.laobi.icu/badge?page_id=https://labonom.github.io/2025/06/10/zebrafish-history.html" alt="visitor badge"/> [![GitHub](https://img.shields.io/badge/GitHub-Profile-black?logo=github)](https://github.com/LabOnoM)

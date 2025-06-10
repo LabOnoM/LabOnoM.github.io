@@ -9,6 +9,7 @@ pageview: true
 tags:
   - Stereo-seq
   - barcode
+  - Storytelling
 ---
 <img src="https://visitor-badge.laobi.icu/badge?page_id=https://www.bs-gou.com/2025/06/08/how-to-encode-barcode-in-stereo-seq.html" alt="visitor badge"/> [![GitHub](https://img.shields.io/badge/GitHub-Profile-black?logo=github)](https://github.com/LabOnoM)
 

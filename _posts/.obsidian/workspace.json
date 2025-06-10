@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2025-06-10-zebrafish-history.md",
+                "file": "2025-06-08-how-to-encode-barcode-in-stereo-seq.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "2025-06-10-zebrafish-history"
+              "title": "2025-06-08-how-to-encode-barcode-in-stereo-seq"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2025-06-10-zebrafish-history.md",
+                "file": "2025-06-08-how-to-encode-barcode-in-stereo-seq.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 2025-06-10-zebrafish-history"
+              "title": "Outline of 2025-06-08-how-to-encode-barcode-in-stereo-seq"
             }
           }
         ],
@@ -169,11 +169,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "017decf861258da0",
+  "active": "a4907a76f08cf62a",
   "lastOpenFiles": [
+    "2025-06-10-zebrafish-history.md",
     "2025-06-15-shall-we-use-geometric-mean.md",
     "2025-06-08-how-to-encode-barcode-in-stereo-seq.md",
-    "2025-06-10-zebrafish-history.md",
     "PostAttachedFiles/Zebrafish-evolution-and-range.png",
     "PostAttachedFiles/ZebrafishInSpace.gif",
     "PostAttachedFiles/ZebraFishLiveShow.gif",

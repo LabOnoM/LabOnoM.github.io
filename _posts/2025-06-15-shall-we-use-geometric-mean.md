@@ -105,6 +105,10 @@ $$\frac{\cancel{Geometric\_Mean}[Sample]}{Arithmetic\_Mean[\cancel{Geometric\_Me
   - Because of eq.(1):
 $$2^{-(\Delta C_{T,X_i} - \overline{\Delta C_{T,C}})} = 2^{-(\Delta C_{T,X_i} - \frac{1}{n} \sum_{i=1}^n \Delta C_{T,C_i})} = 2^{-\Delta C_{T,X_i}} \div 2^{\frac{1}{n} \sum_{i=1}^n \Delta C_{T,C_i}}$$
 
+<div style="text-align: right; font-style: italic; margin-top: 2em;">
+  — by WANG Ziyi <a href="https://github.com/wong-ziyi" target="_blank" style="color: #4078c0; text-decoration: none; font-weight: bold;">GitHub Profile</a>
+</div>
+
 ## References
  - [https://www.gene-quantification.de/](https://www.gene-quantification.de/)
  - [Karlen Y, McNair A, Perseguers S, Mazza C, Mermod N. Statistical significance of quantitative PCR. BMC bioinformatics. 2007 Dec;8:1-6.](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-8-131#Sec14)

@@ -27,7 +27,10 @@ Do you know where zebrafish originally come from?
 
 They swim through rice paddies, floodplains, and puddles across India, Nepal, and Bangladesh. But here’s the kicker—even the most devout Brahmins probably never realized that among all those sacred waters swam a future scientific superstar. Because let’s be honest, there are probably hundreds of tiny fish in the Ganges with similar vibes—same look, same lifestyle, same “eat or be eaten” game—nothing to set the zebrafish apart… at first glance.
 
-In fact, one theory suggests that the zebrafish’s signature stripes might act like a barcode to distinguish each other from other kinds of fish, especially during mating season, when things can get... confusing. But honestly? Even if they mix things up, who cares? Zebrafish aren’t exactly known for their family members. They can snack on their own eggs even when they’re not hungry. Monogamy? Parenting instincts? Never heard of ‘em. You gotta feel bad for zebrafish—seriously. From the very first day they’re born, everything that moves (including mom and dad) is basically like: “Yup, dinner’s served.” Their only chance at survival? Turn the opacity slider all the way down and hope everyone nearby suddenly develops selective blindness. But let’s face it, invisibility only gets you so far in this brutal ecosystem. So, they’ve also mastered the ancient art of strategic hiding—wiggling into shallow puddles where the big fish don’t bother going. Oh, and as carp family members, they’ve unlocked full-on apocalypse mode: dirty water? No problem. Low oxygen? Bring it on. These fish weren’t made to thrive—they were built to survive.
+![Zebrafish-evolution-and-range](https://raw.githubusercontent.com/LabOnoM/LabOnoM.github.io/master/_posts/PostAttachedFiles/Zebrafish-evolution-and-range.png)
+From Parichy DM 2020.
+
+In fact, one theory suggests that the zebrafish’s signature stripes might act like a barcode to distinguish each other from other kinds of fish, especially during mating season, when things can get... confusing. Their stripes like fish Tinder, but with better lighting. Knock out a single gene, and suddenly these fish are socially awkward loners [Patterson LB 2019](https://www.annualreviews.org/content/journals/10.1146/annurev-genet-112618-043741). But honestly? Even if they mix things up, who cares? Zebrafish aren’t exactly known for their family members. They can snack on their own eggs even when they’re not hungry. Monogamy? Parenting instincts? Never heard of ‘em. You gotta feel bad for zebrafish—seriously. From the very first day they’re born, everything that moves (including mom and dad) is basically like: “Yup, dinner’s served.” Their only chance at survival? Turn the opacity slider all the way down and hope everyone nearby suddenly develops selective blindness. But let’s face it, invisibility only gets you so far in this brutal ecosystem. So, they’ve also mastered the ancient art of strategic hiding—wiggling into shallow puddles where the big fish don’t bother going. Oh, and as carp family members, they’ve unlocked full-on apocalypse mode: dirty water? No problem. Low oxygen? Bring it on. These fish weren’t made to thrive—they were built to survive.
 
 ## 2. When the World First Noticed
 
@@ -46,7 +49,7 @@ You see, the phrase “Century of Life Sciences” wasn’t coined today (21st c
 Of course, cracking that code isn’t easy. Why? Because embryos love to stay hidden—either deep inside a body, or wrapped in layers of opaque egg jelly. You just... can’t see what’s going on. Enter 1934. At Wayne State University, a researcher named Charles W. Creaser was—well, possibly procrastinating on something—when he stumbled upon a curious little fish. He took a closer look and had a bit of a eureka moment: “Hey, this fish? It's transparent. The embryos? Develop externally. The eggs? Not picky about water. Stick it under a microscope and boom—you’ve got yourself a live broadcast of embryonic development.” Nature’s own reality show. No subscription required.
 
 ![Transparent Fish Tank](https://raw.githubusercontent.com/LabOnoM/LabOnoM.github.io/master/_posts/PostAttachedFiles/ZebraFishLiveShow.gif)
-Reality show of Zebrafish embryo. Figures are from Kimmel CB 1995. Videos are from [@TushnaKapoor](https://x.com/TushnaKapoor) in [EMBOcellPolarity25](https://x.com/hashtag/EMBOcellPolarity25) ([https://x.com/HeisenbergCPLab/status/1930179868437721213](https://x.com/HeisenbergCPLab/status/1930179868437721213)).
+Reality show of development of Zebrafish embryo. Figures are from Kimmel CB 1995. Videos are from [@TushnaKapoor](https://x.com/TushnaKapoor) in [EMBOcellPolarity25](https://x.com/hashtag/EMBOcellPolarity25) ([https://x.com/HeisenbergCPLab/status/1930179868437721213](https://x.com/HeisenbergCPLab/status/1930179868437721213)).
 
 ## 3. The Transparent Star of Developmental Biology
 
@@ -64,6 +67,9 @@ So when this guy chose zebrafish as his model organism in the 1960s, everything 
  - And back then, studying genetics often meant dousing your subjects with mutagens and hoping something interesting happened. Luckily for us, zebrafish are basically born with poison resistance turned on—perfect for reckless experimental enthusiasm.
 
 In short, zebrafish were sciency, sturdy, and surprisingly see-through. What more could a researcher want?
+
+![NatureLifeCycleVsLabLifeCycle](https://raw.githubusercontent.com/LabOnoM/LabOnoM.github.io/master/_posts/PostAttachedFiles/NatureLifeCycleVsLabLifeCycle.png)
+A schematic representing the life cycle and living conditions experienced by (**A**) wild zebrafish and (**B**) laboratory maintained zebrafish. Credit: Sandra Doyle. From Lee CJ 2022.
 
 Of course, zebrafish weren’t perfect. Unlike mice, they couldn’t be inbred for dozens of generations to make tidy little “isogenic” lines. Try it for more than a few generations and boom—infertility. Also, their larvae had these annoying pigment spots on the back of their heads, making it harder to observe the brain from above. But Streisinger, as a top-tier geneticist, wasn’t about to let a few fish quirks stop him.
 
@@ -83,7 +89,8 @@ If everything so far still sounds relatively normal—fish, tanks, DNA magic—w
 
 In the 1990s, scientists had just cracked something magical—fluorescent proteins. The most famous of them all? GFP: Green Fluorescent Protein. Stick it into a gene, and boom—your cells light up like a glow stick at a rave. This changed everything. Now researchers could label specific cells—say, a handful in a developing embryo—and track their every move as the organism formed, cell by cell. No more guessing where stuff went or how organs formed. Just tag it and watch. There was just one problem. Most animals are opaque. Tag all you want—you still can’t see through fur, skin, or skull. So scientists asked: “Is there a vertebrate animal that’s used in developmental studies... whose embryos are actually transparent?” And the universe answered: Zebrafish. With their see-through embryos and rapid development, zebrafish became the ultimate sci-fi window into embryogenesis. For the first time in history, humanity could record high-definition, full-color videos of life assembling itself from scratch.
 
-
+![Transparent Fish Tank](https://raw.githubusercontent.com/LabOnoM/LabOnoM.github.io/master/_posts/PostAttachedFiles/new-zebrafish-banner.png)
+Transparent and fluorescent zebrafish.
 
 But wait—there’s more. That glowing-protein tech soon leveled up into calcium imaging. Here’s how it works: When a neuron fires a signal, calcium ions flood in. So scientists engineered cells to flash fluorescent light in response to those calcium spikes. The stronger the neural signal, the brighter the glow. Translation: We could now see thoughts as they happened. The brain’s electrical symphony was no longer invisible. Unless, of course, your animal head is not transparent. But not zebrafish. Their brains were fully transparent during early development—almost like evolution saw this tech coming and said, “You’re welcome.” Cue entire zebrafish brains lighting up like a city grid under a time-lapse.
 
@@ -101,7 +108,14 @@ A lot of life sciences university and biotech company got zebrafish swimming som
 
 In 1976, zebrafish embarked on their inaugural space voyage aboard the Soviet Union's Soyuz 21 mission to the Salyut 5 space station—the first time these tiny vertebrates were studied in a microgravity environment. About half a century later, on April 25, 2024, four zebrafish boarded China’s Shenzhou 18 spacecraft to begin the country’s first in-orbit aquatic ecosystem experiment aboard the Tiangong Space Station. Living for 43 days inside a completely sealed 1.2-liter tank, they shattered the previous record set by German swordtails, which survived 16 days in space, making zebrafish the longest-surviving fish ever recorded in orbit.
 
+![ZebrafishInSpace](https://raw.githubusercontent.com/LabOnoM/LabOnoM.github.io/master/_posts/PostAttachedFiles/ZebrafishInSpace.gif)
+Zebrafish in outer space
+
 From their humble beginnings in the sacred currents of the Ganges to their silent drift beneath the starlit expanse of the Milky Way, the journey of the zebrafish is more than a tale of science—it is a quiet meditation on life itself. Suspended in a sealed vessel 400 kilometers above Earth, they glide through orbit as if retracing a cosmic river, where the waters of origin meet the stillness of infinity. In that solitude—between the Ganges, echoing the ancient river they once called home, and the galaxy, reaching toward the stars that now lie ahead—they remind us that life, however small, can rise from obscurity and shine among the stars.
+
+<div style="text-align: right; font-style: italic; margin-top: 2em;">
+  — by WANG Ziyi <a href="https://github.com/wong-ziyi" target="_blank" style="color: #4078c0; text-decoration: none; font-weight: bold;">GitHub Profile</a>
+</div>
 
 ## **References:**
 1. [Episode 39: Biolore: How a tiny fish from India became biology’s most loved animal](https://www.nature.com/articles/d44151-024-00089-5)
@@ -111,6 +125,11 @@ From their humble beginnings in the sacred currents of the Ganges to their silen
 5. [Vintage Aquariums](https://www.aquariumarchitecture.com/archive/vintage-aquariums/)
 6. [Third Paris International Exposition of 1878](https://www.ndl.go.jp/exposition/e/s1/1878-2.html)
 7. [Kimmel CB, Ballard WW, Kimmel SR, Ullmann B, Schilling TF. Stages of embryonic development of the zebrafish. Developmental dynamics. 1995 Jul;203(3):253-310.](https://anatomypubs.onlinelibrary.wiley.com/doi/abs/10.1002/aja.1002030302)
+8. [Patterson LB, Parichy DM. Zebrafish pigment pattern formation: insights into the development and evolution of adult form. Annual Review of Genetics. 2019 Dec 3;53(1):505-30.](https://www.annualreviews.org/content/journals/10.1146/annurev-genet-112618-043741)
+9. [Lee CJ, Paull GC, Tyler CR. Improving zebrafish laboratory welfare and scientific research through understanding their natural history. Biological Reviews. 2022 Jun;97(3):1038-56.](https://onlinelibrary.wiley.com/doi/full/10.1111/brv.12831)
+10. [Parichy DM, Postlethwait JH. The biotic and abiotic environment of zebrafish. InBehavioral and neural genetics of zebrafish 2020 Jan 1 (pp. 3-16). Academic Press.](https://www.sciencedirect.com/science/article/abs/pii/B9780128175286000012)
+11. [Eisen JS. History of zebrafish research. InThe zebrafish in biomedical research 2020 Jan 1 (pp. 3-14). Academic Press.](https://www.sciencedirect.com/science/article/abs/pii/B9780128124314000014)
+12. [Pathak NH, Barresi MJ. Zebrafish as a model to understand vertebrate development. InThe Zebrafish in Biomedical Research 2020 Jan 1 (pp. 559-591). Academic Press.](https://www.sciencedirect.com/science/article/abs/pii/B9780128124314000452)
 
 ---
 

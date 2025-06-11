@@ -22,7 +22,8 @@ def fetch_members():
         r = requests.get(url, headers=HEADERS).json()
         for item in r.get("items", []):
             user = item["repository"]["owner"]["login"]
-            members.add(user)
+            if user != ORG_NAME:  # <-- skip LabOnoM org
+                members.add(user)
         if len(r.get("items", [])) < 100:
             break
         page += 1

@@ -96,7 +96,7 @@ def generate_outputs(df):
   <h2>🐝 BSGOU Member Directory</h2>
   <p>Ranked by Contribution Score (50% linear + 50% Poisson normalization).</p>
   <p>For more details, please check a demo of
-     <a href="https://www.bs-gou.com/sources/BSGOU_Contribution_Score.html" target="_blank">
+     <a href="https://www.bs-gou.com/2025/06/12/BSGOU-Contribution-Score.html" target="_blank">
      🐝 BSGOU Contribution Score Calculation</a></p>
   <table>
     <thead>

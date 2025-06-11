@@ -10,10 +10,11 @@ show_edit_on_github: true
 
 This document explains how we calculate the contribution score for BSGOU (Bioinformatics Study Group in Okayama University) members. It is designed to fairly distribute recognition or shared resources (e.g., donations) based on actual contributions, while being robust against gaming by spammy commits or shallow participation.
 
+<!--more-->
+
 ## 📐 Scoring Formula
 
 Each contributor receives a **raw score** based on their contribution activities:
-
 
 $$\text{Raw Score}_i = 5 \times \text{PRs}_i + 3 \times \text{Issues}_i + 2 \times \text{Commits}_i + 1 \times \text{Repos}_i$$
 

@@ -6,6 +6,8 @@ aside:
 show_edit_on_github: true
 ---
 
+<img src="https://visitor-badge.laobi.icu/badge?page_id=https://labonom.github.io/2025/06/12/BSGOU-Contribution-Score.html" alt="visitor badge"/> [![GitHub](https://img.shields.io/badge/GitHub-Profile-black?logo=github)](https://github.com/LabOnoM)
+
 This document explains how we calculate the contribution score for BSGOU (Bioinformatics Study Group in Okayama University) members. It is designed to fairly distribute recognition or shared resources (e.g., donations) based on actual contributions, while being robust against gaming by spammy commits or shallow participation.
 
 ## 📐 Scoring Formula
@@ -21,7 +23,7 @@ Then, we apply two normalization steps:
    
    $$\text{Linear}_i = \left(\frac{\text{Raw Score}_i}{\max_j \text{Raw Score}_j}\right) \times 100$$
 
-2. **Poisson Normalization** to emphasize rarity of high contributions:
+2. **Poisson Normalization** to emphasize the rarity of high contributions:
 
    $$\text{Poisson}_i = 100 - \text{PoissonSF}(\text{Raw Score}_i - 1, \lambda), \quad \lambda = \text{mean of all raw scores}$$
 

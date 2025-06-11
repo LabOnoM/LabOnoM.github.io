@@ -1,5 +1,5 @@
 ---
-title: '🐝 BSGOU Contribution Score Calculation Demo'
+title: '🐝 BSGOU Contribution Score Calculation'
 lang: en
 license: true
 aside:
@@ -37,8 +37,9 @@ Then, we apply two normalization steps:
 
 ## 📊 Example
 
+|---
 | GitHub ID | PRs | Issues | Commits | Repos | Raw Score | Linear Score | Poisson Score | Final Score |
-|-----------|-----|--------|---------|--------|------------|------------|--------------|----------------|
+|:-|:-|:-|:-|:-|:-|:-|:-|:-
 | alice     | 6   | 4      | 10      | 2      | 56         | 100.00     | 100.00       | 100.00         |
 | eve       | 3   | 2      | 8       | 1      | 32         | 57.14      | 87.64        | 78.49          |
 | bob       | 2   | 2      | 3       | 1      | 25         | 44.64      | 42.64        | 43.24          |

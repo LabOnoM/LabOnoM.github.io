@@ -60,6 +60,7 @@ Then, we apply two normalization steps:
 | dana      | 0   | 0      | 0       | 0      | 0          | 0.00       | 0.00         | 0.00           |
 | emily     | 0   | 0      | 0       | 0      | 0          | 0.00       | 0.00         | 0.00           |
 | iris      | 0   | 0      | 0       | 0      | 0          | 0.00       | 0.00         | 0.00           |
+|===
 
 > Most members have no contributions. The hybrid scoring preserves rank and distributes scores steeply to emphasize genuine effort.
 

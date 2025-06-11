@@ -28,8 +28,6 @@ jobs:
 
       - name: Move members.html to docs/ and commit
         run: |
-          mkdir -p docs
-          mv members.html docs/
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
           git add docs/members.html
@@ -47,5 +45,5 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: members-html
-          path: docs/members.html
+          path: members.html
           overwrite: true

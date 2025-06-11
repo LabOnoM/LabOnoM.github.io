@@ -26,11 +26,11 @@ jobs:
       - name: Run fetch_bsgou_members.py
         run: python scripts/fetch_bsgou_members.py
 
-      - name: Move members.html to docs/ and commit
+      - name: Commit
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
-          git add docs/members.html
+          git add members.html
           git commit -m "Update members.html" || echo "No changes to commit"
           git push
 

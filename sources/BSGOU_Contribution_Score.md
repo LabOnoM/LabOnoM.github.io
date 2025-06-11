@@ -1,9 +1,12 @@
 ---
-layout: default
-title: 🐝 BSGOU Contribution Score Calculation Demo
+title: '🐝 BSGOU Contribution Score Calculation Demo'
+lang: en
+license: true
+aside:
+  toc: true
+show_edit_on_github: true
+pageview: true
 ---
-
-# 🐝 BSGOU Contribution Score Calculation Demo
 
 This document explains how we calculate the contribution score for BSGOU (Bioinformatics Study Group in Okayama University) members. It is designed to fairly distribute recognition or shared resources (e.g., donations) based on actual contributions, while being robust against gaming by spammy commits or shallow participation.
 

@@ -1,0 +1,49 @@
+name: Update Members List
+
+on:
+  schedule:
+    - cron: '0 3 * * *'  # daily at 3 AM UTC
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    env:
+      GITHUB_TOKEN: ${{ secrets.BSGOU_GITHUB_TOKEN }}
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: pip install requests pandas scipy openpyxl
+
+      - name: Run update_members.py
+        run: python update_members.py
+
+      - name: Upload members.xlsx
+        uses: actions/upload-artifact@v3
+        with:
+          name: members-excel
+          path: members.xlsx
+
+      - name: Upload members.html
+        uses: actions/upload-artifact@v3
+        with:
+          name: members-html
+          path: members.html
+
+      - name: Commit updated members.html to docs/
+        run: |
+          mkdir -p docs
+          mv members.html docs/
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
+          git add docs/members.html
+          git commit -m "Update members.html"
+          git push || echo "Nothing to commit"

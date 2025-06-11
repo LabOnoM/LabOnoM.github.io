@@ -1,11 +1,9 @@
 ---
 title: '🐝 BSGOU Contribution Score Calculation'
 lang: en
-license: true
 aside:
   toc: true
 show_edit_on_github: true
-pageview: true
 ---
 
 This document explains how we calculate the contribution score for BSGOU (Bioinformatics Study Group in Okayama University) members. It is designed to fairly distribute recognition or shared resources (e.g., donations) based on actual contributions, while being robust against gaming by spammy commits or shallow participation.
@@ -37,6 +35,7 @@ Then, we apply two normalization steps:
 
 ## 📊 Example
 
+
 | GitHub ID | PRs | Issues | Commits | Repos | Raw Score | Linear Score | Poisson Score | Final Score |
 |:-|:-|:-|:-|:-|:-|:-|:-|:-
 | alice     | 6   | 4      | 10      | 2      | 56         | 100.00     | 100.00       | 100.00         |
@@ -59,6 +58,7 @@ Then, we apply two normalization steps:
 | dana      | 0   | 0      | 0       | 0      | 0          | 0.00       | 0.00         | 0.00           |
 | emily     | 0   | 0      | 0       | 0      | 0          | 0.00       | 0.00         | 0.00           |
 | iris      | 0   | 0      | 0       | 0      | 0          | 0.00       | 0.00         | 0.00           |
+
 
 > Most members have no contributions. The hybrid scoring preserves rank and distributes scores steeply to emphasize genuine effort.
 

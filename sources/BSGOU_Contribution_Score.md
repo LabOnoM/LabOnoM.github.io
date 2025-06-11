@@ -37,7 +37,6 @@ Then, we apply two normalization steps:
 
 ## 📊 Example
 
-|---
 | GitHub ID | PRs | Issues | Commits | Repos | Raw Score | Linear Score | Poisson Score | Final Score |
 |:-|:-|:-|:-|:-|:-|:-|:-|:-
 | alice     | 6   | 4      | 10      | 2      | 56         | 100.00     | 100.00       | 100.00         |
@@ -60,7 +59,6 @@ Then, we apply two normalization steps:
 | dana      | 0   | 0      | 0       | 0      | 0          | 0.00       | 0.00         | 0.00           |
 | emily     | 0   | 0      | 0       | 0      | 0          | 0.00       | 0.00         | 0.00           |
 | iris      | 0   | 0      | 0       | 0      | 0          | 0.00       | 0.00         | 0.00           |
-|===
 
 > Most members have no contributions. The hybrid scoring preserves rank and distributes scores steeply to emphasize genuine effort.
 

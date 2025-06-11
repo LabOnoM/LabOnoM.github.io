@@ -145,7 +145,7 @@ There is **no match** between the AI's algorithm-derived 25-mer (`ACCGTTACCGGATG
 
 Feeling disheartened, I decided to give Google one more careful search—and that’s when I saw it:
 
-![Github_Issue_20250604](https://raw.githubusercontent.com/LabOnoM/LabOnoM.github.io/master/_posts/PostAttachedFiles/Github_Issue_20250604.png)
+![GitHub_Issue_20250604](https://raw.githubusercontent.com/LabOnoM/LabOnoM.github.io/master/_posts/PostAttachedFiles/GitHub_Issue_20250604.png)
 
 Well... that's life, isn't it?
 

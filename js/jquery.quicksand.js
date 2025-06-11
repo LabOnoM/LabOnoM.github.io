@@ -12,7 +12,7 @@ http://github.com/jquery/jquery/blob/master/MIT-LICENSE.txt
 http://github.com/jquery/jquery/blob/master/GPL-LICENSE.txt
 
 Project site: http://razorjack.net/quicksand
-Github site: http://github.com/razorjack/quicksand
+GitHub site: http://github.com/razorjack/quicksand
 
 */
 

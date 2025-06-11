@@ -24,7 +24,7 @@ jobs:
         run: pip install requests pandas scipy openpyxl
 
       - name: Run update_members.py
-        run: python update_members.py
+        run: python scripts/update_members.py
 
       - name: Move members.html to docs/ and commit
         run: |

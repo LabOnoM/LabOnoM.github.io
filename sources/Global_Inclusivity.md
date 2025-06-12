@@ -3,6 +3,13 @@ layout: default
 title: Global Inclusivity
 ---
 
+<link rel="icon" type="image/png" href="img/favicons/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/svg+xml" href="img/favicons/favicon.svg" />
+<link rel="shortcut icon" href="img/favicons/favicon.ico" />
+<link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-touch-icon.png" />
+<link rel="manifest" href="img/favicons/site.webmanifest" />
+
+
 <!-- Info Row: Visitor count + GitHub profile -->
 <div style="margin-top: 10px; margin-bottom: 8px;">
   <img src="https://visitor-badge.laobi.icu/badge?page_id=labonom.github.io/sources/Global_Inclusivity.html" alt="visitor badge"/>
@@ -37,10 +44,3 @@ In keeping with BSGOU’s values of fairness and inclusivity, we commit to redis
 This structure reflects the broader mission of BSGOU: to empower diverse learners, encourage open collaboration, and bridge local efforts with global impact. Whether you’re a medical student in Okayama, a clinician in Europe, or a programmer in Africa, you can meaningfully contribute to—and benefit from—our shared pursuit of scientific discovery and digital health innovation.
 
 We believe inclusivity is not an afterthought but a structural design principle. That’s why everything we build is open-source, publicly visible, and globally scalable.
-
-
-
-
-
-
-

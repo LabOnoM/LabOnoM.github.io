@@ -3,6 +3,12 @@ layout: default
 title: Education for Empowerment
 ---
 
+<link rel="icon" type="image/png" href="img/favicons/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/svg+xml" href="img/favicons/favicon.svg" />
+<link rel="shortcut icon" href="img/favicons/favicon.ico" />
+<link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-touch-icon.png" />
+<link rel="manifest" href="img/favicons/site.webmanifest" />
+
 <!-- Info Row: Visitor count + GitHub profile -->
 <div style="margin-top: 10px; margin-bottom: 8px;">
   <img src="https://visitor-badge.laobi.icu/badge?page_id=labonom.github.io/sources/Education_for_Empowerment.html" alt="visitor badge"/>
@@ -87,8 +93,3 @@ To prepare students for real-world research, next-generation education must rely
 Even the structure of teaching itself becomes more flexible and modern. Instructors can asynchronously review code, leave feedback directly in GitHub commits, open issues for clarification, and guide discussion through GitHub Discussions. Every line of code can be tested, cited, and discussed in real time—making the learning experience transparent, dynamic, and fully integrated with the tools used in professional research.
 
 By working with real datasets and interdisciplinary workflows, students develop the technical fluency, critical thinking, and translational mindset required to connect computational analysis with clinical insight. This hands-on exposure fosters a generation of professionals prepared not just to understand bioinformatics—but to use it meaningfully in the service of science and society.
-
-
-
-
-

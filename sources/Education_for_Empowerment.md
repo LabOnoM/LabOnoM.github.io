@@ -3,23 +3,19 @@ layout: default
 title: Education for Empowerment
 ---
 
-<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 10px; margin-bottom: 20px;">
+<!-- Info Row: Visitor count + GitHub profile -->
+<div style="margin-top: 10px; margin-bottom: 8px;">
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=labonom.github.io/sources/Education_for_Empowerment.html" alt="visitor badge"/>
+  <a href="https://github.com/LabOnoM">
+    <img src="https://img.shields.io/badge/GitHub-Profile-black?logo=github" alt="GitHub badge"/>
+  </a>
+</div>
 
-  <!-- Left-aligned: visitor badge and GitHub badge -->
-  <div>
-    <img src="https://visitor-badge.laobi.icu/badge?page_id=labonom.github.io/sources/Education_for_Empowerment.html" alt="visitor badge"/>
-    <a href="https://github.com/LabOnoM">
-      <img src="https://img.shields.io/badge/GitHub-Profile-black?logo=github" alt="GitHub badge"/>
-    </a>
-  </div>
-
-  <!-- Right-aligned: language switch buttons -->
-  <div>
-    <a href="/sources/Education_for_Empowerment.html" style="padding: 6px 12px; border: 1px solid #ccc; background-color: #f0f0f0; text-decoration: none; border-radius: 4px; margin-left: 8px;">English</a>
-    <a href="/sources/Education_for_Empowerment_JP.html" style="padding: 6px 12px; border: 1px solid #ccc; background-color: #f0f0f0; text-decoration: none; border-radius: 4px; margin-left: 8px;">日本語</a>
-    <a href="/sources/Education_for_Empowerment_CH.html" style="padding: 6px 12px; border: 1px solid #ccc; background-color: #f0f0f0; text-decoration: none; border-radius: 4px; margin-left: 8px;">中文</a>
-  </div>
-
+<!-- Language Switch Row -->
+<div>
+  <a href="/sources/Education_for_Empowerment.html" style="padding: 6px 12px; border: 1px solid #ccc; background-color: #f0f0f0; text-decoration: none; border-radius: 4px; margin-right: 8px;">English</a>
+  <a href="/sources/Education_for_Empowerment_JP.html" style="padding: 6px 12px; border: 1px solid #ccc; background-color: #f0f0f0; text-decoration: none; border-radius: 4px; margin-right: 8px;">日本語</a>
+  <a href="/sources/Education_for_Empowerment_CH.html" style="padding: 6px 12px; border: 1px solid #ccc; background-color: #f0f0f0; text-decoration: none; border-radius: 4px;">中文</a>
 </div>
 
 # Education for Empowerment

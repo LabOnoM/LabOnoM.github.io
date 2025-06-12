@@ -3,11 +3,23 @@ layout: default
 title: Education for Empowerment
 ---
 
-<img src="https://visitor-badge.laobi.icu/badge?page_id=labonom.github.io/sources/Education_for_Empowerment.html" alt="visitor badge"/> [![GitHub](https://img.shields.io/badge/GitHub-Profile-black?logo=github)](https://github.com/LabOnoM)
-<div style="text-align: right; margin-top: 10px; margin-bottom: 20px;">
-  <a href="/yourpage-en.html" style="padding: 6px 12px; border: 1px solid #ccc; background-color: #f0f0f0; margin-left: 8px; text-decoration: none; border-radius: 4px;">English</a>
-  <a href="/yourpage-ja.html" style="padding: 6px 12px; border: 1px solid #ccc; background-color: #f0f0f0; margin-left: 8px; text-decoration: none; border-radius: 4px;">日本語</a>
-  <a href="/yourpage-zh.html" style="padding: 6px 12px; border: 1px solid #ccc; background-color: #f0f0f0; margin-left: 8px; text-decoration: none; border-radius: 4px;">中文</a>
+<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 10px; margin-bottom: 20px;">
+
+  <!-- Left-aligned: visitor badge and GitHub badge -->
+  <div>
+    <img src="https://visitor-badge.laobi.icu/badge?page_id=labonom.github.io/sources/Education_for_Empowerment.html" alt="visitor badge"/>
+    <a href="https://github.com/LabOnoM">
+      <img src="https://img.shields.io/badge/GitHub-Profile-black?logo=github" alt="GitHub badge"/>
+    </a>
+  </div>
+
+  <!-- Right-aligned: language switch buttons -->
+  <div>
+    <a href="/sources/Education_for_Empowerment.html" style="padding: 6px 12px; border: 1px solid #ccc; background-color: #f0f0f0; text-decoration: none; border-radius: 4px; margin-left: 8px;">English</a>
+    <a href="/sources/Education_for_Empowerment_JP.html" style="padding: 6px 12px; border: 1px solid #ccc; background-color: #f0f0f0; text-decoration: none; border-radius: 4px; margin-left: 8px;">日本語</a>
+    <a href="/sources/Education_for_Empowerment_CH.html" style="padding: 6px 12px; border: 1px solid #ccc; background-color: #f0f0f0; text-decoration: none; border-radius: 4px; margin-left: 8px;">中文</a>
+  </div>
+
 </div>
 
 # Education for Empowerment

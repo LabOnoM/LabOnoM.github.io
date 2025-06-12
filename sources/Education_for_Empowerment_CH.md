@@ -5,7 +5,7 @@ title: Education for Empowerment
 
 <!-- Info Row: Visitor count + GitHub profile -->
 <div style="margin-top: 10px; margin-bottom: 8px;">
-  <img src="https://visitor-badge.laobi.icu/badge?page_id=labonom.github.io/sources/Education_for_Empowerment.html" alt="visitor badge"/>
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=labonom.github.io/sources/Education_for_Empowerment_CH.html" alt="visitor badge"/>
   <a href="https://github.com/LabOnoM">
     <img src="https://img.shields.io/badge/GitHub-Profile-black?logo=github" alt="GitHub badge"/>
   </a>

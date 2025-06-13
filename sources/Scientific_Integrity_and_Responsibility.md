@@ -27,8 +27,8 @@ Scientific integrity is the foundation of credible and impactful research. By ad
 
 ---
 
-#### Gingipain Regulates Isoform Switches of PD-L1 in Macrophages Infected with *Porphyromonas gingivalis*  
-*Scientific Reports. 2025. [doi:10.1038/s41598-025-94954-7](https://doi.org/10.1038/s41598-025-94954-7)*  
+#### Gingipain Regulates Isoform Switches of PD-L1 in Macrophages Infected with *Porphyromonas gingivalis*
+*Scientific Reports. 2025. [doi:10.1038/s41598-025-94954-7](https://doi.org/10.1038/s41598-025-94954-7)*
 **Authors:** Yilin Zheng, Ziyi Wang, Yao Weng, Heriati Sitosari, Yuhan He, Xiu Zhang, Noriko Shiotsu, Yoko Fukuhara, Mika Ikegame, Hirohiko Okamura
 
 ##### Summary of the Study
@@ -37,25 +37,25 @@ This study uncovered how gingipain, a toxic protease from the periodontal pathog
 
 ##### **How We Achieve Scientific Integrity in this study**
 
-- **Open Data & Code:**  
+- **Open Data & Code:**
   - All raw RNA-seq data is publicly available in [NCBI BioProject PRJNA1163056](https://www.ncbi.nlm.nih.gov/sra/?term=PRJNA1163056).
   - All data analysis results are accessible at [public repository](https://d3dcaz4rv8jgb4.cloudfront.net/).
   - Methods, custom bioinformatics scripts, and statistical protocols are fully described in the publication.
 
-- **Transparent Authorship & Funding:**  
+- **Transparent Authorship & Funding:**
   - Each author’s contributions are clearly documented.
   - All funding sources (Japan JSPS grants) are disclosed.
   - The authors declare no competing interests.
 
-- **Reproducibility:**  
+- **Reproducibility:**
   - Full details of experimental design, infection models, RNA-seq, protein validation, and computational analysis (including AlphaFold 3) are provided for independent replication.
   - Statistical rigor: FDR correction, reporting of all raw and normalized values, and use of established software (DESeq2, DEXSeq, IsoformSwitchAnalyzeR, etc.).
 
-- **Ethical & Collaborative:**  
+- **Ethical & Collaborative:**
   - All cell line work was conducted following institutional guidelines.
   - Collaboration with external experts (e.g., for bacterial strains and advanced analytics) is fully acknowledged.
 
-- **Community Sharing:**  
+- **Community Sharing:**
   - Raw data, analysis results, and all supplementary materials are shared online.
   - The group welcomes questions and requests for materials via the corresponding author.
 
@@ -67,8 +67,8 @@ This study uncovered how gingipain, a toxic protease from the periodontal pathog
 
 ---
 
-#### O‐GlcNAcylation Regulates Osteoblast Differentiation Through Morphological Changes in Mitochondria, Cytoskeleton, and Endoplasmic Reticulum  
-*BioFactors. 2024. [doi:10.1002/biof.2131](https://doi.org/10.1002/biof.2131)*  
+#### O‐GlcNAcylation Regulates Osteoblast Differentiation Through Morphological Changes in Mitochondria, Cytoskeleton, and Endoplasmic Reticulum
+*BioFactors. 2024. [doi:10.1002/biof.2131](https://doi.org/10.1002/biof.2131)*
 **Authors:** Yao Weng, Ziyi Wang, Heriati Sitosari, Mitsuaki Ono, Hirohiko Okamura, Toshitaka Oohashi
 
 ##### Summary of the Study
@@ -77,32 +77,32 @@ This research uncovered the crucial role of O-GlcNAcylation—a post-translation
 
 ##### **How We Achieve Scientific Integrity in this study**
 
-- **Open Data & Code:**  
-  All primary data (immunofluorescence images, time-lapse imaging, Western blots, and more) as well as custom code and macros for image processing and bioinformatics are publicly available:  
+- **Open Data & Code:**
+  All primary data (immunofluorescence images, time-lapse imaging, Western blots, and more) as well as custom code and macros for image processing and bioinformatics are publicly available:
    - [Mendeley Data (all original biomedical results and their corresponding processing and analysis steps)](https://data.mendeley.com/datasets/5ybkzhyp8y/1),
    - [Figshare repository 1: raw time lapse images of MC3T3-E1 osteoblastic-like cells with Ogt knock out](https://doi.org/10.6084/m9.figshare.25039688.v1),
    - [Figshare repository 2: raw AI training images](https://doi.org/10.6084/m9.figshare.25039712.v1),
    - [Interactive webpage to host all code script](https://dndy5us1uro9a.cloudfront.net),
    - [GitHub - modified AI Model](https://github.com/wong-ziyi/pytorch_fnet).
 
-- **Transparent Authorship & Funding:**  
+- **Transparent Authorship & Funding:**
   Roles and contributions are clearly stated; all funding sources are disclosed, and there are no conflicts of interest.
 
-- **Reproducibility:**  
+- **Reproducibility:**
   Full experimental methods, statistical analyses, and protocols are described in detail.
 
-- **Ethical & Collaborative:**  
+- **Ethical & Collaborative:**
   Institutional standards followed; technical contributors and collaborators acknowledged.
 
-- **Community Sharing:**  
+- **Community Sharing:**
   All resources and interactive tools are shared online; you'll be more than welcome any questions.
 
 [Read the full article](https://doi.org/10.1002/biof.2131)
 
 ---
 
-#### Inverse Genetics Tracing the Differentiation Pathway of Human Chondrocytes  
-*Osteoarthritis and Cartilage. 2024. [doi:10.1016/j.joca.2024.06.009](https://doi.org/10.1016/j.joca.2024.06.009)*  
+#### Inverse Genetics Tracing the Differentiation Pathway of Human Chondrocytes
+*Osteoarthritis and Cartilage. 2024. [doi:10.1016/j.joca.2024.06.009](https://doi.org/10.1016/j.joca.2024.06.009)*
 **Authors:** H.T. Do, M. Ono, Z. Wang, W. Kitagawa, A.T. Dang, T. Yonezawa, T. Kuboki, T. Oohashi, S. Kubota
 
 ##### Summary of the Study
@@ -111,26 +111,26 @@ This study established an "inverse genetics" approach to map how human chondrocy
 
 ##### **How We Achieve Scientific Integrity in this study**
 
-- **Open Data & Software:**  
+- **Open Data & Software:**
   - **All scRNA-seq data** are deposited in [NCBI GEO: GSE261806](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE261806), enabling independent verification and re-use.
   - An **interactive R Shiny web tool** to explore gene expression, clustering, DEGs, and trajectory analyses is available online ([demo app](https://dwll26k42dcbb.cloudfront.net/GEO_Hang2024/)).
   - **Full source code** for the analysis (R Shiny/Seurat workflow) is deposited at [Mendeley Data (DOI: 10.17632/t38rw5fg82.1)](https://data.mendeley.com/datasets/t38rw5fg82/1).
   - All experimental protocols (vector construction, cell culture, reprogramming, scRNA-seq, and data processing) are described in detail in supplementary materials.
 
-- **Transparent Authorship & Funding:**  
+- **Transparent Authorship & Funding:**
   - Author contributions are fully specified (CRediT taxonomy), covering conceptualization, methodology, data curation, analysis, writing, supervision, and funding acquisition.
   - Supported by JSPS KAKENHI (JP21K19603, JP23K17439); all funding and potential conflicts are disclosed (none declared).
 
-- **Reproducibility & Rigor:**  
+- **Reproducibility & Rigor:**
   - Experiments included multiple human donors and independent biological replicates.
   - Bioinformatics: Standardized pipelines for scRNA-seq analysis (CellRanger, Seurat, SCTransform, RNA velocity with scVelo, STREAM for trajectory).
   - Statistical methods: DEGs identified via Wilcoxon rank-sum test with Bonferroni correction; protocols for RT-qPCR validation are described and primer sequences provided.
 
-- **Ethics & Acknowledgments:**  
+- **Ethics & Acknowledgments:**
   - All human cell work performed in compliance with institutional and ethical guidelines.
   - Technical and institutional support are acknowledged in the manuscript and supplementary materials.
 
-- **Community Sharing:**  
+- **Community Sharing:**
   - Data, code, and online exploration tools are open to the community.
   - Additional resources, protocols, and reagents available upon reasonable request to the corresponding author.
 

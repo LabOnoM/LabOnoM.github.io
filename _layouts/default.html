@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <!-- Favicons -->
+    <link rel="icon" type="image/png" href="/img/favicons/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="/img/favicons/favicon.svg" />
+    <link rel="shortcut icon" href="/img/favicons/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/favicons/apple-touch-icon.png" />
+    <link rel="manifest" href="/img/favicons/site.webmanifest" />
     <meta charset="UTF-8">
     <title>{{ site.title }}</title>
     <style>
@@ -121,7 +127,7 @@
             tocList.appendChild(li);
           });
         }
-      
+
         // --- Collapsible TOC ---
         var toc = document.getElementById("tocify");
         var toggleBtn = document.getElementById("tocify-toggle");
@@ -133,11 +139,11 @@
             toggleBtn.textContent = collapsed ? "+" : "−";
           };
         }
-      
+
         // --- Draggable TOC ---
         var tocHeader = document.getElementById("tocify-header");
         var isDragging = false, startX, startY, startTop, startLeft;
-      
+
         tocHeader.addEventListener('mousedown', function (e) {
           isDragging = true;
           toc.style.transition = 'none';
@@ -148,7 +154,7 @@
           startLeft = toc.offsetLeft;
           document.body.style.userSelect = "none";
         });
-      
+
         document.addEventListener('mousemove', function (e) {
           if (isDragging) {
             var dx = e.clientX - startX;
@@ -158,7 +164,7 @@
             toc.style.right = "auto"; // So it doesn't snap to right anymore
           }
         });
-      
+
         document.addEventListener('mouseup', function () {
           isDragging = false;
           toc.style.transition = ''; // restore any transitions

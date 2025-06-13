@@ -2,9 +2,7 @@
 layout: default
 title: Vision and Strategic Plan
 ---
-
 <img src="https://visitor-badge.laobi.icu/badge?page_id=LabOnoM.LabOnoM.github.io/README.html" alt="visitor badge"/>
-
 # Vision and Strategic Plan
 
 ## Vision Statement

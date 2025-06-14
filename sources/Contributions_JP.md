@@ -27,6 +27,7 @@ layout: iframe
 
 <p><strong>GitHub Issues</strong> や Discussions によるコメント・フィードバックも歓迎します。あらゆる貢献（提案・コメント・修正）は <a href="https://www.bs-gou.com/2025/06/12/BSGOU-Contribution-Score.html" target="_blank">BSGOU貢献スコア</a> に記録されます。</p>
 
-<p>🎁 BSGOUのすべての収益（寄付・広告等）は、<a href="https://www.bs-gou.com/members.html" target="_blank">メンバー一覧</a>に記載された貢献度に応じて還元されます。GitHubに登録し、あなたのREADME.mdにBSGOUメンバーであることを記載して参加しましょう（例：<a href="https://github.com/wong-ziyi" target="_blank">wong-ziyi</a>）！</p>
+<p>🎁 BSGOUでは、寄付や広告などによる収益の一部を、貢献度に応じてメンバーに還元しています。詳しくは<a href="https://www.bs-gou.com/members.html" target="_blank">メンバー一覧</a>をご覧ください。
+迷っている暇はありません！GitHubに登録し、あなたのプロフィールの README.md にBSGOUメンバーであることを記載して、今すぐ参加しましょう（例：<a href="https://github.com/wong-ziyi" target="_blank">wong-ziyi</a>）。</p>
 
 ---

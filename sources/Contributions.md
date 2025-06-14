@@ -27,6 +27,6 @@ layout: iframe
 
 <p>You can also post your comments or feedback as <strong>GitHub Issues</strong> or join our community discussions. Every form of input—contribution, comment, or correction—is logged and counted toward your <a href="https://www.bs-gou.com/2025/06/12/BSGOU-Contribution-Score.html" target="_blank">BSGOU Contribution Score</a>.</p>
 
-<p>🎁 And yes, all BSGOU revenues (donations, ads, etc.) are shared with contributors proportionally—see <a href="https://www.bs-gou.com/members.html" target="_blank">members</a>. Don’t wait—register GitHub and become a member via your profile README.md (example: <a href="https://github.com/wong-ziyi" target="_blank">wong-ziyi</a>)!</p>
+<p>🎁 And yes, a portion of BSGOU revenues (donations, ads, etc.) are shared with contributors proportionally—see <a href="https://www.bs-gou.com/members.html" target="_blank">members</a>. Don’t wait—register GitHub and become a member via your profile README.md (example: <a href="https://github.com/wong-ziyi" target="_blank">wong-ziyi</a>)!</p>
 
 ---

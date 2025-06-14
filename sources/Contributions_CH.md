@@ -27,6 +27,7 @@ layout: iframe
 
 <p>您也可以通过 <strong>GitHub Issues</strong> 或 Discussions 提交建议或反馈。所有贡献（包括评论、建议、修改）都会记录到 <a href="https://www.bs-gou.com/2025/06/12/BSGOU-Contribution-Score.html" target="_blank">BSGOU 贡献积分系统</a> 中。</p>
 
-<p>🎁 BSGOU 所有收入（如捐赠、广告等）将按贡献值反馈给参与者，请参见 <a href="https://www.bs-gou.com/members.html" target="_blank">成员页面</a>。赶快注册 GitHub 并在您的个人 README.md 中声明成为 BSGOU 成员吧（例如：<a href="https://github.com/wong-ziyi" target="_blank">wong-ziyi</a>）！</p>
+<p>🎁 BSGOU 的部分收入（包括捐赠、广告等）将按贡献度比例分配给社区成员。请参见 <a href="https://www.bs-gou.com/members.html" target="_blank">成员页面</a> 了解详情。
+别再犹豫了！现在就注册 GitHub，并在你的个人 README.md 中添加 BSGOU 成员标识，立即参与（示例：<a href="https://github.com/wong-ziyi" target="_blank">wong-ziyi</a>）。</p>
 
 ---

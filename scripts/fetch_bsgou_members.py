@@ -15,51 +15,123 @@ HEADERS = {
 }
 
 def fetch_members():
+    """Return a sorted list of unique GitHub users recognized by SEARCH_TAG.
+
+    The tag is searched both in forked and non-forked repositories because the
+    result counts can differ between the two. Duplicated users from the two
+    searches are removed.
+    """
+
     members = set()
-    page = 1
-    while True:
-        url = f"https://api.github.com/search/code?q={SEARCH_TAG}+in:file&per_page=100&page={page}"
-        r = requests.get(url, headers=HEADERS).json()
-        for item in r.get("items", []):
-            user = item["repository"]["owner"]["login"]
-            if user != ORG_NAME:  # <-- skip LabOnoM org
-                members.add(user)
-        if len(r.get("items", [])) < 100:
-            break
-        page += 1
+
+    # Search once in non-fork repositories and once in forks. GitHub defaults to
+    # non-forks, so we run two separate queries and combine the unique users.
+    for fork_param in ("", "fork:true"):
+        page = 1
+        while True:
+            query = f'"{SEARCH_TAG}" in:file'
+            if fork_param:
+                query += f" {fork_param}"
+            params = {
+                "q": query,
+                "per_page": 100,
+                "page": page,
+            }
+            r = requests.get(
+                "https://api.github.com/search/code",
+                headers=HEADERS,
+                params=params,
+            ).json()
+            for item in r.get("items", []):
+                user = item["repository"]["owner"]["login"]
+                if user != ORG_NAME:
+                    members.add(user)
+            if len(r.get("items", [])) < 100:
+                break
+            page += 1
+
     return sorted(members)
 
 # Get list of all repos in the organization
 def get_org_repos():
+    """Return a list of repositories for the organization."""
+
     repos = []
-    url = f"https://api.github.com/orgs/{ORG_NAME}/repos?per_page=500"
-    while url:
-        res = requests.get(url, headers=HEADERS)
+    page = 1
+    while True:
+        params = {
+            "per_page": 100,
+            "page": page,
+        }
+        res = requests.get(
+            f"https://api.github.com/orgs/{ORG_NAME}/repos",
+            headers=HEADERS,
+            params=params,
+        )
         res.raise_for_status()
-        repos += [repo["name"] for repo in res.json()]
-        url = res.links.get("next", {}).get("url")
+        batch = res.json()
+        repos.extend(repo["name"] for repo in batch)
+        if len(batch) < 100:
+            break
+        page += 1
     return repos
 
 # Get user contributions per repo
 def get_contributions(user, repos):
     pr_count = issue_count = commit_total = repo_contributed = 0
+
+    def paged_count(url, params):
+        """Count items from a paginated GitHub API listing."""
+        total = 0
+        page = 1
+        while True:
+            params["page"] = page
+            res = requests.get(url, headers=HEADERS, params=params)
+            if res.status_code != 200:
+                break
+            items = res.json()
+            total += len(items)
+            if len(items) < 100:
+                break
+            page += 1
+        return total
+
+    def search_count(query):
+        """Return the number of search results for the GitHub search API."""
+        total = 0
+        page = 1
+        while True:
+            params = {"q": query, "per_page": 100, "page": page}
+            res = requests.get(
+                "https://api.github.com/search/issues", headers=HEADERS, params=params
+            )
+            if res.status_code != 200:
+                break
+            data = res.json()
+            items = data.get("items", [])
+            total += len(items)
+            if len(items) < 100:
+                break
+            page += 1
+        return total
+
     for repo in repos:
-        pr_url = f"https://api.github.com/repos/{ORG_NAME}/{repo}/pulls?state=all&per_page=1&creator={user}"
-        pr_res = requests.get(pr_url, headers=HEADERS)
-        if pr_res.status_code == 200:
-            pr_count += int(pr_res.headers.get("Link", "").count("rel=\"next\"")) + len(pr_res.json())
+        pr_count += search_count(
+            f"repo:{ORG_NAME}/{repo} type:pr author:{user}"
+        )
 
-        issue_url = f"https://api.github.com/repos/{ORG_NAME}/{repo}/issues?state=all&per_page=1&creator={user}"
-        issue_res = requests.get(issue_url, headers=HEADERS)
-        if issue_res.status_code == 200:
-            issue_count += int(issue_res.headers.get("Link", "").count("rel=\"next\"")) + len(issue_res.json())
+        issue_count += paged_count(
+            f"https://api.github.com/repos/{ORG_NAME}/{repo}/issues",
+            {"state": "all", "per_page": 100, "creator": user},
+        )
 
-        commit_url = f"https://api.github.com/repos/{ORG_NAME}/{repo}/commits?author={user}&per_page=1"
-        commit_res = requests.get(commit_url, headers=HEADERS)
-        if commit_res.status_code == 200:
-            commit_total += int(commit_res.headers.get("Link", "").count("rel=\"next\"")) + len(commit_res.json())
-            if len(commit_res.json()) > 0:
-                repo_contributed += 1
+        commits = paged_count(
+            f"https://api.github.com/repos/{ORG_NAME}/{repo}/commits",
+            {"author": user, "per_page": 100},
+        )
+        commit_total += commits
+        if commits > 0:
+            repo_contributed += 1
 
     return pr_count, issue_count, commit_total, repo_contributed
 

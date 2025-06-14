@@ -18,12 +18,12 @@ title: Visionary Leadership
   <a href="/sources/Visionary_Leadership_CH.html" style="padding: 6px 12px; border: 1px solid #ccc; background-color: #f0f0f0; text-decoration: none; border-radius: 4px;">中文</a>
 </div>
 
-# Visionary Leadership
+# 前瞻性领导力
 
-## 🌟 Leading with Bold Ideas and Long-Term Vision
+## 🌟 科学的未来的开拓者
 
-At BSGOU, we don’t just respond to trends—we anticipate them. Visionary leadership means daring to ask the big questions, to chart unexplored paths, and to build the infrastructure that future science will need. We recognize that the most transformative breakthroughs often come not from immediate utility, but from persistent curiosity, unconventional thinking, and long-term commitment.
+在BSGOU，我们不仅仅是响应时代潮流，更致力于引领趋势。所谓前瞻性领导力，是指勇敢提出宏大问题、探索未知领域、并为未来的科研构建基础架构。我们深信，真正的科学突破往往源于持续的好奇心、非传统的思考方式，以及长期的战略眼光。
 
-Our projects are shaped not only by current challenges, but by a forward-looking perspective that aligns scientific innovation with societal impact. From integrating clinical bioinformatics into medical education, to building globally accessible analysis platforms, we strive to be not only researchers, but architects of the future.
+我们设计的项目不仅回应当前的挑战，也植根于对未来的预见——例如推动临床与生信教育的融合、打造全球可访问的分析平台等。我们不仅是科研工作者，更是未来科研生态的设计师。
 
-> 🧭 Join BSGOU. Whether you're pioneering new technologies, mentoring the next generation, or designing scalable education tools—you’re helping lead science toward a more just, open, and impactful future.
+> 🧭 加入BSGOU吧！无论你是在开拓新技术、培养下一代人才，还是设计可扩展的教育工具——你的努力都在引领科学走向一个更公正、更开放、更有影响力的未来。

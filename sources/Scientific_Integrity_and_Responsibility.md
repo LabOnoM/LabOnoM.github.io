@@ -3,7 +3,20 @@ layout: default
 title: Scientific Integrity and Responsibility
 ---
 
-<img src="https://visitor-badge.laobi.icu/badge?page_id=labonom.github.io/sources/Scientific_Integrity_and_Responsibility.html" alt="visitor badge"/> [![GitHub](https://img.shields.io/badge/GitHub-Profile-black?logo=github)](https://github.com/LabOnoM)
+<!-- Info Row: Visitor count + GitHub profile -->
+<div style="margin-top: 10px; margin-bottom: 8px;">
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=labonom.github.io/sources/Open_Innovation.html" alt="visitor badge"/>
+  <a href="https://github.com/LabOnoM">
+    <img src="https://img.shields.io/badge/GitHub-Profile-black?logo=github" alt="GitHub badge"/>
+  </a>
+</div>
+
+<!-- Language Switch Row -->
+<div>
+  <a href="/sources/Scientific_Integrity_and_Responsibility.html" style="padding: 6px 12px; border: 1px solid #ccc; background-color: #f0f0f0; text-decoration: none; border-radius: 4px; margin-right: 8px;">English</a>
+  <a href="/sources/Scientific_Integrity_and_Responsibility_JP.html" style="padding: 6px 12px; border: 1px solid #ccc; background-color: #f0f0f0; text-decoration: none; border-radius: 4px; margin-right: 8px;">日本語</a>
+  <a href="/sources/Scientific_Integrity_and_Responsibility_CH.html" style="padding: 6px 12px; border: 1px solid #ccc; background-color: #f0f0f0; text-decoration: none; border-radius: 4px;">中文</a>
+</div>
 
 # How We Uphold Scientific Integrity & Responsibility
 

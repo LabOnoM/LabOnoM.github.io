@@ -67,8 +67,12 @@
     {% include analytics_homepage.html %}
   </head>
   <body>
-    <main>
+    <div>
       {{ content }}
-    </main>
+    </div>
+    <script>
+      {% - include /_includes/scripts/common.js -%}
+      {% - include /_includes/scripts/article.js -%}
+    </script>
   </body>
 </html>

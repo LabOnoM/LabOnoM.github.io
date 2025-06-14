@@ -2,7 +2,22 @@
 layout: default
 title: Vision and Strategic Plan
 ---
-<img src="https://visitor-badge.laobi.icu/badge?page_id=LabOnoM.LabOnoM.github.io/README.html" alt="visitor badge"/>
+
+<!-- Info Row: Visitor count + GitHub profile -->
+<div style="margin-top: 10px; margin-bottom: 8px;">
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=labonom.github.io/sources/README.html" alt="visitor badge"/>
+  <a href="https://github.com/LabOnoM">
+    <img src="https://img.shields.io/badge/GitHub-Profile-black?logo=github" alt="GitHub badge"/>
+  </a>
+</div>
+
+<!-- Language Switch Row -->
+<div>
+  <a href="/sources/README.html" style="padding: 6px 12px; border: 1px solid #ccc; background-color: #f0f0f0; text-decoration: none; border-radius: 4px; margin-right: 8px;">English</a>
+  <a href="/sources/README_JP.html" style="padding: 6px 12px; border: 1px solid #ccc; background-color: #f0f0f0; text-decoration: none; border-radius: 4px; margin-right: 8px;">日本語</a>
+  <a href="/sources/README_CH.html" style="padding: 6px 12px; border: 1px solid #ccc; background-color: #f0f0f0; text-decoration: none; border-radius: 4px;">中文</a>
+</div>
+
 # Vision and Strategic Plan
 
 ## Vision Statement
@@ -73,4 +88,3 @@ The outlined vision and strategy build upon current perspectives in the field, a
 ---
 
 *“We believe bioinformatics is not merely a set of tools, but a transformative lens through which biology becomes computable, testable, and deeply understood.”*
- 

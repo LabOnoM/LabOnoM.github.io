@@ -5,7 +5,7 @@ title: Vision and Strategic Plan
 
 <!-- Info Row: Visitor count + GitHub profile -->
 <div style="margin-top: 10px; margin-bottom: 8px;">
-  <img src="https://visitor-badge.laobi.icu/badge?page_id=labonom.github.io/sources/README.html" alt="visitor badge"/>
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=labonom.github.io/README.html" alt="visitor badge"/>
   <a href="https://github.com/LabOnoM">
     <img src="https://img.shields.io/badge/GitHub-Profile-black?logo=github" alt="GitHub badge"/>
   </a>
@@ -13,9 +13,9 @@ title: Vision and Strategic Plan
 
 <!-- Language Switch Row -->
 <div>
-  <a href="/sources/README.html" style="padding: 6px 12px; border: 1px solid #ccc; background-color: #f0f0f0; text-decoration: none; border-radius: 4px; margin-right: 8px;">English</a>
-  <a href="/sources/README_JP.html" style="padding: 6px 12px; border: 1px solid #ccc; background-color: #f0f0f0; text-decoration: none; border-radius: 4px; margin-right: 8px;">日本語</a>
-  <a href="/sources/README_CH.html" style="padding: 6px 12px; border: 1px solid #ccc; background-color: #f0f0f0; text-decoration: none; border-radius: 4px;">中文</a>
+  <a href="/README.html" style="padding: 6px 12px; border: 1px solid #ccc; background-color: #f0f0f0; text-decoration: none; border-radius: 4px; margin-right: 8px;">English</a>
+  <a href="/README_JP.html" style="padding: 6px 12px; border: 1px solid #ccc; background-color: #f0f0f0; text-decoration: none; border-radius: 4px; margin-right: 8px;">日本語</a>
+  <a href="/README_CH.html" style="padding: 6px 12px; border: 1px solid #ccc; background-color: #f0f0f0; text-decoration: none; border-radius: 4px;">中文</a>
 </div>
 
 # Vision and Strategic Plan

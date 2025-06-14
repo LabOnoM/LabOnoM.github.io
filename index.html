@@ -250,10 +250,9 @@
 				<!-- Members-section -->
 				<div class="container">
 					<section>
-						<h2><br></h2>
-						<iframe src="https://labonom.github.io/sources/Contributions.html" width="100%" height="550"
+						<iframe id="contributions-frame" src="https://labonom.github.io/sources/Contributions.html" width="100%" height="470px"
 							style="border: none; box-shadow: 0 0 10px rgba(0,0,0,0.1); border-radius: 12px;" loading="lazy"
-							title="BSGOU Members"></iframe>
+							title="BSGOU Contributions"></iframe>
 					</section>
 				</div>
 				<!-- /Members-section -->
@@ -582,12 +581,26 @@
 		<script type="text/javascript" src="js/custom.js"></script>
 		<script>
 			function switchLanguage(lang) {
+				// Switch text
 				document.querySelectorAll('[data-lang-en]').forEach(el => {
 					const content = el.dataset[`lang${lang.charAt(0).toUpperCase() + lang.slice(1)}`];
 					if (content) {
 						el.innerHTML = content;
 					}
 				});
+				// Switch iframe
+				const iframe = document.getElementById("contributions-frame");
+				if (iframe) {
+					let langSuffix = {
+						en: "Contributions.html",
+						ja: "Contributions_JP.html",
+						cn: "Contributions_CH.html"
+					}[lang];
+
+					if (langSuffix) {
+						iframe.src = "https://labonom.github.io/sources/" + langSuffix;
+					}
+				}
 			}
 		</script>
 		<script>

@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 204.50271224975586
+    "width": 224.50271224975586
   },
   "right": {
     "id": "e0746941eb4f6872",
@@ -156,8 +156,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -172,9 +171,9 @@
   },
   "active": "a4907a76f08cf62a",
   "lastOpenFiles": [
-    "2025-06-10-zebrafish-history.md",
     "2025-06-12-BSGOU-Contribution-Score.md",
     "2025-06-15-shall-we-use-geometric-mean.md",
+    "2025-06-10-zebrafish-history.md",
     "PostAttachedFiles/D9gEnshXoAoBx_R.jpeg",
     "2025-06-01-journal-club-glycorna-imaging.en.md",
     "2025-06-01-journal-club-glycorna-imaging.zh.md",

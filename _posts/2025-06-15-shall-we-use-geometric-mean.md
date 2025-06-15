@@ -1,5 +1,5 @@
 ---
-title: "'Shall we use geometric mean for reporting qPCR results?'"
+title: Shall we use geometric mean for reporting qPCR results with ΔΔCt method?
 lang: en
 license: true
 aside:
@@ -11,6 +11,39 @@ tags:
   - Math
   - Statistics
 ---
+
+<img src="https://visitor-badge.laobi.icu/badge?page_id=https://labonom.github.io/2025/06/15/shall-we-use-geometric-mean.html" alt="visitor badge"/> [![GitHub](https://img.shields.io/badge/GitHub-Profile-black?logo=github)](https://github.com/LabOnoM)
+
+Have you ever run into this situation while using the ΔΔCt method for qPCR analysis—your control group’s mean expression value _isn’t_ exactly 1? What did you do? Did you quietly normalize the ΔΔCt results **again** just to force the control group’s mean back to 1? And have you ever wondered whether this “sneaky extra normalization” is actually valid, or if you've been doing something questionable all along?
+
+Well, in this blog post, we’re going to get to the bottom of it—**is this secondary normalization mathematically justified, or is it just a placebo for our inner perfectionist?** Let’s find out.
+<!--more-->
+## Background of qPCR
+
+Quantitative PCR (qPCR), also known as real-time PCR, is a molecular biology technique used to **amplify and quantify DNA** simultaneously. It builds upon traditional PCR (polymerase chain reaction) but adds the ability to monitor DNA amplification in real time.
+
+### 🔬 Core Principle
+
+qPCR uses **fluorescent dyes** (e.g., SYBR Green) or **fluorescent-labeled probes** (e.g., TaqMan) that emit fluorescence proportional to the amount of DNA produced during each PCR cycle. The fluorescence is measured at each cycle, enabling quantification of the target DNA.
+
+### 🧪 Applications
+
+- **Gene expression analysis** (using cDNA from reverse-transcribed RNA)
+- **Pathogen detection** (e.g., viruses, bacteria)
+- **Genotyping and mutation analysis**
+- **Validation of RNA-seq and microarray results**
+
+### 📈 Key Metric: Ct Value
+
+The **cycle threshold (Ct)** is the number of cycles required for the fluorescent signal to **_exceed background_**. It inversely correlates with the amount of starting template: **the lower the Ct, the higher the initial DNA quantity.**
+
+## The $2^{-\Delta\Delta{C_{T}}}$ Method
+
+### Origins & Key Publication (2001)
+
+The method was introduced by **Kenneth J. Livak and Thomas D. Schmittgen** in December 2001, in their pivotal paper titled [_“Analysis of relative gene expression data using real-time quantitative PCR and the 2(–ΔΔCT) Method”_](https://pubmed.ncbi.nlm.nih.gov/11846609/).
+
+Developed at **Applied Biosystems (Foster City, CA)**, it offers a streamlined approach for relative gene expression analysis using real-time PCR, eliminating the need for standard curves when amplification efficiencies are assumed to be identical ([Guide to Performing Relative Quantitation of Gene Expression Using Real-Time Quantitative PCR](https://assets.thermofisher.com/TFS-Assets/LSG/manuals/cms_042380.pdf)).
 ### Define notations
 Let's denote the following terms:
  - The PCR Cycles: $C$

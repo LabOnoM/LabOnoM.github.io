@@ -1,5 +1,5 @@
 ---
-title: Shall we use geometric mean for reporting qPCR results with ΔΔCt method?
+title: Everything you shall know when using ΔΔCt method in qPCR
 lang: en
 license: true
 aside:
@@ -39,11 +39,15 @@ The **cycle threshold (Ct)** is the number of cycles required for the fluorescen
 
 ## The $2^{-\Delta\Delta{C_{T}}}$ Method
 
-### Origins & Key Publication (2001)
-
 The method was introduced by **Kenneth J. Livak and Thomas D. Schmittgen** in December 2001, in their pivotal paper titled [_“Analysis of relative gene expression data using real-time quantitative PCR and the 2(–ΔΔCT) Method”_](https://pubmed.ncbi.nlm.nih.gov/11846609/).
 
 Developed at **Applied Biosystems (Foster City, CA)**, it offers a streamlined approach for relative gene expression analysis using real-time PCR, eliminating the need for standard curves when amplification efficiencies are assumed to be identical ([Guide to Performing Relative Quantitation of Gene Expression Using Real-Time Quantitative PCR](https://assets.thermofisher.com/TFS-Assets/LSG/manuals/cms_042380.pdf)).
+
+## An interesting finding
+
+An additional normalization on the original $2^{-\Delta\Delta C_T}$ method (divide the $2^{-\Delta\Delta C_T}$ by mean of $2^{-\Delta\Delta C_T}$ in control group) is qual to dividing the $2^{-\Delta C_T}$ by mean of $2^{-\Delta C_T}$ in control group. As shown in a screenshot of a MS Excel file:
+
+
 ### Define notations
 Let's denote the following terms:
  - The PCR Cycles: $C$
@@ -61,8 +65,8 @@ Then, we make the following assumptions and definitions:
  - $(1 + E)$ is the PCR amplification base (often $\approx2$). For simplicity, we assume ideal efficiency, i.e., $E_X = E_R = E = 1$.
  - $C_{T,R}$ is the **Threshold Cycle** ($C_{T}$) for the **reference ($R$)** gene in all samples (e.g., GAPDH, 18s, Beta-actin, etc.).
  - $C_{T,X}$ is the **Threshold Cycle** ($C_{T}$) for our interested **unknown** gene $X$ in all samples.
- - The $\Delta C_T$ for the query sample $i$ is defined as: $\Delta C_{T,Q_{i}} = C_{T,X_{Q,i}} - C_{T,R_{Q,i}}$
- - The $\Delta C_T$ for the control sample $i$ is defined as: $\Delta C_{T,C_{i}} = C_{T,X_{C,i}} - C_{T,R_{C,i}}$ 
+ - The $\Delta C_T$ for the **query** sample $i$ is defined as: $\Delta C_{T,Q_{i}} = C_{T,X_{Q,i}} - C_{T,R_{Q,i}}$
+ - The $\Delta C_T$ for the **control** sample $i$ is defined as: $\Delta C_{T,C_{i}} = C_{T,X_{C,i}} - C_{T,R_{C,i}}$ 
  
 According to [Livak & Schmittgen, 2001](https://pubmed.ncbi.nlm.nih.gov/11846609/), the calibrator was estimated by the mean $\Delta C_{T,X_c}$ of the **control ($c$)** group: 
  $$\overline{\Delta C_{T,C}} = \frac{1}{n} \sum_{i=1}^n \Delta C_{T,C_i} \tag{1}$$
@@ -125,7 +129,7 @@ This is interesting, because our above steps show something like below:
 $$\frac{\cancel{Geometric\_Mean}[Sample]}{Arithmetic\_Mean[\cancel{Geometric\_Mean}[Sample]]} = \frac{Sample}{Arithmetic\_Mean[Sample]} \tag{6}$$
 ## Geometric mean vs Arithmetic mean
 
-### Reason for using geometric mean
+### Reason for using geometric mean normalization
 
 Many tutorials and textbooks state that qPCR results often follow a **log-normal distribution**, and therefore recommend applying a log₂ transformation (e.g., for t-tests or ANOVA). However, when using the ΔΔCt method, the log₂ transformation is already embedded in the calculation:
 
@@ -143,7 +147,7 @@ So, the conclusion is:
 
 > **Since the ΔΔCt method operates in log space, our statistical analysis should remain in log space, and fold changes should be reported as geometric means to preserve mathematical consistency and avoid distortion caused by skewed data distributions.**
 
-### ### Reason for using the arithmetic mean
+### ### Reason for using the arithmetic mean normalization
 
 There’s also a **valid statistical justification** for using the arithmetic mean—especially when the linearized expression values ($2^{-\Delta C_T}$ or $2^{-\Delta\Delta C_T}$) are themselves approximately **normally distributed**.
 
@@ -159,7 +163,7 @@ So the question arises:
 The answer lies in the **mathematical structure of the ΔΔCt method itself**.
 
 The ΔΔCt equation:
-$$2^{-(\Delta C_{T,X_i} - \overline{\Delta C_{T,C}})} = \frac{2^{-\Delta C_{T,X_i}}}{2^{-\overline{\Delta C_{T,C}}}}$$  
+$$2^{-(\Delta C_{T,X_i} - \overline{\Delta C_{T,C}})} = \frac{2^{-\Delta C_{T,X_i}}}{2^{-\overline{\Delta C_{T,C}}}}$$
 implicitly treats the calibrator as:
 $$2^{-\overline{\Delta C_{T,C}}} = 2^{-\frac{1}{n} \sum_{i=1}^n \Delta C_{T,C_i}}$$  
 which is the **geometric mean** of $2^{-\Delta C_T}$ (see **eq.4** in this post).

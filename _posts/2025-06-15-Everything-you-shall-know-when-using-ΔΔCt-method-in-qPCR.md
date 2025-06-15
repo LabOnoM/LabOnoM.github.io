@@ -143,8 +143,8 @@ This raises a key question: **If our analysis is done in log space, shouldn't th
 According to the principle of parameter test (e.g., t-test, ANOVA, etc.), those tests are based on the mean of your data (see [[#4.3.2 Quick examples]]). Since $\text{Arithmetic Mean}[\log_2(2^{-\Delta\Delta C_T})] = \text{Geometric Mean}[2^{-\Delta\Delta C_T}]$ (as proofed in [[#4.1.2 📐 Proof]]), when you use log2 tranformed data for statistics, you defiantly need to use geometric mean and geometric standard deviation for reporting your results.
 
 #### 4.1.2 📐 Proof
-> Let a set of values be: $x_i = 2^{-\Delta\Delta C_{T,i}}, \quad \text{for } i = 1, 2, ..., n$
-	Then:
+ - Let a set of values be: $x_i = 2^{-\Delta\Delta C_{T,i}}, \quad \text{for } i = 1, 2, ..., n$
+	 - Then:
 		**Arithmetic mean of log-transformed values:**
 		$$
 		\frac{1}{n} \sum_{i=1}^{n} \log_2(x_i)
@@ -199,7 +199,8 @@ Why? Because of that when you perform **statistical hypothesis tests** (t-test, 
 $$
 \text{New}\ t=\frac{\frac{\bar{x_1}}{c}-\frac{\bar{x_2}}{c}}{\frac{s_p}{c}\cdot\sqrt{\frac{1}{n_1}+\frac{1}{n_2}}}= \frac{\frac{\bar{x}_1}{c} - \frac{\bar{x}_2}{c}}{\frac{s_p}{c} \cdot \sqrt{\frac{1}{n_1} + \frac{1}{n_2}}} = \frac{1}{c} \cdot \text{Numerator} \div \frac{1}{c} \cdot \text{Denominator} = \text{Same}\ t
 $$
-  where $x$ is ΔΔCt or any transformed version. Scaling or shifting the values (like subtracting a group mean) cancels out in the numerator and denominator. For example, let's say $x$ is $2^{-\Delta\Delta C_T}$ and $c$ is the arithmetic mean of  $2^{-\Delta\Delta C_T}$ in control group. Then, the New $t$ in the above is actually calculated from the Arithmetic Mean version of $2^{-\Delta\Delta C_T}$, the $t$ is finally the same, therefore the $P$-value is also the same.
+  
+	  where $x$ is ΔΔCt or any transformed version. Scaling or shifting the values (like subtracting a group mean) cancels out in the numerator and denominator. For example, let's say $x$ is $2^{-\Delta\Delta C_T}$ and $c$ is the arithmetic mean of  $2^{-\Delta\Delta C_T}$ in control group. Then, the New $t$ in the above is actually calculated from the Arithmetic Mean version of $2^{-\Delta\Delta C_T}$, the $t$ is finally the same, therefore the $P$-value is also the same.
 - **ANOVA** partitions total variance and compares group means. The F-statistic is scale-invariant under uniform normalization. The F-statistic in ANOVA is a **ratio of variances**, so scaling all data by a constant ccc **scales both the numerator and denominator of the F-statistic by $c^2$**, which cancels out:
 $$
 F = \frac{\text{Between-group variance}}{\text{Within-group variance}} \rightarrow \text{unchanged}  

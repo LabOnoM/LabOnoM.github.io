@@ -47,7 +47,7 @@ Developed at **Applied Biosystems (Foster City, CA)**, it offers a streamlined a
 
 An additional normalization on the original $2^{-\Delta\Delta C_T}$ method (divide the $2^{-\Delta\Delta C_T}$ by mean of $2^{-\Delta\Delta C_T}$ in control group) is qual to dividing the $2^{-\Delta C_T}$ by mean of $2^{-\Delta C_T}$ in control group. As shown in a screenshot of a MS Excel file:
 
-
+![Identical_qPCR_Results](https://raw.githubusercontent.com/LabOnoM/LabOnoM.github.io/master/_posts/PostAttachedFiles/Identical_qPCR_Results.png)
 ### Define notations
 Let's denote the following terms:
  - The PCR Cycles: $C$

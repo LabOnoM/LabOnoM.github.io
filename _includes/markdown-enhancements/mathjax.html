@@ -7,16 +7,17 @@
 
 <script type="text/x-mathjax-config">
 	var _config = {
-	  extensions: ["cancel.js"],  // 👈 Enable cancel
-	  tex2jax: {
-		inlineMath: [['$','$'], ['\\(','\\)']]
-	  },
-	  TeX: {
-		equationNumbers: {
-		  autoNumber: {{ _mathjax_autoNumber | default: false | ternary: '"all"', '"none"' }}
+		tex2jax: {
+		  inlineMath: [['$','$'], ['\\(','\\)']]
+		},
+		TeX: {
+		  extensions: ['cancel.js'],
+		  equationNumbers: {
+			autoNumber: {{ _mathjax_autoNumber | default: false | ternary: '"all"', '"none"' }}
+		  }
 		}
-	  }
-	};
-	MathJax.Hub.Config(_config);
+	  };
+	  MathJax.Ajax.config.path["TeX"] = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/extensions/TeX";
+	  MathJax.Hub.Config(_config);
   </script>
 <script type="text/javascript" src="{{ _sources.mathjax }}" async></script>

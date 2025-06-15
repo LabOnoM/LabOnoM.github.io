@@ -172,8 +172,9 @@ In Section 3, the authors performed **96 replicate qPCR reactions** on the same 
 
 | Metric                        | Mean ± SD                                     | Coefficient of Variation (CV) |
 | ----------------------------- | --------------------------------------------- | ----------------------------- |
-| Raw $C_T$ values              | $20.0 \pm 0.194$                              | ~0.97%                        |
-| Linear-transformed $2^{-C_T}$ | $9.08 \times 10^{-7} \pm 1.33 \times 10^{-7}$ | ~13.5%                        |
+| Raw $C_T$ values               | $20.0 \pm 0.194$                                | ~0.97%                        |
+| Linear-transformed $2^{-C_T}$  | $9.08 \times 10^{-7} \pm 1.33 \times 10^{-7}$       | ~13.5%                        |
+
 > **note:** the **arithmetic mean** of Raw $C_T$ values is actually equal to the **geometric mean** of Liner-transformed $2^{-C_T}$, as we shown in the [[#4.1.2 📐 Proof]].
 
 This experiment highlights a critical point:

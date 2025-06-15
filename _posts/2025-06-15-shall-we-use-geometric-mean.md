@@ -122,8 +122,7 @@ $$ 2^{-\Delta\Delta{C_{T,X_i}}AM} = \frac{2^{-\Delta C_{T,X_i}}}{\overline{2^{-\
 Now, we can take the eq.(3) as the Geometric Mean of $2^{-\Delta\Delta C_T}$, which is the original in the paper of [Livak & Schmittgen, 2001](https://pubmed.ncbi.nlm.nih.gov/11846609/). For distinguish and convenience in this blog, let's denote it as $2^{-\Delta\Delta{C_{T,X_i}}GM}$.
 
 This is interesting, because our above steps show something like below:
-$$\frac{\cancel{Geometric\_Mean}[Sample]}{Arithmetic\_Mean[\cancel{Geometric\_Mean}[Sample]]} = \frac{Sample}{Arithmetic\_Mean[Sample]}$$
-
+$$\frac{\cancel{Geometric\_Mean}[Sample]}{Arithmetic\_Mean[\cancel{Geometric\_Mean}[Sample]]} = \frac{Sample}{Arithmetic\_Mean[Sample]} \tag{6}$$
 ## Geometric mean vs Arithmetic mean
 
 ### Reason for using geometric mean
@@ -144,24 +143,98 @@ So, the conclusion is:
 
 > **Since the ΔΔCt method operates in log space, our statistical analysis should remain in log space, and fold changes should be reported as geometric means to preserve mathematical consistency and avoid distortion caused by skewed data distributions.**
 
-### Reason for using arithmetic mean
+### ### Reason for using the arithmetic mean
 
+There’s also a **valid statistical justification** for using the arithmetic mean—especially when the linearized expression values ($2^{-\Delta C_T}$ or $2^{-\Delta\Delta C_T}$) are themselves approximately **normally distributed**.
 
+Let’s say your data (e.g., $2^{-\Delta C_T}$) follows a normal distribution. In this case, the **arithmetic mean** is the best unbiased estimator of central tendency, and standard parametric tests (like t-tests or ANOVA) are valid directly on these values. Then it makes perfect sense to define your calibrator using the **arithmetic mean of $2^{-\Delta C_T}$**, which leads naturally to computing $2^{-\Delta\Delta{C_{T,X_i}}AM}$ as we derived earlier in Eq.(5).
 
-## 🧾 Final Summary: Why We Should Report the Geometric Mean for Fold Change
+But here comes a subtle contradiction:
 
-Although the ΔΔCt method quantifies relative gene expression using exponential terms like 2−ΔΔCT2^{-\Delta\Delta C_T}2−ΔΔCT​, many practitioners—following early conventions—still report the **arithmetic mean** of fold changes across replicates. This practice traces back to the 2001 paper by Livak & Schmittgen, where arithmetic averaging was used in spreadsheet workflows for simplicity. However, as we have shown through formal derivation, the ΔΔCt method is inherently **logarithmic**, meaning that fold changes normalized to a group calibrator (e.g., control samples) are mathematically based on the **geometric mean** of linearized values like 2−ΔCT2^{-\Delta C_T}2−ΔCT​.
+> In the original paper, Livak & Schmittgen defined the calibrator by taking the **arithmetic mean of ΔCₜ** values in the control group—not of the $2^{-\Delta C_T}$ values. However, in **Section 3**, they also demonstrated that **calculating variation directly on ΔCₜ underestimates variability**, while $2^{-C_T}$ better reflects technical variance.
 
-It’s important to distinguish this from Section 3 of the same paper, where the authors recommend converting Ct values to 2−CT2^{-C_T}2−CT​ **before calculating variation** (e.g., standard deviation or coefficient of variation), as raw Ct values underestimate variability. This advice is crucial for error analysis, but it does **not** imply that the arithmetic mean is appropriate for summarizing biological fold changes across a group.
+So the question arises:  
+**If we believe $2^{-\Delta C_T}$ better reflects variation, why don’t we define the calibrator using its arithmetic mean in the first place?**
 
-Therefore, when reporting **mean relative expression values** using the ΔΔCt method, the use of the **geometric mean** is not only mathematically correct—it also ensures accuracy, interpretability, and consistency in representing multiplicative biological effects. The arithmetic mean, while sometimes convenient, may misrepresent central tendency, especially in data with high variation or skew.
+The answer lies in the **mathematical structure of the ΔΔCt method itself**.
 
+The ΔΔCt equation:
+$$2^{-(\Delta C_{T,X_i} - \overline{\Delta C_{T,C}})} = \frac{2^{-\Delta C_{T,X_i}}}{2^{-\overline{\Delta C_{T,C}}}}$$  
+implicitly treats the calibrator as:
+$$2^{-\overline{\Delta C_{T,C}}} = 2^{-\frac{1}{n} \sum_{i=1}^n \Delta C_{T,C_i}}$$  
+which is the **geometric mean** of $2^{-\Delta C_T}$ (see **eq.4** in this post).
 
+This creates a situation where:
+- You’re computing your calibrator in **log space** (via mean ΔCₜ),
+- But then reporting your results in **linear space** (fold change),
+- While calculating group statistics using **arithmetic operations in linear space**.
 
+This mathematical inconsistency may go unnoticed when the data are symmetrical and low-variance. However, in skewed or noisy data, it can lead to biased central tendencies.
 
-  - Because of eq.(1):
-$$2^{-(\Delta C_{T,X_i} - \overline{\Delta C_{T,C}})} = 2^{-(\Delta C_{T,X_i} - \frac{1}{n} \sum_{i=1}^n \Delta C_{T,C_i})} = 2^{-\Delta C_{T,X_i}} \div 2^{\frac{1}{n} \sum_{i=1}^n \Delta C_{T,C_i}}$$
+> In short: If you prefer to use arithmetic mean for group-level fold change summaries, you should **also define your calibrator in linear space**, using the arithmetic mean of $2^{-\Delta C_T}$—not the mean of ΔCₜ. Otherwise, you mix geometric and arithmetic frameworks, which subtly breaks the consistency of the ΔΔCt model.
 
+### My opinion?
+
+Either is fine—**as long as you stay consistent**.
+
+But here’s the real-world twist:
+
+In practice, the **ΔΔCt method is rarely used for precise quantification**. What most researchers care about is not the exact fold-change number (e.g., 3.4× vs. 3.7×), but rather the **direction and significance** of the change. In this sense, the method has always been **more qualitative than quantitative** in application.
+
+Since the original 2001 paper, **thousands of studies—including clinical trials and drug discovery pipelines—have mixed arithmetic and geometric normalizations** in fold-change reporting and statistics. And guess what? **It didn’t really matter**. Our biological conclusions still held. Drug candidates still moved forward. Misinterpretation due to this averaging mismatch was **statistically negligible**.
+
+Why? Because of that when you perform **statistical hypothesis tests** (t-test, ANOVA, or even non-parametric tests like Wilcoxon),  your test statistic is calculated from the **ΔCt or ΔΔCt values**, and **any post hoc normalization of fold change values (whether via geometric or arithmetic mean)** has **no effect on the p-value**.
+
+#### Quick examples:
+
+- **t-test** compares group means:
+	- Original t-test:
+  $$ t = \frac{\overline{x}_1 - \overline{x}_2}{s_p \cdot \sqrt{\frac{1}{n_1}+\frac{1}{n_2}}} $$
+	- After dividing all data by $c$:
+$$
+\text{New}\ t=\frac{\frac{\bar{x_1}}{c}-\frac{\bar{x_2}}{c}}{\frac{s_p}{c}\cdot\sqrt{\frac{1}{n_1}+\frac{1}{n_2}}}= \frac{\frac{\bar{x}_1}{c} - \frac{\bar{x}_2}{c}}{\frac{s_p}{c} \cdot \sqrt{\frac{1}{n_1} + \frac{1}{n_2}}} = \frac{1}{c} \cdot \text{Numerator} \div \frac{1}{c} \cdot \text{Denominator} = \text{Same}\ t
+$$
+  where $x$ is ΔΔCt or any transformed version. Scaling or shifting the values (like subtracting a group mean) cancels out in the numerator and denominator. For example, let's say $x$ is $2^{-\Delta\Delta C_T}$ and $c$ is the arithmetic mean of  $2^{-\Delta\Delta C_T}$ in control group. Then, the New $t$ in the above is actually calculated from the Arithmetic Mean version of $2^{-\Delta\Delta C_T}$, the $t$ is finally the same, therefore the $P$-value is also the same.
+- **ANOVA** partitions total variance and compares group means. The F-statistic is scale-invariant under uniform normalization. The F-statistic in ANOVA is a **ratio of variances**, so scaling all data by a constant ccc **scales both the numerator and denominator of the F-statistic by $c^2$**, which cancels out:
+$$
+F = \frac{\text{Between-group variance}}{\text{Within-group variance}} \rightarrow \text{unchanged}  
+]
+$$
+- **Wilcoxon/Mann–Whitney** tests are based on **rank order**, and are **invariant under monotonic transformations**, including normalization by any mean.
+
+> So whether you normalize using a geometric mean or an arithmetic one: **your statistical test results don’t change**, and your biological interpretation likely doesn’t either.
+
+That said, being mathematically aware of what you’re doing is still important. If you mix geometric and arithmetic elements in your reporting, just **be transparent**. In 90% of use cases, it won’t mislead your readers—but in the 10% of cases where precision matters (e.g., modeling dose-response relationships), it’s good to be exact.
+
+## 🧾 Final Summary: So... Should We Use Geometric Mean or Arithmetic Mean?
+
+The ΔΔCt method, by design, operates in **logarithmic space**—you calculate Ct differences (ΔCt), then subtract a calibrator group’s mean ΔCt to get ΔΔCt, and finally back-transform via $2^{-\Delta\Delta C_T}$ to get fold change. Mathematically, this structure implies that the **calibrator is defined via a geometric mean**, and fold changes should logically also be summarized using **geometric averages**.
+
+This view is consistent with:
+- The **original 2001 Livak & Schmittgen paper**, which uses arithmetic mean ΔCt (→ geometric mean in fold-change space)
+- The fact that **fold changes are multiplicative**, and thus best represented by geometric statistics
+
+So if you’re aiming for mathematical consistency and statistical clarity—especially when reporting group-level averages—**geometric mean is the better choice**.
+
+However, there are also valid **practical reasons** to use the **arithmetic mean**, particularly when:
+- Your $2^{-\Delta C_T}$ or $2^{-\Delta\Delta C_T}$ values are approximately **normally distributed**
+- You’re comparing **technical replicates**, where variation in linear space is of interest
+- You want to maintain consistency with how many researchers have traditionally reported qPCR data
+
+But here’s the key takeaway:
+
+> ✅ **Either mean is fine**—**as long as you're consistent** between how you define your calibrator and how you summarize your group statistics.  
+> ❌ **What’s not okay** is mixing spaces—e.g., computing ΔΔCt using log-space (ΔCt), but reporting arithmetic means of linear fold changes.
+
+And most importantly—don’t stress too much:
+
+In real-world applications, **ΔΔCt is used more for qualitative interpretation than for precise quantification**. Whether your normalization is based on the geometric or arithmetic mean of control group **has minimal or no effect** on statistical outcomes like *p-values*.
+
+So be aware of the math. Respect the logic. But also remember:
+
+> **This is biology—not a math exam. Context, consistency, and clarity matter more than strict formality.**
+
+Whether you're writing a paper, presenting data, or building a pipeline—just choose a method that fits your goal, and stick with it transparently.
 <div style="text-align: right; font-style: italic; margin-top: 2em;">
   — by WANG Ziyi <a href="https://github.com/wong-ziyi" target="_blank" style="color: #4078c0; text-decoration: none; font-weight: bold;">GitHub Profile</a>
 </div>

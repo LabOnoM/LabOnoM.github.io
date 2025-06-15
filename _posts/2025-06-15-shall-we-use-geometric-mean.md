@@ -67,7 +67,7 @@ Then, we make the following assumptions and definitions:
 According to [Livak & Schmittgen, 2001](https://pubmed.ncbi.nlm.nih.gov/11846609/), the calibrator was estimated by the mean $\Delta C_{T,X_c}$ of the **control ($c$)** group: 
  $$\overline{\Delta C_{T,C}} = \frac{1}{n} \sum_{i=1}^n \Delta C_{T,C_i} \tag{1}$$
 Then, we can define:
- - $\Delta\Delta C_{T,X_i} = \Delta C_{T,X_i} - \overline{\Delta C_{T,C}} \tag{2}$
+ - $\Delta\Delta C_{T,X_i} = \Delta C_{T,X_i} - \overline{\Delta C_{T,C}}$
  - $\Delta\Delta C_{T,Q_i} = \Delta C_{T,Q_i} - \overline{\Delta C_{T,C}}$
  - $\Delta\Delta C_{T,C_i} = \Delta C_{T,C_i} - \overline{\Delta C_{T,C}}$
 
@@ -101,7 +101,6 @@ $$\frac{2^{-\Delta C_{T,X_i}}}{2^{-\overline{\Delta C_{T,C}}}} \div \frac{\sum_{
 Because of $\overline{2^{-\Delta C_{T,C}}} = \frac{1}{n}\sum_{i=1}^{n} 2^{-\Delta C_{T,C_i}}$ , we get:
 $$\frac{2^{-\Delta C_{T,X_i}}}{\frac{1}{n} \sum_{i=1}^{n} 2^{-\Delta C_{T,C_i}}} = \frac{2^{-\Delta C_{T,X_i}}}{\overline{2^{-\Delta C_{T,C}}}} = 2^{-\Delta C_{T,X_i}}\div\overline{2^{-\Delta C_{T,C}}} = left\ side\ of\ eq.(2)$$
 
-
 Hence, the **left-hand side of equation (2)** is algebraically equal to its **right-hand side**, even though they originate from different forms. looks wired, right? Then what happened in here? Why do we divide the $2^{-\Delta\Delta C_{T,X_i}}$ by the averaged $2^{-\Delta\Delta C_{T,C}}$ of control group results in the exact value as the same as when we divide the $2^{-\Delta C_{T,X_i}}$ by the average $2^{-\Delta C_{T,C}}$ ?
 
  OK, let's go back to the paper of [Livak & Schmittgen, 2001](https://pubmed.ncbi.nlm.nih.gov/11846609/) and check the its ref\[[Livak & Schmittgen, 2001](https://pubmed.ncbi.nlm.nih.gov/11846609/)\].eq.(8):
@@ -112,21 +111,50 @@ $$ 2^{-\Delta\Delta C_{T,X_i}} = \frac{2^{-\Delta C_{T,X_i}}}{2^{-\overline{\Del
 
 Have you noticed this part, ${2^{-\frac{1}{n} \sum_{i=1}^n \Delta C_{T,C_i}}}$ ? This is the geometric mean of $2^{-\Delta C_{T,C_i}}$, because:
 
-$$ {2^{-\frac{1}{n}\sum_{i=1}^{n}{\Delta C_{T,C_i}}}} = \sqrt[n]{2^{-\sum_{i=1}^{n}{\Delta C_{T,Ci}}}} = \sqrt[n]{2^{-\Delta C_{T, C_1}}\cdot2^{-\Delta C_{T, C_2}}\cdot 2^{-\Delta C_{T, C_3}}...2^{-\Delta C_{T, C_n}}} = (\prod^n_{i=1}{2^{-\Delta C_{T,C_i}}})^\frac{1}{n} $$
+$$ {2^{-\frac{1}{n}\sum_{i=1}^{n}{\Delta C_{T,C_i}}}} = \sqrt[n]{2^{-\sum_{i=1}^{n}{\Delta C_{T,Ci}}}} = \sqrt[n]{2^{-\Delta C_{T, C_1}}\cdot2^{-\Delta C_{T, C_2}}\cdot 2^{-\Delta C_{T, C_3}}...2^{-\Delta C_{T, C_n}}} = (\prod^n_{i=1}{2^{-\Delta C_{T,C_i}}})^\frac{1}{n} \tag{4}$$
 
 
 Therefore, the left side of eq.(2) is actually equal to:
 $$ 2^{-\Delta C_{T,X_i}}\div\overline{2^{-\Delta C_{T,C}}} = 2^{-\Delta C_{T,X_i}}\div\frac{1}{n}\sum_{i=1}^{n}{2^{-\Delta C_{T,C_i}}} $$
 
 Now, the story is totally clear, the left side of eq.(2) is the Arithmetic Mean version of $2^{-\Delta\Delta C_T}$. Let's denote it as:
-$$ 2^{-\Delta\Delta{C_{T,X_i}}AM} = \frac{2^{-\Delta C_{T,X_i}}}{\overline{2^{-\Delta C_{T,C}}}} = 2^{-\Delta C_{T,X_i}}\div\frac{1}{n}\sum_{i=1}^{n}{2^{-\Delta C_{T,C_i}}} \tag{4}$$
+$$ 2^{-\Delta\Delta{C_{T,X_i}}AM} = \frac{2^{-\Delta C_{T,X_i}}}{\overline{2^{-\Delta C_{T,C}}}} = 2^{-\Delta C_{T,X_i}}\div\frac{1}{n}\sum_{i=1}^{n}{2^{-\Delta C_{T,C_i}}} \tag{5}$$
 Now, we can take the eq.(3) as the Geometric Mean of $2^{-\Delta\Delta C_T}$, which is the original in the paper of [Livak & Schmittgen, 2001](https://pubmed.ncbi.nlm.nih.gov/11846609/). For distinguish and convenience in this blog, let's denote it as $2^{-\Delta\Delta{C_{T,X_i}}GM}$.
 
 This is interesting, because our above steps show something like below:
 $$\frac{\cancel{Geometric\_Mean}[Sample]}{Arithmetic\_Mean[\cancel{Geometric\_Mean}[Sample]]} = \frac{Sample}{Arithmetic\_Mean[Sample]}$$
 
+## Geometric mean vs Arithmetic mean
+
+### Reason for using geometric mean
+
+Many tutorials and textbooks state that qPCR results often follow a **log-normal distribution**, and therefore recommend applying a log₂ transformation (e.g., for t-tests or ANOVA). However, when using the ΔΔCt method, the log₂ transformation is already embedded in the calculation:
+
+$$\log_2(2^{-\Delta\Delta C_T}) = -\Delta\Delta C_T$$
+
+In other words, we are essentially analyzing **ΔΔCt values directly** in the log space.
+
+This raises a key question: **If our analysis is done in log space, shouldn't the summary statistics also respect the log scale?** Specifically, when we report mean fold changes, **shouldn't we use the geometric mean and geometric standard deviation**, rather than the arithmetic ones?
+
+In fact, as shown in our derivation earlier, the original Livak & Schmittgen (2001) paper used the **arithmetic mean of ΔCₜ values** in the control group to compute the calibrator ΔCₜ. Mathematically, this is equivalent to computing the **geometric mean of the normalized expression values** ($2^{-\Delta C_T}$) (see **eq.4** in this post). Therefore, the fold change of expression in the control group is **implicitly defined via geometric averaging**.
+
+Following the same logic, we should also apply **geometric averaging** to estimate the fold change of the treatment (experimental) group. That is, we calculate the arithmetic mean of the ΔCₜ values in that group, then back-transform using $2^{-\text{Mean}(\Delta C_T)}$(see **eq.4** in this post), which gives us the **geometric mean fold change**. This is **not** the same as taking the arithmetic mean of each sample’s $2^{-\Delta\Delta C_T}$ value.
+
+So, the conclusion is:
+
+> **Since the ΔΔCt method operates in log space, our statistical analysis should remain in log space, and fold changes should be reported as geometric means to preserve mathematical consistency and avoid distortion caused by skewed data distributions.**
+
+### Reason for using arithmetic mean
 
 
+
+## 🧾 Final Summary: Why We Should Report the Geometric Mean for Fold Change
+
+Although the ΔΔCt method quantifies relative gene expression using exponential terms like 2−ΔΔCT2^{-\Delta\Delta C_T}2−ΔΔCT​, many practitioners—following early conventions—still report the **arithmetic mean** of fold changes across replicates. This practice traces back to the 2001 paper by Livak & Schmittgen, where arithmetic averaging was used in spreadsheet workflows for simplicity. However, as we have shown through formal derivation, the ΔΔCt method is inherently **logarithmic**, meaning that fold changes normalized to a group calibrator (e.g., control samples) are mathematically based on the **geometric mean** of linearized values like 2−ΔCT2^{-\Delta C_T}2−ΔCT​.
+
+It’s important to distinguish this from Section 3 of the same paper, where the authors recommend converting Ct values to 2−CT2^{-C_T}2−CT​ **before calculating variation** (e.g., standard deviation or coefficient of variation), as raw Ct values underestimate variability. This advice is crucial for error analysis, but it does **not** imply that the arithmetic mean is appropriate for summarizing biological fold changes across a group.
+
+Therefore, when reporting **mean relative expression values** using the ΔΔCt method, the use of the **geometric mean** is not only mathematically correct—it also ensures accuracy, interpretability, and consistency in representing multiplicative biological effects. The arithmetic mean, while sometimes convenient, may misrepresent central tendency, especially in data with high variation or skew.
 
 
 

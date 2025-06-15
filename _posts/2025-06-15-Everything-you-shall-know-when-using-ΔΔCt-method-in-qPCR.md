@@ -151,8 +151,11 @@ According to the principle of parameter test (e.g., t-test, ANOVA, etc.), those 
 		= \log_2\left( \prod_{i=1}^{n} x_i^{1/n} \right)
 		= \log_2\left(\text{Geometric Mean}[x_i]\right)
 		$$
+		
 		Taking base-2 exponent on both sides: $2^{\text{Arithmetic Mean}[\log_2(x_i)]} = \text{Geometric Mean}[x_i]$
+		
 		So: $\boxed{\text{Geometric Mean}[2^{-\Delta\Delta C_T}] = 2^{\text{Arithmetic Mean}[-\Delta\Delta C_T]}}$
+		
 		And therefore: $\boxed{\text{Arithmetic Mean}[\log_2(2^{-\Delta\Delta C_T})] =\log_2\left(\text{Geometric Mean}[2^{-\Delta\Delta C_T}]\right)}$
 
 In fact, as shown in our derivation earlier, the original Livak & Schmittgen (2001) paper used the **arithmetic mean of ΔCₜ values** in the control group to compute the calibrator ΔCₜ. Mathematically, this is equivalent to computing the **geometric mean of the normalized expression values** ($2^{-\Delta C_T}$) (see **eq.4** in this post). However, the fold change of expression in the control vs experiment groups is **implicitly defined via arithmetic averaging** in their **FIG.2**. Why?

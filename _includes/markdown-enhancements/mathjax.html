@@ -6,12 +6,17 @@
 {%- assign _mathjax_autoNumber = __return -%}
 
 <script type="text/x-mathjax-config">
-	var _config = { tex2jax: {
+	var _config = {
+	  extensions: ["cancel.js"],  // 👈 Enable cancel
+	  tex2jax: {
 		inlineMath: [['$','$'], ['\\(','\\)']]
-	}};
-	{%- if _mathjax_autoNumber == true -%}
-		_config.TeX = { equationNumbers: { autoNumber: "all" } };
-	{%- endif -%}
+	  },
+	  TeX: {
+		equationNumbers: {
+		  autoNumber: {{ _mathjax_autoNumber | default: false | ternary: '"all"', '"none"' }}
+		}
+	  }
+	};
 	MathJax.Hub.Config(_config);
-</script>
+  </script>
 <script type="text/javascript" src="{{ _sources.mathjax }}" async></script>

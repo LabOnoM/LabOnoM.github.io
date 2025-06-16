@@ -10,7 +10,7 @@ pageview: true
 tags: 日本語
 ---
 
-<img src="https://visitor-badge.laobi.icu/badge?page_id=https://labonom.github.io/2025/06/15/shall-we-use-geometric-mean.html" alt="visitor badge"/> [![GitHub](https://img.shields.io/badge/GitHub-Profile-black?logo=github)](https://github.com/LabOnoM)
+<img src="https://visitor-badge.laobi.icu/badge?page_id=https://labonom.github.io/2025/06/15/Everything-you-shall-know-when-using-%CE%94%CE%94Ct-method-in-qPCR.jp.html" alt="visitor badge"/> [![GitHub](https://img.shields.io/badge/GitHub-Profile-black?logo=github)](https://github.com/LabOnoM)
 
 🌐 Other languages: [English](https://www.bs-gou.com/2025/06/15/Everything-you-shall-know-when-using-%CE%94%CE%94Ct-method-in-qPCR.html){:.button.button--primary.button--rounded.button--xs} [日本語](https://www.bs-gou.com/2025/06/15/Everything-you-shall-know-when-using-%CE%94%CE%94Ct-method-in-qPCR.jp.html){:.button.button--primary.button--rounded.button--xs} 
 

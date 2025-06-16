@@ -1,6 +1,7 @@
 ---
 title: 'How a Fish No One Noticed Became a Star'
 lang: en
+hidden: false
 license: true
 aside:
   toc: true

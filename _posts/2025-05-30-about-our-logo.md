@@ -1,6 +1,7 @@
 ---
 title: 'More Than a Logo: The Story, Spirit, and Science Behind New Emblem of BSGOU'
 tags: BSGOU
+hidden: false
 license: true
 aside:
   toc: true

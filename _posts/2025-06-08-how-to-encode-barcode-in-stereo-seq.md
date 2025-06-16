@@ -1,6 +1,7 @@
 ---
 title: 'From CID to ATGC: Decoding Stereo-seq Barcodes'
 lang: en
+hidden: false
 license: true
 aside:
   toc: true

@@ -1,15 +1,13 @@
 ---
 title: qPCR における ΔΔCt 法を使用する際に知っておくべきすべてのこと
 lang: jp
+hidden: true
 license: true
 aside:
   toc: true
 show_edit_on_github: true
 pageview: true
-tags:
-  - qPCR
-  - Math
-  - Statistics
+tags: 日本語
 ---
 
 <img src="https://visitor-badge.laobi.icu/badge?page_id=https://labonom.github.io/2025/06/15/shall-we-use-geometric-mean.html" alt="visitor badge"/> [![GitHub](https://img.shields.io/badge/GitHub-Profile-black?logo=github)](https://github.com/LabOnoM)

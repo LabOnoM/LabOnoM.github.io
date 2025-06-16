@@ -1,6 +1,7 @@
 ---
 title: Everything you shall know when using ΔΔCt method in qPCR
 lang: en
+hidden: false
 license: true
 aside:
   toc: true

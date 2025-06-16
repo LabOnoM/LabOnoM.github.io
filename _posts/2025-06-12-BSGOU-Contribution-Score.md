@@ -1,8 +1,12 @@
 ---
 title: '🐝 BSGOU Contribution Score Calculation'
 lang: en
+hidden: false
+license: true
 aside:
   toc: true
+show_edit_on_github: true
+pageview: true
 show_edit_on_github: true
 ---
 

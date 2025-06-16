@@ -302,7 +302,7 @@ $$
 
 ![Identical_qPCR_Results](https://raw.githubusercontent.com/LabOnoM/LabOnoM.github.io/master/_posts/PostAttachedFiles/Identical_Statistical_Results_qPCR.png)
 
-**図 2.** GraphPad Prism による出力結果では、正規化方法が異なっても、統計的指標（例：_P_ 値、_F_、_t_ など）はまったく同じであることが示されています。ただし、グループ間の実際の差（例：A–B）は同一ではありません。  
+**図 2.** GraphPad Prism による出力結果では、正規化方法が異なっても、統計的指標（例：_P_ 値、_F_、_t_ など）はまったく同じであることが示されています([GM_Calibrator_2DDCt.prism](https://raw.githubusercontent.com/LabOnoM/LabOnoM.github.io/master/_posts/PostAttachedFiles/GM_Calibrator_2DDCt.prism) and [AM_Calibrator_2DDCt.prism](https://raw.githubusercontent.com/LabOnoM/LabOnoM.github.io/master/_posts/PostAttachedFiles/AM_Calibrator_2DDCt.prism))。ただし、グループ間の実際の差（例：A–B）は同一ではありません。  
 これは、ΔΔCt 法が**相対定量**に基づいているため、データの線形スケーリングを行っても**フォールドチェンジ値は変化しない**という理由からです（本記事の **図1** 参照）。
 
 ### 4.4 どちらでも問題ない

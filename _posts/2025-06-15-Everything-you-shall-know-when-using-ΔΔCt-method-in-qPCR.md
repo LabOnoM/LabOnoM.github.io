@@ -51,7 +51,9 @@ Developed at **Applied Biosystems (Foster City, CA)**, it offers a streamlined a
 An additional normalization on the original $2^{-\Delta\Delta C_T}$ method (divide the $2^{-\Delta\Delta C_T}$ by mean of $2^{-\Delta\Delta C_T}$ in control group) is qual to dividing the $2^{-\Delta C_T}$ by mean of $2^{-\Delta C_T}$ in control group. As shown in a screenshot of a MS Excel file:
 
 ![Identical_qPCR_Results](https://raw.githubusercontent.com/LabOnoM/LabOnoM.github.io/master/_posts/PostAttachedFiles/Identical_qPCR_Results.png)
-**Figure 1.** As shown in above, these two methods even yield identical fold-changes([Example_qPCR.xlsx](https://raw.githubusercontent.com/LabOnoM/LabOnoM.github.io/master/_posts/PostAttachedFiles/Example_qPCR.xlsx)). To figure it out, we need to uniform our language first by define some notations.
+**Figure 1.** As shown in above, these two methods even yield identical fold-changes([Example_qPCR.xlsx](https://raw.githubusercontent.com/LabOnoM/LabOnoM.github.io/master/_posts/PostAttachedFiles/Example_qPCR.xlsx)).
+
+To figure it out, we need to uniform our language first by define some notations.
 ### 3.1 Define notations
 Let's denote the following terms:
  - The PCR Cycles: $C$
@@ -216,7 +218,7 @@ $$
 - **Wilcoxon/Mann–Whitney** tests are based on **rank order**, and are **invariant under monotonic transformations**, including normalization by any mean.
 
 ![Identical_qPCR_Results](https://raw.githubusercontent.com/LabOnoM/LabOnoM.github.io/master/_posts/PostAttachedFiles/Identical_Statistical_Results_qPCR.png)
-**Figure 2.** According to the GraphPad Prism output, the statistical parameters (e.g., _P_-value, _F_, _t_, etc.) remain exactly the same across different normalization strategies. However, the actual differences between groups (e.g., A–B) are not identical. This is why we focus on fold-change: since the ΔΔCt method is inherently based on relative quantification, the fold-change values remain unchanged under linear rescaling of the input data (see **Figure 1** in this post).
+**Figure 2.** According to the GraphPad Prism output, the statistical parameters (e.g., _P_-value, _F_, _t_, etc.) remain exactly the same across different normalization strategies ([GM_Calibrator_2DDCt.prism](https://raw.githubusercontent.com/LabOnoM/LabOnoM.github.io/master/_posts/PostAttachedFiles/GM_Calibrator_2DDCt.prism) and [AM_Calibrator_2DDCt.prism](https://raw.githubusercontent.com/LabOnoM/LabOnoM.github.io/master/_posts/PostAttachedFiles/AM_Calibrator_2DDCt.prism)). However, the actual differences between groups (e.g., A–B) are not identical. This is why we focus on fold-change: since the ΔΔCt method is inherently based on relative quantification, the fold-change values remain unchanged under linear rescaling of the input data (see **Figure 1** in this post).
 
 ### 4.4 Either is fine
 

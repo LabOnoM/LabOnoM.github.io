@@ -379,4 +379,5 @@ Livak および Schmittgen の 2001 年の論文が発表されて以来、**何
 
 ---
 
-If you found this helpful, feel free to comment, share, and follow for more. Your support encourages us to keep creating quality content.
+もしこの記事が参考になった場合は、コメント・共有・フォローをぜひお願いいたします。  
+皆さまのご支援が、今後も質の高いコンテンツを作り続ける励みになります。

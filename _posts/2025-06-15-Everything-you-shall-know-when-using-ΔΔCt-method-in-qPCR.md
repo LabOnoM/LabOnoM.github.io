@@ -14,6 +14,8 @@ tags:
 
 <img src="https://visitor-badge.laobi.icu/badge?page_id=https://labonom.github.io/2025/06/15/shall-we-use-geometric-mean.html" alt="visitor badge"/> [![GitHub](https://img.shields.io/badge/GitHub-Profile-black?logo=github)](https://github.com/LabOnoM)
 
+🌐 Other languages: [English](https://www.bs-gou.com/2025/06/15/Everything-you-shall-know-when-using-%CE%94%CE%94Ct-method-in-qPCR.html){:.button.button--primary.button--rounded.button--xs} [日本語](https://www.bs-gou.com/2025/06/15/Everything-you-shall-know-when-using-%CE%94%CE%94Ct-method-in-qPCR.jp.html){:.button.button--primary.button--rounded.button--xs} 
+
 Have you ever run into this situation while using the ΔΔCt method for qPCR analysis—your control group’s mean expression value _isn’t_ exactly 1? What did you do? Did you quietly normalize the ΔΔCt results **again** just to force the control group’s mean back to 1? And have you ever wondered whether this “sneaky extra normalization” is actually valid, or if you've been doing something questionable all along?
 
 Well, in this blog post, we’re going to get to the bottom of it—**is this secondary normalization mathematically justified, or is it just a placebo for our inner perfectionist?** Let’s find out.

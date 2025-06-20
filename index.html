@@ -179,7 +179,6 @@
 			border-radius: 4px;
 			cursor: pointer;
 			}
-
 			.badge-bar img {
 			vertical-align: middle;
 			height: auto;
@@ -187,10 +186,16 @@
 			}
 
 			@media (max-width: 700px) {
-			.badge-bar {
-				flex-direction: column;
-				align-items: center;
+				.badge-bar {
+					flex-direction: column;
+					align-items: center;
+				}
 			}
+			.left-badges,
+			.right-lang-buttons {
+				display: flex;
+				align-items: center;
+				gap: 8px;
 			}
 		</style>
 	</head>
@@ -249,21 +254,23 @@
 			</div>
 			<div class="container">
 				<div class="badge-bar">
-					<!-- Replace "UCxxxxxxxxxx" with your Channel ID -->
-					<script src="https://apis.google.com/js/platform.js"></script>
-					<div class="g-ytsubscribe" data-channelid="UCaVVB1Gq9wcicFp_B2HKt1Q" data-layout="default" data-count="default">
+					<div class="left-badges">
+						<script src="https://apis.google.com/js/platform.js"></script>
+						<div class="g-ytsubscribe" data-channelid="UCaVVB1Gq9wcicFp_B2HKt1Q" data-layout="default" data-count="default">
+						</div>
+						<a href="https://twitter.com/BSGOU_X?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow
+							@BSGOU_X</a>
+						<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+						<a href="https://github.com/LabOnoM" target="_blank">
+							<img src="https://img.shields.io/badge/GitHub-Profile-black?logo=github" alt="GitHub profile" />
+						</a>
+						<img src="https://visitor-badge.laobi.icu/badge?page_id=LabOnoM.LabOnoM.github.io" alt="visitor badge" />
 					</div>
-					<a href="https://twitter.com/BSGOU_X?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow
-						@BSGOU_X</a>
-					<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-					<span style="flex:1"></span>
-					<a href="https://github.com/LabOnoM" target="_blank">
-						<img src="https://img.shields.io/badge/GitHub-Profile-black?logo=github" alt="GitHub profile" />
-					</a>
-					<img src="https://visitor-badge.laobi.icu/badge?page_id=LabOnoM.LabOnoM.github.io" alt="visitor badge" />
-					<button onclick="switchLanguage('en')">English</button>
-					<button onclick="switchLanguage('ja')">日本語</button>
-					<button onclick="switchLanguage('cn')">中文</button>
+					<div class="right-lang-buttons">
+						<button onclick="switchLanguage('en')">English</button>
+						<button onclick="switchLanguage('ja')">日本語</button>
+						<button onclick="switchLanguage('cn')">中文</button>
+					</div>
 				</div>
 			</div>
 			<div class="container">

@@ -18,7 +18,7 @@ title: Global Inclusivity
   <a href="/sources/Global_Inclusivity_CH.html" style="padding: 6px 12px; border: 1px solid #ccc; background-color: #f0f0f0; text-decoration: none; border-radius: 4px;">中文</a>
 </div>
 
-# Global Inclusivity
+# 国際的な包摂性
 
 ## 🌐 ローカルに根ざし、グローバルに開かれる
 BSGOUは岡山大学を拠点としながらも、世界中の人々に開かれた教育エコシステムを構築しています。**Bees GO!**プログラムを通じて、所属や国籍を問わず、誰でも自由に参加できます。GitHubのプロフィール（例：[@wong-ziyi](https://github.com/wong-ziyi)）にREADME.mdを作成しBSGOUのメンバーであることを記載するだけで、公開リポジトリにアクセスし、オープンソース教材や自動採点ワークフローを用いて学習を始めることができます。

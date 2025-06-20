@@ -161,12 +161,20 @@
 			}
 			.badge-bar {
 			display: flex;
-			flex-wrap: wrap;
-			align-items: center;
 			justify-content: space-between;
-			gap: 10px;
+			align-items: center;
+			flex-wrap: wrap;
 			padding: 8px 16px;
+			gap: 12px;
 			box-sizing: border-box;
+			}
+
+			.left-badges,
+			.right-lang-buttons {
+			display: flex;
+			align-items: center;
+			flex-wrap: wrap;
+			gap: 8px;
 			}
 
 			.badge-bar button {
@@ -179,23 +187,22 @@
 			border-radius: 4px;
 			cursor: pointer;
 			}
+
 			.badge-bar img {
 			vertical-align: middle;
-			height: auto;
 			max-height: 24px;
 			}
 
+			/* Mobile adjustment: center everything */
 			@media (max-width: 700px) {
-				.badge-bar {
-					flex-direction: column;
-					align-items: center;
-				}
+			.badge-bar {
+				flex-direction: column;
+				align-items: center;
 			}
 			.left-badges,
 			.right-lang-buttons {
-				display: flex;
-				align-items: center;
-				gap: 8px;
+				justify-content: center;
+			}
 			}
 		</style>
 	</head>
@@ -255,17 +262,25 @@
 			<div class="container">
 				<div class="badge-bar">
 					<div class="left-badges">
+						<!-- YouTube -->
 						<script src="https://apis.google.com/js/platform.js"></script>
-						<div class="g-ytsubscribe" data-channelid="UCaVVB1Gq9wcicFp_B2HKt1Q" data-layout="default" data-count="default">
-						</div>
-						<a href="https://twitter.com/BSGOU_X?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow
-							@BSGOU_X</a>
+						<div class="g-ytsubscribe" data-channelid="UCaVVB1Gq9wcicFp_B2HKt1Q" data-layout="default"
+							data-count="default"></div>
+
+						<!-- Twitter -->
+						<a href="https://twitter.com/BSGOU_X?ref_src=twsrc%5Etfw" class="twitter-follow-button"
+							data-show-count="false">Follow @BSGOU_X</a>
 						<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+						<!-- GitHub -->
 						<a href="https://github.com/LabOnoM" target="_blank">
 							<img src="https://img.shields.io/badge/GitHub-Profile-black?logo=github" alt="GitHub profile" />
 						</a>
+
+						<!-- Visitors -->
 						<img src="https://visitor-badge.laobi.icu/badge?page_id=LabOnoM.LabOnoM.github.io" alt="visitor badge" />
 					</div>
+
 					<div class="right-lang-buttons">
 						<button onclick="switchLanguage('en')">English</button>
 						<button onclick="switchLanguage('ja')">日本語</button>

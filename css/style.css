@@ -14,35 +14,37 @@
 }
 
 :root {
-  /* Default Light Theme */
-  --bg-primary: #ffffff;
-  --bg-secondary: #f8fafc;
-  --text-primary: #0f172a;
-  --text-secondary: #475569;
-  --accent-pink: #db2777;
-  --accent-pink-hover: #be185d;
-  --accent-blue: #0284c7;
-  --accent-blue-hover: #0369a1;
-  --glass-bg: rgba(255, 255, 255, 0.75);
-  --glass-border: rgba(0, 0, 0, 0.08);
-  --shadow-color: rgba(0, 0, 0, 0.05);
-  --bg-overlay: rgba(255, 255, 255, 0.75);
+  /* Default Light Theme (Inspired by 124112083.jpeg) */
+  --bg-primary: #fefdfa;
+  --bg-secondary: #faf6f0;
+  --text-primary: #2d2520;
+  --text-secondary: #61564f;
+  --accent-pink: #e06b5a;
+  --accent-pink-hover: #c55343;
+  --accent-blue: #4a8ab7;
+  --accent-blue-hover: #396e94;
+  --glass-bg: rgba(254, 253, 250, 0.72);
+  --glass-border: rgba(180, 160, 140, 0.15);
+  --shadow-color: rgba(60, 50, 40, 0.06);
+  --bg-overlay: rgba(254, 253, 250, 0.8);
+  --bg-image: url('../img/quote.jpg');
 }
 
 .dark-theme {
-  /* Dark Theme Override */
-  --bg-primary: #0f172a;
-  --bg-secondary: #1e293b;
-  --text-primary: #f8fafc;
-  --text-secondary: #cbd5e1;
+  /* Dark Theme Override (Inspired by 2.jpg) */
+  --bg-primary: #1e262c;
+  --bg-secondary: #12181d;
+  --text-primary: #f0f4f8;
+  --text-secondary: #8b9aa6;
   --accent-pink: #f472b6;
   --accent-pink-hover: #ec4899;
-  --accent-blue: #38bdf8;
-  --accent-blue-hover: #7dd3fc;
-  --glass-bg: rgba(15, 23, 42, 0.75);
+  --accent-blue: #06b6d4;
+  --accent-blue-hover: #0891b2;
+  --glass-bg: rgba(18, 24, 29, 0.72);
   --glass-border: rgba(255, 255, 255, 0.08);
-  --shadow-color: rgba(0, 0, 0, 0.3);
-  --bg-overlay: rgba(15, 23, 42, 0.85);
+  --shadow-color: rgba(0, 0, 0, 0.4);
+  --bg-overlay: rgba(18, 24, 29, 0.85);
+  --bg-image: url('../img/quote copy.jpg');
 }
 
 .dark-theme iframe#contributions-frame,
@@ -56,12 +58,17 @@ html {
 }
 
 body {
+  background-image: var(--bg-image);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   background-color: var(--bg-secondary);
   color: var(--text-primary);
   font-family: OpenSans_Regular, "Helvetica Neue", sans-serif;
   margin: 0;
   padding: 0;
-  transition: background-color 0.3s ease, color 0.3s ease;
+  transition: background-color 0.3s ease, color 0.3s ease, background-image 0.3s ease;
   line-height: 1.6;
 }
 
@@ -473,9 +480,12 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Works Section */
 .works-wrapper {
-  background-color: var(--bg-primary);
+  background-color: var(--glass-bg);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-bottom: 1px solid var(--glass-border);
   padding: 80px 0;
-  transition: background-color 0.3s;
+  transition: background-color 0.3s, border-color 0.3s;
 }
 
 ul#filterOptions {
@@ -566,8 +576,7 @@ ul#filterOptions li a:hover {
 .quote {
   position: relative;
   min-height: 380px;
-  background: url('../img/quote.jpg') fixed center no-repeat;
-  background-size: cover;
+  background: transparent;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -579,7 +588,9 @@ ul#filterOptions li a:hover {
   content: '';
   position: absolute;
   top: 0; left: 0; right: 0; bottom: 0;
-  background: rgba(15, 23, 42, 0.75);
+  background: var(--bg-overlay);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
   z-index: 1;
 }
 
@@ -590,14 +601,13 @@ ul#filterOptions li a:hover {
 }
 
 .quote h2 {
-  color: #ffffff;
+  color: var(--text-primary);
   font-size: 26px;
   font-style: italic;
   font-weight: 300;
   line-height: 1.6;
   max-width: 850px;
   margin: 0 auto 20px auto;
-  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .quote p {
@@ -605,12 +615,17 @@ ul#filterOptions li a:hover {
   font-size: 18px;
   font-weight: 600;
   margin: 0;
-  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
 }
 
-/* News Section */
+/* Services / About Section & News Section */
+#services,
 .news {
-  padding: 80px 0;
+  background-color: var(--glass-bg);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-bottom: 1px solid var(--glass-border);
+  padding: 60px 0 80px 0;
+  transition: background-color 0.3s, border-color 0.3s;
 }
 
 .news ul {
@@ -658,9 +673,12 @@ ul#filterOptions li a:hover {
 
 /* Team / About Section */
 .about {
-  background-color: var(--bg-secondary);
+  background-color: var(--glass-bg);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-bottom: 1px solid var(--glass-border);
   padding: 80px 0;
-  transition: background-color 0.3s;
+  transition: background-color 0.3s, border-color 0.3s;
 }
 
 .about > .container > ul {
@@ -769,9 +787,12 @@ ul#filterOptions li a:hover {
 
 /* Contact Section & Flex Setup */
 .contact {
-  background-color: var(--bg-secondary);
+  background-color: var(--glass-bg);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-bottom: 1px solid var(--glass-border);
   padding: 80px 0;
-  transition: background-color 0.3s;
+  transition: background-color 0.3s, border-color 0.3s;
 }
 
 .contact-flex {
@@ -879,7 +900,9 @@ li.linkedin a {
 
 /* Footer Section */
 .footer {
-  background-color: var(--bg-primary);
+  background-color: var(--glass-bg);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
   border-top: 1px solid var(--glass-border);
   padding: 30px 0;
   transition: background-color 0.3s, border-color 0.3s;

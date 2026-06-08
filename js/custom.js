@@ -116,6 +116,29 @@ document.addEventListener("DOMContentLoaded", () => {
       }
     };
 
+    const prevBtn = document.createElement("button");
+    prevBtn.innerHTML = "&#10094;";
+    prevBtn.className = "slider-nav slider-prev";
+    prevBtn.setAttribute("aria-label", "Previous slide");
+    
+    const nextBtn = document.createElement("button");
+    nextBtn.innerHTML = "&#10095;";
+    nextBtn.className = "slider-nav slider-next";
+    nextBtn.setAttribute("aria-label", "Next slide");
+    
+    sliderEl.appendChild(prevBtn);
+    sliderEl.appendChild(nextBtn);
+
+    prevBtn.addEventListener("click", () => {
+      goToSlide(currentIndex - 1);
+      stopAutoSlide(); startAutoSlide();
+    });
+    
+    nextBtn.addEventListener("click", () => {
+      goToSlide(currentIndex + 1);
+      stopAutoSlide(); startAutoSlide();
+    });
+
     startAutoSlide();
 
     sliderEl.addEventListener("mouseenter", stopAutoSlide);

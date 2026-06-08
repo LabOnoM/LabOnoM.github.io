@@ -45,6 +45,11 @@
   --bg-overlay: rgba(15, 23, 42, 0.85);
 }
 
+.dark-theme iframe#contributions-frame,
+.dark-theme iframe[src="members.html"] {
+  filter: invert(0.92) hue-rotate(180deg);
+}
+
 /* Base Styles */
 html {
   scroll-behavior: smooth;
@@ -159,6 +164,37 @@ h1, h2, h3, h4, h5, h6 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+/* Slider Nav Buttons */
+.slider-nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: var(--bg-overlay);
+  color: var(--text-primary);
+  border: 1px solid var(--glass-border);
+  font-size: 20px;
+  width: 48px;
+  height: 48px;
+  cursor: pointer;
+  z-index: 10;
+  border-radius: 50%;
+  transition: background 0.3s, color 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.slider-nav:hover {
+  background: var(--accent-pink);
+  color: #fff;
+  border-color: var(--accent-pink);
+}
+.slider-prev {
+  left: 16px;
+}
+.slider-next {
+  right: 16px;
 }
 
 #slide-1 h2 {
@@ -593,6 +629,7 @@ ul#filterOptions li a:hover {
 .about ul {
   display: flex;
   justify-content: center;
+  align-items: flex-start;
   flex-wrap: wrap;
   gap: 30px;
   padding: 0;
@@ -607,8 +644,7 @@ ul#filterOptions li a:hover {
   border-radius: 16px;
   text-align: center;
   box-shadow: 0 4px 6px -1px var(--shadow-color);
-  max-width: 280px;
-  flex: 1 1 240px;
+  width: 240px;
   box-sizing: border-box;
   transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s;
 }
@@ -720,7 +756,7 @@ ul#filterOptions li a:hover {
   box-shadow: 0 4px 6px -1px var(--shadow-color);
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   box-sizing: border-box;
   transition: background-color 0.3s;
 }

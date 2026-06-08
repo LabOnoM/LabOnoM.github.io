@@ -146,7 +146,7 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   overflow: hidden;
   width: 100%;
-  padding: 40px 0;
+  padding: 40px 80px;
 }
 
 .slides {
@@ -191,10 +191,22 @@ h1, h2, h3, h4, h5, h6 {
   border-color: var(--accent-pink);
 }
 .slider-prev {
-  left: 16px;
+  left: 20px;
 }
 .slider-next {
-  right: 16px;
+  right: 20px;
+}
+
+@media (max-width: 768px) {
+  .flexslider {
+    padding: 40px 50px;
+  }
+  .slider-prev {
+    left: 8px;
+  }
+  .slider-next {
+    right: 8px;
+  }
 }
 
 #slide-1 h2 {
@@ -646,7 +658,7 @@ ul#filterOptions li a:hover {
   transition: background-color 0.3s;
 }
 
-.about ul {
+.about > .container > ul {
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -657,7 +669,7 @@ ul#filterOptions li a:hover {
   margin-top: 50px;
 }
 
-.about ul li {
+.about > .container > ul > li {
   background: var(--bg-primary);
   border: 1px solid var(--glass-border);
   padding: 30px 24px;
@@ -669,12 +681,12 @@ ul#filterOptions li a:hover {
   transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s;
 }
 
-.about ul li:hover {
+.about > .container > ul > li:hover {
   transform: translateY(-5px);
   box-shadow: 0 10px 15px -3px var(--shadow-color);
 }
 
-.about ul li img {
+.about > .container > ul > li img {
   width: 120px;
   height: 120px;
   border-radius: 50%;
@@ -684,13 +696,13 @@ ul#filterOptions li a:hover {
   box-shadow: 0 4px 6px var(--shadow-color);
 }
 
-.about ul li h3 {
+.about > .container > ul > li h3 {
   margin: 0 0 8px 0;
   font-size: 20px;
   color: var(--text-primary);
 }
 
-.about ul li h6 {
+.about > .container > ul > li h6 {
   margin: 0 0 16px 0;
   font-size: 14px;
   font-weight: 500;
@@ -719,8 +731,8 @@ ul#filterOptions li a:hover {
 .social-staff ul li a {
   width: 36px;
   height: 36px;
-  background-color: var(--bg-secondary);
-  border: 1px solid var(--glass-border);
+  background-color: #334155;
+  border: 1px solid rgba(255, 255, 255, 0.15);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -729,6 +741,11 @@ ul#filterOptions li a:hover {
   background-position: center;
   background-repeat: no-repeat;
   background-size: 18px;
+}
+
+.dark-theme .social-staff ul li a {
+  background-color: var(--bg-secondary);
+  border-color: var(--glass-border);
 }
 
 .social-staff ul li a:hover {
@@ -807,8 +824,8 @@ ul#filterOptions li a:hover {
 .contact-desc .social ul li a {
   width: 40px;
   height: 40px;
-  background-color: var(--bg-secondary);
-  border: 1px solid var(--glass-border);
+  background-color: #334155;
+  border: 1px solid rgba(255, 255, 255, 0.15);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -817,6 +834,11 @@ ul#filterOptions li a:hover {
   background-position: center;
   background-repeat: no-repeat;
   background-size: 20px;
+}
+
+.dark-theme .contact-desc .social ul li a {
+  background-color: var(--bg-secondary);
+  border-color: var(--glass-border);
 }
 
 .contact-desc .social ul li a:hover {

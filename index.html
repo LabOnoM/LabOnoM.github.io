@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<html lang="en">
 	<head>
 		<!-- Google tag (gtag.js) -->
 		<script async src="https://www.googletagmanager.com/gtag/js?id=G-RWF876HNKW"></script>
@@ -6,22 +7,20 @@
 			window.dataLayer = window.dataLayer || [];
 			function gtag(){dataLayer.push(arguments);}
 			gtag('js', new Date());
-
 			gtag('config', 'G-RWF876HNKW');
 		</script>
 		<!--Page Title-->
-		<title>BSGOU</title>
+		<title>BSGOU - Bioinformatics Study Group, Okayama University</title>
 		<!--Meta Tags-->
 		<meta charset="utf-8" />
-		<meta name="keywords" content="" />
-		<meta name="description" content="" />
+		<meta name="keywords" content="BSGOU, Bioinformatics, Okayama University, single-cell RNA-seq, Stereo-seq, Visium HD, qPCR analysis" />
+		<meta name="description" content="Official portal for the Bioinformatics Study Group Okayama University (BSGOU). Bridging high-throughput biological data with systems-level mathematical models." />
 		<!-- Set Viewport-->
-        <meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, width=device-width" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
 		<meta name="follow.it-verification-code" content="bAjR1e3VsgJ1RAUQk1lz"/>
+		
 		<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" media="screen" />
-		<link rel="stylesheet" type="text/css" href="css/jquery.fancybox-1.3.4.css" />
-		<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
 		<link rel="stylesheet" href="css/style.css" type="text/css" />
 
 		<link rel="icon" type="image/png" href="img/favicons/favicon-96x96.png" sizes="96x96" />
@@ -32,637 +31,499 @@
 		<link rel="sitemap" type="application/xml" href="/sitemap.xml">
 		<meta name="msapplication-TileColor" content="#ffc40d">
 		<meta name="theme-color" content="#ffffff">
-
-		<style>
-			.hover-pink {
-			color: rgb(37, 105, 168);
-			text-decoration: none;
-			transition: color 0.2s;
-			}
-			.hover-pink:hover {
-			color: hotpink;
-			}
-			.badge-bar {
-				display: flex;
-				align-items: center;
-				gap: 10px;
-				padding: 8px 16px;
-				background: transparent;
-				z-index: 1002;
-				position: relative;
-			}
-			.badge-bar span {
-				flex: 1;
-			}
-
-			/* Responsive: stack badges on small screens */
-			@media (max-width: 700px) {
-				.badge-bar {
-					flex-direction: column;
-					align-items: flex-start;
-					gap: 6px;
-					padding: 8px 8px;
-				}
-				.badge-bar span {
-					display: none; /* disables the flex push */
-				}
-			}
-			#forkongithub a {
-				background:#000;
-				color:#fff;
-				text-decoration:none;
-				font-family:arial,sans-serif;
-				text-align:center;
-				font-weight:bold;
-				padding:5px 40px;
-				font-size:1rem;
-				line-height:2rem;
-				position:relative;
-				transition:0.5s;
-			}
-			#forkongithub a:hover {
-				background:#c11;
-				color:#fff;
-			}
-			#forkongithub a::before,#forkongithub a::after {
-				content:"";
-				width:100%;
-				display:block;
-				position:absolute;
-				top:1px;
-				left:0;
-				height:1px;
-				background:#fff;
-			}
-			#forkongithub a::after {
-				bottom:1px;top:auto;
-			}
-			@media screen and (min-width:800px) {
-				#forkongithub{
-					position:fixed;
-					display:block;
-					top:0;
-					right:0;
-					width:200px;
-					overflow:hidden;
-					height:200px;
-					z-index:9999;
-				}
-				#forkongithub a {
-					width:200px;
-					position:absolute;
-					top:32px;
-					right:-60px;
-					transform:rotate(45deg);
-					-webkit-transform:rotate(45deg);
-					-ms-transform:rotate(45deg);
-					-moz-transform:rotate(45deg);
-					-o-transform:rotate(45deg);
-					box-shadow:4px 4px 10px rgba(0,0,0,0.8);
-				}
-			}
-			.contact-flex {
-				display: flex;
-				flex-direction: row;
-				justify-content: center;
-				align-items: flex-start;
-				gap: 48px; /* space between map and contact info */
-				margin-top: 32px;
-				margin-bottom: 32px;
-				flex-wrap: wrap; /* Responsive: will stack on mobile */
-			}
-			.contact-map {
-				min-width: 320px;
-				max-width: 480px;
-				flex: 1 1 350px;
-				text-align: center;
-			}
-			.contact-desc {
-				min-width: 260px;
-				max-width: 380px;
-				flex: 1 1 320px;
-				background: rgba(255,255,255,0.08);
-				padding: 24px 18px 12px 18px;
-				border-radius: 12px;
-				margin-bottom: 0;
-				color: #fff;
-				box-sizing: border-box;
-			}
-			@media (max-width: 900px) {
-				.contact-flex {
-					flex-direction: column;
-					align-items: center;
-					gap: 24px;
-				}
-				.contact-map, .contact-desc {
-					max-width: 95vw;
-					width: 100%;
-				}
-			}
-			.badge-bar {
-			display: flex;
-			justify-content: space-between;
-			align-items: center;
-			flex-wrap: wrap;
-			padding: 8px 16px;
-			gap: 12px;
-			box-sizing: border-box;
-			}
-
-			.left-badges,
-			.right-lang-buttons {
-			display: flex;
-			align-items: center;
-			flex-wrap: wrap;
-			gap: 8px;
-			}
-
-			.badge-bar button {
-			margin: 0;
-			padding: 6px 12px;
-			font-size: 14px;
-			white-space: nowrap;
-			border: 1px solid #ccc;
-			background-color: #fff;
-			border-radius: 4px;
-			cursor: pointer;
-			}
-
-			.badge-bar img {
-			vertical-align: middle;
-			max-height: 24px;
-			}
-
-			/* Mobile adjustment: center everything */
-			@media (max-width: 700px) {
-			.badge-bar {
-				flex-direction: column;
-				align-items: center;
-			}
-			.left-badges,
-			.right-lang-buttons {
-				justify-content: center;
-			}
-			}
-		</style>
 	</head>
 	<body id="home">
 		<!-- head-section -->
-		<div id="head-section">
+		<header id="head-section">
 			<span id="forkongithub"><a href="https://labonom.github.io/blog/">Blog</a></span>
 			<div class="container">
 				<div class="slider">
 					<div class="flexslider">
-					<ul class="slides">
-						<li id="slide-1">
-							<h2>BSGOU</h2>
-							<p style="color:black">Bioinformatics Study Group in Okayama University</p>
-							<h3 style="color:black">User-friendly bioinformatics analysis software</h3>
-							<p id="btn-p"><a style="color:pink" id="purchase-btn" href="https://s3.okayama-u-bsg.org?appName=GSE261806">Check Demo Now</a></p>
-						</li>
-						<li id="slide-2">
-							<div class="app-content">
-								<h3 style="color:black">Bioinformatics oriented study</h3>
-								<p style="color:black">In this bioinformatics-oriented study, we re-analyzed a publicly available RNA-seq dataset complemented by literature mining. This approach identified mitochondria and the cytoskeleton as the primary targets of O-GlcNAcylation in osteoblasts. By cross-referencing multiple databases (O-GlcNAcAtlas, TFLink, and Ensembl Variation), we constructed a gene regulatory network to identify candidate transcription factors (TFs) involved in O-GlcNAcylation-regulated osteogenesis. Guided by our bioinformatics findings, we assessed morphological changes in mitochondria and the cytoskeleton following Ogt knockout.</p>
-								<p id="btn-p"><a style="color:pink" id="purchase-btn" href="https://dndy5us1uro9a.cloudfront.net/">Check Demo Now</a></p>
-							</div>
-							<div class="image-wrapper">
-								<img src="img/BiGRN.gif" alt="BiGRN" />
-							</div>
-						</li>
-					</ul>
-				</div>
-			</div>
-			</div>
-		</div>
-		<!-- /head-section -->
-		<!-- Services-section -->
-		<div id="services">
-			<div id="navigation">
-				<div class="container">
-					<ul id="menu">
-						<li><a id="home-link" href="#home">Home</a></li>
-						<li><a id="services-link" href="#services">About</a></li>
-						<li><a id="works-link" href="#works">Works</a></li>
-						<li><a id="news-link" href="#news">News</a></li>
-						<li><a id="team-link" href="#team">Team</a></li>
-						<li class="right-side"><a id="contact-link" href="#contact">Contact</a></li>
-					</ul>
-						<ul id="tinynav">
-							<li><a href="#home">Home</a></li>
-							<li><a href="#services">About</a></li>
-							<li><a href="#works">Works</a></li>
-							<li><a href="#news">News</a></li>
-							<li><a href="#team">Team</a></li>
-							<li><a href="#contact">Contact</a></li>
-						</ul>
-				</div>
-				<div class="clearfix"></div>
-			</div>
-			<div class="container">
-				<div class="badge-bar">
-					<div class="left-badges">
-						<a> </a>
-					</div>
-					<div class="right-lang-buttons">
-						<a> </a>
-					</div>
-				</div>
-			</div>
-			<div class="container">
-				<div class="badge-bar">
-					<div class="left-badges">
-						<a> </a>
-					</div>
-					<div class="right-lang-buttons">
-						<a> </a>
-					</div>
-				</div>
-				<div class="badge-bar">
-					<div class="left-badges">
-						<!-- GitHub -->
-						<a href="https://github.com/LabOnoM" target="_blank">
-							<img src="https://img.shields.io/badge/GitHub-Profile-black?logo=github" alt="GitHub profile" />
-						</a>
-						<!-- Visitors -->
-						<img src="https://visitor-badge.laobi.icu/badge?page_id=LabOnoM.LabOnoM.github.io" alt="visitor badge" />
-					</div>
-					<div class="right-lang-buttons">
-						<button onclick="switchLanguage('en')">English</button>
-						<button onclick="switchLanguage('ja')">日本語</button>
-						<button onclick="switchLanguage('cn')">中文</button>
-					</div>
-				</div>
-				<h3 class="titles"
-					data-lang-en="About BSGOU"
-					data-lang-ja="BSGOUについて"
-					data-lang-cn="关于BSGOU"
-				>About BSGOU</h3>
-				<div class="badge-bar">
-					<div class="left-badges">
-						<!-- YouTube -->
-						<a class="g-ytsubscribe" data-channelid="UCKaeJ9D0MslENFiqm4osShg" data-layout="default" data-count="default">
-						</a>
-						<script src="https://apis.google.com/js/platform.js"></script>
-					</div>
-					<div class="right-lang-buttons">
-						<!-- Twitter -->
-						<a href="https://twitter.com/BSGOU_X?ref_src=twsrc%5Etfw" class="twitter-follow-button"
-							data-show-count="false">Follow
-							@BSGOU_X</a>
-						<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-					</div>
-				</div>
-				<p id="services-desc"
-					data-lang-en="<b>Bioinformatics Study Group in Okayama University (BSGOU)</b> is an international academic community committed to advancing the digital transformation of biological and biomedical research. We unite students, researchers, clinicians, and engineers to collaboratively explore how high-throughput data and integrative computation can drive new theories, models, and discoveries in life sciences.""
-					data-lang-ja="<b>岡山大学バイオインフォマティクス研究会（BSGOU）</b> は、生物学および生物医学研究のデジタルトランスフォーメーションを推進する国際的な学術コミュニティです。私たちは学生、研究者、臨床医、エンジニアが連携し、ハイスループットデータと統合的な計算によって生命科学における新しい理論やモデル、発見を導くことを目指しています。"
-					data-lang-cn="<b>冈山大学生物信息学研究小组（BSGOU）</b> 是一个致力于推动生物与生物医学研究数字化转型的国际学术社区。我们汇聚学生、研究人员、临床医生与工程师，共同探索如何通过高通量数据和综合计算推动生命科学中新理论、模型和发现的诞生。"
-				>
-					<b>Bioinformatics Study Group in Okayama University (BSGOU)</b> is an international academic community committed to advancing the digital transformation of biological and biomedical research. We unite students, researchers, clinicians, and engineers to collaboratively explore how high-throughput data and integrative computation can drive new theories, models, and discoveries in life sciences.
-				</p>
-
-				<!-- Members-section -->
-				<div class="container">
-					<section>
-						<iframe id="contributions-frame" src="https://labonom.github.io/sources/Contributions.html" width="100%" height="470px"
-							style="border: none; box-shadow: 0 0 10px rgba(0,0,0,0.1); border-radius: 12px;" loading="lazy"
-							title="BSGOU Contributions"></iframe>
-					</section>
-				</div>
-				<!-- /Members-section -->
-
-				<p id="services-desc">
-					<a href="https://labonom.github.io/README.html" class="hover-pink">Click here to check the detailed "Vision and Strategic Plan" of BSGOU</a>
-				</p>
-
-				<h3 class="titles"
-					data-lang-en="Core Values"
-					data-lang-ja="基本的価値"
-					data-lang-cn="核心价值观"
-				>Core Values</h3>
-
-				<ul class="services">
-
-					<li>
-						<div class="service-img"><img src="img/icons/Transdisciplinary.png" alt="icon" /></div>
-						<h3><a href="https://labonom.github.io/sources/Transdisciplinary_Collaboration.html" data-lang-en="Transdisciplinary Collaboration" data-lang-ja="学際的な協力" data-lang-cn="跨学科协作">Transdisciplinary Collaboration</a></h3>
-						<p data-lang-en="We unite biology, medicine, engineering, and more to solve complex biological problems together."
-							data-lang-ja="私たちは生物学・医学・工学など多分野の視点を結集し、複雑な生物学的課題の解決に取り組みます。"
-							data-lang-cn="我们融合生物学、医学、工程等多学科视角，协同解决复杂的生物问题。">
-							We unite biology, medicine, engineering, and more to solve complex biological problems together.
-						</p>
-					</li>
-
-					<li class="right-side">
-					<div class="service-img"><img src="img/icons/Theory-Driven.png" alt="icon" /></div>
-					<h3><a href="https://labonom.github.io/sources/Theory_Driven_Understanding.html" data-lang-en="Theory-Driven Understanding" data-lang-ja="理論に基づく理解" data-lang-cn="理论驱动的理解">Theory-Driven Understanding</a></h3>
-					<p data-lang-en="We go beyond data analysis to build new models that explain biological complexity."
-						data-lang-ja="データ解析に留まらず、生物の複雑性を説明する新たな理論モデルの構築を目指します。"
-						data-lang-cn="我们超越数据分析，致力于构建解释生命复杂性的理论模型。">
-						We go beyond data analysis to build new models that explain biological complexity.
-					</p>
-					</li>
-
-					<li>
-					<div class="service-img"><img src="img/icons/Open Innovation.png" alt="icon" /></div>
-					<h3><a href="https://labonom.github.io/sources/Open_Innovation.html" data-lang-en="Open Innovation" data-lang-ja="オープン・イノベーション" data-lang-cn="开放式创新">Open Innovation</a></h3>
-					<p data-lang-en="We support open science, open-source development, and community collaboration."
-						data-lang-ja="私たちはオープンサイエンス、オープンソース開発、コミュニティとの連携を推進します。"
-						data-lang-cn="我们支持开放科学、开源开发和社区协作。">
-						We support open science, open-source development, and community collaboration.
-					</p>
-					</li>
-
-					<li class="right-side">
-					<div class="service-img"><img src="img/icons/Global.png" alt="icon" /></div>
-					<h3><a href="https://labonom.github.io/sources/Global_Inclusivity.html" data-lang-en="Global Inclusivity" data-lang-ja="国際的な包摂性" data-lang-cn="全球包容性">Global Inclusivity</a></h3>
-					<p data-lang-en="We welcome diverse members from all backgrounds and career stages."
-						data-lang-ja="私たちは、あらゆる背景やキャリア段階の多様なメンバーを歓迎します。"
-						data-lang-cn="我们欢迎来自不同背景和职业阶段的多样化成员。">
-						We welcome diverse members from all backgrounds and career stages.
-					</p>
-					</li>
-
-					<li>
-					<div class="service-img"><img src="img/icons/Education.png" alt="icon" /></div>
-					<h3><a href="https://labonom.github.io/sources/Education_for_Empowerment.html" data-lang-en="Education for Empowerment" data-lang-ja="教育による力の育成" data-lang-cn="教育赋能">Education for Empowerment</a></h3>
-					<p data-lang-en="We offer training and mentorship to bridge global skill gaps in bioinformatics."
-						data-lang-ja="私たちは教育とメンタリングを通じて、バイオインフォマティクスにおける世界的なスキルギャップを埋めます。"
-						data-lang-cn="我们提供培训与指导，致力于缩小全球生物信息学技能差距。">
-						We offer training and mentorship to bridge global skill gaps in bioinformatics.
-					</p>
-					</li>
-
-					<li class="right-side">
-					<div class="service-img"><img src="img/icons/Scientific.png" alt="icon" /></div>
-					<h3><a href="https://labonom.github.io/sources/Scientific_Integrity_and_Responsibility.html" data-lang-en="Scientific Integrity and Responsibility" data-lang-ja="科学的誠実さと責任" data-lang-cn="科研诚信与责任">Scientific Integrity and Responsibility</a></h3>
-					<p data-lang-en="We uphold ethical practices, reproducibility, and responsible data use."
-						data-lang-ja="私たちは倫理的実践、再現性、責任あるデータの利用を重視します。"
-						data-lang-cn="我们坚持伦理实践、科研可重复性与负责任地使用数据。">
-						We uphold ethical practices, reproducibility, and responsible data use.
-					</p>
-					</li>
-
-					<li>
-					<div class="service-img"><img src="img/icons/Visionary.png" alt="icon" /></div>
-					<h3><a href="https://labonom.github.io/sources/Visionary_Leadership.html" data-lang-en="Visionary Leadership" data-lang-ja="先見的なリーダーシップ" data-lang-cn="前瞻性领导力">Visionary Leadership</a></h3>
-					<p data-lang-en="We lead the field with bold ideas and forward-looking strategies."
-						data-lang-ja="私たちは大胆な発想と前向きな戦略で分野をリードします。"
-						data-lang-cn="我们以大胆的思想和前瞻性策略引领该领域的发展。">
-						We lead the field with bold ideas and forward-looking strategies.
-					</p>
-					</li>
-
-					<li class="right-side">
-					<div class="service-img"><img src="img/icons/Serve.png" alt="icon" /></div>
-					<h3><a href="https://labonom.github.io/sources/Serve_the_People.html" data-lang-en="Serve the People" data-lang-ja="人民のために尽くす" data-lang-cn="为人民服务">Serve the People</a></h3>
-					<p data-lang-en="We aim not only to advance science but also to serve public health through bioinformatics."
-						data-lang-ja="私たちは科学の発展だけでなく、生物情報学の成果を国民の健康に役立てることを重視しています。"
-						data-lang-cn="我们不仅推动科研进步，更致力于将生物信息学成果服务于人民健康。">
-						We aim not only to advance science but also to serve public health through bioinformatics.
-					</p>
-					</li>
-
-				</ul>
-			</div>
-
-		<!-- /Services-section -->
-		<!-- Works-section -->
-		<div id="works" class="works-wrapper">
-			<div class="container">
-				<h3 class="titles titles-white-c">Gallery of Our Works</h3>
-				<ul id="filterOptions">
-				<li class="active"><a href="#" class="all">All</a></li>
-				<li><a href="#" class="Software">Software</a></li>
-				<li><a href="#" class="BOS">Bioinformatics-Oriented Studies</a></li>
-				<li><a href="#" class="IS">Involved Studies</a></li>
-				<li><a href="#" class="BS">Bioinformatics Studies</a></li>
-			</ul>
-
-			<ul class="ourHolder">
-					<!-- Software -->
-					<li class="gallery-item" data-id="id-1" data-type="Software">
-						<img class="gallery-img" src="img/gallery/Downloader.jpg" alt="img" />
-						<a href="https://www.youtube.com/watch?v=M-vkJSWp4sI" target=”_blank”><div class="overlay-works"></div></a>
-					</li>
-					<li class="gallery-item" data-id="id-1" data-type="Software">
-						<img class="gallery-img" src="img/gallery/FEA.jpg" alt="img" />
-						<a href="https://www.youtube.com/watch?v=746ZXoimuj8" target=”_blank”><div class="overlay-works"></div></a>
-					</li>
-					<li class="gallery-item" data-id="id-1" data-type="Software">
-						<img class="gallery-img" src="img/gallery/Wave_Analysis.jpg" alt="img" />
-						<a href="https://wong-ziyi.shinyapps.io/wave_analysis_wzy/" target=”_blank”><div class="overlay-works"></div></a>
-					</li>
-					<li class="gallery-item" data-id="id-1" data-type="Software">
-						<img class="gallery-img" src="img/gallery/Cosinor_Anallysis_of_Rhythms.jpg" alt="img" />
-						<a href="https://wong-ziyi.shinyapps.io/Cosinor_Analysis_of_Rhythms/" target=”_blank”><div class="overlay-works"></div></a>
-					</li>
-					<!-- /Software -->
-					<!-- Bioinformatics-Oriented Studies -->
-					<li class="gallery-item" data-id="id-1" data-type="BOS">
-						<img class="gallery-img" src="img/gallery/WY_WZY_2024.gif" alt="img" />
-						<a href="https://pubmed.ncbi.nlm.nih.gov/39405562/" target=”_blank”><div class="overlay-works"></div></a>
-					</li>
-					<!-- /Bioinformatics-Oriented Studies -->
-					<!-- Involved Studies -->
-					<li class="gallery-item" data-id="id-1" data-type="IS">
-						<img class="gallery-img" src="img/gallery/Hang_2024.jpg" alt="img" />
-						<a href="https://pubmed.ncbi.nlm.nih.gov/38925474/" target=”_blank”><div class="overlay-works"></div></a>
-					</li>
-					<li class="gallery-item" data-id="id-1" data-type="IS">
-						<img class="gallery-img" src="img/gallery/Angela_2023.jpg" alt="img" />
-						<a href="https://pubmed.ncbi.nlm.nih.gov/37683603/" target=”_blank”><div class="overlay-works"></div></a>
-					</li>
-					<li class="gallery-item" data-id="id-1" data-type="IS">
-						<img class="gallery-img" src="img/gallery/Zheng_2025.jpg" alt="img" />
-						<a href="https://pubmed.ncbi.nlm.nih.gov/40140451/" target=”_blank”><div class="overlay-works"></div></a>
-					</li>
-					<li class="gallery-item" data-id="id-1" data-type="IS">
-						<img class="gallery-img" src="img/gallery/Zhao_2025.jpg" alt="img" />
-						<a href="https://pubmed.ncbi.nlm.nih.gov/39990519/" target=”_blank”><div class="overlay-works"></div></a>
-					</li>
-					<li class="gallery-item" data-id="id-1" data-type="IS">
-						<img class="gallery-img" src="img/gallery/Orimoto_2025.jpg" alt="img" />
-						<a href="https://pubmed.ncbi.nlm.nih.gov/39710093/" target=”_blank”><div class="overlay-works"></div></a>
-					</li>
-					<li class="gallery-item" data-id="id-1" data-type="IS">
-						<img class="gallery-img" src="img/gallery/Ono_2025.jpg" alt="img" />
-						<a href="https://pubmed.ncbi.nlm.nih.gov/40080674/" target=”_blank”><div class="overlay-works"></div></a>
-					</li>
-					<li class="gallery-item" data-id="id-1" data-type="IS">
-						<img class="gallery-img" src="img/gallery/Mun_2024.jpg" alt="img" />
-						<a href="https://pubmed.ncbi.nlm.nih.gov/39086598/" target=”_blank”><div class="overlay-works"></div></a>
-					</li>
-					<!-- /Involved Studies -->
-					<!-- Bioinformatics Studies -->
-					<li class="gallery-item" data-id="id-1" data-type="BS">
-						<img class="gallery-img" src="img/gallery/Wang_2018.jpg" alt="img" />
-						<a href="https://pubmed.ncbi.nlm.nih.gov/30413886/" target=”_blank”><div class="overlay-works"></div></a>
-					</li>
-					<!-- /Bioinformatics Studies -->
-			</ul>
-			</div>
-		</div>
-		<!-- /Works-section -->
-		<!-- Quote-section -->
-		<div class="quote">
-			<div class="container">
-				<div class="slider">
-					<div class="flexslider">
 						<ul class="slides">
-							<li>
-								<h2><i>“We believe bioinformatics is not merely a set of tools, but a transformative lens through which biology becomes computable, testable, and deeply understood.”</i></h2>
-								<p style="color:white">---- Dr. WANG Ziyi</p>
+							<li id="slide-1">
+								<h2>BSGOU</h2>
+								<p>Bioinformatics Study Group in Okayama University</p>
+								<h3>User-friendly bioinformatics analysis software</h3>
+								<p id="btn-p"><a id="purchase-btn" href="https://s3.okayama-u-bsg.org?appName=GSE261806">Check Demo Now</a></p>
 							</li>
-							<li>
-								<h2>“BSGOU has transformed my research. The user-friendly software make advanced bioinformatics accessible, even for beginners. I highly recommend BSGOU to anyone seeking practical, powerful tools for scientific discovery.”</h2>
-								<p style="color:white">---- Dr. WENG Yao</p>
+							<li id="slide-2">
+								<div class="app-content">
+									<h3>Bioinformatics oriented study</h3>
+									<p>In this bioinformatics-oriented study, we re-analyzed a publicly available RNA-seq dataset complemented by literature mining. This approach identified mitochondria and the cytoskeleton as the primary targets of O-GlcNAcylation in osteoblasts. By cross-referencing multiple databases (O-GlcNAcAtlas, TFLink, and Ensembl Variation), we constructed a gene regulatory network to identify candidate transcription factors (TFs) involved in O-GlcNAcylation-regulated osteogenesis. Guided by our bioinformatics findings, we assessed morphological changes in mitochondria and the cytoskeleton following Ogt knockout.</p>
+									<p id="btn-p"><a id="purchase-btn" href="https://dndy5us1uro9a.cloudfront.net/">Check Demo Now</a></p>
+								</div>
+								<div class="image-wrapper">
+									<img src="img/BiGRN.gif" alt="Bioinformatics Gene Regulatory Network (BiGRN)" />
+								</div>
 							</li>
 						</ul>
 					</div>
 				</div>
 			</div>
-		</div>
-		<!-- /Quote-section -->
-		<!-- News-section -->
-		<div id="news" class="news">
+		</header>
+		<!-- /head-section -->
+		
+		<!-- Navigation Sticky Bar -->
+		<nav id="navigation">
 			<div class="container">
-				<h3 class="titles">News</h3>
-			<ul>
-				<li>
-					<h4><a href="https://x.com/KeyenceMicro/status/1848416747713372189" target=”_blank”>Our work has been reposted by official twitter of Keyence Company</a></h4>
-					<p class="meta">October 22, 2024</p>
-					<p>Keyence Company: "We love seeing how our customers use the BZ-X Series Fluorescence Microscope! If you are using the BZ-X for any research, please share what you are doing & tag us! If you are interested in learning about the BZ-X microscope, contact us at lifescience@keyence.com".</p>
-				</li>
-				<li class="right-side">
-					<h4><a href="https://x.com/Dentist_Wong/status/1846328496345559546" target=”_blank”>O-GlcNAcylation: a morphological regulator of osteoblast differentiation</a></h4>
-					<p class="meta">October 16, 2024</p>
-					<p>With AI assistance, our new research published in BioFactors reveals how O-GlcNAcylation controls osteoblast differentiation by reshaping mitochondria, the cytoskeleton, and the endoplasmic reticulum.</p>
-				</li>
-			</ul>
-		</div>
-		</div>
-		<!-- /News-section -->
-		<!-- About-section -->
-		<div id="team" class="about">
-			<div class="container">
-				<h3 class="titles titles-white-c">The Team</h3>
-				<ul>
-					<li>
-						<img src="img/about/WZY.png" alt="staff" />
-						<h3>Dr. Wang</h3>
-						<h6>Bioinformatician</h6>
-						<div class="social-staff">
-							<ul>
-								<li class="facebook"><a href="https://www.facebook.com/W751747834/" target="_blank"></a></li>
-								<li class="twitter"><a href="https://twitter.com/Dentist_Wong" target="_blank"></a></li>
-								<li class="dribbble"><a href="https://linktr.ee/wongziyi" target="_blank"></a></li>
-							</ul>
-						</div>
-					</li>
-					<li>
-						<img src="img/icons/ChiefScientist.png" alt="staff" />
-						<h3>Dr. Ono</h3>
-						<h6>Chief Scientist</h6>
-						<div class="social-staff">
-							<ul>
-								<li class="dribbble"><a href="https://researchmap.jp/mitsuakiono" target="_blank"></a></li>
-							</ul>
-						</div>
-					</li>
-					<li class="right-side">
-						<img src="img/icons/Technician.png" alt="staff" />
-						<h3>Mr. Tomisaka</h3>
-						<h6>Technician</h6>
-						<div class="social-staff">
-							<ul>
-								<li class="facebook"><a href="#" target="_blank"></a></li>
-								<li class="twitter"><a href="#" target="_blank"></a></li>
-								<li class="dribbble"><a href="#" target="_blank"></a></li>
-							</ul>
-						</div>
-					</li>
+				<button class="menu-toggle" id="menu-toggle-btn" aria-label="Toggle Menu">&#9776;</button>
+				<ul id="menu">
+					<li><a id="home-link" href="#home" class="active">Home</a></li>
+					<li><a id="services-link" href="#services">About</a></li>
+					<li><a id="works-link" href="#works">Works</a></li>
+					<li><a id="news-link" href="#news">News</a></li>
+					<li><a id="team-link" href="#team">Team</a></li>
+					<li class="right-side"><a id="contact-link" href="#contact">Contact</a></li>
 				</ul>
+				<button class="theme-toggle-btn" id="theme-toggle-btn" aria-label="Toggle Theme">&#9788;</button>
 			</div>
-		</div>
-		<!-- /About-section -->
-		<!-- Members-section -->
-		<div id="Members" class="quote">
-			<div class="container">
-				<section>
-					<h2><br></h2>
-					<iframe src="members.html" width="100%" height="400"
-						style="border: none; box-shadow: 0 0 10px rgba(0,0,0,0.1); border-radius: 12px;" loading="lazy"
-						title="BSGOU Members"></iframe>
-				</section>
-			</div>
-		</div>
-		<!-- /Members-section -->
-		<!-- Contact-section -->
-		<div id="contact" class="contact">
-			<div class="container">
-				<h3 class="titles titles-white-c">Contact</h3>
-				<div class="contact-flex">
-				<div class="contact-map">
-					<iframe width="100%" height="350"
-					src="https://www.openstreetmap.org/export/embed.html?bbox=133.91945332288745%2C34.650715930421256%2C133.92299383878708%2C34.652730417397514&layer=mapnik&marker=34.6522009%2C133.9211860"
-					style="border: 1px solid black"></iframe>
-					<br/>
-					<small>
-					<a href="https://www.openstreetmap.org/?mlat=34.6522009&mlon=133.9211860#map=19/34.65220/133.92119">View Larger Map</a>
-					</small>
+			<div class="clearfix"></div>
+		</nav>
+
+		<!-- Main Content Section -->
+		<main>
+			<!-- Services / About Section -->
+			<section id="services">
+				<div class="container">
+					<div class="badge-bar">
+						<div class="left-badges">
+							<!-- GitHub -->
+							<a href="https://github.com/LabOnoM" target="_blank">
+								<img src="https://img.shields.io/badge/GitHub-Profile-black?logo=github" alt="GitHub profile" />
+							</a>
+							<!-- Visitors -->
+							<img src="https://visitor-badge.laobi.icu/badge?page_id=LabOnoM.LabOnoM.github.io" alt="visitor badge" />
+						</div>
+						<div class="right-lang-buttons">
+							<button onclick="switchLanguage('en')">English</button>
+							<button onclick="switchLanguage('ja')">日本語</button>
+							<button onclick="switchLanguage('cn')">中文</button>
+						</div>
+					</div>
+					
+					<h3 class="titles"
+						data-lang-en="About BSGOU"
+						data-lang-ja="BSGOUについて"
+						data-lang-cn="关于BSGOU"
+					>About BSGOU</h3>
+					
+					<div class="badge-bar" style="margin-bottom: 20px;">
+						<div class="left-badges">
+							<!-- YouTube -->
+							<a class="g-ytsubscribe" data-channelid="UCKaeJ9D0MslENFiqm4osShg" data-layout="default" data-count="default"></a>
+							<script src="https://apis.google.com/js/platform.js" async></script>
+						</div>
+						<div class="right-lang-buttons">
+							<!-- Twitter -->
+							<a href="https://twitter.com/BSGOU_X?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @BSGOU_X</a>
+							<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+						</div>
+					</div>
+					
+					<p id="services-desc"
+						data-lang-en="<b>Bioinformatics Study Group in Okayama University (BSGOU)</b> is an international academic community committed to advancing the digital transformation of biological and biomedical research. We unite students, researchers, clinicians, and engineers to collaboratively explore how high-throughput data and integrative computation can drive new theories, models, and discoveries in life sciences."
+						data-lang-ja="<b>岡山大学バイオインフォマティクス研究会（BSGOU）</b> は、生物学および生物医学研究のデジタルトランスフォーメーションを推進する国際的な学術コミュニティです。私たちは学生、研究者、臨床医、エンジニアが連携し、ハイスループットデータと統合的な計算によって生命科学における新しい理論やモデル、発見を導くことを目指しています。"
+						data-lang-cn="<b>冈山大学生物信息学研究小组（BSGOU）</b> 是一个致力于推动生物与生物医学研究数字化转型的国际学术社区。我们汇聚学生、研究人员、临床医生与工程师，共同探索如何通过高通量数据和综合计算推动生命科学中新理论、模型和发现的诞生。"
+					>
+						<b>Bioinformatics Study Group in Okayama University (BSGOU)</b> is an international academic community committed to advancing the digital transformation of biological and biomedical research. We unite students, researchers, clinicians, and engineers to collaboratively explore how high-throughput data and integrative computation can drive new theories, models, and discoveries in life sciences.
+					</p>
+
+					<!-- Members contributions iframe section -->
+					<div style="margin: 40px 0;">
+						<iframe id="contributions-frame" src="https://labonom.github.io/sources/Contributions.html" width="100%" height="470px"
+							style="border: none; box-shadow: 0 4px 12px var(--shadow-color); border-radius: 12px;" loading="lazy"
+							title="BSGOU Contributions"></iframe>
+					</div>
+
+					<p style="text-align: center; margin-top: 30px;">
+						<a href="https://labonom.github.io/README.html" class="dialog-cta">Click here to check the detailed "Vision and Strategic Plan" of BSGOU</a>
+					</p>
+
+					<h3 class="titles"
+						data-lang-en="Core Values"
+						data-lang-ja="基本的価値"
+						data-lang-cn="核心价值观"
+					>Core Values</h3>
+
+					<ul class="services">
+						<li>
+							<div class="service-img"><img src="img/icons/Transdisciplinary.png" alt="Transdisciplinary icon" /></div>
+							<div>
+								<h3><a href="https://labonom.github.io/sources/Transdisciplinary_Collaboration.html" data-lang-en="Transdisciplinary Collaboration" data-lang-ja="学際的な協力" data-lang-cn="跨学科协作">Transdisciplinary Collaboration</a></h3>
+								<p data-lang-en="We unite biology, medicine, engineering, and more to solve complex biological problems together."
+									data-lang-ja="私たちは生物学・医学・工学など多分野の視点を結集し、複雑な生物学的課題の解決に取り組みます。"
+									data-lang-cn="我们融合生物学、医学、工程等多学科视角，协同解决复杂的生物问题。">
+									We unite biology, medicine, engineering, and more to solve complex biological problems together.
+								</p>
+							</div>
+						</li>
+						<li>
+							<div class="service-img"><img src="img/icons/Theory-Driven.png" alt="Theory-Driven icon" /></div>
+							<div>
+								<h3><a href="https://labonom.github.io/sources/Theory_Driven_Understanding.html" data-lang-en="Theory-Driven Understanding" data-lang-ja="理論に基づく理解" data-lang-cn="理论驱动的理解">Theory-Driven Understanding</a></h3>
+								<p data-lang-en="We go beyond data analysis to build new models that explain biological complexity."
+									data-lang-ja="データ解析に留まらず、生物の複雑性を説明する新たな理論モデルの構築を目指します。"
+									data-lang-cn="我们超越数据分析，致力于构建解释生命复杂性的理论模型。">
+									We go beyond data analysis to build new models that explain biological complexity.
+								</p>
+							</div>
+						</li>
+						<li>
+							<div class="service-img"><img src="img/icons/Open Innovation.png" alt="Open Innovation icon" /></div>
+							<div>
+								<h3><a href="https://labonom.github.io/sources/Open_Innovation.html" data-lang-en="Open Innovation" data-lang-ja="オープン・イノベーション" data-lang-cn="开放式创新">Open Innovation</a></h3>
+								<p data-lang-en="We support open science, open-source development, and community collaboration."
+									data-lang-ja="私たちはオープンサイエンス、オープンソース開発、コミュニティとの連携を推進します。"
+									data-lang-cn="我们支持开放科学、开源开发和社区协作。">
+									We support open science, open-source development, and community collaboration.
+								</p>
+							</div>
+						</li>
+						<li>
+							<div class="service-img"><img src="img/icons/Global.png" alt="Global Inclusivity icon" /></div>
+							<div>
+								<h3><a href="https://labonom.github.io/sources/Global_Inclusivity.html" data-lang-en="Global Inclusivity" data-lang-ja="国際的な包摂性" data-lang-cn="全球包容性">Global Inclusivity</a></h3>
+								<p data-lang-en="We welcome diverse members from all backgrounds and career stages."
+									data-lang-ja="私たちは、あらゆる背景やキャリア段階の多様なメンバーを歓迎します。"
+									data-lang-cn="我们欢迎来自不同背景和职业阶段的多样化成员。">
+									We welcome diverse members from all backgrounds and career stages.
+								</p>
+							</div>
+						</li>
+						<li>
+							<div class="service-img"><img src="img/icons/Education.png" alt="Education icon" /></div>
+							<div>
+								<h3><a href="https://labonom.github.io/sources/Education_for_Empowerment.html" data-lang-en="Education for Empowerment" data-lang-ja="教育による力の育成" data-lang-cn="教育赋能">Education for Empowerment</a></h3>
+								<p data-lang-en="We offer training and mentorship to bridge global skill gaps in bioinformatics."
+									data-lang-ja="私たちは教育とメンタリングを通じて、バイオインフォマティクスにおける世界的なスキルギャップを埋めます。"
+									data-lang-cn="我们提供培训与指导，致力于缩小全球生物信息学技能差距。">
+									We offer training and mentorship to bridge global skill gaps in bioinformatics.
+								</p>
+							</div>
+						</li>
+						<li>
+							<div class="service-img"><img src="img/icons/Scientific.png" alt="Scientific Integrity icon" /></div>
+							<div>
+								<h3><a href="https://labonom.github.io/sources/Scientific_Integrity_and_Responsibility.html" data-lang-en="Scientific Integrity and Responsibility" data-lang-ja="科学的誠実さと責任" data-lang-cn="科研诚信与责任">Scientific Integrity and Responsibility</a></h3>
+								<p data-lang-en="We uphold ethical practices, reproducibility, and responsible data use."
+									data-lang-ja="私たちは倫理的実践、再現性、責任あるデータの利用を重視します。"
+									data-lang-cn="我们坚持伦理实践、科研可重复性与负责任地使用数据。">
+									We uphold ethical practices, reproducibility, and responsible data use.
+								</p>
+							</div>
+						</li>
+						<li>
+							<div class="service-img"><img src="img/icons/Visionary.png" alt="Visionary Leadership icon" /></div>
+							<div>
+								<h3><a href="https://labonom.github.io/sources/Visionary_Leadership.html" data-lang-en="Visionary Leadership" data-lang-ja="先見的なリーダーシップ" data-lang-cn="前瞻性领导力">Visionary Leadership</a></h3>
+								<p data-lang-en="We lead the field with bold ideas and forward-looking strategies."
+									data-lang-ja="私たちは大胆な発想と前向きな戦略で分野をリードします。"
+									data-lang-cn="我们以大胆的思想和前瞻性策略引领该领域的发展。">
+									We lead the field with bold ideas and forward-looking strategies.
+								</p>
+							</div>
+						</li>
+						<li>
+							<div class="service-img"><img src="img/icons/Serve.png" alt="Serve the People icon" /></div>
+							<div>
+								<h3><a href="https://labonom.github.io/sources/Serve_the_People.html" data-lang-en="Serve the People" data-lang-ja="人民のために尽くす" data-lang-cn="为人民服务">Serve the People</a></h3>
+								<p data-lang-en="We aim not only to advance science but also to serve public health through bioinformatics."
+									data-lang-ja="私たちは科学の発展だけでなく、生物情報学の成果を国民の健康に役立てることを重視しています。"
+									data-lang-cn="我们不仅推动科研进步，更致力于将生物信息学成果服务于人民健康。">
+									We aim not only to advance science but also to serve public health through bioinformatics.
+								</p>
+							</div>
+						</li>
+					</ul>
 				</div>
-				<div class="contact-desc">
-					<p>〒700-8558<br>2-5-1 Shikata-cho, Kita-ku,<br>Okayama City, Okayama,<br>Japan</p>
-					<p><a href="mailto:BSGOU@BS-GOU.com">BSGOU@BS-GOU.com</a></p>
-					<div class="social">
-						<ul>
-							<!-- <li class="facebook"><a href="#"></a></li> -->
-							<li class="twitter"><a href="https://x.com/BSGOU_X" target="_blank"></a></li>
-							<!-- <li class="behance"><a href="#"></a></li> -->
-							<!-- <li class="dribbble"><a href="#"></a></li> -->
-							<!-- <li class="linkedin"><a href="#"></a></li> -->
-							<!-- <li class="clearfix"></li> -->
-						</ul>
+			</section>
+			<!-- /Services-section -->
+
+			<!-- Works-section -->
+			<section id="works" class="works-wrapper">
+				<div class="container">
+					<h3 class="titles titles-white-c">Gallery of Our Works</h3>
+					<ul id="filterOptions">
+						<li class="active"><a href="#" class="all">All</a></li>
+						<li><a href="#" class="Software">Software</a></li>
+						<li><a href="#" class="BOS">Bioinformatics-Oriented Studies</a></li>
+						<li><a href="#" class="IS">Involved Studies</a></li>
+						<li><a href="#" class="BS">Bioinformatics Studies</a></li>
+					</ul>
+
+					<ul class="ourHolder">
+						<!-- Software -->
+						<li class="gallery-item" data-type="Software" 
+							data-title="Downloader" 
+							data-desc="An automated data retrieval tool designed to simplify pulling raw genomic, transcriptomic, and proteomic data from SRA and GEO databases." 
+							data-url="https://www.youtube.com/embed/M-vkJSWp4sI?autoplay=1"
+							data-media-type="video">
+							<img class="gallery-img" src="img/gallery/Downloader.jpg" alt="Downloader Tool" />
+							<div class="overlay-works"></div>
+						</li>
+						<li class="gallery-item" data-type="Software" 
+							data-title="FEA (Functional Enrichment Analysis)" 
+							data-desc="Functional enrichment analysis pipeline package to visualize biological processes, cellular structures, and molecular pathways." 
+							data-url="https://www.youtube.com/embed/746ZXoimuj8?autoplay=1"
+							data-media-type="video">
+							<img class="gallery-img" src="img/gallery/FEA.jpg" alt="FEA Tool" />
+							<div class="overlay-works"></div>
+						</li>
+						<li class="gallery-item" data-type="Software" 
+							data-title="Wave Analysis Tool" 
+							data-desc="R Shiny interactive application built to perform signal processing and rhythm evaluation on oscillatory biological datasets." 
+							data-url="https://wong-ziyi.shinyapps.io/wave_analysis_wzy/"
+							data-media-type="link">
+							<img class="gallery-img" src="img/gallery/Wave_Analysis.jpg" alt="Wave Analysis Shinyapp" />
+							<div class="overlay-works"></div>
+						</li>
+						<li class="gallery-item" data-type="Software" 
+							data-title="Cosinor Analysis of Rhythms" 
+							data-desc="R Shiny tool deploying Cosinor regression mathematical models to estimate amplitude, acrophase, and mesor in biological cycles." 
+							data-url="https://wong-ziyi.shinyapps.io/Cosinor_Analysis_of_Rhythms/"
+							data-media-type="link">
+							<img class="gallery-img" src="img/gallery/Cosinor_Anallysis_of_Rhythms.jpg" alt="Cosinor Analysis Shinyapp" />
+							<div class="overlay-works"></div>
+						</li>
+						<!-- Bioinformatics-Oriented Studies -->
+						<li class="gallery-item" data-type="BOS" 
+							data-title="WY_WZY_2024 Study" 
+							data-desc="Bioinformatics-driven research analyzing cellular target alterations and transcriptomic shifts during osteoblast bone differentiation." 
+							data-url="https://pubmed.ncbi.nlm.nih.gov/39405562/"
+							data-media-type="link">
+							<img class="gallery-img" src="img/gallery/WY_WZY_2024.gif" alt="WY_WZY_2024 Publication" />
+							<div class="overlay-works"></div>
+						</li>
+						<!-- Involved Studies -->
+						<li class="gallery-item" data-type="IS" 
+							data-title="Hang 2024 Study" 
+							data-desc="Collaborative osteoblast pathways research study evaluating multi-omics patterns under genomic perturbations." 
+							data-url="https://pubmed.ncbi.nlm.nih.gov/38925474/"
+							data-media-type="link">
+							<img class="gallery-img" src="img/gallery/Hang_2024.jpg" alt="Hang 2024 Publication" />
+							<div class="overlay-works"></div>
+						</li>
+						<li class="gallery-item" data-type="IS" 
+							data-title="Angela 2023 Study" 
+							data-desc="Involved research focusing on bone regeneration profiling and transcriptomic biomarkers." 
+							data-url="https://pubmed.ncbi.nlm.nih.gov/37683603/"
+							data-media-type="link">
+							<img class="gallery-img" src="img/gallery/Angela_2023.jpg" alt="Angela 2023 Publication" />
+							<div class="overlay-works"></div>
+						</li>
+						<li class="gallery-item" data-type="IS" 
+							data-title="Zheng 2025 Study" 
+							data-desc="Single-cell transcriptional resolution study investigating cell lineage progression and microenvironment shifts." 
+							data-url="https://pubmed.ncbi.nlm.nih.gov/40140451/"
+							data-media-type="link">
+							<img class="gallery-img" src="img/gallery/Zheng_2025.jpg" alt="Zheng 2025 Publication" />
+							<div class="overlay-works"></div>
+						</li>
+						<li class="gallery-item" data-type="IS" 
+							data-title="Zhao 2025 Study" 
+							data-desc="Collaborative analysis mapping downstream regulatory pathways controlling cell cycle and morphology." 
+							data-url="https://pubmed.ncbi.nlm.nih.gov/39990519/"
+							data-media-type="link">
+							<img class="gallery-img" src="img/gallery/Zhao_2025.jpg" alt="Zhao 2025 Publication" />
+							<div class="overlay-works"></div>
+						</li>
+						<li class="gallery-item" data-type="IS" 
+							data-title="Orimoto 2025 Study" 
+							data-desc="Clinical genomics integration study identifying genetic variants involved in metabolic bone diseases." 
+							data-url="https://pubmed.ncbi.nlm.nih.gov/39710093/"
+							data-media-type="link">
+							<img class="gallery-img" src="img/gallery/Orimoto_2025.jpg" alt="Orimoto 2025 Publication" />
+							<div class="overlay-works"></div>
+						</li>
+						<li class="gallery-item" data-type="IS" 
+							data-title="Ono 2025 Study" 
+							data-desc="Pioneering investigation into bone remodeling regulation and signaling cascades using knock-out model transcriptomics." 
+							data-url="https://pubmed.ncbi.nlm.nih.gov/40080674/"
+							data-media-type="link">
+							<img class="gallery-img" src="img/gallery/Ono_2025.jpg" alt="Ono 2025 Publication" />
+							<div class="overlay-works"></div>
+						</li>
+						<li class="gallery-item" data-type="IS" 
+							data-title="Mun 2024 Study" 
+							data-desc="Zebrafish developmental genomics tracking teleost duplication lineages and comparative gene patterns." 
+							data-url="https://pubmed.ncbi.nlm.nih.gov/39086598/"
+							data-media-type="link">
+							<img class="gallery-img" src="img/gallery/Mun_2024.jpg" alt="Mun 2024 Publication" />
+							<div class="overlay-works"></div>
+						</li>
+						<!-- Bioinformatics Studies -->
+						<li class="gallery-item" data-type="BS" 
+							data-title="Wang 2018 Study" 
+							data-desc="Initial bioinformatics study constructing gene regulatory modules and networking layouts." 
+							data-url="https://pubmed.ncbi.nlm.nih.gov/30413886/"
+							data-media-type="link">
+							<img class="gallery-img" src="img/gallery/Wang_2018.jpg" alt="Wang 2018 Publication" />
+							<div class="overlay-works"></div>
+						</li>
+					</ul>
+				</div>
+			</section>
+			<!-- /Works-section -->
+
+			<!-- Quote-section -->
+			<section class="quote">
+				<div class="container">
+					<div class="slider">
+						<div class="flexslider">
+							<ul class="slides" id="quote-slides">
+								<li>
+									<h2>“We believe bioinformatics is not merely a set of tools, but a transformative lens through which biology becomes computable, testable, and deeply understood.”</h2>
+									<p>---- Dr. WANG Ziyi</p>
+								</li>
+								<li>
+									<h2>“BSGOU has transformed my research. The user-friendly software makes advanced bioinformatics accessible, even for beginners. I highly recommend BSGOU to anyone seeking practical, powerful tools for scientific discovery.”</h2>
+									<p>---- Dr. WENG Yao</p>
+								</li>
+							</ul>
+						</div>
 					</div>
 				</div>
+			</section>
+			<!-- /Quote-section -->
+
+			<!-- News-section -->
+			<section id="news" class="news">
+				<div class="container">
+					<h3 class="titles">News</h3>
+					<ul>
+						<li>
+							<h4><a href="https://x.com/KeyenceMicro/status/1848416747713372189" target="_blank">Our work has been reposted by official twitter of Keyence Company</a></h4>
+							<p class="meta">October 22, 2024</p>
+							<p>Keyence Company: "We love seeing how our customers use the BZ-X Series Fluorescence Microscope! If you are using the BZ-X for any research, please share what you are doing & tag us! If you are interested in learning about the BZ-X microscope, contact us at lifescience@keyence.com".</p>
+						</li>
+						<li>
+							<h4><a href="https://x.com/Dentist_Wong/status/1846328496345559546" target="_blank">O-GlcNAcylation: a morphological regulator of osteoblast differentiation</a></h4>
+							<p class="meta">October 16, 2024</p>
+							<p>With AI assistance, our new research published in BioFactors reveals how O-GlcNAcylation controls osteoblast differentiation by reshaping mitochondria, the cytoskeleton, and the endoplasmic reticulum.</p>
+						</li>
+					</ul>
 				</div>
-			</div>
-		</div>
-		<!-- /Contact-section -->
+			</section>
+			<!-- /News-section -->
+
+			<!-- Team Section -->
+			<section id="team" class="about">
+				<div class="container">
+					<h3 class="titles titles-white-c">The Team</h3>
+					<ul>
+						<li>
+							<img src="img/about/WZY.png" alt="Dr. Wang Ziyi profile" />
+							<h3>Dr. Wang</h3>
+							<h6>Bioinformatician</h6>
+							<div class="social-staff">
+								<ul>
+									<li class="facebook"><a href="https://www.facebook.com/W751747834/" target="_blank" aria-label="Facebook"></a></li>
+									<li class="twitter"><a href="https://twitter.com/Dentist_Wong" target="_blank" aria-label="Twitter"></a></li>
+									<li class="dribbble"><a href="https://linktr.ee/wongziyi" target="_blank" aria-label="Linktree"></a></li>
+								</ul>
+							</div>
+						</li>
+						<li>
+							<img src="img/icons/ChiefScientist.png" alt="Dr. Ono Mitsuaki profile" />
+							<h3>Dr. Ono</h3>
+							<h6>Chief Scientist</h6>
+							<div class="social-staff">
+								<ul>
+									<li class="dribbble"><a href="https://researchmap.jp/mitsuakiono" target="_blank" aria-label="Researchmap"></a></li>
+								</ul>
+							</div>
+						</li>
+						<li>
+							<img src="img/icons/Technician.png" alt="Mr. Tomisaka profile" />
+							<h3>Mr. Tomisaka</h3>
+							<h6>Technician</h6>
+							<div class="social-staff">
+								<ul>
+									<li class="facebook"><a href="#" target="_blank" aria-label="Facebook"></a></li>
+									<li class="twitter"><a href="#" target="_blank" aria-label="Twitter"></a></li>
+									<li class="dribbble"><a href="#" target="_blank" aria-label="Dribbble"></a></li>
+								</ul>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</section>
+			<!-- /Team Section -->
+
+			<!-- Members roster section -->
+			<section id="Members" class="quote" style="background: none; min-height: auto; padding: 40px 0;">
+				<div class="container" style="z-index: 1;">
+					<iframe src="members.html" width="100%" height="400"
+						style="border: none; box-shadow: 0 4px 12px var(--shadow-color); border-radius: 12px;" loading="lazy"
+						title="BSGOU Members"></iframe>
+				</div>
+			</section>
+			<!-- /Members roster section -->
+
+			<!-- Contact-section -->
+			<section id="contact" class="contact">
+				<div class="container">
+					<h3 class="titles titles-white-c">Contact</h3>
+					<div class="contact-flex">
+						<div class="contact-map">
+							<iframe width="100%" height="350"
+								src="https://www.openstreetmap.org/export/embed.html?bbox=133.91945332288745%2C34.650715930421256%2C133.92299383878708%2C34.652730417397514&layer=mapnik&marker=34.6522009%2C133.9211860"
+								title="Okayama University Map Location">
+							</iframe>
+							<br/>
+							<small>
+								<a href="https://www.openstreetmap.org/?mlat=34.6522009&mlon=133.9211860#map=19/34.65220/133.92119" target="_blank">View Larger Map</a>
+							</small>
+						</div>
+						<div class="contact-desc">
+							<p>〒700-8558<br>2-5-1 Shikata-cho, Kita-ku,<br>Okayama City, Okayama,<br>Japan</p>
+							<p><a href="mailto:BSGOU@BS-GOU.com">BSGOU@BS-GOU.com</a></p>
+							<div class="social">
+								<ul>
+									<li class="twitter"><a href="https://x.com/BSGOU_X" target="_blank" aria-label="BSGOU Twitter"></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- /Contact-section -->
+		</main>
+
 		<!-- Footer-section -->
-		<div class="footer">
+		<footer class="footer">
 			<div class="container">
 				<p id="cp-text"><span id="copyright"></span></p>
 			</div>
-		</div>
+		</footer>
 		<!-- /Footer-section -->
-	<!-- Javascript -->
-		<script type="text/javascript" src="js/jquery-1.8.2.min.js"></script>
-		<script type="text/javascript" src="js/bootstrap.min.js"></script>
-		<script type="text/javascript" src="js/tinynav.min.js"></script>
-		<script type="text/javascript" src="js/jquery.sticky.js"></script>
-		<script type="text/javascript" src="js/jquery.flexslider-min.js"></script>
-		<script type="text/javascript" src="js/jquery.animate.js"></script>
-		<script type="text/javascript" src="js/jquery.anchorScroll.js"></script>
-		<script type='text/javascript' src='js/jquery.easing.1.3.js'></script>
-		<script type="text/javascript" src="js/jquery.quicksand.js"></script>
-		<script type="text/javascript" src="js/jquery.fancybox.js"></script>
-		<script type="text/javascript" src="js/ajax-actions.js"></script>
-		<script type="text/javascript" src="js/custom.js"></script>
+
+		<!-- Native Dialog Modal -->
+		<dialog id="gallery-dialog">
+			<button class="dialog-close-btn" id="dialog-close-btn" aria-label="Close dialog">&times;</button>
+			<div class="dialog-content">
+				<h3 id="dialog-title">Work Title</h3>
+				<div class="media-container" id="dialog-media-container"></div>
+				<p id="dialog-desc">Work Description</p>
+				<a href="#" id="dialog-cta-btn" class="dialog-cta" target="_blank">Open Resource / Publication</a>
+			</div>
+		</dialog>
+
+		<!-- Vanilla Javascript Logic -->
+		<script src="js/custom.js"></script>
 		<script>
 			function switchLanguage(lang) {
-				// Switch text
+				// Switch text content dynamically
 				document.querySelectorAll('[data-lang-en]').forEach(el => {
 					const content = el.dataset[`lang${lang.charAt(0).toUpperCase() + lang.slice(1)}`];
 					if (content) {
 						el.innerHTML = content;
 					}
 				});
-				// Switch iframe
+				// Switch iframe documents
 				const iframe = document.getElementById("contributions-frame");
 				if (iframe) {
-					let langSuffix = {
+					const langSuffix = {
 						en: "Contributions.html",
 						ja: "Contributions_JP.html",
 						cn: "Contributions_CH.html"
@@ -672,13 +533,21 @@
 						iframe.src = "https://labonom.github.io/sources/" + langSuffix;
 					}
 				}
+				// Save language preference
+				localStorage.setItem("bsgou-lang", lang);
 			}
+
+			// Apply saved language preference on load
+			window.addEventListener("DOMContentLoaded", () => {
+				const savedLang = localStorage.getItem("bsgou-lang") || "en";
+				switchLanguage(savedLang);
+			});
 		</script>
 		<script>
 			// Set the founding year
-			var foundingYear = 2024;
-			var currentYear = new Date().getFullYear();
-			var displayYear = foundingYear === currentYear ? foundingYear : (foundingYear + "–" + currentYear);
+			const foundingYear = 2024;
+			const currentYear = new Date().getFullYear();
+			const displayYear = foundingYear === currentYear ? foundingYear : (foundingYear + "–" + currentYear);
 			document.getElementById("copyright").innerHTML =
 				"&copy; " + displayYear + " Bioinformatics Study Group in Okayama University. All rights reserved.";
 		</script>

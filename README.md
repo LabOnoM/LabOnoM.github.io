@@ -88,3 +88,36 @@ The outlined vision and strategy build upon current perspectives in the field, a
 ---
 
 *“We believe bioinformatics is not merely a set of tools, but a transformative lens through which biology becomes computable, testable, and deeply understood.”*
+
+---
+
+## AROS Governance & Project Onboarding
+
+This project has been onboarded into the AROS (Antigravity Research OS) framework. Below is the verified repository structure and chronological timeline of major milestones.
+
+### Verified Repository Structure Map
+- **`00.RawData/`**: Local primary data repository for experimental, computational, and literature tracking.
+  - `PIPELINE_REGISTRY.md`: Registry tracking active computational pipelines and databases.
+- **`_posts/`**: Jekyll blog entries, including wet-dry protocols (e.g., qPCR and Stereo-seq decoding guides).
+  - `PostAttachedFiles/`: Shared templates, excel sheets, and GraphPad Prism files.
+- **`sources/`**: The core value documents (Markdown formats) embedded as IFrames in the website.
+- **`scripts/`**: Automation scripts, including `fetch_bsgou_members.py`.
+- **`tools/`**: Operational utility scripts (diff, dir-tree, and URL assertion helper).
+- **`GSE284271/`**: Contains Visium HD spatial transcriptomics cell segmentation tutorials.
+- **`Wiki/`**: Obsidian-compatible symlink to the AROS `.wiki/` internal knowledge base.
+
+### Reconstructed Timeline
+- **2025-05-30** `[verified]`: Release of the inaugural post explaining the BSGOU logo design.
+- **2025-06-01** `[verified]`: First scientific journal club summaries published (GlycoRNA imaging methods).
+- **2025-06-08** `[verified]`: Stereo-seq CID decoding algorithm walkthrough published.
+- **2025-06-10** `[verified]`: Publication of the Zebrafish genomic history article.
+- **2025-06-12** `[verified]`: Definition and launch of the BSGOU Contribution Score normalization.
+- **2025-06-15** `[verified]`: qPCR Livak formula $2^{-\Delta\Delta C_T}$ mathematical proof and Excel/Prism templates published.
+- **2026-06-08** `[verified]`: Project onboarded to AROS, initializing `re_gent` and seeding the LLM-Wiki.
+
+### Methods and Tools Inventory
+- **Static Site Generator**: Jekyll (Ruby-based environment).
+- **Barcoding Tool**: `ST_BarcodeMap` (compiled under Conda environment with Boost 1.73 and HDF5 1.10.7).
+- **Data Scraper**: Python GitHub Search API pipeline utilizing Poisson distribution scoring.
+- **Analysis Stack**: StarDist (Tensorflow-backed nuclei segmentation) and Scanpy for spatial transcriptomics.
+

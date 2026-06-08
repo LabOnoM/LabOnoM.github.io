@@ -204,6 +204,9 @@ exclude:
   - /screenshots
   - /test
   - /vendor
+  - /00.RawData
+  - /Wiki
+
 
 defaults:
   - scope:

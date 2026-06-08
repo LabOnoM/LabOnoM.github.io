@@ -404,3 +404,9 @@ po/*~
 
 # RStudio Connect folder
 rsconnect/
+
+# re_gent audit layer
+.regent/
+
+# Obsidian compatibility symlink
+/Wiki

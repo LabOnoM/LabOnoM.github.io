@@ -293,9 +293,10 @@ h1, h2, h3, h4, h5, h6 {
 
 #navigation .container {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   height: 60px;
+  position: relative;
 }
 
 #navigation ul#menu {
@@ -329,6 +330,8 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 24px;
   color: var(--text-primary);
   cursor: pointer;
+  position: absolute;
+  left: 24px;
 }
 
 /* Theme Switcher Button */
@@ -343,6 +346,8 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--text-primary);
   font-size: 20px;
   transition: color 0.3s ease;
+  position: absolute;
+  right: 24px;
 }
 
 .theme-toggle-btn:hover {
@@ -714,6 +719,8 @@ ul#filterOptions li a:hover {
   justify-content: center;
   gap: 8px;
   margin-top: 0;
+  list-style: none;
+  padding: 0;
 }
 
 .social-staff ul li {

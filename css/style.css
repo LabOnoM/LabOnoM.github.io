@@ -714,13 +714,20 @@ ul#filterOptions li a:hover {
   color: var(--text-secondary);
 }
 
+.social-staff {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
 .social-staff ul {
   display: flex;
   justify-content: center;
   gap: 8px;
-  margin-top: 0;
+  margin: 0;
   list-style: none;
   padding: 0;
+  width: 100%;
 }
 
 .social-staff ul li {

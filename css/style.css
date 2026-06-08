@@ -34,9 +34,9 @@
   --bg-primary: #0f172a;
   --bg-secondary: #1e293b;
   --text-primary: #f8fafc;
-  --text-secondary: #94a3b8;
+  --text-secondary: #cbd5e1;
   --accent-pink: #f472b6;
-  --accent-pink-hover: #f472b6;
+  --accent-pink-hover: #ec4899;
   --accent-blue: #38bdf8;
   --accent-blue-hover: #7dd3fc;
   --glass-bg: rgba(15, 23, 42, 0.75);
@@ -218,7 +218,7 @@ h1, h2, h3, h4, h5, h6 {
   background-color: var(--accent-blue);
   font-weight: 600;
   font-size: 16px;
-  color: #ffffff !important;
+  color: var(--bg-primary) !important;
   border-radius: 30px;
   transition: background-color 0.2s ease, transform 0.2s ease;
   box-shadow: 0 4px 6px var(--shadow-color);
@@ -304,7 +304,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Blog ribbon fork link */
 #forkongithub a {
   background: var(--accent-pink);
-  color: #fff;
+  color: var(--bg-primary);
   text-decoration: none;
   font-weight: bold;
   padding: 5px 40px;
@@ -327,7 +327,7 @@ h1, h2, h3, h4, h5, h6 {
     width: 200px;
     overflow: hidden;
     height: 200px;
-    z-index: 9999;
+    z-index: 10000;
     pointer-events: none;
   }
   #forkongithub a {
@@ -430,7 +430,7 @@ ul#filterOptions li a {
 ul#filterOptions li.active a,
 ul#filterOptions li a:hover {
   background: var(--accent-pink);
-  color: #ffffff;
+  color: var(--bg-primary);
   border-color: var(--accent-pink);
 }
 

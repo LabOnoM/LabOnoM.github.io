@@ -20,3 +20,15 @@ This page documents system tools, environmental setups, and engineering decision
   ```bash
   env -u GITHUB_TOKEN git push origin main
   ```
+
+## 🎨 UI & Responsive Layout Optimization
+1. **Light Theme Glassmorphism**:
+   - Background image scaling can make text hard to read if the frosted-glass background is too opaque.
+   - Decreasing `--glass-bg` to `rgba(254, 253, 250, 0.45)` and `--bg-overlay` to `rgba(254, 253, 250, 0.5)` maximizes background visibility while maintaining accessibility and readability when combined with a `backdrop-filter: blur(16px)` layer.
+2. **Mobile Ribbon Blockage**:
+   - Elements like `#forkongithub` absolute-positioned ribbons can overlay the main nav bar on mobile devices.
+   - Resolution: Hide these elements entirely on viewports under 800px.
+3. **Vanilla JS Touch Swipes**:
+   - Custom sliders without external frameworks (like FlexSlider or Swiper) require manual tracking of `touchstart` and `touchend` events.
+   - Event listeners must be registered with `{ passive: true }` to maintain smooth scrolling performance.
+

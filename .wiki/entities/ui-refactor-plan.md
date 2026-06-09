@@ -21,6 +21,10 @@ The community decided to:
 ## Integration with BSGOU Mission
 This UI refactor directly supports the [[overview|BSGOU Mission]] by providing an accessible ecosystem dashboard. A modern, fast website ensures that global researchers and students can easily access protocols, blog posts, and tools without experiencing browser lag or accessibility barriers.
 
+## Modernization Execution Highlights
+- **Touch Swipes**: Native touch gesture support added via `touchstart` and `touchend` event handlers to ensure seamless mobile swiping.
+- **Light Theme Transparency**: Re-engineered `--glass-bg` and `--bg-overlay` variables to utilize lower opacity (`0.45` and `0.5` respectively) to showcase the background image clearly while preserving legibility via back-drop blur filters.
+
 ## Related Links
 - [[readme]]: Main project context.
-- [[lessons-learned]]: For details on bypassing IDE git credentials and Jekyll environments.
+- [[lessons-learned]]: For details on bypassing IDE git credentials, Jekyll environments, and UI layout optimization lessons.

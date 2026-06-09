@@ -114,6 +114,7 @@ This project has been onboarded into the AROS (Antigravity Research OS) framewor
 - **2025-06-12** `[verified]`: Definition and launch of the BSGOU Contribution Score normalization.
 - **2025-06-15** `[verified]`: qPCR Livak formula $2^{-\Delta\Delta C_T}$ mathematical proof and Excel/Prism templates published.
 - **2026-06-08** `[verified]`: Project onboarded to AROS, initializing `re_gent` and seeding the LLM-Wiki.
+- **2026-06-09** `[verified]`: Completed UI redesign including custom theme toggler, glassmorphic styles, mobile header offset corrections, custom touch swipe gestures, and adjusted light theme transparency.
 
 ### Methods and Tools Inventory
 - **Static Site Generator**: Jekyll (Ruby-based environment).

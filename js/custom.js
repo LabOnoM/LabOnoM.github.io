@@ -139,6 +139,34 @@ document.addEventListener("DOMContentLoaded", () => {
       stopAutoSlide(); startAutoSlide();
     });
 
+    // Touch Swipe Support
+    let touchStartX = 0;
+    let touchEndX = 0;
+
+    const handleSwipe = () => {
+      const swipeDistance = touchEndX - touchStartX;
+      const minSwipeDistance = 50; // Minimum distance to trigger swipe
+
+      if (swipeDistance > minSwipeDistance) {
+        // Swiped Right -> Prev Slide
+        goToSlide(currentIndex - 1);
+        stopAutoSlide(); startAutoSlide();
+      } else if (swipeDistance < -minSwipeDistance) {
+        // Swiped Left -> Next Slide
+        goToSlide(currentIndex + 1);
+        stopAutoSlide(); startAutoSlide();
+      }
+    };
+
+    sliderEl.addEventListener("touchstart", (e) => {
+      touchStartX = e.changedTouches[0].screenX;
+    }, { passive: true });
+
+    sliderEl.addEventListener("touchend", (e) => {
+      touchEndX = e.changedTouches[0].screenX;
+      handleSwipe();
+    }, { passive: true });
+
     startAutoSlide();
 
     sliderEl.addEventListener("mouseenter", stopAutoSlide);

@@ -23,10 +23,10 @@
   --accent-pink-hover: #c55343;
   --accent-blue: #4a8ab7;
   --accent-blue-hover: #396e94;
-  --glass-bg: rgba(254, 253, 250, 0.45);
+  --glass-bg: rgba(254, 253, 250, 0.45); /* Increased transparency for glassmorphic elements */
   --glass-border: rgba(180, 160, 140, 0.15);
   --shadow-color: rgba(60, 50, 40, 0.06);
-  --bg-overlay: rgba(254, 253, 250, 0.5);
+  --bg-overlay: rgba(254, 253, 250, 0.5); /* Lower opacity overlay for hero and quote sections */
   --bg-image: url('../img/quote.jpg');
   --icon-filter: contrast(1.2) saturate(1.2) brightness(0.9);
 }

@@ -410,3 +410,8 @@ rsconnect/
 
 # Obsidian compatibility symlink
 /Wiki
+
+# Jekyll cache and build output
+_site/
+.jekyll-cache/
+Gemfile.lock

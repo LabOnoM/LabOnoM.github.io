@@ -115,10 +115,10 @@ This project has been onboarded into the AROS (Antigravity Research OS) framewor
 - **2025-06-15** `[verified]`: qPCR Livak formula $2^{-\Delta\Delta C_T}$ mathematical proof and Excel/Prism templates published.
 - **2026-06-08** `[verified]`: Project onboarded to AROS, initializing `re_gent` and seeding the LLM-Wiki.
 - **2026-06-09** `[verified]`: Completed UI redesign including custom theme toggler, glassmorphic styles, mobile header offset corrections, custom touch swipe gestures, and adjusted light theme transparency.
+- **2026-06-09** `[verified]`: Migrated membership update GitHub Actions workflow from a cron schedule to a content-driven push trigger (`index.html` and `_posts/`).
 
 ### Methods and Tools Inventory
 - **Static Site Generator**: Jekyll (Ruby-based environment).
 - **Barcoding Tool**: `ST_BarcodeMap` (compiled under Conda environment with Boost 1.73 and HDF5 1.10.7).
 - **Data Scraper**: Python GitHub Search API pipeline utilizing Poisson distribution scoring.
 - **Analysis Stack**: StarDist (Tensorflow-backed nuclei segmentation) and Scanpy for spatial transcriptomics.
-

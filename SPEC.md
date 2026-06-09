@@ -75,3 +75,11 @@ The landing page slider implements custom touch swipe gestures for mobile access
   - **Right Swipe:** Translates to `goToSlide(currentIndex - 1)` (Previous) and resets the auto-slide timer.
   - **Left Swipe:** Translates to `goToSlide(currentIndex + 1)` (Next) and resets the auto-slide timer.
 - **Listeners:** Added with `{ passive: true }` to avoid scroll performance degradation.
+
+---
+
+## 6. GitHub Actions Workflows
+
+- **Update Members List (`update_members.yml`):**
+  - **Trigger:** Event-driven via pushes to `index.html` or `_posts/**`. This replaces the former cron-based daily schedule.
+  - **Behavior:** Executes `fetch_bsgou_members.py` to recount user contributions via GitHub's API, regenerating the ranking tables in `members.html` and `members.xlsx` artifact.

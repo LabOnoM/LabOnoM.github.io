@@ -1,8 +1,10 @@
 name: Update Members List
 
 on:
-  schedule:
-    - cron: '0 3 * * *'  # daily at 3 AM UTC
+  push:
+    paths:
+      - 'index.html'
+      - '_posts/**'
   workflow_dispatch:
 
 jobs:

@@ -65,7 +65,7 @@ There is a common misconception that while academic literature may be riddled wi
 
 When a prestigious journal publishes a statistically flawed paper claiming that *"Protein X causes Cancer,"* a pharmaceutical company might spend ten years and hundreds of millions of dollars developing a drug to target Protein X. The drug might work perfectly in a highly controlled computer simulation or a genetically cloned lab mouse. But because the original premise was a simplified mathematical abstraction, the drug fails completely when introduced into the complex, chaotic environment of a living human being.
 
-Today, **roughly 90% of all new drugs that enter human clinical trials fail** [[6]](https://doi.org/10.1016/j.apsb.2021.11.009).
+Today, **roughly 90% of all new drugs that enter human clinical trials fail** [[6]](https://pmc.ncbi.nlm.nih.gov/articles/PMC9293739/).
 
 This staggeringly high failure rate is the primary driver of **Eroom’s Law** (Moore’s Law spelled backward). It dictates that drug discovery is becoming slower and vastly more expensive over time, despite exponential improvements in technology [[7]](https://doi.org/10.1038/nrd3681). Today, it costs an estimated average of \$2 billion to bring a single new medicine to market. A vast majority of that time and money is spent chasing "ghosts"—drug targets that looked beautiful on a UMAP plot but dissolved upon contact with biological reality.
 
@@ -100,7 +100,7 @@ Yet, the scientific method endures precisely because it expects its models to be
 3. **Box, G. E. P. (1976).** "Science and statistics." *Journal of the American Statistical Association*, 71(356), 791-799. [[Link]](https://doi.org/10.1080/01621459.1976.10480949)
 4. **Ioannidis, J. P. A. (2005).** "Why Most Published Research Findings Are False." *PLOS Medicine*, 2(8), e124. [[Link]](https://doi.org/10.1371/journal.pmed.0020124)
 5. **Begley, C. G., & Ellis, L. M. (2012).** "Drug development: Raise standards for preclinical cancer research." *Nature*, 483(7391), 531-533. [[Link]](https://doi.org/10.1038/483531a)
-6. **Sun, D., Gao, W., Hu, H., & Zhou, S. (2022).** "Why 90% of clinical drug development fails and how to improve it?" *Acta Pharmaceutica Sinica B*, 12(7), 3049-3062. [[Link]](https://doi.org/10.1016/j.apsb.2021.11.009)
+6. **Sun, D., Gao, W., Hu, H., & Zhou, S. (2022).** "Why 90% of clinical drug development fails and how to improve it?" *Acta Pharmaceutica Sinica B*, 12(7), 3049-3062. [[Link]](https://pmc.ncbi.nlm.nih.gov/articles/PMC9293739/)
 7. **Scannell, J. W., Blanckley, A., Boldon, H., & Warrington, B. (2012).** "Diagnosing the decline in pharmaceutical R&D efficiency." *Nature Reviews Drug Discovery*, 11(3), 191-200. [[Link]](https://doi.org/10.1038/nrd3681)
 
 ---

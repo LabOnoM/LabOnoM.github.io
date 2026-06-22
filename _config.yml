@@ -199,6 +199,10 @@ exclude:
   - jekyll-text-theme.gemspec
   - package-lock.json
   - package.json
+  - CODE_MAP.md
+  - CLAUDE.md
+  - AGENTS.md
+  - SPEC.md
   - /docs
   - /node_modules
   - /screenshots

@@ -415,3 +415,6 @@ rsconnect/
 _site/
 .jekyll-cache/
 Gemfile.lock
+
+# local ruby vendor gems
+vendor/

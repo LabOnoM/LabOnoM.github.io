@@ -8,7 +8,6 @@ This map defines the layout, pipeline matrix, and dependency rules of the Bioinf
 
 ```
 LabOnoM.github.io/
-├── .github/             # GitHub Actions configurations (cron-based updates)
 ├── .wiki/               # LLM-Wiki containing domain concept definitions and timelines
 ├── 00.RawData/          # Raw data directory housing the master PIPELINE_REGISTRY.md
 ├── GSE284271/           # Visium HD nuclei segmentation datasets and output reports
@@ -33,7 +32,7 @@ LabOnoM.github.io/
 
 | Component Directory | Language | Role / Purpose | Upstream Integration |
 |---|---|---|---|
-| `scripts/` | Python | Member contribution parsing, ranking calculations (Poisson normalization) | Runs on push events in `.github/workflows/update_members.yml` |
+| `scripts/` | Python | Member contribution parsing, ranking calculations (Poisson normalization) | Run by hand with `scripts/update-members.sh` (no GitHub Actions) |
 | `css/` / `js/` / `img/` | CSS / Vanilla JS | Site layout styling, theme switching (dark/light), sliding carousels, mobile navigation | Interacts with `index.html` elements |
 | `GSE284271/` | Python / HTML | Visium HD Nuclei Segmentation, spatial binning, Scanpy clustering reports | Custom Jupyter/Scanpy analytical pipelines |
 | `.wiki/` | Markdown | AROS LLM-Wiki capturing lessons learned, timeline validation, project specs | Grounded to `/wiki-` workflows and system agents |

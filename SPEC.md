@@ -78,8 +78,10 @@ The landing page slider implements custom touch swipe gestures for mobile access
 
 ---
 
-## 6. GitHub Actions Workflows
+## 6. Member List Update (manual)
 
-- **Update Members List (`update_members.yml`):**
-  - **Trigger:** Event-driven via pushes to `index.html` or `_posts/**`. This replaces the former cron-based daily schedule.
-  - **Behavior:** Executes `fetch_bsgou_members.py` to recount user contributions via GitHub's API, regenerating the ranking tables in `members.html` and `members.xlsx` artifact.
+LabOnoM does not use GitHub Actions (owner's decision, 2026-10-13); the former `update_members.yml` workflow was removed.
+
+- **Update Members List (`scripts/update-members.sh`):**
+  - **Trigger:** Run by hand by the owner, once a month and after publishing a post or changing `index.html` (the events that used to trigger the workflow).
+  - **Behavior:** Executes `fetch_bsgou_members.py` to recount user contributions via GitHub's API, regenerating the ranking tables in `members.html` and `members.xlsx`, then commits `members.html` and pushes it to `main`.

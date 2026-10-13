@@ -50,8 +50,8 @@ Below is the verified timeline of milestones for the BSGOU codebase and public b
 ## 4. Codebase Components and Workflows
 
 ### 4.1 Member Directory Scraper
-The directory ranking pipeline consists of a cron workflow and a Python parsing script:
-- **GitHub Workflow (`.github/workflows/update_members.yml`)**: Runs daily at 3 AM UTC. Automatically executes the scraper script, commits the updated HTML roster, and uploads build artifacts.
+The directory ranking pipeline consists of a manual update script and a Python parsing script:
+- **Update script (`scripts/update-members.sh`)**: Run by hand by the owner, once a month and after publishing a post or changing `index.html` (LabOnoM does not use GitHub Actions). Executes the scraper script, commits the updated HTML roster and pushes it to `main`.
 - **Scraper Script (`scripts/fetch_bsgou_members.py`)**:
   - Searches the GitHub API for users with files containing the BSGOU member verification tag.
   - Pulls member contribution counts (Commits, Pull Requests, Issues, Repos) inside the `LabOnoM` organization.

@@ -116,9 +116,18 @@ This project has been onboarded into the AROS (Antigravity Research OS) framewor
 - **2026-06-08** `[verified]`: Project onboarded to AROS, initializing `re_gent` and seeding the LLM-Wiki.
 - **2026-06-09** `[verified]`: Completed UI redesign including custom theme toggler, glassmorphic styles, mobile header offset corrections, custom touch swipe gestures, and adjusted light theme transparency.
 - **2026-06-09** `[verified]`: Migrated membership update GitHub Actions workflow from a cron schedule to a content-driven push trigger (`index.html` and `_posts/`).
+- **2026-10-13** `[verified]`: Removed the GitHub Actions workflow (LabOnoM does not use GitHub Actions); the member list is updated by hand with `scripts/update-members.sh`.
 
 ### Methods and Tools Inventory
 - **Static Site Generator**: Jekyll (Ruby-based environment).
 - **Barcoding Tool**: `ST_BarcodeMap` (compiled under Conda environment with Boost 1.73 and HDF5 1.10.7).
 - **Data Scraper**: Python GitHub Search API pipeline utilizing Poisson distribution scoring.
 - **Analysis Stack**: StarDist (Tensorflow-backed nuclei segmentation) and Scanpy for spatial transcriptomics.
+
+## Checks and deploys
+
+LabOnoM does not use GitHub Actions; every step runs by hand on the owner's machine (see `CLAUDE.md`).
+
+- **Checks**: no check ran in GitHub Actions. Before merging a change to the site, build it with `bundle exec jekyll build`.
+- **Member list**: `scripts/update-members.sh` regenerates `members.html` (and `members.xlsx`, not committed) with `scripts/fetch_bsgou_members.py`, commits `members.html` and pushes it to `main`. The owner runs it once a month and after publishing a post or changing `index.html`, from an up-to-date `main`; it uses `BSGOU_GITHUB_TOKEN` from the environment if set, otherwise the `gh auth login` token.
+- **Website**: GitHub Pages builds and serves `main` (legacy branch build); there is no deploy script.

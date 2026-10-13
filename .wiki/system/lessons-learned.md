@@ -12,7 +12,7 @@ This page documents system tools, environmental setups, and engineering decision
 2. **ST_BarcodeMap Compilation**:
    - Compiling `ST_BarcodeMap` locally requires Boost 1.73.0, HDF5 1.10.7, and Zlib 1.2.11.
    - **Lesson Learned**: System makefiles do not natively support Conda path resolution. The makefile was customized to map `INCLUDE_DIRS` and `LIBRARY_DIRS` to `$CONDA_PREFIX` paths.
-   - **Alternative**: Building via GitHub Actions workflow is faster and avoids local library conflicts.
+   - **Alternative**: none hosted; LabOnoM does not use GitHub Actions (2026-10-13), so the build runs locally.
 
 ## 🔑 Git Authentication Wrapper Bypass
 - **Problem**: The IDE injects a dummy `GITHUB_TOKEN` which shadows local authentication keys (e.g. `gh auth`).

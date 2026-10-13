@@ -6,8 +6,8 @@ import scipy.stats as stats
 
 # === Configuration ===
 # This script fetches GitHub users from the LabOnoM organization that contain a specific recognition tag.
-# Note: It is executed by the .github/workflows/update_members.yml GitHub Action.
-# The action is triggered whenever `index.html` or files in `_posts/` are pushed to the repository.
+# Note: It is run by scripts/update-members.sh, which the owner runs by hand (LabOnoM does not use
+# GitHub Actions): once a month and after publishing a post or changing `index.html`.
 GITHUB_TOKEN = os.environ['GITHUB_TOKEN']
 ORG_NAME = "LabOnoM"
 SEARCH_TAG = '<!-- RecognizeID=BSGOU_Member_a;slkA#(T*d76jbtfgm*AUHV∞®§´†∂UCA(•§¶J# -->'

@@ -491,14 +491,12 @@ def run_verification_suite(repo_root: Path) -> Dict[str, Any]:
         },
     )
 
-    # 7. Rerun Stability (idempotent incremental refresh)
+    # 7. Rerun Stability (idempotent read-only incremental refresh check)
     before_sha = (
         compute_raw_sha256(manifest_path.read_bytes()) if manifest_path.is_file() else ""
     )
-    refresh_out = scan_or_refresh_manifest(repo_root, incremental=True, dry_run=False)
-    after_sha = (
-        compute_raw_sha256(manifest_path.read_bytes()) if manifest_path.is_file() else ""
-    )
+    refresh_out = scan_or_refresh_manifest(repo_root, incremental=True, dry_run=True)
+    after_sha = refresh_out["manifest_jsonl_sha256"]
     rerun_ok = (
         bool(before_sha)
         and before_sha == after_sha

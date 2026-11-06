@@ -418,3 +418,8 @@ Gemfile.lock
 
 # local ruby vendor gems
 vendor/
+
+# LLM-Wiki disposable caches and local virtual environments
+LLM-Wiki/.cache/
+.venv/
+members.xlsx

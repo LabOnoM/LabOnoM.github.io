@@ -1,0 +1,227 @@
+{
+  "external_repositories": [
+    {
+      "branch": "main",
+      "discovered_skill_md_count": 24,
+      "has_skills": true,
+      "repo": "Yuan1z0825/nature-skills",
+      "resolved_commit_sha": "d774add241c65e89ed17a4da573b472b0972fd42",
+      "scope": "End-to-end scientific research, academic search, citation verification, figure styling, manuscript drafting, peer review, and rebuttal workflows.",
+      "tarball_slug": "Yuan1z0825_nature-skills.tar.gz",
+      "tree_or_commit_sha": "d774add241c65e89ed17a4da573b472b0972fd42",
+      "url": "https://github.com/Yuan1z0825/nature-skills"
+    },
+    {
+      "branch": "main",
+      "discovered_skill_md_count": 177,
+      "has_skills": true,
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "resolved_commit_sha": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "scope": "Core K-Dense scientific agent skills across bioinformatics, single-cell/spatial omics, cheminformatics, physics, statistics, ML, and databases.",
+      "tarball_slug": "K-Dense-AI_scientific-agent-skills.tar.gz",
+      "tree_or_commit_sha": "a25cf9ec00",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills"
+    },
+    {
+      "branch": "main",
+      "discovered_skill_md_count": 78,
+      "has_skills": true,
+      "repo": "K-Dense-AI/claude-scientific-writer",
+      "resolved_commit_sha": "529b9f73ab4b48925027145800d7b49e96ccfd3c",
+      "scope": "Scientific manuscript writing, grant proposals, LaTeX/venue templates, peer review, clinical reports, and bundled scientific helpers.",
+      "tarball_slug": "K-Dense-AI_claude-scientific-writer.tar.gz",
+      "tree_or_commit_sha": "529b9f73ab",
+      "url": "https://github.com/K-Dense-AI/claude-scientific-writer"
+    },
+    {
+      "branch": "main",
+      "discovered_skill_md_count": 37,
+      "has_skills": true,
+      "repo": "K-Dense-AI/drug-discovery-agent-skills",
+      "resolved_commit_sha": "ee7655f065e4bb1a5a4d4898154b61c0e45918e2",
+      "scope": "Computational drug discovery, ADMET, SAR, retrosynthesis, degraders/molecular glues, antibody engineering, and virtual screening.",
+      "tarball_slug": "K-Dense-AI_drug-discovery-agent-skills.tar.gz",
+      "tree_or_commit_sha": "ee7655f065",
+      "url": "https://github.com/K-Dense-AI/drug-discovery-agent-skills"
+    },
+    {
+      "branch": "main",
+      "discovered_skill_md_count": 16,
+      "has_skills": true,
+      "repo": "K-Dense-AI/science-superpowers",
+      "resolved_commit_sha": "0374bdf82c2372bdf1667e3c762146c3a29215f5",
+      "scope": "Meta-scientific methodology skills: preregistration, feasibility checks, red-team review, anomaly investigation, and reproducible analysis setup.",
+      "tarball_slug": "K-Dense-AI_science-superpowers.tar.gz",
+      "tree_or_commit_sha": "0374bdf82c",
+      "url": "https://github.com/K-Dense-AI/science-superpowers"
+    },
+    {
+      "branch": "main",
+      "discovered_skill_md_count": 503,
+      "has_skills": true,
+      "repo": "K-Dense-AI/scientific-agents",
+      "resolved_commit_sha": "98c7fae46648724e1a43a1f2b207b0c82fcc462e",
+      "scope": "503 specialist scientific discipline persona skills spanning life sciences, clinical medicine, chemistry, physics, earth science, and engineering.",
+      "tarball_slug": "K-Dense-AI_scientific-agents.tar.gz",
+      "tree_or_commit_sha": "98c7fae466",
+      "url": "https://github.com/K-Dense-AI/scientific-agents"
+    },
+    {
+      "branch": "main",
+      "discovered_skill_md_count": 80,
+      "has_skills": true,
+      "repo": "K-Dense-AI/mimeographs",
+      "resolved_commit_sha": "a38f5fcad0853be3e98a6cd95d8e6bf8c66f7c7b",
+      "scope": "80 analytical reasoning and writing-style guides distilled from prominent scientists, mathematicians, engineers, and essayists.",
+      "tarball_slug": "K-Dense-AI_mimeographs.tar.gz",
+      "tree_or_commit_sha": "a38f5fcad0",
+      "url": "https://github.com/K-Dense-AI/mimeographs"
+    },
+    {
+      "branch": "main",
+      "discovered_skill_md_count": 22,
+      "has_skills": true,
+      "repo": "K-Dense-AI/mimeo",
+      "resolved_commit_sha": "a4cea1842a24515cda354a3aa9eb9763677a3cdd",
+      "scope": "Corpus extraction and style-guide synthesis pipeline (`extract-style`, `generate-corpus`, `synthesize-guide`) plus 19 early output profiles.",
+      "tarball_slug": "K-Dense-AI_mimeo.tar.gz",
+      "tree_or_commit_sha": "a4cea1842a",
+      "url": "https://github.com/K-Dense-AI/mimeo"
+    },
+    {
+      "branch": "main",
+      "discovered_skill_md_count": 2,
+      "has_skills": true,
+      "repo": "K-Dense-AI/skill-101-webinar",
+      "resolved_commit_sha": "f51b0a70c820784d8dbc9590bb48e01a54d93bbf",
+      "scope": "Instructional webinar templates (`plain-language-summary` and `paper-draft-SKILL` template).",
+      "tarball_slug": "K-Dense-AI_skill-101-webinar.tar.gz",
+      "tree_or_commit_sha": "f51b0a70c8",
+      "url": "https://github.com/K-Dense-AI/skill-101-webinar"
+    },
+    {
+      "branch": "main",
+      "discovered_skill_md_count": 0,
+      "has_skills": false,
+      "repo": "K-Dense-AI/agentic-data-scientist",
+      "resolved_commit_sha": "702dee9dfb",
+      "scope": "Standalone Python agentic data science application (0 SKILL.md files; audited for completeness).",
+      "tarball_slug": null,
+      "tree_or_commit_sha": "702dee9dfb",
+      "url": "https://github.com/K-Dense-AI/agentic-data-scientist"
+    },
+    {
+      "branch": "main",
+      "discovered_skill_md_count": 0,
+      "has_skills": false,
+      "repo": "K-Dense-AI/claude-skills-mcp",
+      "resolved_commit_sha": "72a7b50223",
+      "scope": "MCP server wrapper exposing K-Dense scientific skills over Model Context Protocol (0 standalone SKILL.md files).",
+      "tarball_slug": null,
+      "tree_or_commit_sha": "72a7b50223",
+      "url": "https://github.com/K-Dense-AI/claude-skills-mcp"
+    },
+    {
+      "branch": "main",
+      "discovered_skill_md_count": 0,
+      "has_skills": false,
+      "repo": "K-Dense-AI/lab-instrument-mcps",
+      "resolved_commit_sha": "46545ea7eb",
+      "scope": "Laboratory hardware MCP servers (0 SKILL.md files; MCP server code only).",
+      "tarball_slug": null,
+      "tree_or_commit_sha": "46545ea7eb",
+      "url": "https://github.com/K-Dense-AI/lab-instrument-mcps"
+    },
+    {
+      "branch": "main",
+      "discovered_skill_md_count": 0,
+      "has_skills": false,
+      "repo": "K-Dense-AI/rowan-autosearch",
+      "resolved_commit_sha": "faebbb2aaa",
+      "scope": "Rowan computational chemistry autosearch harness (contains 1 repo AGENTS.md, 0 SKILL.md files).",
+      "tarball_slug": null,
+      "tree_or_commit_sha": "faebbb2aaa",
+      "url": "https://github.com/K-Dense-AI/rowan-autosearch"
+    },
+    {
+      "branch": "main",
+      "discovered_skill_md_count": 0,
+      "has_skills": false,
+      "repo": "K-Dense-AI/k-dense-byok",
+      "resolved_commit_sha": "6a55f5ce6f",
+      "scope": "Bring-Your-Own-Key web application stack (contains 1 repo AGENTS.md, 0 SKILL.md files).",
+      "tarball_slug": null,
+      "tree_or_commit_sha": "6a55f5ce6f",
+      "url": "https://github.com/K-Dense-AI/k-dense-byok"
+    },
+    {
+      "branch": "main",
+      "discovered_skill_md_count": 0,
+      "has_skills": false,
+      "repo": "K-Dense-AI/karpathy",
+      "resolved_commit_sha": "f92b680a48",
+      "scope": "Single-profile standalone repo superseded by `K-Dense-AI/mimeographs` (0 SKILL.md files).",
+      "tarball_slug": null,
+      "tree_or_commit_sha": "f92b680a48",
+      "url": "https://github.com/K-Dense-AI/karpathy"
+    },
+    {
+      "branch": "main",
+      "discovered_skill_md_count": 0,
+      "has_skills": false,
+      "repo": "K-Dense-AI/hf-mva-hackathon-2026",
+      "resolved_commit_sha": "1fc4279131",
+      "scope": "Hackathon submission repository (0 SKILL.md files).",
+      "tarball_slug": null,
+      "tree_or_commit_sha": "1fc4279131",
+      "url": "https://github.com/K-Dense-AI/hf-mva-hackathon-2026"
+    }
+  ],
+  "omitted_by_source": {
+    "K-Dense-AI/claude-scientific-writer": 74,
+    "K-Dense-AI/drug-discovery-agent-skills": 21,
+    "K-Dense-AI/mimeo": 20,
+    "K-Dense-AI/scientific-agent-skills": 1,
+    "local-gemini-skills-dir": 157
+  },
+  "omitted_redundant_count": 273,
+  "retained_by_source": {
+    "K-Dense-AI/claude-scientific-writer": 4,
+    "K-Dense-AI/drug-discovery-agent-skills": 16,
+    "K-Dense-AI/mimeo": 2,
+    "K-Dense-AI/mimeographs": 80,
+    "K-Dense-AI/science-superpowers": 16,
+    "K-Dense-AI/scientific-agent-skills": 176,
+    "K-Dense-AI/scientific-agents": 503,
+    "K-Dense-AI/skill-101-webinar": 2,
+    "LabOnoM.github.io": 4,
+    "Yuan1z0825/nature-skills": 24,
+    "antigravity-builtin": 9,
+    "antigravity-plugin:android-cli-plugin": 3,
+    "antigravity-plugin:chrome-devtools-plugin": 6,
+    "antigravity-plugin:data-agent-kit-plugin": 40,
+    "antigravity-plugin:firebase": 13,
+    "antigravity-plugin:gemini-api": 3,
+    "antigravity-plugin:google-antigravity-sdk": 1,
+    "antigravity-plugin:modern-web-guidance-plugin": 2,
+    "antigravity-plugin:science": 48,
+    "claude-marketplace": 15,
+    "codex-system": 2,
+    "local-gemini-skills-dir": 570
+  },
+  "retained_by_tier": {
+    "external": 823,
+    "global": 142,
+    "global_unmounted_cache": 570,
+    "project": 4
+  },
+  "retained_count": 1539,
+  "routing_precedence": [
+    "1. global (active_host_global -> host_installed_codex/claude)",
+    "2. project (.agents/skills/ active_project_local)",
+    "3. external (pinned Yuan1z0825/nature-skills and K-Dense-AI complementary skills)",
+    "4. global_unmounted_cache (unique local ~/.gemini/skills entries not in upstream repos)"
+  ],
+  "schema_version": "1.0.0",
+  "total_discovered_skill_md": 1812
+}

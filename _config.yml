@@ -210,6 +210,9 @@ exclude:
   - /vendor
   - /00.RawData
   - /Wiki
+  - /LLM-Wiki
+  - /.agents
+  - /.claude
 
 
 defaults:

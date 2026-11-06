@@ -1,5 +1,7 @@
 # BSGOU LLM-Wiki Index
 
+> **Canonical Memory Notice (`2026-11-06`)**: Primary hash-verified project memory, biomedical traceability chains, contradiction audits (`CON-01`–`CON-09`), and the multi-tier skill router now reside in [`LLM-Wiki/index.md`](../LLM-Wiki/index.md) (`LLM-Wiki/STATE.md`). Legacy `.wiki/` pages below are preserved intact for historical continuity; always cross-check `LLM-Wiki/contradictions.md` before relying on legacy summaries of `gse284271`, `glycorna-imaging`, or `zebrafish-history`.
+
 Welcome to the internal Knowledge Base for the BSGOU project.
 
 ## Core Pages

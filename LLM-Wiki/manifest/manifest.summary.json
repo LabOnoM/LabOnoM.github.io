@@ -1,0 +1,361 @@
+{
+  "anomalous_or_mismatched_files": [
+    {
+      "detected_format": "html_truncated_fragment",
+      "ext": ".html",
+      "raw_sha256": "c8ed3597d3a7badef0aa0e9889f4fe87abff0f1e71ef7dfad0b9e06a2856a237",
+      "rel_path": "GSE284271/00.NIH_10xVisiumHD.html",
+      "size_bytes": 117,
+      "summary_metrics": {
+        "is_truncated_artifact": true,
+        "line_count": 1,
+        "prefix": "</script><meta name=\"viewport\" content=\"user-scalable=no, in"
+      }
+    },
+    {
+      "detected_format": "html_404_error_stub",
+      "ext": ".html",
+      "raw_sha256": "ab2e416910840cc2aa0d980cc5f81fd8132ddc21aaf244eab9bd9e1996a8a073",
+      "rel_path": "css/blank.html",
+      "size_bytes": 389,
+      "summary_metrics": {
+        "line_count": 8,
+        "server_stub": "LiteSpeed_404"
+      }
+    },
+    {
+      "detected_format": "html_404_error_stub",
+      "ext": ".html",
+      "raw_sha256": "ab2e416910840cc2aa0d980cc5f81fd8132ddc21aaf244eab9bd9e1996a8a073",
+      "rel_path": "css/fancy_title_over.html",
+      "size_bytes": 389,
+      "summary_metrics": {
+        "line_count": 8,
+        "server_stub": "LiteSpeed_404"
+      }
+    },
+    {
+      "detected_format": "html_404_error_stub",
+      "ext": ".html",
+      "raw_sha256": "ab2e416910840cc2aa0d980cc5f81fd8132ddc21aaf244eab9bd9e1996a8a073",
+      "rel_path": "css/fancybox/fancy_close.html",
+      "size_bytes": 389,
+      "summary_metrics": {
+        "line_count": 8,
+        "server_stub": "LiteSpeed_404"
+      }
+    },
+    {
+      "detected_format": "html_404_error_stub",
+      "ext": ".html",
+      "raw_sha256": "ab2e416910840cc2aa0d980cc5f81fd8132ddc21aaf244eab9bd9e1996a8a073",
+      "rel_path": "css/fancybox/fancy_loading.html",
+      "size_bytes": 389,
+      "summary_metrics": {
+        "line_count": 8,
+        "server_stub": "LiteSpeed_404"
+      }
+    },
+    {
+      "detected_format": "html_404_error_stub",
+      "ext": ".html",
+      "raw_sha256": "ab2e416910840cc2aa0d980cc5f81fd8132ddc21aaf244eab9bd9e1996a8a073",
+      "rel_path": "css/fancybox/fancy_nav_left.html",
+      "size_bytes": 389,
+      "summary_metrics": {
+        "line_count": 8,
+        "server_stub": "LiteSpeed_404"
+      }
+    },
+    {
+      "detected_format": "html_404_error_stub",
+      "ext": ".html",
+      "raw_sha256": "ab2e416910840cc2aa0d980cc5f81fd8132ddc21aaf244eab9bd9e1996a8a073",
+      "rel_path": "css/fancybox/fancy_nav_right.html",
+      "size_bytes": 389,
+      "summary_metrics": {
+        "line_count": 8,
+        "server_stub": "LiteSpeed_404"
+      }
+    },
+    {
+      "detected_format": "html_404_error_stub",
+      "ext": ".html",
+      "raw_sha256": "ab2e416910840cc2aa0d980cc5f81fd8132ddc21aaf244eab9bd9e1996a8a073",
+      "rel_path": "css/fancybox/fancy_shadow_e.html",
+      "size_bytes": 389,
+      "summary_metrics": {
+        "line_count": 8,
+        "server_stub": "LiteSpeed_404"
+      }
+    },
+    {
+      "detected_format": "html_404_error_stub",
+      "ext": ".html",
+      "raw_sha256": "ab2e416910840cc2aa0d980cc5f81fd8132ddc21aaf244eab9bd9e1996a8a073",
+      "rel_path": "css/fancybox/fancy_shadow_n.html",
+      "size_bytes": 389,
+      "summary_metrics": {
+        "line_count": 8,
+        "server_stub": "LiteSpeed_404"
+      }
+    },
+    {
+      "detected_format": "html_404_error_stub",
+      "ext": ".html",
+      "raw_sha256": "ab2e416910840cc2aa0d980cc5f81fd8132ddc21aaf244eab9bd9e1996a8a073",
+      "rel_path": "css/fancybox/fancy_shadow_ne.html",
+      "size_bytes": 389,
+      "summary_metrics": {
+        "line_count": 8,
+        "server_stub": "LiteSpeed_404"
+      }
+    },
+    {
+      "detected_format": "html_404_error_stub",
+      "ext": ".html",
+      "raw_sha256": "ab2e416910840cc2aa0d980cc5f81fd8132ddc21aaf244eab9bd9e1996a8a073",
+      "rel_path": "css/fancybox/fancy_shadow_nw.html",
+      "size_bytes": 389,
+      "summary_metrics": {
+        "line_count": 8,
+        "server_stub": "LiteSpeed_404"
+      }
+    },
+    {
+      "detected_format": "html_404_error_stub",
+      "ext": ".html",
+      "raw_sha256": "ab2e416910840cc2aa0d980cc5f81fd8132ddc21aaf244eab9bd9e1996a8a073",
+      "rel_path": "css/fancybox/fancy_shadow_s.html",
+      "size_bytes": 389,
+      "summary_metrics": {
+        "line_count": 8,
+        "server_stub": "LiteSpeed_404"
+      }
+    },
+    {
+      "detected_format": "html_404_error_stub",
+      "ext": ".html",
+      "raw_sha256": "ab2e416910840cc2aa0d980cc5f81fd8132ddc21aaf244eab9bd9e1996a8a073",
+      "rel_path": "css/fancybox/fancy_shadow_se.html",
+      "size_bytes": 389,
+      "summary_metrics": {
+        "line_count": 8,
+        "server_stub": "LiteSpeed_404"
+      }
+    },
+    {
+      "detected_format": "html_404_error_stub",
+      "ext": ".html",
+      "raw_sha256": "ab2e416910840cc2aa0d980cc5f81fd8132ddc21aaf244eab9bd9e1996a8a073",
+      "rel_path": "css/fancybox/fancy_shadow_sw.html",
+      "size_bytes": 389,
+      "summary_metrics": {
+        "line_count": 8,
+        "server_stub": "LiteSpeed_404"
+      }
+    },
+    {
+      "detected_format": "html_404_error_stub",
+      "ext": ".html",
+      "raw_sha256": "ab2e416910840cc2aa0d980cc5f81fd8132ddc21aaf244eab9bd9e1996a8a073",
+      "rel_path": "css/fancybox/fancy_shadow_w.html",
+      "size_bytes": 389,
+      "summary_metrics": {
+        "line_count": 8,
+        "server_stub": "LiteSpeed_404"
+      }
+    },
+    {
+      "detected_format": "html_404_error_stub",
+      "ext": ".html",
+      "raw_sha256": "ab2e416910840cc2aa0d980cc5f81fd8132ddc21aaf244eab9bd9e1996a8a073",
+      "rel_path": "css/fancybox/fancy_title_left.html",
+      "size_bytes": 389,
+      "summary_metrics": {
+        "line_count": 8,
+        "server_stub": "LiteSpeed_404"
+      }
+    },
+    {
+      "detected_format": "html_404_error_stub",
+      "ext": ".html",
+      "raw_sha256": "ab2e416910840cc2aa0d980cc5f81fd8132ddc21aaf244eab9bd9e1996a8a073",
+      "rel_path": "css/fancybox/fancy_title_main.html",
+      "size_bytes": 389,
+      "summary_metrics": {
+        "line_count": 8,
+        "server_stub": "LiteSpeed_404"
+      }
+    },
+    {
+      "detected_format": "html_404_error_stub",
+      "ext": ".html",
+      "raw_sha256": "ab2e416910840cc2aa0d980cc5f81fd8132ddc21aaf244eab9bd9e1996a8a073",
+      "rel_path": "css/fancybox/fancy_title_over.html",
+      "size_bytes": 389,
+      "summary_metrics": {
+        "line_count": 8,
+        "server_stub": "LiteSpeed_404"
+      }
+    },
+    {
+      "detected_format": "html_404_error_stub",
+      "ext": ".html",
+      "raw_sha256": "ab2e416910840cc2aa0d980cc5f81fd8132ddc21aaf244eab9bd9e1996a8a073",
+      "rel_path": "css/fancybox/fancy_title_right.html",
+      "size_bytes": 389,
+      "summary_metrics": {
+        "line_count": 8,
+        "server_stub": "LiteSpeed_404"
+      }
+    },
+    {
+      "detected_format": "ms_office_owner_lock",
+      "ext": ".pptx",
+      "raw_sha256": "8562ed134d9c32e46dd55d2f19826354f54ba6f70487bf600a77672f4a17c8ca",
+      "rel_path": "img/gallery/~$Frame_Article.pptx",
+      "size_bytes": 165,
+      "summary_metrics": {
+        "byte_length": 165,
+        "lock_owner": "Ziyi Wang"
+      }
+    },
+    {
+      "detected_format": "html_404_error_stub",
+      "ext": ".html",
+      "raw_sha256": "ab2e416910840cc2aa0d980cc5f81fd8132ddc21aaf244eab9bd9e1996a8a073",
+      "rel_path": "img/glyphicons-halflings-white.html",
+      "size_bytes": 389,
+      "summary_metrics": {
+        "line_count": 8,
+        "server_stub": "LiteSpeed_404"
+      }
+    },
+    {
+      "detected_format": "html_404_error_stub",
+      "ext": ".html",
+      "raw_sha256": "ab2e416910840cc2aa0d980cc5f81fd8132ddc21aaf244eab9bd9e1996a8a073",
+      "rel_path": "img/glyphicons-halflings.html",
+      "size_bytes": 389,
+      "summary_metrics": {
+        "line_count": 8,
+        "server_stub": "LiteSpeed_404"
+      }
+    }
+  ],
+  "detected_format_counts": {
+    "font_otf": 1,
+    "font_ttf": 1,
+    "gif_image": 5,
+    "graphpad_prism_zip": 2,
+    "html_404_error_stub": 20,
+    "html_document": 85,
+    "html_truncated_fragment": 1,
+    "ico_icon": 2,
+    "jpeg_image": 31,
+    "json_document": 8,
+    "jsonl_ledger": 2,
+    "jupyter_html_notebook": 1,
+    "markdown_document": 112,
+    "ms_office_owner_lock": 1,
+    "ooxml_xlsx_spreadsheet": 1,
+    "plain_text": 5,
+    "png_image": 50,
+    "python_source": 7,
+    "source_.gitignore": 1,
+    "source_.regentignore": 1,
+    "source_cname": 1,
+    "source_css": 5,
+    "source_gemfile": 1,
+    "source_js": 39,
+    "source_license": 1,
+    "source_scss": 81,
+    "source_sh": 3,
+    "svg_vector_graphic": 22,
+    "xml_document": 1,
+    "yaml_config": 7
+  },
+  "excluded_entries": [
+    {
+      "inspection_status": "excluded",
+      "reason": "vcs_build_or_disposable_cache_dir",
+      "rel_path": ".git/"
+    },
+    {
+      "inspection_status": "excluded",
+      "reason": "vcs_build_or_disposable_cache_dir",
+      "rel_path": ".jekyll-cache/"
+    },
+    {
+      "inspection_status": "excluded",
+      "reason": "vcs_build_or_disposable_cache_dir",
+      "rel_path": "LLM-Wiki/.cache/"
+    },
+    {
+      "inspection_status": "excluded",
+      "reason": "self_referential_manifest_or_cache",
+      "rel_path": "LLM-Wiki/manifest/git_state.json"
+    },
+    {
+      "inspection_status": "excluded",
+      "reason": "self_referential_manifest_or_cache",
+      "rel_path": "LLM-Wiki/manifest/manifest.summary.json"
+    },
+    {
+      "inspection_status": "excluded",
+      "reason": "vcs_build_or_disposable_cache_dir",
+      "rel_path": "LLM-Wiki/scripts/__pycache__/"
+    }
+  ],
+  "extension_counts": {
+    ".css": 5,
+    ".gif": 5,
+    ".html": 107,
+    ".ico": 2,
+    ".jpeg": 3,
+    ".jpg": 28,
+    ".js": 39,
+    ".json": 8,
+    ".jsonl": 2,
+    ".lock": 1,
+    ".md": 112,
+    ".otf": 1,
+    ".png": 50,
+    ".pptx": 1,
+    ".prism": 2,
+    ".py": 7,
+    ".scss": 81,
+    ".sh": 3,
+    ".svg": 22,
+    ".ttf": 1,
+    ".txt": 1,
+    ".webmanifest": 2,
+    ".xlsx": 1,
+    ".xml": 1,
+    ".yaml": 1,
+    ".yml": 6,
+    "<no_ext>": 6
+  },
+  "git_branch_at_scan": "feat/llm-wiki-memory",
+  "git_dirty_vs_index_files": 0,
+  "git_head_commit_at_scan": "aa354a967374d4a8b3ff28940c396e07cd48d1bf",
+  "git_tracked_files": 497,
+  "inspection_status_counts": {
+    "excluded": 6,
+    "inspected_anomalous": 22,
+    "inspected_full": 383,
+    "inspected_metadata_only": 2,
+    "inspected_structured": 82,
+    "inspected_visual_and_metadata": 9,
+    "partial": 0,
+    "sampled": 0,
+    "unhashed": 0,
+    "unsupported": 0
+  },
+  "integrity_epistemology_note": "Full-file raw_sha256 hashes verify byte-level identity on disk; git_index_blob_oid (SHA-1) tracks Git staging blobs; git_head_commit_at_scan tracks committed history only. Indexing and hashing never equate to scientific validation or understanding.",
+  "manifest_jsonl_sha256": "db10e39ceea63622a2777ff989e45ca8ba63ce2e2ce79e218649cfc1351d811d",
+  "schema_version": "1.0.0",
+  "total_in_scope_bytes": 103933624,
+  "total_in_scope_files": 498
+}

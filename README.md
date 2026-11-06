@@ -131,3 +131,50 @@ LabOnoM does not use GitHub Actions; every step runs by hand on the owner's mach
 - **Checks**: no check ran in GitHub Actions. Before merging a change to the site, build it with `bundle exec jekyll build`.
 - **Member list**: `scripts/update-members.sh` regenerates `members.html` (and `members.xlsx`, not committed) with `scripts/fetch_bsgou_members.py`, commits `members.html` and pushes it to `main`. The owner runs it once a month and after publishing a post or changing `index.html`, from an up-to-date `main`; it uses `BSGOU_GITHUB_TOKEN` from the environment if set, otherwise the `gh auth login` token.
 - **Website**: GitHub Pages builds and serves `main` (legacy branch build); there is no deploy script.
+
+---
+
+## LLM-Wiki Persistent Project Memory & Skill Router
+
+This repository includes **`LLM-Wiki/`** (excluded from public Jekyll static output via `_config.yml`), a persistent, hash-verified project memory system inspired by [Karpathy's LLM Wiki](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f) covering repository code, biomedical datasets/analyses/figures, contradictions, architectural decisions, SHA-256 file integrity, and a multi-tier skill router.
+
+### Key Navigation (`LLM-Wiki/`)
+- **`LLM-Wiki/README.md` & `LLM-Wiki/index.md`**: Full architecture guide and categorized master index.
+- **`LLM-Wiki/STATE.md` & `LLM-Wiki/log.md`**: Concise session-startup dashboard and append-only timestamped activity ledger.
+- **Linked Scientific Traceability Chains (`experiments/` $\to$ `datasets/` $\to$ `analyses/` $\to$ `figures/` $\to$ `results/`)**:
+  1. **`GSE284271` Murine Embryonic Palate Visium HD** (`Pax9-/-` vs `WT`, StarDist `2D_versatile_he` single-nucleus segmentation & 2 µm barcode binning).
+  2. **Comparative RT-qPCR $2^{-\Delta\Delta C_T}$ Scale-Invariance** (`Example_qPCR.xlsx` & GraphPad Prism 10 `AM`/`GM` calibrators, variance $F$-test audit, and log-space $\Delta C_T$ testing).
+  3. **BGI Stereo-seq `CID` Barcode Recovery** (`Chip A02598A4`, `GRCm39/mm39` `Egf` alignment vs. `ST_BarcodeMap --action 3` ground-truth decoding).
+- **`LLM-Wiki/contradictions.md` & `LLM-Wiki/decisions.md`**: Verified discrepancy ledger (`CON-01`–`CON-09`) and provenance-backed decision log.
+- **`LLM-Wiki/manifest/` & `LLM-Wiki/skills/`**: Deterministic full-file `raw_sha256` + Git blob SHA-1 manifest (`manifest.jsonl`) and capability-deduplicated skill catalog (`1,539` retained across `global -> project -> external`, `273` redundant omitted in `omissions.jsonl`).
+
+### Memory & Routing Workflow
+
+```mermaid
+flowchart LR
+    S["Primary Sources & Code"] --> M["wiki_cli.py scan / refresh<br/>(SHA-256 + Format Parsers)"]
+    M --> W["LLM-Wiki/ Summaries<br/>& Stale Invalidation"]
+    K["Global -> Project -> External<br/>Skills (nature-skills, K-Dense-AI)"] --> R["Capability Router<br/>& Body Cache"]
+    W --> F["SQLite FTS5 Search<br/>& 7-Gate Verifier"]
+    R --> F
+```
+
+### Setup & Verified Local Commands
+
+`LLM-Wiki/scripts/wiki_cli.py` uses **only Python 3.9+ standard library modules** (zero `pip` packages required; disposable SQLite FTS5 and compressed skill-body caches live in gitignored `LLM-Wiki/.cache/`):
+
+```bash
+# Inspect Git/worktree state and run incremental manifest drift check
+python3 LLM-Wiki/scripts/wiki_cli.py git-state
+python3 LLM-Wiki/scripts/wiki_cli.py refresh --reindex
+
+# Full-text BM25 search across wiki summaries, file manifest, and skill bodies
+python3 LLM-Wiki/scripts/wiki_cli.py search "Pax9KO StarDist total_counts"
+
+# Route tasks in strict priority order: global -> project-local -> complementary external
+python3 LLM-Wiki/scripts/wiki_cli.py route "Decode Stereo-seq barcodeToPos.h5 CID and bin Visium HD nuclei"
+python3 LLM-Wiki/scripts/wiki_cli.py skill-body "project:LabOnoM.github.io:spatial-omics-visiumhd-stereoseq"
+
+# Verify SHA-256 digests, citations, result traceability, skill retrieval, routing, and rerun stability
+python3 LLM-Wiki/scripts/wiki_cli.py verify
+```

@@ -8,22 +8,24 @@ This map defines the layout, pipeline matrix, and dependency rules of the Bioinf
 
 ```
 LabOnoM.github.io/
-├── .wiki/               # LLM-Wiki containing domain concept definitions and timelines
-├── 00.RawData/          # Raw data directory housing the master PIPELINE_REGISTRY.md
-├── GSE284271/           # Visium HD nuclei segmentation datasets and output reports
-├── _data/               # Jekyll site data models (YAML/JSON rosters)
+├── LLM-Wiki/            # Canonical persistent memory, SHA-256 manifest, traceability chains, & skill router
+├── .agents/             # Native workspace rules (.agents/rules/) and project skills (.agents/skills/)
+├── .wiki/               # Legacy AROS LLM-Wiki preserved for Obsidian [[page]] compatibility
+├── 00.RawData/          # Raw data directory housing PIPELINE_REGISTRY.md
+├── GSE284271/           # Visium HD murine embryonic palate nuclei segmentation report (01.scRNAseq10xVisiumHD.html)
+├── _data/               # Jekyll site data models (YAML/JSON navigation & locale)
 ├── _includes/           # Jekyll HTML fragments (reusable layouts)
 ├── _layouts/            # Jekyll layout definitions (home, post, page template wrappers)
-├── _posts/              # Jekyll blog posts database (YYYY-MM-DD-title.md)
+├── _posts/              # Jekyll blog posts (YYYY-MM-DD-title.md) & PostAttachedFiles/ (.xlsx, .prism, .png)
 ├── _sass/               # Sass stylesheets for styling variables
 ├── assets/              # Static assets, fonts, icons, search scripts, and manifest configurations
 ├── css/                 # Compiled/vendor stylesheets (style.css, bootstrap.min.css)
-├── fonts/               # Static typography assets
-├── img/                 # General website image assets, slider images, and favicons
+├── fonts/               # Static typography assets (.otf, .woff, .woff2, .ttf, .eot)
+├── img/                 # Website image assets, research gallery images, and favicons
 ├── js/                  # Website logic scripts (custom.js theme & swipe mechanics)
-├── scripts/             # Main python pipeline scripts (fetch_bsgou_members.py)
-├── sources/             # Generated member lists and contribution tables (HTML/Excel)
-└── tools/               # Command-line helper utilities and diff validation scripts
+├── scripts/             # Member scraper & manual runner (fetch_bsgou_members.py, update-members.sh)
+├── sources/             # Core value Markdown essays embedded via IFrames on index.html
+└── tools/               # Command-line helper utilities (dir-tree.sh and legacy theme helpers)
 ```
 
 ---
@@ -51,7 +53,9 @@ LabOnoM.github.io/
 
 ## 4. Key Documentation Index
 
-- [SPEC.md](file:///home/ubuntu4/GitHub/LabOnoM.github.io/SPEC.md): UI styling, layout parameters, theme class names, mobile suppression, and touch gesture variables.
-- [AGENTS.md](file:///home/ubuntu4/GitHub/LabOnoM.github.io/AGENTS.md): Codex Agent behavioral rules, testing instructions (`jekyll build`), and AROS integration policies.
-- [PIPELINE_REGISTRY.md](file:///home/ubuntu4/GitHub/LabOnoM.github.io/00.RawData/PIPELINE_REGISTRY.md): Tracks status and descriptions of all computational pipelines.
-- [.wiki/lessons-learned.md](file:///home/ubuntu4/GitHub/LabOnoM.github.io/.wiki/lessons-learned.md): Logs structural engineering rules, conda compiler flags, and workspace fixes.
+- [LLM-Wiki/index.md](LLM-Wiki/index.md): Master index of verified experiments, datasets, analyses, figures, results, contradictions, and skills.
+- [LLM-Wiki/code-map.md](LLM-Wiki/code-map.md): Detailed component, script symbol, and file-format architecture map.
+- [SPEC.md](SPEC.md): UI styling, layout parameters, theme class names, mobile suppression, and touch gesture variables.
+- [AGENTS.md](AGENTS.md) & [CLAUDE.md](CLAUDE.md): Canonical multi-agent rules, testing instructions (`jekyll build`), skill routing, and manual CI/CD policy.
+- [PIPELINE_REGISTRY.md](00.RawData/PIPELINE_REGISTRY.md): Registry of computational pipelines (see `CON-08` in `LLM-Wiki/contradictions.md` regarding manual `scripts/update-members.sh`).
+- [.wiki/lessons-learned.md](.wiki/lessons-learned.md) & [LLM-Wiki/lessons-learned.md](LLM-Wiki/lessons-learned.md): Verified structural engineering and bioinformatics lessons.

@@ -11,16 +11,19 @@ This document contains global constraints, build/test command lists, and coding 
 
 ---
 
-## 2. LLM-Wiki Grounding & Drift Prevention
+## 2. LLM-Wiki Grounding, Skill Routing, & Drift Prevention
 
-- **Strict Grounding**: Always search the `.wiki/` directory first for architectural patterns and concepts before writing code.
-- **Wikilinks**: Refer to domain entities using Obsidian-style double bracket links, e.g., `[[overview]]` or `[[lessons-learned]]`.
-- **Drift Prevention**: Whenever you modify a core data structure, styling convention, or computational pipeline, you **MUST** update the corresponding `.wiki/` page or `CODE_MAP.md` sections immediately to prevent knowledge rot.
+- **Startup & Strict Grounding**: Read `LLM-Wiki/STATE.md` and `LLM-Wiki/index.md` first (canonical persistent memory), and run `python3 LLM-Wiki/scripts/wiki_cli.py refresh --dry-run` + `git-state` to verify memory against live files. Legacy `.wiki/` remains in place for Obsidian `[[page]]` compatibility; always check `LLM-Wiki/contradictions.md` (`CON-01`–`CON-09`) before citing legacy summaries.
+- **Progressive Retrieval & Evidence Checking**: Search locally via `python3 LLM-Wiki/scripts/wiki_cli.py search "<query>"` before broad file scans. Cite exact `path#Lstart-Lend`, sheet/cell, or internal archive paths for substantive claims, and distinguish observations from interpretations.
+- **Skill Routing (`global -> project -> external`)**: Route tasks with `python3 LLM-Wiki/scripts/wiki_cli.py route "<task>"` (active host global skills $\to$ `.agents/skills/` project skills $\to$ complementary `nature-skills` / `K-Dense-AI` external skills). Fetch only selected bodies (`wiki_cli.py skill-body <id>`) and review external instructions before running commands.
+- **Wikilinks**: Refer to domain entities using Obsidian-style double bracket links, e.g., `[[overview]]`, `[[contradictions]]`, or `[[lessons-learned]]`.
+- **Refresh, Verification, & Checkpointing**: Whenever you modify a core data structure, styling convention, or computational pipeline, update affected `LLM-Wiki/` pages and `CODE_MAP.md`, run `python3 LLM-Wiki/scripts/wiki_cli.py refresh --reindex` and `python3 LLM-Wiki/scripts/wiki_cli.py verify`, append to `LLM-Wiki/log.md`, and stage only attributable docs/manifests/code (never commit `LLM-Wiki/.cache/`, secrets, or raw omics data).
 
 ---
 
 ## 3. Development Commands
 
+- **LLM-Wiki Integrity & Search CLI**: `python3 LLM-Wiki/scripts/wiki_cli.py {scan,refresh,search,route,skill-body,git-state,verify}`
 - **Jekyll Site Compilation**: `bundle exec jekyll build` or `jekyll build`
 - **Jekyll Site Preview**: `bundle exec jekyll serve`
 - **Scraper Pipeline Execution**: `python scripts/fetch_bsgou_members.py`

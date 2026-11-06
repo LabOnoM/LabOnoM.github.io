@@ -1,0 +1,75 @@
+{
+  "backup_arrangements": "unknown (local Git and SHA-256 hashes do not back up untracked external raw data such as 240726_VisiumHD/*.tif/*.h5 or Stereo-seq *.barcodeToPos.h5/*.fq.gz)",
+  "base_branch": "main",
+  "base_commit": "b5eedef631ca7b102cccf9a32896468ded9b3501",
+  "current_branch": "feat/llm-wiki-memory",
+  "head_commit": "aa354a967374d4a8b3ff28940c396e07cd48d1bf",
+  "is_dirty": true,
+  "nested_repositories": [],
+  "pending_branch_integration": true,
+  "pending_worktree_staging_files": [],
+  "refs": [
+    {
+      "commit": "aa354a967374d4a8b3ff28940c396e07cd48d1bf",
+      "ref": "feat/llm-wiki-memory"
+    },
+    {
+      "commit": "b5eedef631ca7b102cccf9a32896468ded9b3501",
+      "ref": "main"
+    },
+    {
+      "commit": "b5eedef631ca7b102cccf9a32896468ded9b3501",
+      "ref": "origin"
+    },
+    {
+      "commit": "9f98eadb4f8eadec57fb285a782b1bdc1f8a79a4",
+      "ref": "origin/codex/fix-.badge-bar-responsive-layout"
+    },
+    {
+      "commit": "c611fbedd564a822ef8230d6125c5bd59ee5079a",
+      "ref": "origin/codex/update-fetch_bsgou_members.py-for-forked-repos"
+    },
+    {
+      "commit": "b5eedef631ca7b102cccf9a32896468ded9b3501",
+      "ref": "origin/main"
+    }
+  ],
+  "remotes": {
+    "origin": "https://github.com/LabOnoM/LabOnoM.github.io.git"
+  },
+  "repository_root": "/Users/mac/Documents/GitHub/LabOnoM.github.io",
+  "staged_count": 12,
+  "staged_paths": [
+    ".agents/rules/llm-wiki-governance.md",
+    ".agents/skills/bsgou-jekyll-site-ops/SKILL.md",
+    ".agents/skills/bsgou-member-scoring/SKILL.md",
+    ".agents/skills/llm-wiki-ops/SKILL.md",
+    ".agents/skills/spatial-omics-visiumhd-stereoseq/SKILL.md",
+    ".wiki/index.md",
+    "AGENTS.md",
+    "CLAUDE.md",
+    "CODE_MAP.md",
+    "LLM-Wiki/STATE.md",
+    "LLM-Wiki/log.md",
+    "README.md"
+  ],
+  "uncommitted_evidence_warning": "A Git commit SHA identifies only committed tree snapshots; dirty or untracked files MUST be identified by their raw_sha256 in LLM-Wiki/manifest/manifest.jsonl.",
+  "unstaged_count": 0,
+  "unstaged_paths": [],
+  "untracked_count": 5,
+  "untracked_paths": [
+    "LLM-Wiki/manifest/git_state.json",
+    "LLM-Wiki/manifest/manifest.jsonl",
+    "LLM-Wiki/manifest/manifest.summary.json",
+    "LLM-Wiki/manifest/manifest_history.jsonl",
+    "LLM-Wiki/manifest/stale_summaries.json"
+  ],
+  "worktree_count": 1,
+  "worktrees": [
+    {
+      "HEAD": "aa354a967374d4a8b3ff28940c396e07cd48d1bf",
+      "branch": "refs/heads/feat/llm-wiki-memory",
+      "worktree": "/Users/mac/Documents/GitHub/LabOnoM.github.io"
+    }
+  ]
+}

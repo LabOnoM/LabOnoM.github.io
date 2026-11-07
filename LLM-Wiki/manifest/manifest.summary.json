@@ -354,7 +354,7 @@
   },
   "git_branch_at_scan": "feat/llm-wiki-memory",
   "git_dirty_vs_index_files": 0,
-  "git_head_commit_at_scan": "7306d1b96029a5000bd34c734012a1fa3e2cdfbd",
+  "git_head_commit_at_scan": "844e46b5109710a1770e43f7004e1691f3bad0d1",
   "git_tracked_files": 500,
   "inspection_status_counts": {
     "excluded": 9,

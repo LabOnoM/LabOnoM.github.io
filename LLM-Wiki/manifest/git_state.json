@@ -3,14 +3,14 @@
   "base_branch": "main",
   "base_commit": "b5eedef631ca7b102cccf9a32896468ded9b3501",
   "current_branch": "feat/llm-wiki-memory",
-  "head_commit": "7306d1b96029a5000bd34c734012a1fa3e2cdfbd",
+  "head_commit": "844e46b5109710a1770e43f7004e1691f3bad0d1",
   "is_dirty": true,
   "nested_repositories": [],
   "pending_branch_integration": true,
   "pending_worktree_staging_files": [],
   "refs": [
     {
-      "commit": "7306d1b96029a5000bd34c734012a1fa3e2cdfbd",
+      "commit": "844e46b5109710a1770e43f7004e1691f3bad0d1",
       "ref": "feat/llm-wiki-memory"
     },
     {
@@ -38,30 +38,20 @@
     "origin": "https://github.com/LabOnoM/LabOnoM.github.io.git"
   },
   "repository_root": "/Users/mac/Documents/GitHub/LabOnoM.github.io",
-  "staged_count": 12,
-  "staged_paths": [
-    "LLM-Wiki/STATE.md",
-    "LLM-Wiki/analyses/ana-beyond-the-silicon-mirage.md",
-    "LLM-Wiki/index.md",
-    "LLM-Wiki/log.md",
-    "LLM-Wiki/manifest/OVERVIEW.md",
-    "LLM-Wiki/manifest/git_state.json",
-    "LLM-Wiki/manifest/manifest.jsonl",
-    "LLM-Wiki/manifest/manifest.summary.json",
-    "LLM-Wiki/manifest/manifest_history.jsonl",
-    "LLM-Wiki/scripts/inspectors.py",
-    "_posts/2026-11-07-beyond-the-silicon-mirage.md",
-    "img/Post/2026/beyond-the-silicon-mirage-cover.png"
-  ],
+  "staged_count": 0,
+  "staged_paths": [],
   "uncommitted_evidence_warning": "A Git commit SHA identifies only committed tree snapshots; dirty or untracked files MUST be identified by their raw_sha256 in LLM-Wiki/manifest/manifest.jsonl.",
-  "unstaged_count": 0,
-  "unstaged_paths": [],
+  "unstaged_count": 2,
+  "unstaged_paths": [
+    "LLM-Wiki/manifest/git_state.json",
+    "LLM-Wiki/manifest/manifest.summary.json"
+  ],
   "untracked_count": 0,
   "untracked_paths": [],
   "worktree_count": 1,
   "worktrees": [
     {
-      "HEAD": "7306d1b96029a5000bd34c734012a1fa3e2cdfbd",
+      "HEAD": "844e46b5109710a1770e43f7004e1691f3bad0d1",
       "branch": "refs/heads/feat/llm-wiki-memory",
       "worktree": "/Users/mac/Documents/GitHub/LabOnoM.github.io"
     }

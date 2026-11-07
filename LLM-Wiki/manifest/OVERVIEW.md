@@ -2,7 +2,7 @@
 id: manifest-overview
 type: governance
 status: verified
-updated_at: 2026-11-06
+updated_at: 2026-11-07
 source_refs:
   - LLM-Wiki/scripts/inspectors.py
   - LLM-Wiki/scripts/manifest_ops.py
@@ -24,7 +24,7 @@ Machine-readable ledgers reside alongside this guide:
 ## 1. Explicit Inspection Status Taxonomy
 Every workspace path is classified into an explicit status—never silently skipped:
 - `inspected_full`: UTF-8 source code (`.py`, `.js`, `.sh`, `.rb`, `.scss`, `.css`), Markdown (`.md`), configs (`.yml`, `.json`, `.jsonl`, `.xml`, `.svg`), HTML pages, and executed Jupyter HTML notebooks (`GSE284271/01.scRNAseq10xVisiumHD.html`) parsed in full.
-- `inspected_visual_and_metadata`: Key scientific figures and screenshots (`9` files, including `IGV_BAM_Screenshot.png`, `Identical_Statistical_Results_qPCR.png`, `Identical_qPCR_Results.png`, `NatureLifeCycleVsLabLifeCycle.png`, `Zebrafish-evolution-and-range.png`, `Software_brief.jpeg`, `Ono_2025.jpg`) both header-parsed and visually examined.
+- `inspected_visual_and_metadata`: Key scientific figures and screenshots (`10` files, including `IGV_BAM_Screenshot.png`, `Identical_Statistical_Results_qPCR.png`, `Identical_qPCR_Results.png`, `NatureLifeCycleVsLabLifeCycle.png`, `Zebrafish-evolution-and-range.png`, `Software_brief.jpeg`, `Ono_2025.jpg`, `beyond-the-silicon-mirage-cover.png`) both header-parsed and visually examined.
 - `inspected_structured`: Binary containers and media whose internal XML/JSON/CSV tables or raster dimensions/frames were parsed (`Example_qPCR.xlsx`, `AM_Calibrator_2DDCt.prism`, `GM_Calibrator_2DDCt.prism`, `Frame_Article.gif`, gallery `.jpg`/`.png`/`.ico` assets).
 - `inspected_metadata_only`: Binary font glyph outlines (`.otf`, `.woff`, `.woff2`, `.ttf`, `.eot`) and binary instrument/archive headers (`.RAW`, `.h5`, `.bam`, `.parquet` when present) verified via magic header and full-file SHA-256 without prose extraction.
 - `inspected_anomalous`: **`22` workspace files** whose actual byte payload contradicts their file extension (`format_mismatch: true`):

@@ -34,6 +34,7 @@ VISUALLY_INSPECTED_IMAGES = frozenset(
         "_posts/PostAttachedFiles/Zebrafish-evolution-and-range.png",
         "img/Software_brief.jpeg",
         "img/gallery/Ono_2025.jpg",
+        "img/Post/2026/beyond-the-silicon-mirage-cover.png",
     }
 )
 

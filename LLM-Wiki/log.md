@@ -2,7 +2,7 @@
 id: log
 type: governance
 status: append_only
-updated_at: 2026-11-06
+updated_at: 2026-11-07
 source_refs:
   - LLM-Wiki/SCHEMA.md
   - LLM-Wiki/STATE.md
@@ -36,3 +36,11 @@ Chronological, append-only record of inspections, builds, refreshes, validations
 - **Evidence**: `LLM-Wiki/manifest/{manifest.jsonl,manifest.summary.json,git_state.json}`, `.agents/`, `AGENTS.md`, `CLAUDE.md`, `README.md`.
 - **Validation**: `wiki_cli.py verify` passed `7/7` gates (`498` SHA-256 + Git blob OIDs matched, `124` `source_refs` + `65` Markdown links + `102` wikilinks verified, `3/3` result traceability chains complete, `4/4` tier skill-body SHA-256 probes matched, `global -> project -> external` routing verified, rerun `zero_diff: true`); sandbox incremental `refresh` test passed (`added`/`modified`/`deleted`, `2` superseded history entries, `10` invalidated summaries); isolated `bundle exec jekyll build` (`Ruby 3.2.2` / `Jekyll 4.2.2`) succeeded in `1.60 s` with `/README.html` verified and `/LLM-Wiki` + `/.agents` excluded.
 - **Next Actions**: Keep `feat/llm-wiki-memory` isolated until owner reviews `LLM-Wiki/contradictions.md` (`CON-01`–`CON-09`) and `LLM-Wiki/open-questions.md` (`OQ-01`–`OQ-06`) and merges locally into `main`.
+
+
+## [2026-11-07T22:15:00+09:00] blog-post | Created *Beyond the Silicon Mirage* Blog Post & Cover Asset (`www.bs-gou.com/blog/`)
+- **What Changed**: Added `_posts/2026-11-07-beyond-the-silicon-mirage.md` (`202` lines, `47,513` bytes) and `img/Post/2026/beyond-the-silicon-mirage-cover.png` (`2500x1000` 5:2 PNG, `2,110,955` bytes) adapted from `/Users/mac/Documents/VideoDownload/videos/BV1vrxj6zEdw_算力足够的话，生物学还要做实验吗/research_report.md`; added `LLM-Wiki/analyses/ana-beyond-the-silicon-mirage.md`, linked in `LLM-Wiki/index.md`, and refreshed `LLM-Wiki/manifest/` (`501` in-scope files).
+- **Why**: Author requested publishing a new blog post on `https://www.bs-gou.com/blog/` (`CNAME: www.bs-gou.com`) from `research_report.md`.
+- **Evidence**: `_posts/2026-11-07-beyond-the-silicon-mirage.md`, `img/Post/2026/beyond-the-silicon-mirage-cover.png`, `LLM-Wiki/analyses/ana-beyond-the-silicon-mirage.md`.
+- **Validation**: Wrapped 6 USD currency figures (`$49,997`, `$200,000`, `$50,000`) in `<span class="tex2jax_ignore">...</span>` so Kramdown + MathJax 2.7 `tex2jax` never misparse paired USD amounts in the same paragraph while preserving all `29` biophysical inline LaTeX spans, the `8`-row Markdown table, `<!--more-->` excerpt break, and `15` ordered references; verified `bundle exec jekyll build` (`0` errors, `/blog/index.html` and `/2026/11/07/beyond-the-silicon-mirage.html` generated cleanly) and `wiki_cli.py verify` (`7/7` PASS).
+- **Next Actions**: Owner can merge into `main` and push to `origin/main` to deploy live on `https://www.bs-gou.com/blog/`.

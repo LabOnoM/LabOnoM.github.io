@@ -1,20 +1,20 @@
 {
   "backup_arrangements": "unknown (local Git and SHA-256 hashes do not back up untracked external raw data such as 240726_VisiumHD/*.tif/*.h5 or Stereo-seq *.barcodeToPos.h5/*.fq.gz)",
   "base_branch": "main",
-  "base_commit": "b5eedef631ca7b102cccf9a32896468ded9b3501",
-  "current_branch": "feat/llm-wiki-memory",
-  "head_commit": "844e46b5109710a1770e43f7004e1691f3bad0d1",
+  "base_commit": "81d9b8531e71dee8faf1a330a819f7cb0d33735f",
+  "current_branch": "main",
+  "head_commit": "81d9b8531e71dee8faf1a330a819f7cb0d33735f",
   "is_dirty": true,
   "nested_repositories": [],
-  "pending_branch_integration": true,
+  "pending_branch_integration": false,
   "pending_worktree_staging_files": [],
   "refs": [
     {
-      "commit": "844e46b5109710a1770e43f7004e1691f3bad0d1",
+      "commit": "81d9b8531e71dee8faf1a330a819f7cb0d33735f",
       "ref": "feat/llm-wiki-memory"
     },
     {
-      "commit": "b5eedef631ca7b102cccf9a32896468ded9b3501",
+      "commit": "81d9b8531e71dee8faf1a330a819f7cb0d33735f",
       "ref": "main"
     },
     {
@@ -38,21 +38,20 @@
     "origin": "https://github.com/LabOnoM/LabOnoM.github.io.git"
   },
   "repository_root": "/Users/mac/Documents/GitHub/LabOnoM.github.io",
-  "staged_count": 0,
-  "staged_paths": [],
-  "uncommitted_evidence_warning": "A Git commit SHA identifies only committed tree snapshots; dirty or untracked files MUST be identified by their raw_sha256 in LLM-Wiki/manifest/manifest.jsonl.",
-  "unstaged_count": 2,
-  "unstaged_paths": [
-    "LLM-Wiki/manifest/git_state.json",
-    "LLM-Wiki/manifest/manifest.summary.json"
+  "staged_count": 1,
+  "staged_paths": [
+    "LLM-Wiki/STATE.md"
   ],
+  "uncommitted_evidence_warning": "A Git commit SHA identifies only committed tree snapshots; dirty or untracked files MUST be identified by their raw_sha256 in LLM-Wiki/manifest/manifest.jsonl.",
+  "unstaged_count": 0,
+  "unstaged_paths": [],
   "untracked_count": 0,
   "untracked_paths": [],
   "worktree_count": 1,
   "worktrees": [
     {
-      "HEAD": "844e46b5109710a1770e43f7004e1691f3bad0d1",
-      "branch": "refs/heads/feat/llm-wiki-memory",
+      "HEAD": "81d9b8531e71dee8faf1a330a819f7cb0d33735f",
+      "branch": "refs/heads/main",
       "worktree": "/Users/mac/Documents/GitHub/LabOnoM.github.io"
     }
   ]

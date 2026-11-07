@@ -352,9 +352,9 @@
     ".yml": 6,
     "<no_ext>": 6
   },
-  "git_branch_at_scan": "feat/llm-wiki-memory",
+  "git_branch_at_scan": "main",
   "git_dirty_vs_index_files": 0,
-  "git_head_commit_at_scan": "844e46b5109710a1770e43f7004e1691f3bad0d1",
+  "git_head_commit_at_scan": "81d9b8531e71dee8faf1a330a819f7cb0d33735f",
   "git_tracked_files": 500,
   "inspection_status_counts": {
     "excluded": 9,
@@ -369,8 +369,8 @@
     "unsupported": 0
   },
   "integrity_epistemology_note": "Full-file raw_sha256 hashes verify byte-level identity on disk; git_index_blob_oid (SHA-1) tracks Git staging blobs; git_head_commit_at_scan tracks committed history only. Indexing and hashing never equate to scientific validation or understanding.",
-  "manifest_jsonl_sha256": "fd21e62e8d3ad1d696f493b093889f04fd97700b1ec90a8fce053a46c6e95fd8",
+  "manifest_jsonl_sha256": "59a78ebedc54fda32b31d17fa7a55dc7e38685a1fa7d5d599bfa080c3bf179a0",
   "schema_version": "1.0.0",
-  "total_in_scope_bytes": 106097623,
+  "total_in_scope_bytes": 106097482,
   "total_in_scope_files": 501
 }

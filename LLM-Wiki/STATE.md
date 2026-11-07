@@ -19,8 +19,8 @@ tags:
 
 ## 1. Repository & Branch Snapshot (`2026-11-07`)
 - **Workspace Root**: `/Users/mac/Documents/GitHub/LabOnoM.github.io` (`1` worktree, `0` nested `.git` repositories).
-- **Base Commit (`main` & `origin/main`)**: `b5eedef631ca7b102cccf9a32896468ded9b3501` (`2026-10-13`, manual CI / no GitHub Actions).
-- **Active Isolation Branch**: `feat/llm-wiki-memory` (branched from `main` @ `b5eedef631ca7b102cccf9a32896468ded9b3501`; includes `LLM-Wiki/` memory system + new blog post `_posts/2026-11-07-beyond-the-silicon-mirage.md`; **pending owner review, local merge into `main`, and manual `git push` to publish live on `https://www.bs-gou.com/blog/`**; `0` external worktree staging drafts).
+- **Prior Baseline (`main` before merge)**: `b5eedef631ca7b102cccf9a32896468ded9b3501` (`2026-10-13`, manual CI / no GitHub Actions).
+- **Active Branch**: `main` (fast-forward merged from `feat/llm-wiki-memory` with owner authorization on `2026-11-07`, publishing `LLM-Wiki/` memory system + `_posts/2026-11-07-beyond-the-silicon-mirage.md` to `https://www.bs-gou.com/blog/`; `0` external worktree staging drafts).
 - **Website Compilation Check**: Verified clean (`0` errors) via isolated `Ruby 3.2.2` + `Jekyll 4.2.2` (`bundle exec jekyll build` in ~1.4 s), including `/blog/index.html` and `/2026/11/07/beyond-the-silicon-mirage.html`.
 
 ## 2. File Integrity & Knowledge Coverage
@@ -33,4 +33,4 @@ tags:
 - **Untracked Raw Data Backup**: External storage/backup arrangements for untracked multi-GB datasets (`./240726_VisiumHD/*.tif/*.h5` and `A02598A4.*` / `*.fq.gz`) are **unknown** (`OQ-01`). Local Git and `manifest.jsonl` hashes verify integrity but do not back up untracked external data.
 - **Next Recommended Actions for Owner**:
   1. Review [[contradictions]] (`CON-01`–`CON-09`) and [[open-questions]] (`OQ-01`–`OQ-06`), particularly the `0.5/0.5` vs `0.3/0.7` contribution score formula (`CON-05`) and `qPCR` variance $F$-test prose (`CON-04`).
-  2. When ready to publish `LLM-Wiki` to `main`, run `bundle exec jekyll build` and `python3 LLM-Wiki/scripts/wiki_cli.py verify`, then fast-forward merge `feat/llm-wiki-memory` into `main` locally.
+  2. Optionally run `./scripts/update-members.sh` from `main` to refresh `members.html` after publishing the new blog post (per `README.md` "Checks and deploys").

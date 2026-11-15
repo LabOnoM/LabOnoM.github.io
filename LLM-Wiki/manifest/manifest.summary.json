@@ -353,8 +353,8 @@
     "<no_ext>": 6
   },
   "git_branch_at_scan": "main",
-  "git_dirty_vs_index_files": 2,
-  "git_head_commit_at_scan": "1cbc0bb16073805ef988d4a30f3530181178b232",
+  "git_dirty_vs_index_files": 0,
+  "git_head_commit_at_scan": "eaba3ef1c57fd87bffce61d930bb0464cc9d3e90",
   "git_tracked_files": 503,
   "inspection_status_counts": {
     "excluded": 9,
@@ -369,7 +369,7 @@
     "unsupported": 0
   },
   "integrity_epistemology_note": "Full-file raw_sha256 hashes verify byte-level identity on disk; git_index_blob_oid (SHA-1) tracks Git staging blobs; git_head_commit_at_scan tracks committed history only. Indexing and hashing never equate to scientific validation or understanding.",
-  "manifest_jsonl_sha256": "5f0949f8da354b220800837faae718e77d4e4d3d9e3f06ef7911353e88ab3004",
+  "manifest_jsonl_sha256": "4657198ca525add440075dfa9e27c59f9b877af6211a17fa15858c249317a928",
   "schema_version": "1.0.0",
   "total_in_scope_bytes": 107962950,
   "total_in_scope_files": 504

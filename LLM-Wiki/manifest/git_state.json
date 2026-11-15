@@ -1,10 +1,10 @@
 {
   "backup_arrangements": "unknown (local Git and SHA-256 hashes do not back up untracked external raw data such as 240726_VisiumHD/*.tif/*.h5 or Stereo-seq *.barcodeToPos.h5/*.fq.gz)",
   "base_branch": "main",
-  "base_commit": "1cbc0bb16073805ef988d4a30f3530181178b232",
+  "base_commit": "eaba3ef1c57fd87bffce61d930bb0464cc9d3e90",
   "current_branch": "main",
-  "head_commit": "1cbc0bb16073805ef988d4a30f3530181178b232",
-  "is_dirty": true,
+  "head_commit": "eaba3ef1c57fd87bffce61d930bb0464cc9d3e90",
+  "is_dirty": false,
   "nested_repositories": [],
   "pending_branch_integration": false,
   "pending_worktree_staging_files": [],
@@ -18,7 +18,7 @@
       "ref": "feat/llm-wiki-memory"
     },
     {
-      "commit": "1cbc0bb16073805ef988d4a30f3530181178b232",
+      "commit": "eaba3ef1c57fd87bffce61d930bb0464cc9d3e90",
       "ref": "main"
     },
     {
@@ -45,17 +45,14 @@
   "staged_count": 0,
   "staged_paths": [],
   "uncommitted_evidence_warning": "A Git commit SHA identifies only committed tree snapshots; dirty or untracked files MUST be identified by their raw_sha256 in LLM-Wiki/manifest/manifest.jsonl.",
-  "unstaged_count": 2,
-  "unstaged_paths": [
-    "LLM-Wiki/STATE.md",
-    "LLM-Wiki/log.md"
-  ],
+  "unstaged_count": 0,
+  "unstaged_paths": [],
   "untracked_count": 0,
   "untracked_paths": [],
   "worktree_count": 1,
   "worktrees": [
     {
-      "HEAD": "1cbc0bb16073805ef988d4a30f3530181178b232",
+      "HEAD": "eaba3ef1c57fd87bffce61d930bb0464cc9d3e90",
       "branch": "refs/heads/main",
       "worktree": "/Users/mac/Documents/GitHub/LabOnoM.github.io"
     }

@@ -3,14 +3,14 @@
   "base_branch": "main",
   "base_commit": "ad119b53383a27d73a07be277550cd22170d0a75",
   "current_branch": "feat/blog-math-ai-era",
-  "head_commit": "ad119b53383a27d73a07be277550cd22170d0a75",
-  "is_dirty": true,
+  "head_commit": "52797a15d917763b93038aa8e8c1facfde12f2d2",
+  "is_dirty": false,
   "nested_repositories": [],
   "pending_branch_integration": true,
   "pending_worktree_staging_files": [],
   "refs": [
     {
-      "commit": "ad119b53383a27d73a07be277550cd22170d0a75",
+      "commit": "52797a15d917763b93038aa8e8c1facfde12f2d2",
       "ref": "feat/blog-math-ai-era"
     },
     {
@@ -42,22 +42,8 @@
     "origin": "https://github.com/LabOnoM/LabOnoM.github.io.git"
   },
   "repository_root": "/Users/mac/Documents/GitHub/LabOnoM.github.io",
-  "staged_count": 13,
-  "staged_paths": [
-    "LLM-Wiki/README.md",
-    "LLM-Wiki/STATE.md",
-    "LLM-Wiki/analyses/ana-after-proof-scarcity.md",
-    "LLM-Wiki/index.md",
-    "LLM-Wiki/log.md",
-    "LLM-Wiki/manifest/OVERVIEW.md",
-    "LLM-Wiki/manifest/git_state.json",
-    "LLM-Wiki/manifest/manifest.jsonl",
-    "LLM-Wiki/manifest/manifest.summary.json",
-    "LLM-Wiki/manifest/manifest_history.jsonl",
-    "LLM-Wiki/scripts/inspectors.py",
-    "_posts/2026-11-15-after-proof-scarcity.md",
-    "img/Post/2026/after-proof-scarcity-cover.png"
-  ],
+  "staged_count": 0,
+  "staged_paths": [],
   "uncommitted_evidence_warning": "A Git commit SHA identifies only committed tree snapshots; dirty or untracked files MUST be identified by their raw_sha256 in LLM-Wiki/manifest/manifest.jsonl.",
   "unstaged_count": 0,
   "unstaged_paths": [],
@@ -66,7 +52,7 @@
   "worktree_count": 1,
   "worktrees": [
     {
-      "HEAD": "ad119b53383a27d73a07be277550cd22170d0a75",
+      "HEAD": "52797a15d917763b93038aa8e8c1facfde12f2d2",
       "branch": "refs/heads/feat/blog-math-ai-era",
       "worktree": "/Users/mac/Documents/GitHub/LabOnoM.github.io"
     }

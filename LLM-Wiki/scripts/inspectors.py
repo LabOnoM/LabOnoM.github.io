@@ -35,6 +35,7 @@ VISUALLY_INSPECTED_IMAGES = frozenset(
         "img/Software_brief.jpeg",
         "img/gallery/Ono_2025.jpg",
         "img/Post/2026/beyond-the-silicon-mirage-cover.png",
+        "img/Post/2026/after-proof-scarcity-cover.png",
     }
 )
 

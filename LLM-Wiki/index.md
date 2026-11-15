@@ -2,7 +2,7 @@
 id: index
 type: governance
 status: canonical
-updated_at: 2026-11-07
+updated_at: 2026-11-15
 source_refs:
   - LLM-Wiki/SCHEMA.md
   - LLM-Wiki/STATE.md
@@ -54,6 +54,7 @@ Canonical entry catalog for the BSGOU / LabOnoM persistent project memory system
 - [ana-bsgou-contribution-score](analyses/ana-bsgou-contribution-score.md) — GitHub API contribution scraper and `0.5/0.5` vs `0.3/0.7` Linear+Poisson formula audit.
 - [ana-elephant-in-the-algorithm](analyses/ana-elephant-in-the-algorithm.md) — Single-cell `UMAP`/`t-SNE` distortion (Chari & Pachter 2023) and preclinical replication benchmarks.
 - [ana-beyond-the-silicon-mirage](analyses/ana-beyond-the-silicon-mirage.md) — Epistemic & biophysical limits of compute-only biology (`64 h` GPU vs `60 d` SPR latency, `49%` ranking score, IDPs, cavity hydration, and DBTL bottlenecks).
+- [ana-after-proof-scarcity](analyses/ana-after-proof-scarcity.md) — Post-scarcity mathematical synthesis (`Math 1.0` -> `Math 2.0`, `722`/`719` Oct 2026 preprints, `Palomar` alignment, `PNAS` `63%` -> `88%` novelty) and quantitative biology rigor (`UMAP`, `$2^{-\Delta\Delta C_T}$`, identifiability).
 - [fig-zebrafish-and-software-panels](figures/fig-zebrafish-and-software-panels.md) — Visually verified zebrafish lifecycle, biogeography/phylogeny, BSGOU software schematic, and `Ono_2025.jpg` gallery figure.
 
 ## 3. Governance, Integrity Manifest, & Skills Router

@@ -2,7 +2,7 @@
 id: llm-wiki-readme
 type: overview
 status: canonical
-updated_at: 2026-11-06
+updated_at: 2026-11-15
 source_refs:
   - LLM-Wiki/index.md
   - LLM-Wiki/SCHEMA.md

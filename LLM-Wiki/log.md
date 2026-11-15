@@ -51,3 +51,10 @@ Chronological, append-only record of inspections, builds, refreshes, validations
 - **Evidence**: `_posts/2026-11-15-after-proof-scarcity.md`, `img/Post/2026/after-proof-scarcity-cover.png`, `LLM-Wiki/analyses/ana-after-proof-scarcity.md`.
 - **Validation**: Zero-attribution grep `0`; `detect.py --institutional` clean (`0` English AI hits, `EN colons=2.85/1k`, `0` attribution/list/Mermaid/URL/dollar guardrail violations); isolated `bundle exec jekyll build` (`2.39 s`, `0` errors) with HTML/DOM verification confirming `7` USD currency spans inside `tex2jax_ignore`, `24` clean inline LaTeX spans with zero `<em>`/`<code>` tag corruption, `1` `8`-row summary table, `17` ordered references, and top placement on `/blog/index.html`; `wiki_cli.py verify` (`7/7` PASS) verified on final committed HEAD.
 - **Next Actions**: Keep isolated on `feat/blog-math-ai-era` until owner reviews and merges into `main` + pushes manually to publish on `https://www.bs-gou.com/blog/`.
+
+## [2026-11-15T19:19:00+09:00] publish | Merged *After Proof Scarcity* (`feat/blog-math-ai-era`) onto `main`
+- **What Changed**: Fast-forward merged `feat/blog-math-ai-era` (`1cbc0bb`) onto `main` (`ad119b5` -> `1cbc0bb`) with explicit owner authorization; updated `LLM-Wiki/STATE.md` to record `main` integration and refreshed `LLM-Wiki/manifest/` (`504` in-scope files).
+- **Why**: Owner approved the draft post and requested live publication on `https://www.bs-gou.com/blog/`.
+- **Evidence**: `_posts/2026-11-15-after-proof-scarcity.md`, `img/Post/2026/after-proof-scarcity-cover.png`, `LLM-Wiki/analyses/ana-after-proof-scarcity.md`, `LLM-Wiki/STATE.md`.
+- **Validation**: `python3 LLM-Wiki/scripts/wiki_cli.py verify` (`7/7` PASS) and isolated `bundle exec jekyll build` (`0` errors) prior to pushing `origin/main`.
+- **Next Actions**: Push `main` to `origin/main` so GitHub Pages serves `/2026/11/15/after-proof-scarcity.html`.

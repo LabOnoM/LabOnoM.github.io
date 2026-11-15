@@ -19,8 +19,8 @@ tags:
 
 ## 1. Repository & Branch Snapshot (`2026-11-15`)
 - **Workspace Root**: `/Users/mac/Documents/GitHub/LabOnoM.github.io` (`1` worktree, `0` nested `.git` repositories).
-- **Base `main` Commit**: `ad119b53383a27d73a07be277550cd22170d0a75` (`2026-11-07`, manual CI / no GitHub Actions).
-- **Active Branch**: `feat/blog-math-ai-era` (branched from `main` at `ad119b5`; adds `_posts/2026-11-15-after-proof-scarcity.md`, `img/Post/2026/after-proof-scarcity-cover.png`, and `LLM-Wiki/analyses/ana-after-proof-scarcity.md`, pending owner review and local merge into `main`; `0` external worktree staging drafts).
+- **Prior `main` Commit**: `ad119b53383a27d73a07be277550cd22170d0a75` (`2026-11-07`, manual CI / no GitHub Actions).
+- **Active Branch**: `main` (fast-forward merged from `feat/blog-math-ai-era` with owner authorization on `2026-11-15`, publishing `_posts/2026-11-15-after-proof-scarcity.md`, `img/Post/2026/after-proof-scarcity-cover.png`, and `LLM-Wiki/analyses/ana-after-proof-scarcity.md` to `https://www.bs-gou.com/blog/`; `0` external worktree staging drafts).
 - **Website Compilation Check**: Verified clean (`0` errors) via isolated `Ruby 3.2.2` + `Jekyll 4.2.2` (`bundle exec jekyll build` in ~2.4 s), including `/blog/index.html` and `/2026/11/15/after-proof-scarcity.html`.
 
 ## 2. File Integrity & Knowledge Coverage
@@ -32,6 +32,5 @@ tags:
 ## 3. Data Backup Caveat & Next Actions
 - **Untracked Raw Data Backup**: External storage/backup arrangements for untracked multi-GB datasets (`./240726_VisiumHD/*.tif/*.h5` and `A02598A4.*` / `*.fq.gz`) are **unknown** (`OQ-01`). Local Git and `manifest.jsonl` hashes verify integrity but do not back up untracked external data.
 - **Next Recommended Actions for Owner**:
-  1. Review draft post `_posts/2026-11-15-after-proof-scarcity.md` on branch `feat/blog-math-ai-era`, merge locally into `main`, and push manually to deploy on `https://www.bs-gou.com/blog/`.
-  2. Review [[contradictions]] (`CON-01`–`CON-09`) and [[open-questions]] (`OQ-01`–`OQ-06`), particularly the `0.5/0.5` vs `0.3/0.7` contribution score formula (`CON-05`) and `qPCR` variance $F$-test prose (`CON-04`).
-  3. Optionally run `./scripts/update-members.sh` from `main` to refresh `members.html` after publishing the new blog post (per `README.md` "Checks and deploys").
+  1. Review [[contradictions]] (`CON-01`–`CON-09`) and [[open-questions]] (`OQ-01`–`OQ-06`), particularly the `0.5/0.5` vs `0.3/0.7` contribution score formula (`CON-05`) and `qPCR` variance $F$-test prose (`CON-04`).
+  2. Optionally run `./scripts/update-members.sh` from `main` to refresh `members.html` after publishing the new blog post (per `README.md` "Checks and deploys").
